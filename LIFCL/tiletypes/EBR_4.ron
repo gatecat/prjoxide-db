@@ -1,0 +1,13 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "CHIP.SPEED": (
+      options: {
+        "FAST_1V0": [(frame:103,bit:0,invert:true,),],
+        "SLOW_1V0": [(frame:103,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {},
+)

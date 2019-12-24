@@ -1,0 +1,235 @@
+(
+  pips: {},
+  words: {},
+  enums: {},
+  conns: {
+    "E1:JF0": [
+      (
+        from_wire: "JRXDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "E1:JF1": [
+      (
+        from_wire: "JRXDATA1_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "E1:JF4": [
+      (
+        from_wire: "JINFF_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "E1:JF5": [
+      (
+        from_wire: "JINDD_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "E1:JQ0": [
+      (
+        from_wire: "JRXDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "E1:JQ1": [
+      (
+        from_wire: "JRXDATA1_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "E1:JQ4": [
+      (
+        from_wire: "JINFF_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "E1:JQ5": [
+      (
+        from_wire: "JINDD_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOB",
+      ),
+    ],
+    "JCEIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCE0",
+      ),
+    ],
+    "JCEIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCE1",
+      ),
+    ],
+    "JCEOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCE0",
+      ),
+    ],
+    "JCEOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCE1",
+      ),
+    ],
+    "JDI_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "JDI_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOB",
+      ),
+    ],
+    "JDOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JDOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JI3CRESEN_SEIO33_CORE_IOA": [
+      (
+        from_wire: "E1:JCIBMUXOUTA2",
+      ),
+    ],
+    "JI3CRESEN_SEIO33_CORE_IOB": [
+      (
+        from_wire: "E1:JCIBMUXOUTA5",
+      ),
+    ],
+    "JI3CWKPU_SEIO33_CORE_IOA": [
+      (
+        from_wire: "E1:JCIBMUXOUTB2",
+      ),
+    ],
+    "JI3CWKPU_SEIO33_CORE_IOB": [
+      (
+        from_wire: "E1:JCIBMUXOUTB5",
+      ),
+    ],
+    "JINDD_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JDI_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JINDD_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JDI_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JLSRIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JLSR0",
+      ),
+    ],
+    "JLSRIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JLSR1",
+      ),
+    ],
+    "JLSROUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JLSR0",
+      ),
+    ],
+    "JLSROUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JLSR1",
+      ),
+    ],
+    "JPADDO_SEIO33_CORE_IOA": [
+      (
+        from_wire: "JDOUT_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "E1:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPADDO_SEIO33_CORE_IOB": [
+      (
+        from_wire: "JDOUT_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "E1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JPADDT_SEIO33_CORE_IOA": [
+      (
+        from_wire: "JTOUT_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "E1:JCIBMUXOUTB1",
+      ),
+    ],
+    "JPADDT_SEIO33_CORE_IOB": [
+      (
+        from_wire: "JTOUT_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "E1:JCIBMUXOUTC0",
+      ),
+    ],
+    "JSCLKIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCLK0",
+      ),
+    ],
+    "JSCLKIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCLK1",
+      ),
+    ],
+    "JSCLKOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCLK0",
+      ),
+    ],
+    "JSCLKOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCLK1",
+      ),
+    ],
+    "JTOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JTOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCIBMUXOUTB1",
+      ),
+    ],
+    "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCIBMUXOUTC0",
+      ),
+    ],
+    "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCIBMUXOUTA0",
+      ),
+    ],
+    "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JTXDATA1_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "E1:JCIBMUXOUTB0",
+      ),
+    ],
+    "JTXDATA1_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "E1:JCIBMUXOUTD0",
+      ),
+    ],
+  },
+)
