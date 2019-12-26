@@ -1,0 +1,68 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "EBR0.DP16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.CLKAMUX": (
+      options: {
+        "0": [],
+        "CLKA": [(frame:81,bit:0,invert:false,),],
+        "INV": [(frame:94,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.DATA_WIDTH_A": (
+      options: {
+        "X1": [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X9": [(frame:92,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.OUTREG_A": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:88,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.WEAMUX": (
+      options: {
+        "INV": [(frame:98,bit:0,invert:false,),],
+        "WEA": [],
+      },
+    ),
+    "EBR0.GSR": (
+      options: {
+        "DISABLED": [(frame:91,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "EBR0.MODE": (
+      options: {
+        "DP16K_MODE": [],
+        "FIFO16K_MODE": [(frame:99,bit:0,invert:false,),],
+        "NONE": [],
+        "PDP16K_MODE": [],
+        "PDPSC16K_MODE": [],
+        "SP16K_MODE": [],
+      },
+    ),
+    "EBR0.PDP16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X18": [(frame:95,bit:0,invert:false,),],
+        "X2": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X9": [(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {},
+)

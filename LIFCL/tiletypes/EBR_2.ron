@@ -1,11 +1,88 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "EBR0.WID": (
+      bits: [
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:48,bit:0,invert:false,),],
+        [(frame:50,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+        [(frame:54,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+        [(frame:58,bit:0,invert:false,),],
+        [(frame:60,bit:0,invert:false,),],
+        [(frame:62,bit:0,invert:false,),],
+        [(frame:64,bit:0,invert:false,),],
+        [(frame:66,bit:0,invert:false,),],
+      ],
+    ),
+  },
   enums: {
     "CHIP.SPEED": (
       options: {
         "FAST_1V0": [(frame:42,bit:0,invert:true,),],
         "SLOW_1V0": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.CEAMUX": (
+      options: {
+        "CEA": [],
+        "INV": [(frame:44,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.CLKBMUX": (
+      options: {
+        "0": [],
+        "CLKB": [(frame:20,bit:0,invert:false,),],
+        "INV": [(frame:11,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.DATA_WIDTH_B": (
+      options: {
+        "X1": [(frame:1,bit:0,invert:false,),(frame:3,bit:0,invert:false,),(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:3,bit:0,invert:false,),(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "X4": [(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "X9": [(frame:7,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.OUTREG_B": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:18,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.WEBMUX": (
+      options: {
+        "INV": [(frame:70,bit:0,invert:false,),],
+        "WEB": [],
+      },
+    ),
+    "EBR0.GSR": (
+      options: {
+        "DISABLED": [(frame:19,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "EBR0.MODE": (
+      options: {
+        "DP16K_MODE": [(frame:98,bit:0,invert:false,),],
+        "FIFO16K_MODE": [(frame:70,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+        "NONE": [],
+        "PDP16K_MODE": [(frame:70,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+        "PDPSC16K_MODE": [(frame:70,bit:0,invert:false,),(frame:84,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+        "SP16K_MODE": [(frame:23,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:84,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.DATA_WIDTH_R": (
+      options: {
+        "X1": [(frame:1,bit:0,invert:false,),(frame:3,bit:0,invert:false,),(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "X18": [(frame:9,bit:0,invert:false,),],
+        "X2": [(frame:3,bit:0,invert:false,),(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "X9": [(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
       },
     ),
   },
