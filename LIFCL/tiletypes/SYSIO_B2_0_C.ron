@@ -119,6 +119,12 @@
         "SLOW": [],
       },
     ),
+    "PIOA.TMUX": (
+      options: {
+        "INV": [(frame:3,bit:9,invert:false,),],
+        "T": [],
+      },
+    ),
     "PIOA.UNDERDRIVE_1V8": (
       options: {
         "OFF": [(frame:7,bit:10,invert:true,),],
@@ -286,6 +292,12 @@
         "60": [(frame:13,bit:7,invert:false,),(frame:15,bit:7,invert:false,),],
         "75": [(frame:0,bit:6,invert:false,),(frame:14,bit:7,invert:false,),(frame:15,bit:7,invert:false,),],
         "OFF": [],
+      },
+    ),
+    "PIOB.TMUX": (
+      options: {
+        "INV": [(frame:2,bit:8,invert:false,),],
+        "T": [],
       },
     ),
     "PIOB.UNDERDRIVE_1V8": (
