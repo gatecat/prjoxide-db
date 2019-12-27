@@ -1,0 +1,103 @@
+(
+  pips: {
+    "G:LHPRX0": [
+      (
+        from_wire: "N1E1:JHPRX0_CMUX_CORE_CMUX0",
+        bits: [(frame:64,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX1": [
+      (
+        from_wire: "N1E1:JHPRX1_CMUX_CORE_CMUX0",
+        bits: [(frame:65,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX10": [
+      (
+        from_wire: "N1E1:JHPRX10_CMUX_CORE_CMUX0",
+        bits: [(frame:74,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX11": [
+      (
+        from_wire: "N1E1:JHPRX11_CMUX_CORE_CMUX0",
+        bits: [(frame:75,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX12": [
+      (
+        from_wire: "N1E1:JHPRX12_CMUX_CORE_CMUX0",
+        bits: [(frame:76,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX13": [
+      (
+        from_wire: "N1E1:JHPRX13_CMUX_CORE_CMUX0",
+        bits: [(frame:77,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX14": [
+      (
+        from_wire: "N1E1:JHPRX14_CMUX_CORE_CMUX0",
+        bits: [(frame:78,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX15": [
+      (
+        from_wire: "N1E1:JHPRX15_CMUX_CORE_CMUX0",
+        bits: [(frame:79,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX2": [
+      (
+        from_wire: "N1E1:JHPRX2_CMUX_CORE_CMUX0",
+        bits: [(frame:66,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX3": [
+      (
+        from_wire: "N1E1:JHPRX3_CMUX_CORE_CMUX0",
+        bits: [(frame:67,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX4": [
+      (
+        from_wire: "N1E1:JHPRX4_CMUX_CORE_CMUX0",
+        bits: [(frame:68,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX5": [
+      (
+        from_wire: "N1E1:JHPRX5_CMUX_CORE_CMUX0",
+        bits: [(frame:69,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX6": [
+      (
+        from_wire: "N1E1:JHPRX6_CMUX_CORE_CMUX0",
+        bits: [(frame:70,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX7": [
+      (
+        from_wire: "N1E1:JHPRX7_CMUX_CORE_CMUX0",
+        bits: [(frame:71,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX8": [
+      (
+        from_wire: "N1E1:JHPRX8_CMUX_CORE_CMUX0",
+        bits: [(frame:72,bit:0,invert:false,),],
+      ),
+    ],
+    "G:LHPRX9": [
+      (
+        from_wire: "N1E1:JHPRX9_CMUX_CORE_CMUX0",
+        bits: [(frame:73,bit:0,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)
