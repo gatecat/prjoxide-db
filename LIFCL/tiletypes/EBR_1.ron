@@ -2,6 +2,12 @@
   pips: {},
   words: {},
   enums: {
+    "EBR0.DP16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:93,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
     "EBR0.DP16K_MODE.CEBMUX": (
       options: {
         "CEB": [],
@@ -14,6 +20,7 @@
         "CLKA": [(frame:81,bit:0,invert:false,),],
         "INV": [(frame:94,bit:0,invert:false,),],
       },
+      desc: "clock inversion control for CLKA",
     ),
     "EBR0.DP16K_MODE.DATA_WIDTH_A": (
       options: {
@@ -23,11 +30,19 @@
         "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
         "X9": [(frame:92,bit:0,invert:false,),],
       },
+      desc: "data width of port A in DP16K_MODE",
     ),
     "EBR0.DP16K_MODE.OUTREG_A": (
       options: {
         "BYPASSED": [],
         "USED": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR0.DP16K_MODE.RESETMODE_A": (
+      options: {
+        "ASYNC": [(frame:101,bit:0,invert:false,),],
+        "SYNC": [],
       },
     ),
     "EBR0.DP16K_MODE.WEAMUX": (
@@ -36,21 +51,88 @@
         "WEA": [],
       },
     ),
+    "EBR0.FIFO16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:93,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.FIFO16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.FIFO16K_MODE.CKAMUX": (
+      options: {
+        "0": [],
+        "CKA": [(frame:81,bit:0,invert:false,),],
+        "INV": [(frame:94,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CKA",
+    ),
+    "EBR0.FIFO16K_MODE.DATA_WIDTH_A": (
+      options: {
+        "X1": [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X18": [(frame:95,bit:0,invert:false,),],
+        "X2": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X9": [(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+      },
+      desc: "data width of port A in FIFO16K_MODE",
+    ),
+    "EBR0.FIFO16K_MODE.OUTREG_A": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR0.FIFO16K_MODE.RESETMODE_A": (
+      options: {
+        "ASYNC": [(frame:101,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
     "EBR0.GSR": (
       options: {
         "DISABLED": [(frame:91,bit:0,invert:false,),],
         "ENABLED": [],
       },
+      desc: "if `ENABLED`, then read ports are reset by user GSR",
     ),
     "EBR0.MODE": (
       options: {
-        "DP16K_MODE": [],
+        "DP16K_MODE": [(frame:95,bit:0,invert:false,),],
         "FIFO16K_MODE": [(frame:99,bit:0,invert:false,),],
         "NONE": [],
         "PDP16K_MODE": [],
         "PDPSC16K_MODE": [],
-        "SP16K_MODE": [],
+        "SP16K_MODE": [(frame:95,bit:0,invert:false,),],
       },
+      desc: "EBR0 primitive mode",
+    ),
+    "EBR0.PDP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:93,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.PDP16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.CLKWMUX": (
+      options: {
+        "0": [],
+        "CLKW": [(frame:81,bit:0,invert:false,),],
+        "INV": [(frame:94,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLKW",
     ),
     "EBR0.PDP16K_MODE.DATA_WIDTH_W": (
       options: {
@@ -61,6 +143,114 @@
         "X36": [],
         "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
         "X9": [(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDP16K_MODE",
+    ),
+    "EBR0.PDP16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR0.PDP16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:101,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:93,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:81,bit:0,invert:false,),],
+        "INV": [(frame:94,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLK",
+    ),
+    "EBR0.PDPSC16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X18": [(frame:95,bit:0,invert:false,),],
+        "X2": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+        "X9": [(frame:92,bit:0,invert:false,),(frame:95,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDPSC16K_MODE",
+    ),
+    "EBR0.PDPSC16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR0.PDPSC16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:101,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.SP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:93,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.SP16K_MODE.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.SP16K_MODE.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:81,bit:0,invert:false,),],
+        "INV": [(frame:94,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLK",
+    ),
+    "EBR0.SP16K_MODE.DATA_WIDTH": (
+      options: {
+        "X1": [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X4": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+        "X9": [(frame:92,bit:0,invert:false,),],
+      },
+      desc: "data width of R/W port in SP16K_MODE",
+    ),
+    "EBR0.SP16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR0.SP16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:101,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR0.SP16K_MODE.WEMUX": (
+      options: {
+        "INV": [(frame:98,bit:0,invert:false,),],
+        "WE": [],
       },
     ),
   },

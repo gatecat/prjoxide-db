@@ -7,6 +7,7 @@
         "FAST_1V0": [(frame:11,bit:0,invert:false,),],
         "SLOW_1V0": [(frame:11,bit:0,invert:true,),],
       },
+      desc: "Adjust back bias for high speed or low power",
     ),
   },
   conns: {},
