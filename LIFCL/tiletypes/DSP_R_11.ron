@@ -1,0 +1,220 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "MULT9_H0.RESET": (
+      options: {
+        "ASYNC": [(frame:71,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_H1.RESET": (
+      options: {
+        "ASYNC": [(frame:73,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_H2.RESET": (
+      options: {
+        "ASYNC": [(frame:75,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_H3.RESET": (
+      options: {
+        "ASYNC": [(frame:77,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_L0.RESET": (
+      options: {
+        "ASYNC": [(frame:70,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_L1.RESET": (
+      options: {
+        "ASYNC": [(frame:72,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_L2.RESET": (
+      options: {
+        "ASYNC": [(frame:74,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "MULT9_L3.RESET": (
+      options: {
+        "ASYNC": [(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_H0.RESET": (
+      options: {
+        "ASYNC": [(frame:61,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_H1.RESET": (
+      options: {
+        "ASYNC": [(frame:63,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_H2.RESET": (
+      options: {
+        "ASYNC": [(frame:65,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_H3.RESET": (
+      options: {
+        "ASYNC": [(frame:67,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_L0.RESET": (
+      options: {
+        "ASYNC": [(frame:60,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_L1.RESET": (
+      options: {
+        "ASYNC": [(frame:62,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_L2.RESET": (
+      options: {
+        "ASYNC": [(frame:64,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "PREADD9_L3.RESET": (
+      options: {
+        "ASYNC": [(frame:66,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_H0_0.RESET": (
+      options: {
+        "ASYNC": [(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_H0_1.RESET": (
+      options: {
+        "ASYNC": [(frame:85,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_H1_0.RESET": (
+      options: {
+        "ASYNC": [(frame:86,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_H1_1.CEPMUX": (
+      options: {
+        "1": [(frame:10,bit:0,invert:false,),(frame:11,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:11,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "REG18_H1_1.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:12,bit:0,invert:false,),],
+        "INV": [(frame:12,bit:0,invert:false,),(frame:13,bit:0,invert:false,),],
+      },
+      desc: "clock gating and inversion control",
+    ),
+    "REG18_H1_1.GSR": (
+      options: {
+        "DISABLED": [(frame:14,bit:0,invert:true,),],
+        "ENABLED": [(frame:14,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "REG18_H1_1.MODE": (
+      options: {
+        "NONE": [(frame:14,bit:0,invert:false,),(frame:16,bit:0,invert:false,),],
+        "REG18_CORE": [],
+      },
+      desc: "REG18_H1_1 primitive mode",
+    ),
+    "REG18_H1_1.REGBYPS": (
+      options: {
+        "BYPASS": [(frame:15,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass",
+    ),
+    "REG18_H1_1.RESET": (
+      options: {
+        "ASYNC": [(frame:87,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_H1_1.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:16,bit:0,invert:false,),(frame:17,bit:0,invert:false,),],
+        "RSTP": [(frame:16,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "REG18_L0_0.RESET": (
+      options: {
+        "ASYNC": [(frame:80,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_L0_1.RESET": (
+      options: {
+        "ASYNC": [(frame:81,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_L1_0.RESET": (
+      options: {
+        "ASYNC": [(frame:82,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "REG18_L1_1.RESET": (
+      options: {
+        "ASYNC": [(frame:83,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+  },
+  conns: {},
+)

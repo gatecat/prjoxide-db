@@ -1,0 +1,271 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "MULT18_2.MULT18X18": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:58,bit:0,invert:false,),],
+      },
+      desc: "enable 18x18 multiply",
+    ),
+    "MULT18_2.ROUNDHALFUP": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:55,bit:0,invert:false,),],
+      },
+    ),
+    "MULT18_2.ROUNDRTZI": (
+      options: {
+        "ROUND_TO_INFINITE": [(frame:56,bit:0,invert:false,),],
+        "ROUND_TO_ZERO": [],
+      },
+      desc: "rounding mode",
+    ),
+    "MULT18_2.SFTEN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:57,bit:0,invert:false,),],
+      },
+      desc: "enable variable shifter controlled by `SFTCTRL`",
+    ),
+    "MULT9_H0.CEAMUX": (
+      options: {
+        "1": [(frame:65,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_H0.CEPMUX": (
+      options: {
+        "1": [(frame:73,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:81,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_H0.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:89,bit:0,invert:false,),],
+        "RSTP": [(frame:89,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_H1.CEAMUX": (
+      options: {
+        "1": [(frame:67,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_H1.CEPMUX": (
+      options: {
+        "1": [(frame:75,bit:0,invert:false,),(frame:83,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_H1.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:91,bit:0,invert:false,),],
+        "RSTP": [(frame:91,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_H2.CEAMUX": (
+      options: {
+        "1": [(frame:69,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_H2.CEPMUX": (
+      options: {
+        "1": [(frame:77,bit:0,invert:false,),(frame:85,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:85,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_H2.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:93,bit:0,invert:false,),],
+        "RSTP": [(frame:93,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_H3.CEAMUX": (
+      options: {
+        "1": [(frame:71,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_H3.CEPMUX": (
+      options: {
+        "1": [(frame:79,bit:0,invert:false,),(frame:87,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:87,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_H3.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:98,bit:0,invert:false,),],
+        "RSTP": [(frame:98,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_L0.CEAMUX": (
+      options: {
+        "1": [(frame:64,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_L0.CEPMUX": (
+      options: {
+        "1": [(frame:72,bit:0,invert:false,),(frame:80,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:80,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_L0.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:88,bit:0,invert:false,),],
+        "RSTP": [(frame:88,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_L1.CEAMUX": (
+      options: {
+        "1": [(frame:66,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_L1.CEPMUX": (
+      options: {
+        "1": [(frame:74,bit:0,invert:false,),(frame:82,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_L1.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:90,bit:0,invert:false,),],
+        "RSTP": [(frame:90,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_L2.CEAMUX": (
+      options: {
+        "1": [(frame:68,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_L2.CEPMUX": (
+      options: {
+        "1": [(frame:76,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:84,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_L2.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:92,bit:0,invert:false,),],
+        "RSTP": [(frame:92,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "MULT9_L3.CEAMUX": (
+      options: {
+        "1": [(frame:70,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_L3.CEPMUX": (
+      options: {
+        "1": [(frame:78,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "MULT9_L3.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:94,bit:0,invert:false,),],
+        "RSTP": [(frame:94,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+    "REG18_H0_0.CEPMUX": (
+      options: {
+        "1": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),],
+        "CEP": [],
+        "INV": [(frame:31,bit:0,invert:false,),],
+      },
+      desc: "CEP gating and inversion control",
+    ),
+    "REG18_H0_0.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:32,bit:0,invert:false,),],
+        "INV": [(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      },
+      desc: "clock gating and inversion control",
+    ),
+    "REG18_H0_0.GSR": (
+      options: {
+        "DISABLED": [(frame:34,bit:0,invert:true,),],
+        "ENABLED": [(frame:34,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "REG18_H0_0.MODE": (
+      options: {
+        "NONE": [(frame:34,bit:0,invert:false,),(frame:36,bit:0,invert:false,),],
+        "REG18_CORE": [],
+      },
+      desc: "REG18_H0_0 primitive mode",
+    ),
+    "REG18_H0_0.REGBYPS": (
+      options: {
+        "BYPASS": [(frame:35,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass",
+    ),
+    "REG18_H0_0.RSTPMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+        "RSTP": [(frame:36,bit:0,invert:false,),],
+      },
+      desc: "RSTP gating and inversion control",
+    ),
+  },
+  conns: {},
+)

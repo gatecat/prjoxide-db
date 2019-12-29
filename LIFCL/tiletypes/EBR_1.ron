@@ -1,6 +1,39 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "EBR0.DP16K_MODE.CSDECODE_B": (
+      bits: [
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+        [(frame:103,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR0.PDP16K_MODE.CSDECODE_R": (
+      bits: [
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+        [(frame:103,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR0.PDPSC16K_MODE.CSDECODE_R": (
+      bits: [
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+        [(frame:103,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR0.SP16K_MODE.CSDECODE": (
+      bits: [
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+        [(frame:103,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+  },
   enums: {
     "EBR0.DP16K_MODE.ASYNC_RST_RELEASE_A": (
       options: {

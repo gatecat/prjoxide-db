@@ -1,6 +1,14 @@
 (
   pips: {},
   words: {
+    "EBR0.DP16K_MODE.CSDECODE_A": (
+      bits: [
+        [(frame:23,bit:0,invert:false,),],
+        [(frame:25,bit:0,invert:false,),],
+        [(frame:27,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
     "EBR0.FIFO16K_MODE.ALMOST_EMPTY": (
       bits: [
         [(frame:36,bit:0,invert:false,),],
@@ -67,6 +75,22 @@
         [(frame:104,bit:0,invert:false,),],
       ],
       desc: "FIFO \'full\' threshold",
+    ),
+    "EBR0.PDP16K_MODE.CSDECODE_W": (
+      bits: [
+        [(frame:23,bit:0,invert:false,),],
+        [(frame:25,bit:0,invert:false,),],
+        [(frame:27,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR0.PDPSC16K_MODE.CSDECODE_W": (
+      bits: [
+        [(frame:23,bit:0,invert:false,),],
+        [(frame:25,bit:0,invert:false,),],
+        [(frame:27,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
     ),
     "EBR0.WID": (
       bits: [
