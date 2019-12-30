@@ -1,0 +1,2287 @@
+(
+  pips: {},
+  words: {},
+  enums: {},
+  conns: {
+    "N1:JCEP_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E3:JCE0",
+      ),
+    ],
+    "N1:JCEP_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E3:JCE0",
+      ),
+    ],
+    "N1:JCEP_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E3:JCE1",
+      ),
+    ],
+    "N1:JCEP_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E3:JCE1",
+      ),
+    ],
+    "N1:JCLK_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1W1:JCLK0",
+      ),
+    ],
+    "N1:JCLK_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1W1:JCLK0",
+      ),
+    ],
+    "N1:JCLK_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1W1:JCLK1",
+      ),
+    ],
+    "N1:JCLK_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1W1:JCLK1",
+      ),
+    ],
+    "N1:JP720_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL360_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7210_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3610_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7211_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3611_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7212_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3612_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7213_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3613_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7214_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3614_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7215_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3615_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7216_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3616_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7217_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3617_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7218_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3618_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7219_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3619_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP721_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL361_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7220_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3620_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7221_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3621_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7222_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3622_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7223_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3623_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7224_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3624_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7225_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3625_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7226_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3626_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7227_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3627_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7228_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3628_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7229_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3629_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP722_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL362_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7230_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3630_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7231_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3631_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7232_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3632_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7233_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3633_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7234_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3634_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7235_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL3635_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7236_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH360_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7237_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH361_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7238_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH362_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7239_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH363_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP723_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL363_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7240_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH364_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7241_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH365_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7242_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH366_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7243_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH367_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7244_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH368_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7245_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH369_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7246_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3610_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7247_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3611_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7248_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3612_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7249_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3613_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP724_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL364_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7250_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3614_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7251_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3615_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7252_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3616_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7253_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3617_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7254_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3618_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7255_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3619_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7256_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3620_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7257_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3621_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7258_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3622_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7259_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3623_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP725_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL365_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7260_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3624_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7261_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3625_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7262_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3626_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7263_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3627_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7264_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3628_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7265_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3629_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7266_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3630_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7267_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3631_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7268_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3632_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7269_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3633_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP726_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL366_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7270_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3634_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP7271_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPH3635_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP727_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL367_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP728_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL368_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JP729_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1:JPL369_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1:JPH360_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP360_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3610_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3610_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3611_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3611_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3612_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3612_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3613_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3613_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3614_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3614_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3615_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3615_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3616_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3616_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3617_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3617_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3618_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3618_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3619_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3619_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH361_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP361_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3620_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3620_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3621_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3621_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3622_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3622_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3623_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3623_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3624_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3624_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3625_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3625_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3626_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3626_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3627_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3627_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3628_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3628_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3629_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3629_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH362_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP362_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3630_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3630_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3631_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3631_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3632_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3632_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3633_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3633_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3634_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3634_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3635_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3635_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3636_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3636_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH3637_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP3637_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH363_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP363_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH364_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP364_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH365_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP365_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH366_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP366_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH367_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP367_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH368_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP368_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPH369_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JP369_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JPL360_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP360_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3610_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3610_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3611_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3611_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3612_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3612_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3613_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3613_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3614_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3614_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3615_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3615_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3616_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3616_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3617_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3617_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3618_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3618_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3619_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3619_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL361_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP361_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3620_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3620_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3621_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3621_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3622_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3622_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3623_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3623_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3624_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3624_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3625_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3625_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3626_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3626_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3627_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3627_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3628_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3628_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3629_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3629_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL362_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP362_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3630_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3630_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3631_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3631_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3632_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3632_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3633_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3633_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3634_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3634_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3635_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3635_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3636_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3636_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL3637_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP3637_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL363_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP363_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL364_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP364_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL365_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP365_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL366_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP366_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL367_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP367_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL368_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP368_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPL369_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JP369_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JPM0_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML720_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM0_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7218_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM0_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7236_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM0_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7254_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM10_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7210_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM10_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7228_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM10_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7246_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM10_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7264_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM11_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7211_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM11_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7229_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM11_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7247_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM11_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7265_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM12_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7212_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM12_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7230_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM12_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7248_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM12_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7266_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM13_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7213_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM13_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7231_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM13_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7249_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM13_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7267_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM14_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7214_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM14_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7232_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM14_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7250_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM14_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7268_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM15_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7215_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM15_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7233_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM15_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7251_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM15_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7269_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM16_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7216_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM16_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7234_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM16_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7252_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM16_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7270_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM17_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML7217_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM17_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7235_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM17_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7253_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM17_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7271_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM1_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML721_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM1_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7219_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM1_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7237_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM1_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7255_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM2_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML722_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM2_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7220_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM2_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7238_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM2_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7256_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM3_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML723_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM3_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7221_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM3_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7239_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM3_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7257_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM4_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML724_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM4_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7222_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM4_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7240_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM4_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7258_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM5_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML725_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM5_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7223_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM5_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7241_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM5_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7259_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM6_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML726_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM6_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7224_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM6_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7242_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM6_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7260_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM7_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML727_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM7_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7225_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM7_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7243_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM7_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7261_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM8_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML728_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM8_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7226_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM8_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7244_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM8_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7262_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM9_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E4:JPML729_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM9_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E4:JPML7227_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM9_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E4:JPML7245_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPM9_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E4:JPML7263_MULT36_CORE_MULT36",
+      ),
+    ],
+    "N1:JPP0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP0_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP0_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM0_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP0_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM0_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP0_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM0_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP0_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM0_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP10_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP10_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP10_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM10_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP10_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM10_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP10_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM10_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP10_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM10_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP11_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP11_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP11_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM11_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP11_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM11_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP11_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM11_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP11_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM11_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP12_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP12_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP12_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM12_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP12_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM12_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP12_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM12_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP12_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM12_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP13_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP13_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP13_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM13_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP13_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM13_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP13_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM13_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP13_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM13_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP14_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP14_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP14_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM14_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP14_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM14_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP14_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM14_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP14_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM14_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP15_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP15_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP15_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM15_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP15_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM15_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP15_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM15_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP15_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM15_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP16_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP16_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP16_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM16_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP16_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM16_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP16_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM16_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP16_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM16_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP17_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP17_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP17_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM17_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP17_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM17_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP17_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM17_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP17_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM17_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP18_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP0_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP19_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP1_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP1_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP1_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM1_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP1_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM1_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP1_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM1_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP1_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM1_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP20_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP2_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP21_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP3_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP22_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP4_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP23_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP5_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP24_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP6_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP25_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP7_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP26_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP8_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP27_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP9_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP28_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP10_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP29_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP11_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP2_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP2_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP2_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM2_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP2_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM2_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP2_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM2_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP2_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM2_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP30_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP12_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP31_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP13_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP32_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP14_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP33_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP15_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP34_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP16_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP35_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP17_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP36_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP0_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP37_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP1_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP38_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP2_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP39_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP3_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP3_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP3_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP3_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM3_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP3_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM3_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP3_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM3_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP3_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM3_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP40_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP4_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP41_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP5_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP42_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP6_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP43_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP7_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP44_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP8_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP45_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP9_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP46_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP10_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP47_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP11_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP48_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP12_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP49_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP13_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP4_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP4_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP4_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM4_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP4_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM4_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP4_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM4_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP4_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM4_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP50_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP14_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP51_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP15_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP52_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP16_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP53_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP17_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP54_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP0_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP55_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP1_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP56_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP2_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP57_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP3_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP58_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP4_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP59_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP5_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP5_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP5_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP5_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM5_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP5_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM5_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP5_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM5_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP5_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM5_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP60_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP6_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP61_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP7_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP62_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP8_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP63_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP9_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP64_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP10_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP65_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP11_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP66_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP12_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP67_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP13_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP68_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP14_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP69_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP15_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP6_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP6_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP6_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM6_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP6_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM6_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP6_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM6_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP6_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM6_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP70_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP16_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP71_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP17_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP7_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP7_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP7_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM7_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP7_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM7_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP7_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM7_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP7_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM7_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP8_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP8_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP8_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM8_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP8_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM8_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP8_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM8_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP8_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM8_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JPP9_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP9_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP9_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1:JPM9_REG18_CORE_REG18_L0_0",
+      ),
+    ],
+    "N1:JPP9_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1:JPM9_REG18_CORE_REG18_L0_1",
+      ),
+    ],
+    "N1:JPP9_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1:JPM9_REG18_CORE_REG18_L1_0",
+      ),
+    ],
+    "N1:JPP9_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1:JPM9_REG18_CORE_REG18_L1_1",
+      ),
+    ],
+    "N1:JROUNDEN_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTB6",
+      ),
+    ],
+    "N1:JRSTP_REG18_CORE_REG18_L0_0": [
+      (
+        from_wire: "N1E3:JLSR0",
+      ),
+    ],
+    "N1:JRSTP_REG18_CORE_REG18_L0_1": [
+      (
+        from_wire: "N1E3:JLSR0",
+      ),
+    ],
+    "N1:JRSTP_REG18_CORE_REG18_L1_0": [
+      (
+        from_wire: "N1E3:JLSR1",
+      ),
+    ],
+    "N1:JRSTP_REG18_CORE_REG18_L1_1": [
+      (
+        from_wire: "N1E3:JLSR1",
+      ),
+    ],
+    "N1:JSFTCTRL0_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1:JSFTCTRL1_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1:JSFTCTRL2_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JSFTCTRL3_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1:JSGNED18H_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W1:JSIGNED18_MULT18_CORE_MULT18_1",
+      ),
+    ],
+    "N1:JSGNED18L_MULT18X36_CORE_MULT18X36_0": [
+      (
+        from_wire: "N1W2:JSIGNED18_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1E4:JPL720_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP720_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7210_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7210_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7211_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7211_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7212_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7212_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7213_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7213_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7214_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7214_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7215_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7215_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7216_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7216_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7217_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7217_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7218_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7218_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7219_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7219_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL721_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP721_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7220_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7220_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7221_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7221_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7222_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7222_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7223_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7223_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7224_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7224_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7225_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7225_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7226_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7226_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7227_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7227_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7228_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7228_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7229_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7229_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL722_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP722_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7230_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7230_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7231_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7231_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7232_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7232_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7233_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7233_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7234_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7234_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7235_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7235_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7236_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7236_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7237_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7237_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7238_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7238_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7239_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7239_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL723_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP723_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7240_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7240_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7241_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7241_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7242_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7242_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7243_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7243_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7244_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7244_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7245_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7245_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7246_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7246_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7247_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7247_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7248_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7248_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7249_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7249_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL724_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP724_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7250_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7250_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7251_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7251_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7252_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7252_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7253_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7253_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7254_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7254_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7255_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7255_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7256_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7256_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7257_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7257_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7258_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7258_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7259_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7259_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL725_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP725_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7260_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7260_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7261_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7261_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7262_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7262_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7263_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7263_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7264_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7264_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7265_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7265_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7266_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7266_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7267_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7267_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7268_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7268_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7269_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7269_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL726_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP726_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7270_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7270_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7271_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7271_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL7272_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP7272_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL727_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP727_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL728_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP728_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1E4:JPL729_MULT36_CORE_MULT36": [
+      (
+        from_wire: "N1:JP729_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+  },
+)
