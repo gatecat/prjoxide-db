@@ -2,6 +2,70 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_0.CECTRLMUX": (
+      options: {
+        "1": [(frame:70,bit:0,invert:false,),(frame:72,bit:0,invert:false,),(frame:74,bit:0,invert:false,),(frame:76,bit:0,invert:false,),],
+        "CECTRL": [],
+        "INV": [(frame:76,bit:0,invert:false,),],
+      },
+      desc: "CECTRL gating and inversion control",
+    ),
+    "ACC54_0.RSTCINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:82,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "RSTCIN": [(frame:82,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+      },
+      desc: "RSTCIN gating and inversion control",
+    ),
+    "ACC54_0.RSTCMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:78,bit:0,invert:false,),(frame:80,bit:0,invert:false,),],
+        "RSTC": [(frame:78,bit:0,invert:false,),(frame:80,bit:0,invert:false,),],
+      },
+      desc: "RSTC gating and inversion control",
+    ),
+    "ACC54_0.RSTCTRLMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),],
+        "RSTCTRL": [(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:false,),],
+      },
+      desc: "RSTCTRL gating and inversion control",
+    ),
+    "ACC54_1.CECTRLMUX": (
+      options: {
+        "1": [(frame:71,bit:0,invert:false,),(frame:73,bit:0,invert:false,),(frame:75,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+        "CECTRL": [],
+        "INV": [(frame:77,bit:0,invert:false,),],
+      },
+      desc: "CECTRL gating and inversion control",
+    ),
+    "ACC54_1.RSTCINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:83,bit:0,invert:false,),(frame:85,bit:0,invert:false,),],
+        "RSTCIN": [(frame:83,bit:0,invert:false,),(frame:85,bit:0,invert:false,),],
+      },
+      desc: "RSTCIN gating and inversion control",
+    ),
+    "ACC54_1.RSTCMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:79,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
+        "RSTC": [(frame:79,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
+      },
+      desc: "RSTC gating and inversion control",
+    ),
+    "ACC54_1.RSTCTRLMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:88,bit:0,invert:false,),(frame:90,bit:0,invert:false,),],
+        "RSTCTRL": [(frame:88,bit:0,invert:false,),(frame:90,bit:0,invert:false,),],
+      },
+      desc: "RSTCTRL gating and inversion control",
+    ),
     "MULT18_1.MULT18X18": (
       options: {
         "DISABLED": [],

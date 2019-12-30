@@ -2,6 +2,41 @@
   pips: {},
   words: {},
   enums: {
+    "MULT18X36_0.MULT36": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:40,bit:0,invert:false,),],
+      },
+      desc: "used as part of 36x36 multiply",
+    ),
+    "MULT18X36_0.MULT36X36H": (
+      options: {
+        "USED_AS_HIGHER_BIT_GENERATION": [(frame:43,bit:0,invert:false,),],
+        "USED_AS_LOWER_BIT_GENERATION": [],
+      },
+      desc: "half of 36x36 multiply selection",
+    ),
+    "MULT18X36_1.MULT36": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:41,bit:0,invert:false,),],
+      },
+      desc: "used as part of 36x36 multiply",
+    ),
+    "MULT18X36_1.MULT36X36H": (
+      options: {
+        "USED_AS_HIGHER_BIT_GENERATION": [(frame:44,bit:0,invert:false,),],
+        "USED_AS_LOWER_BIT_GENERATION": [],
+      },
+      desc: "half of 36x36 multiply selection",
+    ),
+    "MULT36.MULT36X36": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:42,bit:0,invert:false,),],
+      },
+      desc: "enable 36x36 multiply",
+    ),
     "MULT9_H0.RSTPMUX": (
       options: {
         "0": [],

@@ -2,6 +2,75 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_0.CECINMUX": (
+      options: {
+        "1": [(frame:76,bit:0,invert:false,),(frame:78,bit:0,invert:false,),(frame:80,bit:0,invert:false,),(frame:82,bit:0,invert:false,),],
+        "CECIN": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+      desc: "CECIN gating and inversion control",
+    ),
+    "ACC54_0.CECMUX": (
+      options: {
+        "1": [(frame:72,bit:0,invert:false,),(frame:74,bit:0,invert:false,),],
+        "CEC": [],
+        "INV": [],
+      },
+      desc: "CEC gating and inversion control",
+    ),
+    "ACC54_0.RSTCMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:65,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "RSTC": [(frame:65,bit:0,invert:false,),],
+      },
+      desc: "RSTC gating and inversion control",
+    ),
+    "ACC54_0.RSTOMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "RSTO": [(frame:67,bit:0,invert:false,),],
+      },
+      desc: "RSTO gating and inversion control",
+    ),
+    "ACC54_0.SFTEN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:69,bit:0,invert:false,),],
+      },
+      desc: "enable variable shifter controlled by `SFTCTRL`",
+    ),
+    "ACC54_0.SIGN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:70,bit:0,invert:false,),],
+      },
+      desc: "select dynamic signedness or signedness controlled by parameters",
+    ),
+    "ACC54_0.STATICOPCODE_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:71,bit:0,invert:false,),],
+      },
+      desc: "operation controlled by input pins or parameters",
+    ),
+    "ACC54_1.CECINMUX": (
+      options: {
+        "1": [(frame:77,bit:0,invert:false,),(frame:79,bit:0,invert:false,),(frame:81,bit:0,invert:false,),(frame:83,bit:0,invert:false,),],
+        "CECIN": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+      desc: "CECIN gating and inversion control",
+    ),
+    "ACC54_1.CECMUX": (
+      options: {
+        "1": [(frame:73,bit:0,invert:false,),(frame:75,bit:0,invert:false,),],
+        "CEC": [],
+        "INV": [],
+      },
+      desc: "CEC gating and inversion control",
+    ),
     "MULT9_L1.ASIGNED_OPERAND_EN": (
       options: {
         "DISABLED": [],

@@ -2,6 +2,71 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_1.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:51,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "ACC54_1.LOADREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:52,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 1 enable or bypass",
+    ),
+    "ACC54_1.LOADREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:53,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 2 enable or bypass",
+    ),
+    "ACC54_1.LOADREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:54,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 3 enable or bypass",
+    ),
+    "ACC54_1.M9ADDSUBREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:57,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 1 enable or bypass",
+    ),
+    "ACC54_1.M9ADDSUBREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:58,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 2 enable or bypass",
+    ),
+    "ACC54_1.M9ADDSUBREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:59,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 3 enable or bypass",
+    ),
+    "ACC54_1.M9ADDSUB_CTRL": (
+      options: {
+        "ADDITION": [],
+        "ADDSUB": [(frame:55,bit:0,invert:false,),],
+        "SUBADD": [(frame:56,bit:0,invert:false,),],
+        "SUBTRACTION": [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),],
+      },
+      desc: "select stage 1 operation in static opcode mode",
+    ),
+    "ACC54_1.OUTREGBYPS": (
+      options: {
+        "BYPASS": [(frame:60,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "output register enable or bypass",
+    ),
     "MULT9_H2.ASIGNED_OPERAND_EN": (
       options: {
         "DISABLED": [],

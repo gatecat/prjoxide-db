@@ -2,6 +2,97 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_0.RESET": (
+      options: {
+        "ASYNC": [(frame:90,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "ACC54_1.RESET": (
+      options: {
+        "ASYNC": [(frame:91,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "selects synchronous or asynchronous reset for DSP registers",
+    ),
+    "ACC54_1.ROUNDHALFUP": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:5,bit:0,invert:false,),],
+      },
+    ),
+    "ACC54_1.ROUNDRTZI": (
+      options: {
+        "ROUND_TO_INFINITE": [(frame:6,bit:0,invert:false,),],
+        "ROUND_TO_ZERO": [],
+      },
+      desc: "rounding mode",
+    ),
+    "ACC54_1.RSTCMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "RSTC": [(frame:50,bit:0,invert:false,),],
+      },
+      desc: "RSTC gating and inversion control",
+    ),
+    "ACC54_1.RSTOMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+        "RSTO": [(frame:52,bit:0,invert:false,),],
+      },
+      desc: "RSTO gating and inversion control",
+    ),
+    "ACC54_1.SFTEN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:54,bit:0,invert:false,),],
+      },
+      desc: "enable variable shifter controlled by `SFTCTRL`",
+    ),
+    "ACC54_1.SIGN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:55,bit:0,invert:false,),],
+      },
+      desc: "select dynamic signedness or signedness controlled by parameters",
+    ),
+    "ACC54_1.STATICOPCODE_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:56,bit:0,invert:false,),],
+      },
+      desc: "operation controlled by input pins or parameters",
+    ),
+    "MULT18X36_1.MULT18X36": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:20,bit:0,invert:false,),],
+      },
+      desc: "enable 18x36 multiply",
+    ),
+    "MULT18X36_1.ROUNDHALFUP": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:26,bit:0,invert:false,),],
+      },
+    ),
+    "MULT18X36_1.ROUNDRTZI": (
+      options: {
+        "ROUND_TO_INFINITE": [(frame:27,bit:0,invert:false,),],
+        "ROUND_TO_ZERO": [],
+      },
+      desc: "rounding mode",
+    ),
+    "MULT18X36_1.SFTEN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:28,bit:0,invert:false,),],
+      },
+      desc: "enable variable shifter controlled by `SFTCTRL`",
+    ),
     "MULT9_H0.RESET": (
       options: {
         "ASYNC": [(frame:71,bit:0,invert:false,),],

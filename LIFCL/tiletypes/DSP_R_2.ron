@@ -2,6 +2,71 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_0.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:20,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "ACC54_0.LOADREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:21,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 1 enable or bypass",
+    ),
+    "ACC54_0.LOADREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:22,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 2 enable or bypass",
+    ),
+    "ACC54_0.LOADREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:23,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`LOAD` register 3 enable or bypass",
+    ),
+    "ACC54_0.M9ADDSUBREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:26,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 1 enable or bypass",
+    ),
+    "ACC54_0.M9ADDSUBREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:27,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 2 enable or bypass",
+    ),
+    "ACC54_0.M9ADDSUBREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:28,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`M9ADDSUB` register 3 enable or bypass",
+    ),
+    "ACC54_0.M9ADDSUB_CTRL": (
+      options: {
+        "ADDITION": [],
+        "ADDSUB": [(frame:24,bit:0,invert:false,),],
+        "SUBADD": [(frame:25,bit:0,invert:false,),],
+        "SUBTRACTION": [(frame:24,bit:0,invert:false,),(frame:25,bit:0,invert:false,),],
+      },
+      desc: "select stage 1 operation in static opcode mode",
+    ),
+    "ACC54_0.OUTREGBYPS": (
+      options: {
+        "BYPASS": [(frame:29,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "output register enable or bypass",
+    ),
     "MULT18_0.MULT18X18": (
       options: {
         "DISABLED": [],

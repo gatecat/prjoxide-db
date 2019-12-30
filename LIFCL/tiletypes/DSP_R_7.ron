@@ -2,6 +2,176 @@
   pips: {},
   words: {},
   enums: {
+    "ACC54_0.RSTCINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:99,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "RSTCIN": [(frame:99,bit:0,invert:false,),],
+      },
+      desc: "RSTCIN gating and inversion control",
+    ),
+    "ACC54_0.RSTCTRLMUX": (
+      options: {
+        "0": [(frame:62,bit:0,invert:false,),],
+        "INV": [(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),],
+        "RSTCTRL": [(frame:60,bit:0,invert:false,),],
+      },
+      desc: "RSTCTRL gating and inversion control",
+    ),
+    "ACC54_1.ACC108CASCADE": (
+      options: {
+        "BYPASSCASCADE": [],
+        "CASCADE2ACCU54TOFORMACCU108": [(frame:0,bit:0,invert:false,),],
+      },
+      desc: "cascade carry of two ACC54s to create a 108-bit accumulator",
+    ),
+    "ACC54_1.ACCUBYPS": (
+      options: {
+        "BYPASS": [(frame:1,bit:0,invert:false,),],
+        "USED": [],
+      },
+      desc: "accumulator bypass",
+    ),
+    "ACC54_1.ADDSUBSIGNREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:7,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`ADDSUBSIGN` register 1 enable or bypass",
+    ),
+    "ACC54_1.ADDSUBSIGNREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:8,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`ADDSUBSIGN` register 2 enable or bypass",
+    ),
+    "ACC54_1.ADDSUBSIGNREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:9,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`ADDSUBSIGN` register 3 enable or bypass",
+    ),
+    "ACC54_1.ADDSUB_CTRL": (
+      options: {
+        "ADD_ADD_CTRL_54_BIT_ADDER": [],
+        "ADD_SUB_CTRL_54_BIT_ADDER": [(frame:6,bit:0,invert:false,),],
+        "SUB_ADD_CTRL_54_BIT_ADDER": [(frame:5,bit:0,invert:false,),],
+        "SUB_SUB_CTRL_54_BIT_ADDER": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),],
+      },
+      desc: "select stage 2 operation in static opcode mode",
+    ),
+    "ACC54_1.CASCOUTREGBYPS": (
+      options: {
+        "BYPASS": [(frame:10,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "cascade output register enable or bypass",
+    ),
+    "ACC54_1.CECMUX": (
+      options: {
+        "1": [(frame:11,bit:0,invert:false,),(frame:12,bit:0,invert:false,),],
+        "CEC": [],
+        "INV": [(frame:12,bit:0,invert:false,),],
+      },
+      desc: "CEC gating and inversion control",
+    ),
+    "ACC54_1.CEOMUX": (
+      options: {
+        "1": [(frame:13,bit:0,invert:false,),(frame:14,bit:0,invert:false,),],
+        "CEO": [],
+        "INV": [(frame:14,bit:0,invert:false,),],
+      },
+      desc: "CEO gating and inversion control",
+    ),
+    "ACC54_1.CINREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:15,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`CIN` register 1 enable or bypass",
+    ),
+    "ACC54_1.CINREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:16,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`CIN` register 2 enable or bypass",
+    ),
+    "ACC54_1.CINREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:17,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`CIN` register 3 enable or bypass",
+    ),
+    "ACC54_1.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:18,bit:0,invert:false,),],
+        "INV": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:false,),],
+      },
+      desc: "clock gating and inversion control",
+    ),
+    "ACC54_1.CONSTSEL": (
+      options: {
+        "BYPASS": [],
+        "SELECT": [(frame:20,bit:0,invert:false,),],
+      },
+      desc: "if `SELECT` then use PROGCONST for `C` operand",
+    ),
+    "ACC54_1.CREGBYPS1": (
+      options: {
+        "BYPASS": [(frame:21,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`C` register 1 enable or bypass",
+    ),
+    "ACC54_1.CREGBYPS2": (
+      options: {
+        "BYPASS": [(frame:22,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`C` register 2 enable or bypass",
+    ),
+    "ACC54_1.CREGBYPS3": (
+      options: {
+        "BYPASS": [(frame:23,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "`C` register 3 enable or bypass",
+    ),
+    "ACC54_1.DSPCASCADE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:24,bit:0,invert:false,),],
+      },
+      desc: "enable DSP cascading",
+    ),
+    "ACC54_1.MODE": (
+      options: {
+        "ACC54_CORE": [],
+        "NONE": [(frame:1,bit:0,invert:false,),],
+      },
+      desc: "ACC54_1 primitive mode",
+    ),
+    "ACC54_1.RSTCINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:100,bit:0,invert:false,),(frame:102,bit:0,invert:false,),],
+        "RSTCIN": [(frame:100,bit:0,invert:false,),],
+      },
+      desc: "RSTCIN gating and inversion control",
+    ),
+    "ACC54_1.RSTCTRLMUX": (
+      options: {
+        "0": [(frame:63,bit:0,invert:false,),],
+        "INV": [(frame:61,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "RSTCTRL": [(frame:61,bit:0,invert:false,),],
+      },
+      desc: "RSTCTRL gating and inversion control",
+    ),
     "MULT18_2.MULT18X18": (
       options: {
         "DISABLED": [],
