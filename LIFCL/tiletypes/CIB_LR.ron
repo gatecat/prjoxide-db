@@ -4196,6 +4196,582 @@
         bits: [],
       ),
     ],
+    "JCIBMUXOUTA0": [
+      (
+        from_wire: "JCIBMUXINA0",
+        bits: [(frame:0,bit:10,invert:true,),(frame:1,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB0",
+        bits: [(frame:0,bit:10,invert:false,),(frame:1,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC0",
+        bits: [(frame:0,bit:10,invert:true,),(frame:1,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND0",
+        bits: [(frame:0,bit:10,invert:false,),(frame:1,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA1": [
+      (
+        from_wire: "JCIBMUXINA1",
+        bits: [(frame:10,bit:10,invert:true,),(frame:11,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB1",
+        bits: [(frame:10,bit:10,invert:false,),(frame:11,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC1",
+        bits: [(frame:10,bit:10,invert:true,),(frame:11,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND1",
+        bits: [(frame:10,bit:10,invert:false,),(frame:11,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA2": [
+      (
+        from_wire: "JCIBMUXINA2",
+        bits: [(frame:26,bit:10,invert:true,),(frame:27,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB2",
+        bits: [(frame:26,bit:10,invert:false,),(frame:27,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC2",
+        bits: [(frame:26,bit:10,invert:true,),(frame:27,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND2",
+        bits: [(frame:26,bit:10,invert:false,),(frame:27,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA3": [
+      (
+        from_wire: "JCIBMUXINA3",
+        bits: [(frame:36,bit:10,invert:true,),(frame:37,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB3",
+        bits: [(frame:36,bit:10,invert:false,),(frame:37,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC3",
+        bits: [(frame:36,bit:10,invert:true,),(frame:37,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND3",
+        bits: [(frame:36,bit:10,invert:false,),(frame:37,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA4": [
+      (
+        from_wire: "JCIBMUXINA4",
+        bits: [(frame:52,bit:10,invert:true,),(frame:53,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB4",
+        bits: [(frame:52,bit:10,invert:false,),(frame:53,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC4",
+        bits: [(frame:52,bit:10,invert:true,),(frame:53,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND4",
+        bits: [(frame:52,bit:10,invert:false,),(frame:53,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA5": [
+      (
+        from_wire: "JCIBMUXINA5",
+        bits: [(frame:62,bit:10,invert:true,),(frame:63,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB5",
+        bits: [(frame:62,bit:10,invert:false,),(frame:63,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC5",
+        bits: [(frame:62,bit:10,invert:true,),(frame:63,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND5",
+        bits: [(frame:62,bit:10,invert:false,),(frame:63,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA6": [
+      (
+        from_wire: "JCIBMUXINA6",
+        bits: [(frame:78,bit:10,invert:true,),(frame:79,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB6",
+        bits: [(frame:78,bit:10,invert:false,),(frame:79,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC6",
+        bits: [(frame:78,bit:10,invert:true,),(frame:79,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND6",
+        bits: [(frame:78,bit:10,invert:false,),(frame:79,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTA7": [
+      (
+        from_wire: "JCIBMUXINA7",
+        bits: [(frame:88,bit:10,invert:true,),(frame:89,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB7",
+        bits: [(frame:88,bit:10,invert:false,),(frame:89,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC7",
+        bits: [(frame:88,bit:10,invert:true,),(frame:89,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND7",
+        bits: [(frame:88,bit:10,invert:false,),(frame:89,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB0": [
+      (
+        from_wire: "JCIBMUXINA0",
+        bits: [(frame:2,bit:10,invert:true,),(frame:3,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB0",
+        bits: [(frame:2,bit:10,invert:false,),(frame:3,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC0",
+        bits: [(frame:2,bit:10,invert:true,),(frame:3,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND0",
+        bits: [(frame:2,bit:10,invert:false,),(frame:3,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB1": [
+      (
+        from_wire: "JCIBMUXINA1",
+        bits: [(frame:13,bit:10,invert:true,),(frame:15,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB1",
+        bits: [(frame:13,bit:10,invert:false,),(frame:15,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC1",
+        bits: [(frame:13,bit:10,invert:true,),(frame:15,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND1",
+        bits: [(frame:13,bit:10,invert:false,),(frame:15,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB2": [
+      (
+        from_wire: "JCIBMUXINA2",
+        bits: [(frame:28,bit:10,invert:true,),(frame:29,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB2",
+        bits: [(frame:28,bit:10,invert:false,),(frame:29,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC2",
+        bits: [(frame:28,bit:10,invert:true,),(frame:29,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND2",
+        bits: [(frame:28,bit:10,invert:false,),(frame:29,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB3": [
+      (
+        from_wire: "JCIBMUXINA3",
+        bits: [(frame:39,bit:10,invert:true,),(frame:41,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB3",
+        bits: [(frame:39,bit:10,invert:false,),(frame:41,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC3",
+        bits: [(frame:39,bit:10,invert:true,),(frame:41,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND3",
+        bits: [(frame:39,bit:10,invert:false,),(frame:41,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB4": [
+      (
+        from_wire: "JCIBMUXINA4",
+        bits: [(frame:54,bit:10,invert:true,),(frame:55,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB4",
+        bits: [(frame:54,bit:10,invert:false,),(frame:55,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC4",
+        bits: [(frame:54,bit:10,invert:true,),(frame:55,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND4",
+        bits: [(frame:54,bit:10,invert:false,),(frame:55,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB5": [
+      (
+        from_wire: "JCIBMUXINA5",
+        bits: [(frame:65,bit:10,invert:true,),(frame:67,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB5",
+        bits: [(frame:65,bit:10,invert:false,),(frame:67,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC5",
+        bits: [(frame:65,bit:10,invert:true,),(frame:67,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND5",
+        bits: [(frame:65,bit:10,invert:false,),(frame:67,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB6": [
+      (
+        from_wire: "JCIBMUXINA6",
+        bits: [(frame:80,bit:10,invert:true,),(frame:81,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB6",
+        bits: [(frame:80,bit:10,invert:false,),(frame:81,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC6",
+        bits: [(frame:80,bit:10,invert:true,),(frame:81,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND6",
+        bits: [(frame:80,bit:10,invert:false,),(frame:81,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTB7": [
+      (
+        from_wire: "JCIBMUXINA7",
+        bits: [(frame:91,bit:10,invert:true,),(frame:93,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB7",
+        bits: [(frame:91,bit:10,invert:false,),(frame:93,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC7",
+        bits: [(frame:91,bit:10,invert:true,),(frame:93,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND7",
+        bits: [(frame:91,bit:10,invert:false,),(frame:93,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC0": [
+      (
+        from_wire: "JCIBMUXINA0",
+        bits: [(frame:4,bit:10,invert:true,),(frame:5,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB0",
+        bits: [(frame:4,bit:10,invert:false,),(frame:5,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC0",
+        bits: [(frame:4,bit:10,invert:true,),(frame:5,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND0",
+        bits: [(frame:4,bit:10,invert:false,),(frame:5,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC1": [
+      (
+        from_wire: "JCIBMUXINA1",
+        bits: [(frame:16,bit:10,invert:true,),(frame:17,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB1",
+        bits: [(frame:16,bit:10,invert:false,),(frame:17,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC1",
+        bits: [(frame:16,bit:10,invert:true,),(frame:17,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND1",
+        bits: [(frame:16,bit:10,invert:false,),(frame:17,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC2": [
+      (
+        from_wire: "JCIBMUXINA2",
+        bits: [(frame:30,bit:10,invert:true,),(frame:31,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB2",
+        bits: [(frame:30,bit:10,invert:false,),(frame:31,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC2",
+        bits: [(frame:30,bit:10,invert:true,),(frame:31,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND2",
+        bits: [(frame:30,bit:10,invert:false,),(frame:31,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC3": [
+      (
+        from_wire: "JCIBMUXINA3",
+        bits: [(frame:42,bit:10,invert:true,),(frame:43,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB3",
+        bits: [(frame:42,bit:10,invert:false,),(frame:43,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC3",
+        bits: [(frame:42,bit:10,invert:true,),(frame:43,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND3",
+        bits: [(frame:42,bit:10,invert:false,),(frame:43,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC4": [
+      (
+        from_wire: "JCIBMUXINA4",
+        bits: [(frame:56,bit:10,invert:true,),(frame:57,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB4",
+        bits: [(frame:56,bit:10,invert:false,),(frame:57,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC4",
+        bits: [(frame:56,bit:10,invert:true,),(frame:57,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND4",
+        bits: [(frame:56,bit:10,invert:false,),(frame:57,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC5": [
+      (
+        from_wire: "JCIBMUXINA5",
+        bits: [(frame:68,bit:10,invert:true,),(frame:69,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB5",
+        bits: [(frame:68,bit:10,invert:false,),(frame:69,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC5",
+        bits: [(frame:68,bit:10,invert:true,),(frame:69,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND5",
+        bits: [(frame:68,bit:10,invert:false,),(frame:69,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC6": [
+      (
+        from_wire: "JCIBMUXINA6",
+        bits: [(frame:82,bit:10,invert:true,),(frame:83,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB6",
+        bits: [(frame:82,bit:10,invert:false,),(frame:83,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC6",
+        bits: [(frame:82,bit:10,invert:true,),(frame:83,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND6",
+        bits: [(frame:82,bit:10,invert:false,),(frame:83,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTC7": [
+      (
+        from_wire: "JCIBMUXINA7",
+        bits: [(frame:94,bit:10,invert:true,),(frame:95,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB7",
+        bits: [(frame:94,bit:10,invert:false,),(frame:95,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC7",
+        bits: [(frame:94,bit:10,invert:true,),(frame:95,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND7",
+        bits: [(frame:94,bit:10,invert:false,),(frame:95,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD0": [
+      (
+        from_wire: "JCIBMUXINA0",
+        bits: [(frame:6,bit:10,invert:true,),(frame:9,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB0",
+        bits: [(frame:6,bit:10,invert:false,),(frame:9,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC0",
+        bits: [(frame:6,bit:10,invert:true,),(frame:9,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND0",
+        bits: [(frame:6,bit:10,invert:false,),(frame:9,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD1": [
+      (
+        from_wire: "JCIBMUXINA1",
+        bits: [(frame:18,bit:10,invert:true,),(frame:19,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB1",
+        bits: [(frame:18,bit:10,invert:false,),(frame:19,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC1",
+        bits: [(frame:18,bit:10,invert:true,),(frame:19,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND1",
+        bits: [(frame:18,bit:10,invert:false,),(frame:19,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD2": [
+      (
+        from_wire: "JCIBMUXINA2",
+        bits: [(frame:32,bit:10,invert:true,),(frame:35,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB2",
+        bits: [(frame:32,bit:10,invert:false,),(frame:35,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC2",
+        bits: [(frame:32,bit:10,invert:true,),(frame:35,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND2",
+        bits: [(frame:32,bit:10,invert:false,),(frame:35,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD3": [
+      (
+        from_wire: "JCIBMUXINA3",
+        bits: [(frame:44,bit:10,invert:true,),(frame:45,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB3",
+        bits: [(frame:44,bit:10,invert:false,),(frame:45,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC3",
+        bits: [(frame:44,bit:10,invert:true,),(frame:45,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND3",
+        bits: [(frame:44,bit:10,invert:false,),(frame:45,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD4": [
+      (
+        from_wire: "JCIBMUXINA4",
+        bits: [(frame:58,bit:10,invert:true,),(frame:61,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB4",
+        bits: [(frame:58,bit:10,invert:false,),(frame:61,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC4",
+        bits: [(frame:58,bit:10,invert:true,),(frame:61,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND4",
+        bits: [(frame:58,bit:10,invert:false,),(frame:61,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD5": [
+      (
+        from_wire: "JCIBMUXINA5",
+        bits: [(frame:70,bit:10,invert:true,),(frame:71,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB5",
+        bits: [(frame:70,bit:10,invert:false,),(frame:71,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC5",
+        bits: [(frame:70,bit:10,invert:true,),(frame:71,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND5",
+        bits: [(frame:70,bit:10,invert:false,),(frame:71,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD6": [
+      (
+        from_wire: "JCIBMUXINA6",
+        bits: [(frame:84,bit:10,invert:true,),(frame:87,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB6",
+        bits: [(frame:84,bit:10,invert:false,),(frame:87,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC6",
+        bits: [(frame:84,bit:10,invert:true,),(frame:87,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND6",
+        bits: [(frame:84,bit:10,invert:false,),(frame:87,bit:10,invert:false,),],
+      ),
+    ],
+    "JCIBMUXOUTD7": [
+      (
+        from_wire: "JCIBMUXINA7",
+        bits: [(frame:96,bit:10,invert:true,),(frame:97,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINB7",
+        bits: [(frame:96,bit:10,invert:false,),(frame:97,bit:10,invert:true,),],
+      ),
+      (
+        from_wire: "JCIBMUXINC7",
+        bits: [(frame:96,bit:10,invert:true,),(frame:97,bit:10,invert:false,),],
+      ),
+      (
+        from_wire: "JCIBMUXIND7",
+        bits: [(frame:96,bit:10,invert:false,),(frame:97,bit:10,invert:false,),],
+      ),
+    ],
     "JCLK0": [
       (
         from_wire: "N1:V01S0000",
@@ -9238,7 +9814,104 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "CIB.JF0_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:14,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF1_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:20,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF2_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:40,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF3_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:46,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF4_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:66,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF5_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:72,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF6_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:92,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JF7_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:98,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ0_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:12,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ1_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:21,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ2_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:38,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ3_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:47,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ4_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:64,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ5_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:73,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ6_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:90,bit:10,invert:false,),],
+      },
+    ),
+    "CIB.JQ7_USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:99,bit:10,invert:false,),],
+      },
+    ),
+  },
   conns: {
     "JA0_CIBTEST": [
       (
