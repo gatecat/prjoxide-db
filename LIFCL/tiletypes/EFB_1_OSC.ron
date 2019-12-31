@@ -1,7 +1,75 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "OSC_CORE.HF_CLK_DIV": (
+      bits: [
+        [(frame:10,bit:1,invert:false,),],
+        [(frame:9,bit:1,invert:false,),],
+        [(frame:8,bit:1,invert:false,),],
+        [(frame:5,bit:1,invert:false,),],
+        [(frame:4,bit:1,invert:false,),],
+        [(frame:3,bit:1,invert:false,),],
+        [(frame:1,bit:1,invert:false,),],
+        [(frame:0,bit:1,invert:false,),],
+      ],
+      desc: "high frequency oscillator output divider",
+    ),
+    "OSC_CORE.HF_SED_SEC_DIV": (
+      bits: [
+        [(frame:22,bit:1,invert:false,),],
+        [(frame:21,bit:1,invert:false,),],
+        [(frame:18,bit:1,invert:false,),],
+        [(frame:17,bit:1,invert:false,),],
+        [(frame:16,bit:1,invert:false,),],
+        [(frame:14,bit:1,invert:false,),],
+        [(frame:13,bit:1,invert:false,),],
+        [(frame:12,bit:1,invert:false,),],
+      ],
+      desc: "high frequency oscillator output divider",
+    ),
+  },
   enums: {
+    "OSC_CORE.DTR_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "OSC_CORE.HFDIV_FABRIC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:38,bit:1,invert:false,),],
+      },
+      desc: "enable HF divider from parameter",
+    ),
+    "OSC_CORE.HF_FABRIC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:40,bit:1,invert:false,),],
+      },
+      desc: "enable HF oscillator trimming from input pins",
+    ),
+    "OSC_CORE.HF_OSC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:41,bit:1,invert:false,),],
+      },
+      desc: "enable HF oscillator",
+    ),
+    "OSC_CORE.LF_FABRIC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:56,bit:1,invert:false,),],
+      },
+      desc: "enable LF oscillator trimming from input pins",
+    ),
+    "OSC_CORE.LF_OUTPUT_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:59,bit:1,invert:false,),],
+      },
+      desc: "enable LF oscillator output",
+    ),
     "SYSCONFIG.MASTER_SPI_PORT": (
       options: {
         "DISABLE": [],
@@ -28,5 +96,126 @@
       desc: "status of slave SPI port after configuration",
     ),
   },
-  conns: {},
+  conns: {
+    "G:JOSCHF_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "S1:JHFCLKOUT_OSC_CORE",
+      ),
+    ],
+    "G:JOSCLF_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "S1:JLFCLKOUT_OSC_CORE",
+      ),
+    ],
+    "S1:JHFOUTEN_OSC_CORE": [
+      (
+        from_wire: "S1W3:JCIBMUXOUTD3",
+      ),
+    ],
+    "S1:JHFSDSCEN_OSC_CORE": [
+      (
+        from_wire: "S1W3:JCIBMUXOUTC5",
+      ),
+    ],
+    "S1:JHFTRMFAB0_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB0",
+      ),
+    ],
+    "S1:JHFTRMFAB1_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB1",
+      ),
+    ],
+    "S1:JHFTRMFAB2_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB2",
+      ),
+    ],
+    "S1:JHFTRMFAB3_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB3",
+      ),
+    ],
+    "S1:JHFTRMFAB4_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB4",
+      ),
+    ],
+    "S1:JHFTRMFAB5_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB5",
+      ),
+    ],
+    "S1:JHFTRMFAB6_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB6",
+      ),
+    ],
+    "S1:JHFTRMFAB7_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB7",
+      ),
+    ],
+    "S1:JHFTRMFAB8_OSC_CORE": [
+      (
+        from_wire: "S1W3:JCIBMUXOUTB7",
+      ),
+    ],
+    "S1:JLFTRMFAB0_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA0",
+      ),
+    ],
+    "S1:JLFTRMFAB1_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA1",
+      ),
+    ],
+    "S1:JLFTRMFAB2_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA2",
+      ),
+    ],
+    "S1:JLFTRMFAB3_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA3",
+      ),
+    ],
+    "S1:JLFTRMFAB4_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA4",
+      ),
+    ],
+    "S1:JLFTRMFAB5_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA5",
+      ),
+    ],
+    "S1:JLFTRMFAB6_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA6",
+      ),
+    ],
+    "S1:JLFTRMFAB7_OSC_CORE": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA7",
+      ),
+    ],
+    "S1:JLFTRMFAB8_OSC_CORE": [
+      (
+        from_wire: "S1W3:JCIBMUXOUTB6",
+      ),
+    ],
+    "W4:JOSCCLK_CONFIG_CLKRST_CORE_CONFIG_CLKRST": [
+      (
+        from_wire: "S1:JHFCLKCFG_OSC_CORE",
+      ),
+    ],
+    "W4:JSEDC_CLK_CONFIG_CLKRST_CORE_CONFIG_CLKRST": [
+      (
+        from_wire: "S1:JHFSDCOUT_OSC_CORE",
+      ),
+    ],
+  },
 )
