@@ -1,0 +1,14 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "SYSCONFIG.SLAVE_I2CI3C_PORT": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:49,bit:0,invert:false,),],
+      },
+      desc: "status of slave I2C/I3C port after configuration",
+    ),
+  },
+  conns: {},
+)

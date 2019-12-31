@@ -1,0 +1,32 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "SYSCONFIG.MASTER_SPI_PORT": (
+      options: {
+        "DISABLE": [],
+        "DUAL": [(frame:20,bit:0,invert:false,),],
+        "QUAD": [(frame:20,bit:0,invert:false,),(frame:25,bit:0,invert:false,),],
+        "SERIAL": [(frame:20,bit:0,invert:false,),],
+      },
+      desc: "status of master SPI port after configuration",
+    ),
+    "SYSCONFIG.SLAVE_I2CI3C_PORT": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:29,bit:0,invert:false,),],
+      },
+      desc: "status of slave I2C/I3C port after configuration",
+    ),
+    "SYSCONFIG.SLAVE_SPI_PORT": (
+      options: {
+        "DISABLE": [],
+        "DUAL": [(frame:21,bit:0,invert:false,),],
+        "QUAD": [(frame:21,bit:0,invert:false,),(frame:26,bit:0,invert:false,),],
+        "SERIAL": [(frame:21,bit:0,invert:false,),],
+      },
+      desc: "status of slave SPI port after configuration",
+    ),
+  },
+  conns: {},
+)
