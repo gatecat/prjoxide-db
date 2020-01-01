@@ -240,6 +240,18 @@
         "OFF": [(frame:104,bit:0,invert:true,),],
       },
     ),
+    "PIOA.DIFFIO18.DIFFRX_INV": (
+      options: {
+        "INVERT": [(frame:82,bit:0,invert:false,),],
+        "NORMAL": [],
+      },
+    ),
+    "PIOA.DIFFIO18.DIFFTX_INV": (
+      options: {
+        "INVERT": [(frame:101,bit:0,invert:false,),],
+        "NORMAL": [],
+      },
+    ),
     "PIOA.DIFFIO18.PULLMODE": (
       options: {
         "FAILSAFE": [(frame:76,bit:0,invert:false,),],
