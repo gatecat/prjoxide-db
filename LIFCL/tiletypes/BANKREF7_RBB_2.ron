@@ -2,6 +2,17 @@
   pips: {},
   words: {},
   enums: {
+    "BANK7.VCC": (
+      options: {
+        "1V2": [(frame:2,bit:1,invert:false,),],
+        "1V5": [(frame:3,bit:1,invert:false,),],
+        "1V8": [],
+        "2V5": [(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:false,),],
+        "3V3": [(frame:1,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "VccIO of bank 7",
+    ),
     "CHIP.SPEED": (
       options: {
         "FAST_1V0": [(frame:14,bit:3,invert:true,),(frame:14,bit:5,invert:false,),(frame:15,bit:3,invert:true,),(frame:15,bit:5,invert:false,),],
