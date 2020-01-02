@@ -21,6 +21,167 @@
   },
   words: {},
   enums: {
+    "IOLOGICA.CEINMUX": (
+      options: {
+        "1": [(frame:7,bit:0,invert:false,),],
+        "CEIN": [(frame:6,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICA.CEOUTMUX": (
+      options: {
+        "1": [(frame:8,bit:0,invert:false,),],
+        "CEOUT": [(frame:5,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICA.DELAYMUX": (
+      options: {
+        "IN": [],
+        "OUT_REG": [(frame:35,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.DIRMUX": (
+      options: {
+        "0": [],
+        "DIR": [(frame:54,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.GSR": (
+      options: {
+        "DISABLED": [(frame:33,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "IOLOGICA.IDDRXN.DDRMODE": (
+      options: {
+        "IDDR71": [(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "IDDRX2": [(frame:67,bit:0,invert:false,),],
+        "IDDRX4": [(frame:66,bit:0,invert:false,),],
+        "IDDRX5": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICA.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:30,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.LOAD_NMUX": (
+      options: {
+        "1": [],
+        "LOAD_N": [(frame:50,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:10,bit:0,invert:false,),],
+        "LSRIN": [(frame:9,bit:0,invert:false,),(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:11,bit:0,invert:false,),],
+        "LSROUT": [(frame:11,bit:0,invert:false,),(frame:12,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.MIDDRXN.DDRMODE": (
+      options: {
+        "MIDDRX2": [(frame:65,bit:0,invert:false,),(frame:67,bit:0,invert:false,),],
+        "MIDDRX4": [(frame:65,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICA.MODDRXN.DDRMODE": (
+      options: {
+        "MODDRX2_DQSW": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:41,bit:0,invert:false,),],
+        "MODDRX2_DQSW270": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "MODDRX4_DQSW": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:1,invert:false,),(frame:38,bit:0,invert:false,),(frame:41,bit:0,invert:false,),],
+        "MODDRX4_DQSW270": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:1,invert:false,),(frame:41,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "MOSHX2": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "MOSHX4": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICA.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:22,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "IDDRXN": [],
+        "IREG_OREG": [(frame:23,bit:0,invert:false,),],
+        "MIDDRXN_MODDRXN": [(frame:13,bit:0,invert:false,),],
+        "NONE": [],
+        "ODDRXN": [],
+      },
+    ),
+    "IOLOGICA.MOVEMUX": (
+      options: {
+        "0": [],
+        "MOVE": [(frame:61,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.MTDDRXN.DDRMODE": (
+      options: {
+        "MTSHX2": [(frame:19,bit:0,invert:false,),],
+        "MTSHX4": [(frame:19,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICA.ODDRXN.DDRMODE": (
+      options: {
+        "NONE": [],
+        "ODDR71": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "ODDRX2": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "ODDRX4": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:1,invert:false,),(frame:63,bit:0,invert:false,),],
+        "ODDRX5": [(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:1,invert:false,),(frame:25,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:31,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:64,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:25,bit:1,invert:false,),(frame:26,bit:0,invert:false,),],
+        "SCLKIN": [(frame:25,bit:1,invert:false,),],
+      },
+    ),
+    "IOLOGICA.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+        "SCLKOUT": [(frame:36,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:32,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:39,bit:0,invert:false,),],
+      },
+    ),
     "PIOA.DIFFIO18.BASE_TYPE": (
       options: {
         "BIDIR_HSTL15D_I": [(frame:0,bit:1,invert:false,),(frame:1,bit:1,invert:false,),(frame:10,bit:1,invert:false,),(frame:13,bit:1,invert:false,),(frame:17,bit:1,invert:false,),(frame:78,bit:0,invert:false,),],

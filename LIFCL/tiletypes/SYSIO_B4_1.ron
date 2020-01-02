@@ -21,6 +21,167 @@
   },
   words: {},
   enums: {
+    "IOLOGICB.CEINMUX": (
+      options: {
+        "1": [(frame:7,bit:0,invert:false,),],
+        "CEIN": [(frame:6,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICB.CEOUTMUX": (
+      options: {
+        "1": [(frame:8,bit:0,invert:false,),],
+        "CEOUT": [(frame:5,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICB.DELAYMUX": (
+      options: {
+        "IN": [],
+        "OUT_REG": [(frame:36,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DIRMUX": (
+      options: {
+        "0": [],
+        "DIR": [(frame:55,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.GSR": (
+      options: {
+        "DISABLED": [(frame:34,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "IOLOGICB.IDDRXN.DDRMODE": (
+      options: {
+        "IDDR71": [(frame:68,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+        "IDDRX2": [(frame:68,bit:0,invert:false,),],
+        "IDDRX4": [(frame:67,bit:0,invert:false,),],
+        "IDDRX5": [(frame:67,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:31,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LOAD_NMUX": (
+      options: {
+        "1": [],
+        "LOAD_N": [(frame:51,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:10,bit:0,invert:false,),],
+        "LSRIN": [(frame:9,bit:0,invert:false,),(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:11,bit:0,invert:false,),],
+        "LSROUT": [(frame:11,bit:0,invert:false,),(frame:12,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.MIDDRXN.DDRMODE": (
+      options: {
+        "MIDDRX2": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "MIDDRX4": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.MODDRXN.DDRMODE": (
+      options: {
+        "MODDRX2_DQSW": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:39,bit:0,invert:false,),(frame:42,bit:0,invert:false,),],
+        "MODDRX2_DQSW270": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:42,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MODDRX4_DQSW": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:42,bit:0,invert:false,),],
+        "MODDRX4_DQSW270": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MOSHX2": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:22,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MOSHX4": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:22,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:21,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+        "IDDRXN": [],
+        "IREG_OREG": [(frame:21,bit:1,invert:false,),],
+        "MIDDRXN_MODDRXN": [(frame:13,bit:0,invert:false,),],
+        "NONE": [],
+        "ODDRXN": [],
+      },
+    ),
+    "IOLOGICB.MOVEMUX": (
+      options: {
+        "0": [],
+        "MOVE": [(frame:62,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.MTDDRXN.DDRMODE": (
+      options: {
+        "MTSHX2": [(frame:19,bit:0,invert:false,),],
+        "MTSHX4": [(frame:19,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.ODDRXN.DDRMODE": (
+      options: {
+        "NONE": [],
+        "ODDR71": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX2": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX4": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX5": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:32,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:65,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),],
+        "SCLKIN": [(frame:26,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+        "SCLKOUT": [(frame:37,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:33,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:40,bit:0,invert:false,),],
+      },
+    ),
     "PIOA.DIFFIO18.BASE_TYPE": (
       options: {
         "BIDIR_HSTL15D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
