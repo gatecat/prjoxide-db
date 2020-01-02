@@ -1,0 +1,174 @@
+(
+  pips: {},
+  words: {
+    "EBR1.FIFO16K_MODE.ALMOST_EMPTY": (
+      bits: [
+        [],
+        [],
+        [],
+        [],
+        [(frame:0,bit:0,invert:false,),],
+        [(frame:2,bit:0,invert:false,),],
+        [(frame:4,bit:0,invert:false,),],
+        [(frame:6,bit:0,invert:false,),],
+        [(frame:8,bit:0,invert:false,),],
+        [(frame:10,bit:0,invert:false,),],
+        [(frame:12,bit:0,invert:false,),],
+        [(frame:14,bit:0,invert:false,),],
+        [(frame:16,bit:0,invert:false,),],
+        [(frame:18,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'almost empty\' output threshold",
+    ),
+    "EBR1.FIFO16K_MODE.ALMOST_FULL": (
+      bits: [
+        [(frame:20,bit:0,invert:false,),],
+        [(frame:22,bit:0,invert:false,),],
+        [(frame:24,bit:0,invert:false,),],
+        [(frame:26,bit:0,invert:false,),],
+        [(frame:28,bit:0,invert:false,),],
+        [(frame:30,bit:0,invert:false,),],
+        [(frame:32,bit:0,invert:false,),],
+        [(frame:34,bit:0,invert:false,),],
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:38,bit:0,invert:false,),],
+        [(frame:40,bit:0,invert:false,),],
+        [(frame:42,bit:0,invert:false,),],
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:46,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'almost full\' output threshold",
+    ),
+    "EBR1.FIFO16K_MODE.EMPTYBITS": (
+      bits: [
+        [(frame:41,bit:0,invert:false,),],
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:49,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'empty\' threshold",
+    ),
+    "EBR1.FIFO16K_MODE.FULLBITS": (
+      bits: [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [(frame:48,bit:0,invert:false,),],
+        [(frame:50,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:54,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+        [(frame:57,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'full\' threshold",
+    ),
+    "EBR1.WID": (
+      bits: [
+        [(frame:1,bit:0,invert:false,),],
+        [(frame:3,bit:0,invert:false,),],
+        [(frame:5,bit:0,invert:false,),],
+        [(frame:7,bit:0,invert:false,),],
+        [(frame:9,bit:0,invert:false,),],
+        [(frame:11,bit:0,invert:false,),],
+        [(frame:13,bit:0,invert:false,),],
+        [(frame:15,bit:0,invert:false,),],
+        [(frame:17,bit:0,invert:false,),],
+        [(frame:19,bit:0,invert:false,),],
+        [(frame:21,bit:0,invert:false,),],
+      ],
+      desc: "unique ID for the BRAM, used to initialise it in the bitstream",
+    ),
+  },
+  enums: {
+    "EBR1.DP16K_MODE.ASYNC_RST_RELEASE_B": (
+      options: {
+        "ASYNC": [(frame:27,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.RSTAMUX": (
+      options: {
+        "INV": [(frame:23,bit:0,invert:false,),],
+        "RSTA": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.WEBMUX": (
+      options: {
+        "INV": [(frame:25,bit:0,invert:false,),],
+        "WEB": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.ASYNC_RST_RELEASE_B": (
+      options: {
+        "ASYNC": [(frame:27,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.RSTAMUX": (
+      options: {
+        "INV": [(frame:23,bit:0,invert:false,),],
+        "RSTA": [],
+      },
+    ),
+    "EBR1.MODE": (
+      options: {
+        "DP16K_MODE": [(frame:51,bit:0,invert:false,),],
+        "FIFO16K_MODE": [(frame:25,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "NONE": [],
+        "PDP16K_MODE": [(frame:25,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "PDPSC16K_MODE": [(frame:25,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "SP16K_MODE": [(frame:39,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+      },
+      desc: "EBR1 primitive mode",
+    ),
+    "EBR1.PDP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:27,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:23,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:27,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:23,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:27,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:23,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.WEMUX": (
+      options: {
+        "INV": [(frame:25,bit:0,invert:false,),],
+        "WE": [],
+      },
+    ),
+  },
+  conns: {},
+)

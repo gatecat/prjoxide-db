@@ -1,6 +1,101 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "EBR1.DP16K_MODE.CSDECODE_A": (
+      bits: [
+        [(frame:82,bit:0,invert:false,),],
+        [(frame:84,bit:0,invert:false,),],
+        [(frame:86,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.DP16K_MODE.CSDECODE_B": (
+      bits: [
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.FIFO16K_MODE.ALMOST_EMPTY": (
+      bits: [
+        [(frame:95,bit:0,invert:false,),],
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+        [(frame:104,bit:0,invert:false,),],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+      ],
+      desc: "FIFO \'almost empty\' output threshold",
+    ),
+    "EBR1.FIFO16K_MODE.FULLBITS": (
+      bits: [
+        [(frame:81,bit:0,invert:false,),],
+        [(frame:83,bit:0,invert:false,),],
+        [(frame:85,bit:0,invert:false,),],
+        [(frame:87,bit:0,invert:false,),],
+        [(frame:89,bit:0,invert:false,),],
+        [(frame:92,bit:0,invert:false,),],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+      ],
+      desc: "FIFO \'full\' threshold",
+    ),
+    "EBR1.PDP16K_MODE.CSDECODE_R": (
+      bits: [
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.PDP16K_MODE.CSDECODE_W": (
+      bits: [
+        [(frame:82,bit:0,invert:false,),],
+        [(frame:84,bit:0,invert:false,),],
+        [(frame:86,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.PDPSC16K_MODE.CSDECODE_R": (
+      bits: [
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.PDPSC16K_MODE.CSDECODE_W": (
+      bits: [
+        [(frame:82,bit:0,invert:false,),],
+        [(frame:84,bit:0,invert:false,),],
+        [(frame:86,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR1.SP16K_MODE.CSDECODE": (
+      bits: [
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+  },
   enums: {
     "CHIP.SPEED": (
       options: {
@@ -8,6 +103,415 @@
         "SLOW_1V0": [(frame:103,bit:0,invert:false,),],
       },
       desc: "Adjust back bias for high speed or low power",
+    ),
+    "EBR1.DP16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:49,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.CEAMUX": (
+      options: {
+        "CEA": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.CLKAMUX": (
+      options: {
+        "0": [],
+        "CLKA": [(frame:37,bit:0,invert:false,),],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLKA",
+    ),
+    "EBR1.DP16K_MODE.CLKBMUX": (
+      options: {
+        "0": [],
+        "CLKB": [(frame:79,bit:0,invert:false,),],
+        "INV": [(frame:70,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLKB",
+    ),
+    "EBR1.DP16K_MODE.DATA_WIDTH_A": (
+      options: {
+        "X1": [(frame:40,bit:0,invert:false,),(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+        "X4": [(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+        "X9": [(frame:48,bit:0,invert:false,),],
+      },
+      desc: "data width of port A in DP16K_MODE",
+    ),
+    "EBR1.DP16K_MODE.DATA_WIDTH_B": (
+      options: {
+        "X1": [(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X4": [(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X9": [(frame:66,bit:0,invert:false,),],
+      },
+      desc: "data width of port B in DP16K_MODE",
+    ),
+    "EBR1.DP16K_MODE.OUTREG_A": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:44,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.DP16K_MODE.OUTREG_B": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:77,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.DP16K_MODE.RESETMODE_A": (
+      options: {
+        "ASYNC": [(frame:54,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.RESETMODE_B": (
+      options: {
+        "ASYNC": [(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.RSTBMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RSTB": [],
+      },
+    ),
+    "EBR1.DP16K_MODE.WEAMUX": (
+      options: {
+        "INV": [(frame:52,bit:0,invert:false,),],
+        "WEA": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:49,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.CEAMUX": (
+      options: {
+        "CEA": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.CKAMUX": (
+      options: {
+        "0": [],
+        "CKA": [(frame:37,bit:0,invert:false,),],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CKA",
+    ),
+    "EBR1.FIFO16K_MODE.CKBMUX": (
+      options: {
+        "0": [],
+        "CKB": [(frame:79,bit:0,invert:false,),],
+        "INV": [(frame:70,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CKB",
+    ),
+    "EBR1.FIFO16K_MODE.DATA_WIDTH_A": (
+      options: {
+        "X1": [(frame:40,bit:0,invert:false,),(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X18": [(frame:51,bit:0,invert:false,),],
+        "X2": [(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X9": [(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+      },
+      desc: "data width of port A in FIFO16K_MODE",
+    ),
+    "EBR1.FIFO16K_MODE.DATA_WIDTH_B": (
+      options: {
+        "X1": [(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X18": [(frame:68,bit:0,invert:false,),],
+        "X2": [(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X9": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+      },
+      desc: "data width of port B in FIFO16K_MODE",
+    ),
+    "EBR1.FIFO16K_MODE.OUTREG_A": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:44,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.FIFO16K_MODE.OUTREG_B": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:77,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.FIFO16K_MODE.RESETMODE_A": (
+      options: {
+        "ASYNC": [(frame:54,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.RESETMODE_B": (
+      options: {
+        "ASYNC": [(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.FIFO16K_MODE.RSTBMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RSTB": [],
+      },
+    ),
+    "EBR1.GSR": (
+      options: {
+        "DISABLED": [(frame:47,bit:0,invert:false,),(frame:78,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "if `ENABLED`, then read ports are reset by user GSR",
+    ),
+    "EBR1.INIT_DATA": (
+      options: {
+        "DYNAMIC": [(frame:93,bit:0,invert:false,),],
+        "NO_INIT": [],
+        "STATIC": [(frame:93,bit:0,invert:false,),],
+      },
+      desc: "selects initialisation mode",
+    ),
+    "EBR1.MODE": (
+      options: {
+        "DP16K_MODE": [(frame:51,bit:0,invert:false,),(frame:68,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+        "FIFO16K_MODE": [(frame:53,bit:0,invert:false,),],
+        "NONE": [],
+        "PDP16K_MODE": [(frame:98,bit:0,invert:false,),],
+        "PDPSC16K_MODE": [(frame:98,bit:0,invert:false,),],
+        "SP16K_MODE": [(frame:51,bit:0,invert:false,),(frame:68,bit:0,invert:false,),(frame:82,bit:0,invert:false,),(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+      },
+      desc: "EBR1 primitive mode",
+    ),
+    "EBR1.PDP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:49,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDP16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.CEWMUX": (
+      options: {
+        "CEW": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.CLKRMUX": (
+      options: {
+        "0": [],
+        "CLKR": [(frame:79,bit:0,invert:false,),],
+        "INV": [(frame:70,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLKR",
+    ),
+    "EBR1.PDP16K_MODE.CLKWMUX": (
+      options: {
+        "0": [],
+        "CLKW": [(frame:37,bit:0,invert:false,),],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLKW",
+    ),
+    "EBR1.PDP16K_MODE.DATA_WIDTH_R": (
+      options: {
+        "X1": [(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X18": [(frame:68,bit:0,invert:false,),],
+        "X2": [(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X9": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+      },
+      desc: "data width of read port in PDP16K_MODE",
+    ),
+    "EBR1.PDP16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:40,bit:0,invert:false,),(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X18": [(frame:51,bit:0,invert:false,),],
+        "X2": [(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X9": [(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDP16K_MODE",
+    ),
+    "EBR1.PDP16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:44,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.PDP16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:54,bit:0,invert:false,),(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:49,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.CEWMUX": (
+      options: {
+        "CEW": [],
+        "INV": [(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:37,bit:0,invert:false,),(frame:79,bit:0,invert:false,),],
+        "INV": [(frame:50,bit:0,invert:false,),(frame:70,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLK",
+    ),
+    "EBR1.PDPSC16K_MODE.DATA_WIDTH_R": (
+      options: {
+        "X1": [(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X18": [(frame:68,bit:0,invert:false,),],
+        "X2": [(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "X9": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+      },
+      desc: "data width of read port in PDPSC16K_MODE",
+    ),
+    "EBR1.PDPSC16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:40,bit:0,invert:false,),(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X18": [(frame:51,bit:0,invert:false,),],
+        "X2": [(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+        "X9": [(frame:48,bit:0,invert:false,),(frame:51,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDPSC16K_MODE",
+    ),
+    "EBR1.PDPSC16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:44,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.PDPSC16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:54,bit:0,invert:false,),(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:49,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:58,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.SP16K_MODE.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:37,bit:0,invert:false,),(frame:79,bit:0,invert:false,),],
+        "INV": [(frame:50,bit:0,invert:false,),(frame:70,bit:0,invert:false,),],
+      },
+      desc: "clock inversion control for CLK",
+    ),
+    "EBR1.SP16K_MODE.DATA_WIDTH": (
+      options: {
+        "X1": [(frame:40,bit:0,invert:false,),(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:60,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:43,bit:0,invert:false,),(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X4": [(frame:45,bit:0,invert:false,),(frame:48,bit:0,invert:false,),(frame:64,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+        "X9": [(frame:48,bit:0,invert:false,),(frame:66,bit:0,invert:false,),],
+      },
+      desc: "data width of R/W port in SP16K_MODE",
+    ),
+    "EBR1.SP16K_MODE.OUTREG": (
+      options: {
+        "BYPASSED": [],
+        "USED": [(frame:44,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+      },
+      desc: "extra output pipeline register enable/bypass",
+    ),
+    "EBR1.SP16K_MODE.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:54,bit:0,invert:false,),(frame:76,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.WEMUX": (
+      options: {
+        "INV": [(frame:52,bit:0,invert:false,),],
+        "WE": [],
+      },
     ),
   },
   conns: {},

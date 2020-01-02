@@ -1,6 +1,122 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "EBR3.DP16K_MODE.CSDECODE_B": (
+      bits: [
+        [],
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR3.FIFO16K_MODE.ALMOST_EMPTY": (
+      bits: [
+        [],
+        [],
+        [],
+        [(frame:57,bit:0,invert:false,),],
+        [(frame:59,bit:0,invert:false,),],
+        [(frame:61,bit:0,invert:false,),],
+        [(frame:63,bit:0,invert:false,),],
+        [(frame:65,bit:0,invert:false,),],
+        [(frame:67,bit:0,invert:false,),],
+        [(frame:69,bit:0,invert:false,),],
+        [(frame:71,bit:0,invert:false,),],
+        [(frame:73,bit:0,invert:false,),],
+        [(frame:75,bit:0,invert:false,),],
+        [(frame:41,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'almost empty\' output threshold",
+    ),
+    "EBR3.FIFO16K_MODE.ALMOST_FULL": (
+      bits: [
+        [(frame:77,bit:0,invert:false,),],
+        [(frame:79,bit:0,invert:false,),],
+        [(frame:81,bit:0,invert:false,),],
+        [(frame:83,bit:0,invert:false,),],
+        [(frame:86,bit:0,invert:false,),],
+        [(frame:88,bit:0,invert:false,),],
+        [(frame:90,bit:0,invert:false,),],
+        [(frame:39,bit:0,invert:false,),],
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:92,bit:0,invert:false,),],
+        [(frame:94,bit:0,invert:false,),],
+        [(frame:98,bit:0,invert:false,),],
+        [(frame:100,bit:0,invert:false,),],
+        [(frame:102,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'almost full\' output threshold",
+    ),
+    "EBR3.FIFO16K_MODE.EMPTYBITS": (
+      bits: [
+        [(frame:95,bit:0,invert:false,),],
+        [(frame:99,bit:0,invert:false,),],
+        [(frame:101,bit:0,invert:false,),],
+        [(frame:103,bit:0,invert:false,),],
+        [(frame:105,bit:0,invert:false,),],
+      ],
+      desc: "FIFO \'empty\' threshold",
+    ),
+    "EBR3.FIFO16K_MODE.FULLBITS": (
+      bits: [
+        [],
+        [],
+        [],
+        [],
+        [(frame:47,bit:0,invert:false,),],
+        [],
+        [(frame:104,bit:0,invert:false,),],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+      ],
+      desc: "FIFO \'full\' threshold",
+    ),
+    "EBR3.PDP16K_MODE.CSDECODE_R": (
+      bits: [
+        [],
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR3.PDPSC16K_MODE.CSDECODE_R": (
+      bits: [
+        [],
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR3.SP16K_MODE.CSDECODE": (
+      bits: [
+        [],
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+      ],
+      desc: "port is enabled when CS inputs match this value",
+    ),
+    "EBR3.WID": (
+      bits: [
+        [(frame:60,bit:0,invert:false,),],
+        [(frame:62,bit:0,invert:false,),],
+        [(frame:64,bit:0,invert:false,),],
+        [(frame:66,bit:0,invert:false,),],
+        [(frame:68,bit:0,invert:false,),],
+        [(frame:70,bit:0,invert:false,),],
+        [(frame:72,bit:0,invert:false,),],
+        [(frame:74,bit:0,invert:false,),],
+        [(frame:76,bit:0,invert:false,),],
+        [(frame:42,bit:0,invert:false,),],
+        [(frame:78,bit:0,invert:false,),],
+      ],
+      desc: "unique ID for the BRAM, used to initialise it in the bitstream",
+    ),
+  },
   enums: {
     "CHIP.SPEED": (
       options: {
@@ -8,6 +124,247 @@
         "SLOW_1V0": [(frame:56,bit:0,invert:false,),],
       },
       desc: "Adjust back bias for high speed or low power",
+    ),
+    "EBR3.DP16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:55,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.DP16K_MODE.ASYNC_RST_RELEASE_B": (
+      options: {
+        "ASYNC": [(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.DP16K_MODE.CEAMUX": (
+      options: {
+        "CEA": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.DP16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.DP16K_MODE.DATA_WIDTH_B": (
+      options: {
+        "X1": [(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:48,bit:0,invert:false,),],
+        "X4": [(frame:48,bit:0,invert:false,),],
+        "X9": [],
+      },
+      desc: "data width of port B in DP16K_MODE",
+    ),
+    "EBR3.DP16K_MODE.RSTAMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RSTA": [],
+      },
+    ),
+    "EBR3.DP16K_MODE.WEBMUX": (
+      options: {
+        "INV": [(frame:82,bit:0,invert:false,),],
+        "WEB": [],
+      },
+    ),
+    "EBR3.FIFO16K_MODE.ASYNC_RST_RELEASE_A": (
+      options: {
+        "ASYNC": [(frame:55,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.FIFO16K_MODE.ASYNC_RST_RELEASE_B": (
+      options: {
+        "ASYNC": [(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.FIFO16K_MODE.CEAMUX": (
+      options: {
+        "CEA": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.FIFO16K_MODE.CEBMUX": (
+      options: {
+        "CEB": [],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.FIFO16K_MODE.DATA_WIDTH_A": (
+      options: {
+        "X1": [(frame:54,bit:0,invert:false,),],
+        "X18": [(frame:54,bit:0,invert:false,),],
+        "X2": [(frame:54,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:54,bit:0,invert:false,),],
+        "X9": [(frame:54,bit:0,invert:false,),],
+      },
+      desc: "data width of port A in FIFO16K_MODE",
+    ),
+    "EBR3.FIFO16K_MODE.DATA_WIDTH_B": (
+      options: {
+        "X1": [(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:48,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:48,bit:0,invert:false,),],
+        "X9": [],
+      },
+      desc: "data width of port B in FIFO16K_MODE",
+    ),
+    "EBR3.FIFO16K_MODE.RSTAMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RSTA": [],
+      },
+    ),
+    "EBR3.MODE": (
+      options: {
+        "DP16K_MODE": [(frame:54,bit:0,invert:false,),],
+        "FIFO16K_MODE": [(frame:82,bit:0,invert:false,),],
+        "NONE": [],
+        "PDP16K_MODE": [(frame:82,bit:0,invert:false,),],
+        "PDPSC16K_MODE": [(frame:82,bit:0,invert:false,),(frame:93,bit:0,invert:false,),],
+        "SP16K_MODE": [(frame:54,bit:0,invert:false,),(frame:93,bit:0,invert:false,),],
+      },
+      desc: "EBR3 primitive mode",
+    ),
+    "EBR3.PDP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:55,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.PDP16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.PDP16K_MODE.CEWMUX": (
+      options: {
+        "CEW": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.PDP16K_MODE.DATA_WIDTH_R": (
+      options: {
+        "X1": [(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:48,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:48,bit:0,invert:false,),],
+        "X9": [],
+      },
+      desc: "data width of read port in PDP16K_MODE",
+    ),
+    "EBR3.PDP16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:54,bit:0,invert:false,),],
+        "X18": [(frame:54,bit:0,invert:false,),],
+        "X2": [(frame:54,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:54,bit:0,invert:false,),],
+        "X9": [(frame:54,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDP16K_MODE",
+    ),
+    "EBR3.PDP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR3.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:55,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.PDPSC16K_MODE.CERMUX": (
+      options: {
+        "CER": [],
+        "INV": [(frame:50,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.PDPSC16K_MODE.CEWMUX": (
+      options: {
+        "CEW": [],
+        "INV": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.PDPSC16K_MODE.DATA_WIDTH_R": (
+      options: {
+        "X1": [(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:48,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:48,bit:0,invert:false,),],
+        "X9": [],
+      },
+      desc: "data width of read port in PDPSC16K_MODE",
+    ),
+    "EBR3.PDPSC16K_MODE.DATA_WIDTH_W": (
+      options: {
+        "X1": [(frame:54,bit:0,invert:false,),],
+        "X18": [(frame:54,bit:0,invert:false,),],
+        "X2": [(frame:54,bit:0,invert:false,),],
+        "X32": [],
+        "X36": [],
+        "X4": [(frame:54,bit:0,invert:false,),],
+        "X9": [(frame:54,bit:0,invert:false,),],
+      },
+      desc: "data width of write port in PDPSC16K_MODE",
+    ),
+    "EBR3.PDPSC16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR3.SP16K_MODE.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:55,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+    ),
+    "EBR3.SP16K_MODE.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:50,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "EBR3.SP16K_MODE.DATA_WIDTH": (
+      options: {
+        "X1": [(frame:48,bit:0,invert:false,),],
+        "X18": [],
+        "X2": [(frame:48,bit:0,invert:false,),],
+        "X4": [(frame:48,bit:0,invert:false,),],
+        "X9": [],
+      },
+      desc: "data width of R/W port in SP16K_MODE",
+    ),
+    "EBR3.SP16K_MODE.RSTMUX": (
+      options: {
+        "INV": [(frame:80,bit:0,invert:false,),],
+        "RST": [],
+      },
+    ),
+    "EBR3.SP16K_MODE.WEMUX": (
+      options: {
+        "INV": [(frame:82,bit:0,invert:false,),],
+        "WE": [],
+      },
     ),
   },
   conns: {},
