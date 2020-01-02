@@ -579,5 +579,631 @@
       },
     ),
   },
-  conns: {},
+  conns: {
+    "N1:JF0": [
+      (
+        from_wire: "N1W1:JDOA8_EBR_CORE",
+      ),
+    ],
+    "N1:JF1": [
+      (
+        from_wire: "N1W1:JDOA9_EBR_CORE",
+      ),
+    ],
+    "N1:JF2": [
+      (
+        from_wire: "N1W1:JDOA10_EBR_CORE",
+      ),
+    ],
+    "N1:JF3": [
+      (
+        from_wire: "N1W1:JDOA11_EBR_CORE",
+      ),
+    ],
+    "N1:JF4": [
+      (
+        from_wire: "N1W1:JDOA12_EBR_CORE",
+      ),
+    ],
+    "N1:JF5": [
+      (
+        from_wire: "N1W1:JDOA13_EBR_CORE",
+      ),
+    ],
+    "N1:JF6": [
+      (
+        from_wire: "N1W1:JDOA14_EBR_CORE",
+      ),
+    ],
+    "N1:JF7": [
+      (
+        from_wire: "N1W1:JDOA15_EBR_CORE",
+      ),
+    ],
+    "N1:JQ0": [
+      (
+        from_wire: "N1W1:JDOB8_EBR_CORE",
+      ),
+    ],
+    "N1:JQ1": [
+      (
+        from_wire: "N1W1:JDOB9_EBR_CORE",
+      ),
+    ],
+    "N1:JQ2": [
+      (
+        from_wire: "N1W1:JDOB10_EBR_CORE",
+      ),
+    ],
+    "N1:JQ3": [
+      (
+        from_wire: "N1W1:JDOB11_EBR_CORE",
+      ),
+    ],
+    "N1:JQ4": [
+      (
+        from_wire: "N1W1:JDOB12_EBR_CORE",
+      ),
+    ],
+    "N1:JQ5": [
+      (
+        from_wire: "N1W1:JDOB13_EBR_CORE",
+      ),
+    ],
+    "N1:JQ6": [
+      (
+        from_wire: "N1W1:JDOB14_EBR_CORE",
+      ),
+    ],
+    "N1:JQ7": [
+      (
+        from_wire: "N1W1:JDOB15_EBR_CORE",
+      ),
+    ],
+    "N1E1:JF0": [
+      (
+        from_wire: "N1W1:JDOA16_EBR_CORE",
+      ),
+    ],
+    "N1E1:JF1": [
+      (
+        from_wire: "N1W1:JDOA17_EBR_CORE",
+      ),
+    ],
+    "N1E1:JQ0": [
+      (
+        from_wire: "N1W1:JDOB16_EBR_CORE",
+      ),
+    ],
+    "N1E1:JQ1": [
+      (
+        from_wire: "N1W1:JDOB17_EBR_CORE",
+      ),
+    ],
+    "N1W1:JADA0_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA3",
+      ),
+    ],
+    "N1W1:JADA10_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W1:JADA11_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA4",
+      ),
+    ],
+    "N1W1:JADA12_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W1:JADA13_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTB3",
+      ),
+    ],
+    "N1W1:JADA1_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA5",
+      ),
+    ],
+    "N1W1:JADA2_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTB1",
+      ),
+    ],
+    "N1W1:JADA3_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB5",
+      ),
+    ],
+    "N1W1:JADA4_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1W1:JADA5_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB3",
+      ),
+    ],
+    "N1W1:JADA6_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD6",
+      ),
+    ],
+    "N1W1:JADA7_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTB7",
+      ),
+    ],
+    "N1W1:JADA8_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1W1:JADA9_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA1",
+      ),
+    ],
+    "N1W1:JADB0_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1W1:JADB10_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W1:JADB11_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA6",
+      ),
+    ],
+    "N1W1:JADB12_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD6",
+      ),
+    ],
+    "N1W1:JADB13_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB3",
+      ),
+    ],
+    "N1W1:JADB1_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W1:JADB2_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1W1:JADB3_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1W1:JADB4_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W1:JADB5_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB1",
+      ),
+    ],
+    "N1W1:JADB6_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD6",
+      ),
+    ],
+    "N1W1:JADB7_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTB6",
+      ),
+    ],
+    "N1W1:JADB8_EBR_CORE": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1W1:JADB9_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA3",
+      ),
+    ],
+    "N1W1:JCEA_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCE0",
+      ),
+    ],
+    "N1W1:JCEB_EBR_CORE": [
+      (
+        from_wire: "N1:JCE0",
+      ),
+    ],
+    "N1W1:JCLKA_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCLK0",
+      ),
+    ],
+    "N1W1:JCLKB_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCLK1",
+      ),
+    ],
+    "N1W1:JCSA0_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCE1",
+      ),
+    ],
+    "N1W1:JCSA1_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCLK1",
+      ),
+    ],
+    "N1W1:JCSA2_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCE1",
+      ),
+    ],
+    "N1W1:JCSB0_EBR_CORE": [
+      (
+        from_wire: "N1:JCE1",
+      ),
+    ],
+    "N1W1:JCSB1_EBR_CORE": [
+      (
+        from_wire: "N1:JCLK1",
+      ),
+    ],
+    "N1W1:JCSB2_EBR_CORE": [
+      (
+        from_wire: "N1E1:JLSR1",
+      ),
+    ],
+    "N1W1:JDIA0_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB0",
+      ),
+    ],
+    "N1W1:JDIA10_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB2",
+      ),
+    ],
+    "N1W1:JDIA11_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1W1:JDIA12_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA4",
+      ),
+    ],
+    "N1W1:JDIA13_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB4",
+      ),
+    ],
+    "N1W1:JDIA14_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA6",
+      ),
+    ],
+    "N1W1:JDIA15_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB6",
+      ),
+    ],
+    "N1W1:JDIA16_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTB0",
+      ),
+    ],
+    "N1W1:JDIA17_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTA0",
+      ),
+    ],
+    "N1W1:JDIA1_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA0",
+      ),
+    ],
+    "N1W1:JDIA2_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB2",
+      ),
+    ],
+    "N1W1:JDIA3_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA2",
+      ),
+    ],
+    "N1W1:JDIA4_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA4",
+      ),
+    ],
+    "N1W1:JDIA5_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB4",
+      ),
+    ],
+    "N1W1:JDIA6_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA6",
+      ),
+    ],
+    "N1W1:JDIA7_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB6",
+      ),
+    ],
+    "N1W1:JDIA8_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTB0",
+      ),
+    ],
+    "N1W1:JDIA9_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1W1:JDIB0_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1W1:JDIB10_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD5",
+      ),
+    ],
+    "N1W1:JDIB11_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA2",
+      ),
+    ],
+    "N1W1:JDIB12_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W1:JDIB13_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1W1:JDIB14_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1W1:JDIB15_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1W1:JDIB16_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1W1:JDIB17_EBR_CORE": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1W1:JDIB1_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1W1:JDIB2_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD5",
+      ),
+    ],
+    "N1W1:JDIB3_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1W1:JDIB4_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W1:JDIB5_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1W1:JDIB6_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1W1:JDIB7_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1W1:JDIB8_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1W1:JDIB9_EBR_CORE": [
+      (
+        from_wire: "N1:JCIBMUXOUTA0",
+      ),
+    ],
+    "N1W1:JDWS0_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA1",
+      ),
+    ],
+    "N1W1:JDWS1_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTA5",
+      ),
+    ],
+    "N1W1:JDWS2_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1W1:JDWS3_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB5",
+      ),
+    ],
+    "N1W1:JDWS4_EBR_CORE": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1W1:JF0": [
+      (
+        from_wire: "N1W1:JDOA0_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF1": [
+      (
+        from_wire: "N1W1:JDOA1_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF2": [
+      (
+        from_wire: "N1W1:JDOA2_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF3": [
+      (
+        from_wire: "N1W1:JDOA3_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF4": [
+      (
+        from_wire: "N1W1:JDOA4_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF5": [
+      (
+        from_wire: "N1W1:JDOA5_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF6": [
+      (
+        from_wire: "N1W1:JDOA6_EBR_CORE",
+      ),
+    ],
+    "N1W1:JF7": [
+      (
+        from_wire: "N1W1:JDOA7_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ0": [
+      (
+        from_wire: "N1W1:JDOB0_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ1": [
+      (
+        from_wire: "N1W1:JDOB1_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ2": [
+      (
+        from_wire: "N1W1:JDOB2_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ3": [
+      (
+        from_wire: "N1W1:JDOB3_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ4": [
+      (
+        from_wire: "N1W1:JDOB4_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ5": [
+      (
+        from_wire: "N1W1:JDOB5_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ6": [
+      (
+        from_wire: "N1W1:JDOB6_EBR_CORE",
+      ),
+    ],
+    "N1W1:JQ7": [
+      (
+        from_wire: "N1W1:JDOB7_EBR_CORE",
+      ),
+    ],
+    "N1W1:JRSTA_EBR_CORE": [
+      (
+        from_wire: "N1W1:JLSR0",
+      ),
+    ],
+    "N1W1:JRSTB_EBR_CORE": [
+      (
+        from_wire: "N1:JLSR0",
+      ),
+    ],
+    "N1W1:JWEA_EBR_CORE": [
+      (
+        from_wire: "N1W1:JLSR1",
+      ),
+    ],
+    "N1W1:JWEB_EBR_CORE": [
+      (
+        from_wire: "N1:JLSR1",
+      ),
+    ],
+    "N1W2:JF4": [
+      (
+        from_wire: "N1W1:JONEERR_EBR_CORE",
+      ),
+    ],
+    "N1W2:JF5": [
+      (
+        from_wire: "N1W1:JTWOERR_EBR_CORE",
+      ),
+    ],
+    "N1W2:JQ4": [
+      (
+        from_wire: "N1W1:JEMPTYF_EBR_CORE",
+      ),
+    ],
+    "N1W2:JQ5": [
+      (
+        from_wire: "N1W1:JFULLF_EBR_CORE",
+      ),
+    ],
+    "N1W2:JQ6": [
+      (
+        from_wire: "N1W1:JAEMPTY_EBR_CORE",
+      ),
+    ],
+    "N1W2:JQ7": [
+      (
+        from_wire: "N1W1:JAFULL_EBR_CORE",
+      ),
+    ],
+  },
 )
