@@ -1,0 +1,64 @@
+{
+    "regions": {
+        "EBR_WID0": {
+            "abits": 17,
+            "addr": 536870912
+        },
+        "EBR_WID1": {
+            "abits": 17,
+            "addr": 537001984
+        },
+        "EBR_WID2047": {
+            "abits": 17,
+            "addr": 805175296
+        },
+        "I2CFIFO_CORE_R1C81": {
+            "abits": 6,
+            "addr": 236584960
+        },
+        "LRAM_CORE_R18C86": {
+            "abits": 17,
+            "addr": 773849088
+        },
+        "LRAM_CORE_R40C86": {
+            "abits": 17,
+            "addr": 773980160
+        },
+        "LSGMIICDR_CORE51": {
+            "abits": 4,
+            "addr": 235929600
+        },
+        "LSGMIICDR_CORE52": {
+            "abits": 4,
+            "addr": 236060672
+        },
+        "PLL_LLC": {
+            "abits": 7,
+            "addr": 235274240
+        },
+        "PLL_LRC": {
+            "abits": 7,
+            "addr": 235143168
+        },
+        "PLL_ULC": {
+            "abits": 7,
+            "addr": 234881024
+        },
+        "PMU_CORE_R1C85": {
+            "abits": 4,
+            "addr": 236453888
+        },
+        "TDPHY_CORE2": {
+            "abits": 5,
+            "addr": 236191744
+        },
+        "TDPHY_CORE26": {
+            "abits": 5,
+            "addr": 236322816
+        },
+        "TPCIE_CORE57": {
+            "abits": 17,
+            "addr": 1040711680
+        }
+    }
+}
