@@ -4,8 +4,8 @@
   enums: {
     "CHIP.SPEED": (
       options: {
-        "FAST_1V0": [(frame:0,bit:2,invert:true,),(frame:0,bit:4,invert:false,),(frame:1,bit:2,invert:true,),(frame:1,bit:4,invert:false,),(frame:2,bit:2,invert:true,),(frame:2,bit:4,invert:false,),(frame:4,bit:2,invert:true,),(frame:4,bit:4,invert:false,),],
-        "SLOW_1V0": [(frame:0,bit:2,invert:false,),(frame:0,bit:4,invert:true,),(frame:1,bit:2,invert:false,),(frame:1,bit:4,invert:true,),(frame:2,bit:2,invert:false,),(frame:2,bit:4,invert:true,),(frame:4,bit:2,invert:false,),(frame:4,bit:4,invert:true,),],
+        "FAST_1V0": [(frame:0,bit:2,invert:false,),(frame:0,bit:4,invert:true,),(frame:1,bit:2,invert:false,),(frame:1,bit:4,invert:true,),(frame:2,bit:2,invert:false,),(frame:2,bit:4,invert:true,),(frame:4,bit:2,invert:false,),(frame:4,bit:4,invert:true,),],
+        "SLOW_1V0": [(frame:0,bit:2,invert:true,),(frame:0,bit:4,invert:false,),(frame:1,bit:2,invert:true,),(frame:1,bit:4,invert:false,),(frame:2,bit:2,invert:true,),(frame:2,bit:4,invert:false,),(frame:4,bit:2,invert:true,),(frame:4,bit:4,invert:false,),],
       },
       desc: "Adjust back bias for high speed or low power",
     ),

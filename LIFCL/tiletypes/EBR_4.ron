@@ -99,8 +99,8 @@
   enums: {
     "CHIP.SPEED": (
       options: {
-        "FAST_1V0": [(frame:103,bit:0,invert:true,),],
-        "SLOW_1V0": [(frame:103,bit:0,invert:false,),],
+        "FAST_1V0": [(frame:103,bit:0,invert:false,),],
+        "SLOW_1V0": [(frame:103,bit:0,invert:true,),],
       },
       desc: "Adjust back bias for high speed or low power",
     ),
