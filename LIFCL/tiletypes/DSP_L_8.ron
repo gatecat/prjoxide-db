@@ -1,0 +1,246 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "MULT9_L3.ASIGNED_OPERAND_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:59,bit:0,invert:false,),],
+      },
+      desc: "`A` is signed in `SIGNEDSTATIC_EN` mode",
+    ),
+    "MULT9_L3.BYPASS_MULT9": (
+      options: {
+        "BYPASS": [(frame:60,bit:0,invert:false,),],
+        "USED": [],
+      },
+      desc: "selects between actually doing 9x9 mult; or just passing through inputs",
+    ),
+    "MULT9_L3.CEAMUX": (
+      options: {
+        "1": [(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),],
+        "CEA": [],
+        "INV": [(frame:62,bit:0,invert:false,),],
+      },
+      desc: "CEA gating and inversion control",
+    ),
+    "MULT9_L3.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:63,bit:0,invert:false,),],
+        "INV": [(frame:63,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+      },
+      desc: "clock gating and inversion control",
+    ),
+    "MULT9_L3.GSR": (
+      options: {
+        "DISABLED": [(frame:65,bit:0,invert:true,),],
+        "ENABLED": [(frame:65,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "MULT9_L3.MODE": (
+      options: {
+        "MULT9_CORE": [],
+        "NONE": [(frame:65,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+      },
+      desc: "MULT9_L3 primitive mode",
+    ),
+    "MULT9_L3.REGBYPSA1": (
+      options: {
+        "BYPASS": [(frame:66,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for A1",
+    ),
+    "MULT9_L3.REGBYPSA2": (
+      options: {
+        "BYPASS": [(frame:67,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for A2",
+    ),
+    "MULT9_L3.REGBYPSB": (
+      options: {
+        "BYPASS": [(frame:68,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for B",
+    ),
+    "MULT9_L3.RSTAMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:69,bit:0,invert:false,),(frame:70,bit:0,invert:false,),],
+        "RSTA": [(frame:69,bit:0,invert:false,),],
+      },
+      desc: "RSTA gating and inversion control",
+    ),
+    "MULT9_L3.SHIFTA": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:71,bit:0,invert:false,),],
+      },
+      desc: "use shift register for `A`",
+    ),
+    "MULT9_L3.SIGNEDSTATIC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:72,bit:0,invert:false,),],
+      },
+      desc: "`A` signedness from `SIGNEDSTATIC_EN` (when `ENABLED`) or `ASIGNED` input",
+    ),
+    "MULT9_L3.SR_18BITSHIFT_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:58,bit:0,invert:false,),],
+      },
+      desc: "use 18-bit shift register for `A`",
+    ),
+    "PREADD9_L3.BSIGNED_OPERAND_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:31,bit:0,invert:false,),],
+      },
+      desc: "`B` signedness in `SIGNEDSTATIC_EN` mode",
+    ),
+    "PREADD9_L3.BYPASS_PREADD9": (
+      options: {
+        "BYPASS": [(frame:32,bit:0,invert:false,),],
+        "USED": [],
+      },
+      desc: "selects between pre-adder in datapath; or just passing through inputs",
+    ),
+    "PREADD9_L3.CEBMUX": (
+      options: {
+        "1": [(frame:33,bit:0,invert:false,),(frame:34,bit:0,invert:false,),],
+        "CEB": [],
+        "INV": [(frame:34,bit:0,invert:false,),],
+      },
+      desc: "CEB gating and inversion control",
+    ),
+    "PREADD9_L3.CECLMUX": (
+      options: {
+        "1": [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),],
+        "CECL": [],
+        "INV": [(frame:36,bit:0,invert:false,),],
+      },
+      desc: "CECL gating and inversion control",
+    ),
+    "PREADD9_L3.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:37,bit:0,invert:false,),],
+        "INV": [(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      },
+      desc: "clock gating and inversion control",
+    ),
+    "PREADD9_L3.CSIGNED": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:39,bit:0,invert:false,),],
+      },
+      desc: "`C` signedness in `SIGNEDSTATIC_EN` mode",
+    ),
+    "PREADD9_L3.GSR": (
+      options: {
+        "DISABLED": [(frame:40,bit:0,invert:true,),],
+        "ENABLED": [(frame:40,bit:0,invert:false,),],
+      },
+      desc: "if `ENABLED` primitive is reset by user GSR",
+    ),
+    "PREADD9_L3.MODE": (
+      options: {
+        "NONE": [(frame:40,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+        "PREADD9_CORE": [],
+      },
+      desc: "PREADD9_L3 primitive mode",
+    ),
+    "PREADD9_L3.OPC": (
+      options: {
+        "INPUT_B_AS_PREADDER_OPERAND": [],
+        "INPUT_C_AS_PREADDER_OPERAND": [(frame:41,bit:0,invert:false,),],
+      },
+      desc: "selects 2nd pre-adder operand",
+    ),
+    "PREADD9_L3.PREADDCAS_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:42,bit:0,invert:false,),],
+      },
+      desc: "enable pre-adder carry cascade",
+    ),
+    "PREADD9_L3.REGBYPSBL": (
+      options: {
+        "BYPASS": [(frame:43,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for BL",
+    ),
+    "PREADD9_L3.REGBYPSBR0": (
+      options: {
+        "BYPASS": [(frame:44,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for BR0",
+    ),
+    "PREADD9_L3.REGBYPSBR1": (
+      options: {
+        "BYPASS": [(frame:45,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "register enable or bypass for BR1",
+    ),
+    "PREADD9_L3.RSTBMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),],
+        "RSTB": [(frame:46,bit:0,invert:false,),],
+      },
+      desc: "RSTB gating and inversion control",
+    ),
+    "PREADD9_L3.RSTCLMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:48,bit:0,invert:false,),(frame:49,bit:0,invert:false,),],
+        "RSTCL": [(frame:48,bit:0,invert:false,),],
+      },
+      desc: "RSTCL gating and inversion control",
+    ),
+    "PREADD9_L3.SHIFTBL": (
+      options: {
+        "BYPASS": [(frame:50,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "use left shift register for `B`",
+    ),
+    "PREADD9_L3.SHIFTBR": (
+      options: {
+        "BYPASS": [(frame:51,bit:0,invert:false,),],
+        "REGISTER": [],
+      },
+      desc: "use right shift register for `B`",
+    ),
+    "PREADD9_L3.SIGNEDSTATIC_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:52,bit:0,invert:false,),],
+      },
+      desc: "`B` and `C` signedness from parameters (`ENABLED`) or inputs",
+    ),
+    "PREADD9_L3.SR_18BITSHIFT_EN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:30,bit:0,invert:false,),],
+      },
+      desc: "use 18-bit shift register for `B`",
+    ),
+    "PREADD9_L3.SUBSTRACT_EN": (
+      options: {
+        "ADDITION": [(frame:53,bit:0,invert:false,),],
+        "SUBTRACTION": [],
+      },
+      desc: "preadder function",
+    ),
+  },
+  conns: {},
+)

@@ -1,0 +1,47 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "ACC54_0.ROUNDHALFUP": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:85,bit:0,invert:false,),],
+      },
+    ),
+    "ACC54_0.ROUNDRTZI": (
+      options: {
+        "ROUND_TO_INFINITE": [(frame:86,bit:0,invert:false,),],
+        "ROUND_TO_ZERO": [],
+      },
+      desc: "rounding mode",
+    ),
+    "MULT18X36_0.MULT18X36": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:61,bit:0,invert:false,),],
+      },
+      desc: "enable 18x36 multiply",
+    ),
+    "MULT18X36_0.ROUNDHALFUP": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:67,bit:0,invert:false,),],
+      },
+    ),
+    "MULT18X36_0.ROUNDRTZI": (
+      options: {
+        "ROUND_TO_INFINITE": [(frame:68,bit:0,invert:false,),],
+        "ROUND_TO_ZERO": [],
+      },
+      desc: "rounding mode",
+    ),
+    "MULT18X36_0.SFTEN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:69,bit:0,invert:false,),],
+      },
+      desc: "enable variable shifter controlled by `SFTCTRL`",
+    ),
+  },
+  conns: {},
+)
