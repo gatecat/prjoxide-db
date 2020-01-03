@@ -1,0 +1,31 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "CONFIG_CLKRST_CORE.MCJTAGGSRNDIS": (
+      options: {
+        "DIS": [(frame:40,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_CLKRST_CORE.MCLMMIGSRNDIS": (
+      options: {
+        "DIS": [(frame:41,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_CLKRST_CORE.MCSEDCGSRNDIS": (
+      options: {
+        "DIS": [(frame:42,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_CLKRST_CORE.MCWDTGSRNDIS": (
+      options: {
+        "DIS": [(frame:44,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+  },
+  conns: {},
+)

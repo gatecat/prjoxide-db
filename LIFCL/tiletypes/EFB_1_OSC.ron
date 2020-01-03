@@ -1,6 +1,35 @@
 (
   pips: {},
   words: {
+    "CONFIG_IP_CORE.DSRFCTRL": (
+      bits: [
+        [(frame:35,bit:0,invert:false,),],
+        [(frame:36,bit:0,invert:false,),],
+      ],
+    ),
+    "CONFIG_WDT_CORE.WDTVALUE": (
+      bits: [
+        [(frame:74,bit:0,invert:false,),],
+        [(frame:77,bit:0,invert:false,),],
+        [(frame:78,bit:0,invert:false,),],
+        [(frame:79,bit:0,invert:false,),],
+        [(frame:68,bit:0,invert:false,),],
+        [(frame:69,bit:0,invert:false,),],
+        [(frame:72,bit:0,invert:false,),],
+        [(frame:73,bit:0,invert:false,),],
+        [(frame:63,bit:0,invert:false,),],
+        [(frame:64,bit:0,invert:false,),],
+        [(frame:65,bit:0,invert:false,),],
+        [(frame:67,bit:0,invert:false,),],
+        [(frame:54,bit:0,invert:false,),],
+        [(frame:55,bit:0,invert:false,),],
+        [(frame:56,bit:0,invert:false,),],
+        [(frame:58,bit:0,invert:false,),],
+        [(frame:59,bit:0,invert:false,),],
+        [(frame:60,bit:0,invert:false,),],
+      ],
+      desc: "watchdog timer timeout count",
+    ),
     "OSC_CORE.HF_CLK_DIV": (
       bits: [
         [(frame:10,bit:1,invert:false,),],
@@ -29,6 +58,112 @@
     ),
   },
   enums: {
+    "CONFIG_HSE_CORE.MCHSEDISABLE": (
+      options: {
+        "DIS": [(frame:84,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_IP_CORE.MCCIBINT": (
+      options: {
+        "DIS": [(frame:46,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_IP_CORE.MCPERSISTUI2C": (
+      options: {
+        "DIS": [(frame:30,bit:0,invert:false,),],
+        "EN": [],
+      },
+      desc: "keep user I2C open after configuration",
+    ),
+    "CONFIG_IP_CORE.MCUCLKSEL": (
+      options: {
+        "DIS": [(frame:45,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_IP_CORE.MCUI2CAFWKUP": (
+      options: {
+        "DIS": [(frame:48,bit:0,invert:false,),],
+        "EN": [],
+      },
+    ),
+    "CONFIG_IP_CORE.PERSISTI2C": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:29,bit:0,invert:false,),],
+      },
+      desc: "keep I2C open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTMQUAD": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:25,bit:0,invert:false,),],
+      },
+      desc: "keep master QSPI open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTMSPI": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:20,bit:0,invert:false,),],
+      },
+      desc: "keep master SPI open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTSHEXA": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:22,bit:0,invert:false,),],
+      },
+      desc: "keep slave 16-bit \'SPI\' open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTSOCTA": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:27,bit:0,invert:false,),],
+      },
+      desc: "keep slave 8-bit \'SPI\' open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTSQUAD": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:26,bit:0,invert:false,),],
+      },
+      desc: "keep slave QSPI open after configuration",
+    ),
+    "CONFIG_IP_CORE.PERSISTSSPI": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:21,bit:0,invert:false,),],
+      },
+      desc: "keep slave SPI open after configuration",
+    ),
+    "CONFIG_IP_CORE.SCANEN": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:39,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+      },
+    ),
+    "CONFIG_IP_CORE.WLSLEW": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:34,bit:0,invert:false,),],
+      },
+    ),
+    "CONFIG_WDT_CORE.WDTEN": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:49,bit:0,invert:false,),],
+      },
+      desc: "enable watchdog timer",
+    ),
+    "CONFIG_WDT_CORE.WDTMODE": (
+      options: {
+        "CONTINUOUS": [(frame:50,bit:0,invert:false,),],
+        "SINGLE": [],
+      },
+      desc: "watchdog timer mode",
+    ),
     "OSC_CORE.DTR_EN": (
       options: {
         "DISABLED": [],

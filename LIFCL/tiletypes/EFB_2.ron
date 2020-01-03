@@ -1,0 +1,64 @@
+(
+  pips: {},
+  words: {
+    "CONFIG_MULTIBOOT_CORE.MSPIADDR": (
+      bits: [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [(frame:26,bit:0,invert:false,),],
+        [(frame:27,bit:0,invert:false,),],
+        [(frame:29,bit:0,invert:false,),],
+        [(frame:30,bit:0,invert:false,),],
+        [(frame:31,bit:0,invert:false,),],
+        [(frame:34,bit:0,invert:false,),],
+        [(frame:35,bit:0,invert:false,),],
+        [(frame:36,bit:0,invert:false,),],
+      ],
+      desc: "SPI flash fixed next address",
+    ),
+  },
+  enums: {
+    "CONFIG_IP_CORE.DONEPHASE": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:21,bit:0,invert:false,),],
+      },
+      desc: "changes point at which DONE is asserted during startup",
+    ),
+    "CONFIG_IP_CORE.ENTSALL": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:40,bit:0,invert:false,),],
+      },
+    ),
+    "CONFIG_IP_CORE.TSALLINV": (
+      options: {
+        "INV": [(frame:44,bit:0,invert:false,),],
+        "NINV": [],
+      },
+    ),
+  },
+  conns: {},
+)
