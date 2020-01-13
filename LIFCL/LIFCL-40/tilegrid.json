@@ -639,12 +639,12 @@
             "x": 73,
             "y": 0
         },
-        "CIB_R0C74:SYSIO_B0_0": {
+        "CIB_R0C74:SYSIO_B0_0_EVEN": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 7794,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_EVEN",
             "x": 74,
             "y": 0
         },
@@ -657,12 +657,12 @@
             "x": 75,
             "y": 0
         },
-        "CIB_R0C76:SYSIO_B0_0": {
+        "CIB_R0C76:SYSIO_B0_0_ODD": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 8006,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_ODD",
             "x": 76,
             "y": 0
         },
@@ -675,12 +675,12 @@
             "x": 77,
             "y": 0
         },
-        "CIB_R0C78:SYSIO_B0_0": {
+        "CIB_R0C78:SYSIO_B0_0_EVEN": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 8218,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_EVEN",
             "x": 78,
             "y": 0
         },
@@ -702,12 +702,12 @@
             "x": 7,
             "y": 0
         },
-        "CIB_R0C80:SYSIO_B0_0": {
+        "CIB_R0C80:SYSIO_B0_0_ODD": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 8430,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_ODD",
             "x": 80,
             "y": 0
         },
@@ -720,12 +720,12 @@
             "x": 81,
             "y": 0
         },
-        "CIB_R0C82:SYSIO_B0_0": {
+        "CIB_R0C82:SYSIO_B0_0_EVEN": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 8642,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_EVEN",
             "x": 82,
             "y": 0
         },
@@ -738,12 +738,12 @@
             "x": 83,
             "y": 0
         },
-        "CIB_R0C84:SYSIO_B0_0": {
+        "CIB_R0C84:SYSIO_B0_0_ODD": {
             "bits": 2,
             "frames": 106,
             "start_bit": 0,
             "start_frame": 8854,
-            "tiletype": "SYSIO_B0_0",
+            "tiletype": "SYSIO_B0_0_ODD",
             "x": 84,
             "y": 0
         },
@@ -1584,12 +1584,12 @@
             "x": 9,
             "y": 10
         },
-        "CIB_R11C0:SYSIO_B7_0": {
+        "CIB_R11C0:SYSIO_B7_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 121,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_ODD",
             "x": 0,
             "y": 11
         },
@@ -2376,12 +2376,12 @@
             "x": 86,
             "y": 11
         },
-        "CIB_R11C87:SYSIO_B1_0": {
+        "CIB_R11C87:SYSIO_B1_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 121,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_ODD",
             "x": 87,
             "y": 11
         },
@@ -2448,12 +2448,12 @@
             "x": 87,
             "y": 12
         },
-        "CIB_R13C0:SYSIO_B7_0": {
+        "CIB_R13C0:SYSIO_B7_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 145,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_EVEN",
             "x": 0,
             "y": 13
         },
@@ -2475,12 +2475,12 @@
             "x": 86,
             "y": 13
         },
-        "CIB_R13C87:SYSIO_B1_0": {
+        "CIB_R13C87:SYSIO_B1_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 145,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_EVEN",
             "x": 87,
             "y": 13
         },
@@ -2520,12 +2520,12 @@
             "x": 87,
             "y": 14
         },
-        "CIB_R15C0:SYSIO_B7_0": {
+        "CIB_R15C0:SYSIO_B7_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 169,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_ODD",
             "x": 0,
             "y": 15
         },
@@ -2547,12 +2547,12 @@
             "x": 86,
             "y": 15
         },
-        "CIB_R15C87:SYSIO_B1_0": {
+        "CIB_R15C87:SYSIO_B1_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 169,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_ODD",
             "x": 87,
             "y": 15
         },
@@ -2592,12 +2592,12 @@
             "x": 87,
             "y": 16
         },
-        "CIB_R17C0:SYSIO_B7_0": {
+        "CIB_R17C0:SYSIO_B7_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 193,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_EVEN",
             "x": 0,
             "y": 17
         },
@@ -2619,12 +2619,12 @@
             "x": 86,
             "y": 17
         },
-        "CIB_R17C87:SYSIO_B1_0": {
+        "CIB_R17C87:SYSIO_B1_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 193,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_EVEN",
             "x": 87,
             "y": 17
         },
@@ -4248,12 +4248,12 @@
             "x": 9,
             "y": 1
         },
-        "CIB_R20C0:SYSIO_B7_0": {
+        "CIB_R20C0:SYSIO_B7_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 229,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_EVEN",
             "x": 0,
             "y": 20
         },
@@ -5040,12 +5040,12 @@
             "x": 86,
             "y": 20
         },
-        "CIB_R20C87:SYSIO_B1_0": {
+        "CIB_R20C87:SYSIO_B1_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 229,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_EVEN",
             "x": 87,
             "y": 20
         },
@@ -5184,12 +5184,12 @@
             "x": 87,
             "y": 23
         },
-        "CIB_R24C0:SYSIO_B6_0": {
+        "CIB_R24C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 277,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 24
         },
@@ -5211,12 +5211,12 @@
             "x": 86,
             "y": 24
         },
-        "CIB_R24C87:SYSIO_B2_0": {
+        "CIB_R24C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 277,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 24
         },
@@ -5256,12 +5256,12 @@
             "x": 87,
             "y": 25
         },
-        "CIB_R26C0:SYSIO_B6_0": {
+        "CIB_R26C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 301,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 26
         },
@@ -5283,21 +5283,21 @@
             "x": 86,
             "y": 26
         },
-        "CIB_R26C87:SYSIO_B2_0": {
+        "CIB_R26C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 301,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 26
         },
-        "CIB_R27C0:SYSIO_B6_0": {
+        "CIB_R27C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 313,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 27
         },
@@ -5319,12 +5319,12 @@
             "x": 86,
             "y": 27
         },
-        "CIB_R27C87:SYSIO_B2_0": {
+        "CIB_R27C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 313,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 27
         },
@@ -6984,12 +6984,12 @@
             "x": 87,
             "y": 2
         },
-        "CIB_R30C0:SYSIO_B6_0": {
+        "CIB_R30C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 349,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 30
         },
@@ -7011,12 +7011,12 @@
             "x": 86,
             "y": 30
         },
-        "CIB_R30C87:SYSIO_B2_0": {
+        "CIB_R30C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 349,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 30
         },
@@ -7056,12 +7056,12 @@
             "x": 87,
             "y": 31
         },
-        "CIB_R32C0:SYSIO_B6_0": {
+        "CIB_R32C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 373,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 32
         },
@@ -7083,12 +7083,12 @@
             "x": 86,
             "y": 32
         },
-        "CIB_R32C87:SYSIO_B2_0": {
+        "CIB_R32C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 373,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 32
         },
@@ -7128,12 +7128,12 @@
             "x": 87,
             "y": 33
         },
-        "CIB_R34C0:SYSIO_B6_0": {
+        "CIB_R34C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 397,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 34
         },
@@ -7155,12 +7155,12 @@
             "x": 86,
             "y": 34
         },
-        "CIB_R34C87:SYSIO_B2_0": {
+        "CIB_R34C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 397,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 34
         },
@@ -7200,12 +7200,12 @@
             "x": 87,
             "y": 35
         },
-        "CIB_R36C0:SYSIO_B6_0": {
+        "CIB_R36C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 421,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 36
         },
@@ -7227,12 +7227,12 @@
             "x": 86,
             "y": 36
         },
-        "CIB_R36C87:SYSIO_B2_0": {
+        "CIB_R36C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 421,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 36
         },
@@ -8037,12 +8037,12 @@
             "x": 0,
             "y": 38
         },
-        "CIB_R38C0:SYSIO_B6_0": {
+        "CIB_R38C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 445,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 38
         },
@@ -8829,12 +8829,12 @@
             "x": 87,
             "y": 38
         },
-        "CIB_R38C87:SYSIO_B2_0": {
+        "CIB_R38C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 445,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 38
         },
@@ -8892,12 +8892,12 @@
             "x": 87,
             "y": 39
         },
-        "CIB_R3C0:SYSIO_B7_0": {
+        "CIB_R3C0:SYSIO_B7_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 25,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_EVEN",
             "x": 0,
             "y": 3
         },
@@ -8928,12 +8928,12 @@
             "x": 87,
             "y": 3
         },
-        "CIB_R40C0:SYSIO_B6_0": {
+        "CIB_R40C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 469,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 40
         },
@@ -8955,12 +8955,12 @@
             "x": 86,
             "y": 40
         },
-        "CIB_R40C87:SYSIO_B2_0": {
+        "CIB_R40C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 469,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 40
         },
@@ -9000,12 +9000,12 @@
             "x": 87,
             "y": 41
         },
-        "CIB_R42C0:SYSIO_B6_0": {
+        "CIB_R42C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 493,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 42
         },
@@ -9027,12 +9027,12 @@
             "x": 86,
             "y": 42
         },
-        "CIB_R42C87:SYSIO_B2_0": {
+        "CIB_R42C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 493,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 42
         },
@@ -9072,12 +9072,12 @@
             "x": 87,
             "y": 43
         },
-        "CIB_R44C0:SYSIO_B6_0": {
+        "CIB_R44C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 517,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 44
         },
@@ -9099,12 +9099,12 @@
             "x": 86,
             "y": 44
         },
-        "CIB_R44C87:SYSIO_B2_0": {
+        "CIB_R44C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 517,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 44
         },
@@ -9936,12 +9936,12 @@
             "x": 9,
             "y": 46
         },
-        "CIB_R47C0:SYSIO_B6_0": {
+        "CIB_R47C0:SYSIO_B6_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 553,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_EVEN",
             "x": 0,
             "y": 47
         },
@@ -10728,12 +10728,12 @@
             "x": 86,
             "y": 47
         },
-        "CIB_R47C87:SYSIO_B2_0": {
+        "CIB_R47C87:SYSIO_B2_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 553,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_EVEN",
             "x": 87,
             "y": 47
         },
@@ -10800,12 +10800,12 @@
             "x": 87,
             "y": 48
         },
-        "CIB_R49C0:SYSIO_B6_0": {
+        "CIB_R49C0:SYSIO_B6_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 577,
             "start_frame": 0,
-            "tiletype": "SYSIO_B6_0",
+            "tiletype": "SYSIO_B6_0_ODD",
             "x": 0,
             "y": 49
         },
@@ -10827,21 +10827,21 @@
             "x": 86,
             "y": 49
         },
-        "CIB_R49C87:SYSIO_B2_0": {
+        "CIB_R49C87:SYSIO_B2_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 577,
             "start_frame": 40,
-            "tiletype": "SYSIO_B2_0",
+            "tiletype": "SYSIO_B2_0_ODD",
             "x": 87,
             "y": 49
         },
-        "CIB_R4C0:SYSIO_B7_0": {
+        "CIB_R4C0:SYSIO_B7_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 37,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_ODD",
             "x": 0,
             "y": 4
         },
@@ -10863,12 +10863,12 @@
             "x": 86,
             "y": 4
         },
-        "CIB_R4C87:SYSIO_B1_0": {
+        "CIB_R4C87:SYSIO_B1_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 37,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_ODD",
             "x": 87,
             "y": 4
         },
@@ -12672,12 +12672,12 @@
             "x": 87,
             "y": 5
         },
-        "CIB_R6C0:SYSIO_B7_0": {
+        "CIB_R6C0:SYSIO_B7_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 61,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_EVEN",
             "x": 0,
             "y": 6
         },
@@ -12699,12 +12699,12 @@
             "x": 86,
             "y": 6
         },
-        "CIB_R6C87:SYSIO_B1_0": {
+        "CIB_R6C87:SYSIO_B1_0_EVEN": {
             "bits": 12,
             "frames": 16,
             "start_bit": 61,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_EVEN",
             "x": 87,
             "y": 6
         },
@@ -12744,12 +12744,12 @@
             "x": 87,
             "y": 7
         },
-        "CIB_R8C0:SYSIO_B7_0": {
+        "CIB_R8C0:SYSIO_B7_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 85,
             "start_frame": 0,
-            "tiletype": "SYSIO_B7_0",
+            "tiletype": "SYSIO_B7_0_ODD",
             "x": 0,
             "y": 8
         },
@@ -12771,12 +12771,12 @@
             "x": 86,
             "y": 8
         },
-        "CIB_R8C87:SYSIO_B1_0": {
+        "CIB_R8C87:SYSIO_B1_0_ODD": {
             "bits": 12,
             "frames": 16,
             "start_bit": 85,
             "start_frame": 40,
-            "tiletype": "SYSIO_B1_0",
+            "tiletype": "SYSIO_B1_0_ODD",
             "x": 87,
             "y": 8
         },
