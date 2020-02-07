@@ -11,4 +11,136 @@
     ),
   },
   conns: {},
+  always_on: [
+    (
+      frame: 0,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 0,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 1,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 2,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 2,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 3,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 4,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 4,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 5,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 6,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 7,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 7,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 8,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 9,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 9,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 10,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 11,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 11,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 12,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 12,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 13,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 13,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 14,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 14,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 15,
+      bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 15,
+      bit: 1,
+      invert: false,
+    ),
+  ],
 )

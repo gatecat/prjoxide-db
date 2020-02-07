@@ -22,4 +22,16 @@
     ),
   },
   conns: {},
+  always_on: [
+    (
+      frame: 14,
+      bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 15,
+      bit: 1,
+      invert: false,
+    ),
+  ],
 )
