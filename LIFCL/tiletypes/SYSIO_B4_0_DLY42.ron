@@ -21,13 +21,6 @@
   },
   words: {},
   enums: {
-    "BANK3.VREF1_USED": (
-      options: {
-        "OFF": [],
-        "ON": [(frame:94,bit:1,invert:false,),],
-      },
-      desc: "use VREF1 input for bank 3",
-    ),
     "IOLOGICA.CEINMUX": (
       options: {
         "1": [(frame:7,bit:0,invert:false,),],
@@ -574,42 +567,42 @@
     ],
     "JECLKIN0_I217": [
       (
-        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN0_I218": [
       (
-        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN1_I217": [
       (
-        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN1_I218": [
       (
-        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN2_I217": [
       (
-        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN2_I218": [
       (
-        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN3_I217": [
       (
-        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLKIN3_I218": [
       (
-        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX3",
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
       ),
     ],
     "JECLK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
