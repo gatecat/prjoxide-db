@@ -1,0 +1,1036 @@
+(
+  pips: {},
+  words: {
+    "BW_CTL_BIAS": (
+      bits: [
+        [(frame:25,bit:7,invert:false,),],
+        [(frame:26,bit:0,invert:false,),],
+        [(frame:26,bit:1,invert:false,),],
+        [(frame:26,bit:2,invert:false,),],
+      ],
+    ),
+    "CLKOP_TRIM": (
+      bits: [
+        [(frame:47,bit:5,invert:false,),],
+        [(frame:47,bit:6,invert:false,),],
+        [(frame:47,bit:7,invert:false,),],
+        [(frame:48,bit:0,invert:false,),],
+      ],
+    ),
+    "CLKOS2_TRIM": (
+      bits: [
+        [(frame:48,bit:5,invert:false,),],
+        [(frame:48,bit:6,invert:false,),],
+        [(frame:48,bit:7,invert:false,),],
+        [(frame:49,bit:0,invert:false,),],
+      ],
+    ),
+    "CLKOS3_TRIM": (
+      bits: [
+        [(frame:49,bit:1,invert:false,),],
+        [(frame:49,bit:2,invert:false,),],
+        [(frame:49,bit:3,invert:false,),],
+        [(frame:49,bit:4,invert:false,),],
+      ],
+    ),
+    "CLKOS4_TRIM": (
+      bits: [
+        [(frame:49,bit:5,invert:false,),],
+        [(frame:49,bit:6,invert:false,),],
+        [(frame:49,bit:7,invert:false,),],
+        [(frame:50,bit:0,invert:false,),],
+      ],
+    ),
+    "CLKOS5_TRIM": (
+      bits: [
+        [(frame:50,bit:1,invert:false,),],
+        [(frame:50,bit:2,invert:false,),],
+        [(frame:50,bit:3,invert:false,),],
+        [(frame:50,bit:4,invert:false,),],
+      ],
+    ),
+    "CLKOS_TRIM": (
+      bits: [
+        [(frame:48,bit:1,invert:false,),],
+        [(frame:48,bit:2,invert:false,),],
+        [(frame:48,bit:3,invert:false,),],
+        [(frame:48,bit:4,invert:false,),],
+      ],
+    ),
+    "DELA": (
+      bits: [
+        [(frame:36,bit:3,invert:false,),],
+        [(frame:36,bit:4,invert:false,),],
+        [(frame:36,bit:5,invert:false,),],
+        [(frame:36,bit:6,invert:false,),],
+        [(frame:36,bit:7,invert:false,),],
+        [(frame:37,bit:0,invert:false,),],
+        [(frame:37,bit:1,invert:false,),],
+      ],
+      desc: "output A delay in VCO cycles",
+    ),
+    "DELB": (
+      bits: [
+        [(frame:37,bit:2,invert:false,),],
+        [(frame:37,bit:3,invert:false,),],
+        [(frame:37,bit:4,invert:false,),],
+        [(frame:37,bit:5,invert:false,),],
+        [(frame:37,bit:6,invert:false,),],
+        [(frame:37,bit:7,invert:false,),],
+        [(frame:38,bit:0,invert:false,),],
+      ],
+      desc: "output B delay in VCO cycles",
+    ),
+    "DELC": (
+      bits: [
+        [(frame:38,bit:1,invert:false,),],
+        [(frame:38,bit:2,invert:false,),],
+        [(frame:38,bit:3,invert:false,),],
+        [(frame:38,bit:4,invert:false,),],
+        [(frame:38,bit:5,invert:false,),],
+        [(frame:38,bit:6,invert:false,),],
+        [(frame:38,bit:7,invert:false,),],
+      ],
+      desc: "output C delay in VCO cycles",
+    ),
+    "DELD": (
+      bits: [
+        [(frame:39,bit:0,invert:false,),],
+        [(frame:39,bit:1,invert:false,),],
+        [(frame:39,bit:2,invert:false,),],
+        [(frame:39,bit:3,invert:false,),],
+        [(frame:39,bit:4,invert:false,),],
+        [(frame:39,bit:5,invert:false,),],
+        [(frame:39,bit:6,invert:false,),],
+      ],
+      desc: "output D delay in VCO cycles",
+    ),
+    "DELE": (
+      bits: [
+        [(frame:39,bit:7,invert:false,),],
+        [(frame:40,bit:0,invert:false,),],
+        [(frame:40,bit:1,invert:false,),],
+        [(frame:40,bit:2,invert:false,),],
+        [(frame:40,bit:3,invert:false,),],
+        [(frame:40,bit:4,invert:false,),],
+        [(frame:40,bit:5,invert:false,),],
+      ],
+      desc: "output E delay in VCO cycles",
+    ),
+    "DELF": (
+      bits: [
+        [(frame:40,bit:6,invert:false,),],
+        [(frame:40,bit:7,invert:false,),],
+        [(frame:41,bit:0,invert:false,),],
+        [(frame:41,bit:1,invert:false,),],
+        [(frame:41,bit:2,invert:false,),],
+        [(frame:41,bit:3,invert:false,),],
+        [(frame:41,bit:4,invert:false,),],
+      ],
+      desc: "output F delay in VCO cycles",
+    ),
+    "DIVA": (
+      bits: [
+        [(frame:41,bit:5,invert:false,),],
+        [(frame:41,bit:6,invert:false,),],
+        [(frame:41,bit:7,invert:false,),],
+        [(frame:42,bit:0,invert:false,),],
+        [(frame:42,bit:1,invert:false,),],
+        [(frame:42,bit:2,invert:false,),],
+        [(frame:42,bit:3,invert:false,),],
+      ],
+      desc: "divider A minus 1",
+    ),
+    "DIVB": (
+      bits: [
+        [(frame:42,bit:4,invert:false,),],
+        [(frame:42,bit:5,invert:false,),],
+        [(frame:42,bit:6,invert:false,),],
+        [(frame:42,bit:7,invert:false,),],
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:43,bit:1,invert:false,),],
+        [(frame:43,bit:2,invert:false,),],
+      ],
+      desc: "divider B minus 1",
+    ),
+    "DIVC": (
+      bits: [
+        [(frame:43,bit:3,invert:false,),],
+        [(frame:43,bit:4,invert:false,),],
+        [(frame:43,bit:5,invert:false,),],
+        [(frame:43,bit:6,invert:false,),],
+        [(frame:43,bit:7,invert:false,),],
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:44,bit:1,invert:false,),],
+      ],
+      desc: "divider C minus 1",
+    ),
+    "DIVD": (
+      bits: [
+        [(frame:44,bit:2,invert:false,),],
+        [(frame:44,bit:3,invert:false,),],
+        [(frame:44,bit:4,invert:false,),],
+        [(frame:44,bit:5,invert:false,),],
+        [(frame:44,bit:6,invert:false,),],
+        [(frame:44,bit:7,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+      ],
+      desc: "divider D minus 1",
+    ),
+    "DIVE": (
+      bits: [
+        [(frame:45,bit:1,invert:false,),],
+        [(frame:45,bit:2,invert:false,),],
+        [(frame:45,bit:3,invert:false,),],
+        [(frame:45,bit:4,invert:false,),],
+        [(frame:45,bit:5,invert:false,),],
+        [(frame:45,bit:6,invert:false,),],
+        [(frame:45,bit:7,invert:false,),],
+      ],
+      desc: "divider E minus 1",
+    ),
+    "DIVF": (
+      bits: [
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:46,bit:1,invert:false,),],
+        [(frame:46,bit:2,invert:false,),],
+        [(frame:46,bit:3,invert:false,),],
+        [(frame:46,bit:4,invert:false,),],
+        [(frame:46,bit:5,invert:false,),],
+        [(frame:46,bit:6,invert:false,),],
+      ],
+      desc: "divider F minus 1",
+    ),
+    "DYN_SEL": (
+      bits: [
+        [(frame:1,bit:4,invert:false,),],
+        [(frame:1,bit:5,invert:false,),],
+        [(frame:1,bit:6,invert:false,),],
+      ],
+    ),
+    "FBK_CUR_BLE": (
+      bits: [
+        [(frame:3,bit:4,invert:false,),],
+        [(frame:3,bit:5,invert:false,),],
+        [(frame:3,bit:6,invert:false,),],
+        [(frame:3,bit:7,invert:false,),],
+        [(frame:4,bit:0,invert:false,),],
+        [(frame:4,bit:1,invert:false,),],
+        [(frame:4,bit:2,invert:false,),],
+        [(frame:4,bit:3,invert:false,),],
+      ],
+      desc: "feedback bleed current control",
+    ),
+    "FBK_IF_TIMING_CTL": (
+      bits: [
+        [(frame:4,bit:5,invert:false,),],
+        [(frame:4,bit:6,invert:false,),],
+      ],
+    ),
+    "FBK_MASK": (
+      bits: [
+        [(frame:4,bit:7,invert:false,),],
+        [(frame:5,bit:0,invert:false,),],
+        [(frame:5,bit:1,invert:false,),],
+        [(frame:5,bit:2,invert:false,),],
+        [(frame:5,bit:3,invert:false,),],
+        [(frame:5,bit:4,invert:false,),],
+        [(frame:5,bit:5,invert:false,),],
+        [(frame:5,bit:6,invert:false,),],
+      ],
+    ),
+    "FBK_MMD_DIG": (
+      bits: [
+        [(frame:5,bit:7,invert:false,),],
+        [(frame:6,bit:0,invert:false,),],
+        [(frame:6,bit:1,invert:false,),],
+        [(frame:6,bit:2,invert:false,),],
+        [(frame:6,bit:3,invert:false,),],
+        [(frame:6,bit:4,invert:false,),],
+        [(frame:6,bit:5,invert:false,),],
+        [(frame:6,bit:6,invert:false,),],
+      ],
+    ),
+    "FBK_MMD_PULS_CTL": (
+      bits: [
+        [(frame:6,bit:7,invert:false,),],
+        [(frame:7,bit:0,invert:false,),],
+        [(frame:7,bit:1,invert:false,),],
+        [(frame:7,bit:2,invert:false,),],
+      ],
+    ),
+    "FBK_MODE": (
+      bits: [
+        [(frame:7,bit:3,invert:false,),],
+        [(frame:7,bit:4,invert:false,),],
+      ],
+    ),
+    "FBK_PI_RC": (
+      bits: [
+        [(frame:7,bit:6,invert:false,),],
+        [(frame:7,bit:7,invert:false,),],
+        [(frame:8,bit:0,invert:false,),],
+        [(frame:8,bit:1,invert:false,),],
+      ],
+      desc: "feedback PI loop RC",
+    ),
+    "FBK_PR_CC": (
+      bits: [
+        [(frame:8,bit:2,invert:false,),],
+        [(frame:8,bit:3,invert:false,),],
+        [(frame:8,bit:4,invert:false,),],
+        [(frame:8,bit:5,invert:false,),],
+      ],
+      desc: "feedback PI loop current",
+    ),
+    "FBK_PR_IC": (
+      bits: [
+        [(frame:8,bit:6,invert:false,),],
+        [(frame:8,bit:7,invert:false,),],
+        [(frame:9,bit:0,invert:false,),],
+        [(frame:9,bit:1,invert:false,),],
+      ],
+      desc: "feedback PI loop bias current",
+    ),
+    "FBK_RSV": (
+      bits: [
+        [(frame:9,bit:2,invert:false,),],
+        [(frame:9,bit:3,invert:false,),],
+        [(frame:9,bit:4,invert:false,),],
+        [(frame:9,bit:5,invert:false,),],
+        [(frame:9,bit:6,invert:false,),],
+        [(frame:9,bit:7,invert:false,),],
+        [(frame:10,bit:0,invert:false,),],
+        [(frame:10,bit:1,invert:false,),],
+        [(frame:10,bit:2,invert:false,),],
+        [(frame:10,bit:3,invert:false,),],
+        [(frame:10,bit:4,invert:false,),],
+        [(frame:10,bit:5,invert:false,),],
+        [(frame:10,bit:6,invert:false,),],
+        [(frame:10,bit:7,invert:false,),],
+        [(frame:11,bit:0,invert:false,),],
+        [(frame:11,bit:1,invert:false,),],
+      ],
+    ),
+    "IPI_CMP": (
+      bits: [
+        [(frame:32,bit:1,invert:false,),],
+        [(frame:32,bit:2,invert:false,),],
+        [(frame:32,bit:3,invert:false,),],
+        [(frame:32,bit:4,invert:false,),],
+      ],
+    ),
+    "IPI_CMPN": (
+      bits: [
+        [(frame:26,bit:5,invert:false,),],
+        [(frame:26,bit:6,invert:false,),],
+        [(frame:26,bit:7,invert:false,),],
+        [(frame:27,bit:0,invert:false,),],
+      ],
+    ),
+    "IPP_CTRL": (
+      bits: [
+        [(frame:27,bit:1,invert:false,),],
+        [(frame:27,bit:2,invert:false,),],
+        [(frame:27,bit:3,invert:false,),],
+        [(frame:27,bit:4,invert:false,),],
+      ],
+    ),
+    "IPP_SEL": (
+      bits: [
+        [(frame:27,bit:5,invert:false,),],
+        [(frame:27,bit:6,invert:false,),],
+        [(frame:27,bit:7,invert:false,),],
+        [(frame:28,bit:0,invert:false,),],
+      ],
+    ),
+    "KP_VCO": (
+      bits: [
+        [(frame:31,bit:0,invert:false,),],
+        [(frame:31,bit:1,invert:false,),],
+        [(frame:31,bit:2,invert:false,),],
+        [(frame:31,bit:3,invert:false,),],
+        [(frame:31,bit:4,invert:false,),],
+      ],
+      desc: "VCO gain setting",
+    ),
+    "MFGOUT1_SEL": (
+      bits: [
+        [(frame:46,bit:7,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:47,bit:1,invert:false,),],
+      ],
+    ),
+    "MFGOUT2_SEL": (
+      bits: [
+        [(frame:47,bit:2,invert:false,),],
+        [(frame:47,bit:3,invert:false,),],
+        [(frame:47,bit:4,invert:false,),],
+      ],
+    ),
+    "MFG_CTRL": (
+      bits: [
+        [(frame:31,bit:5,invert:false,),],
+        [(frame:31,bit:6,invert:false,),],
+        [(frame:31,bit:7,invert:false,),],
+        [(frame:32,bit:0,invert:false,),],
+      ],
+    ),
+    "PHIA": (
+      bits: [
+        [(frame:33,bit:3,invert:false,),],
+        [(frame:33,bit:4,invert:false,),],
+        [(frame:33,bit:5,invert:false,),],
+      ],
+      desc: "output A VCO phase shift",
+    ),
+    "PHIB": (
+      bits: [
+        [(frame:33,bit:6,invert:false,),],
+        [(frame:33,bit:7,invert:false,),],
+        [(frame:34,bit:0,invert:false,),],
+      ],
+      desc: "output B VCO phase shift",
+    ),
+    "PHIC": (
+      bits: [
+        [(frame:34,bit:1,invert:false,),],
+        [(frame:34,bit:2,invert:false,),],
+        [(frame:34,bit:3,invert:false,),],
+      ],
+      desc: "output C VCO phase shift",
+    ),
+    "PHID": (
+      bits: [
+        [(frame:34,bit:4,invert:false,),],
+        [(frame:34,bit:5,invert:false,),],
+        [(frame:34,bit:6,invert:false,),],
+      ],
+      desc: "output D VCO phase shift",
+    ),
+    "PHIE": (
+      bits: [
+        [(frame:34,bit:7,invert:false,),],
+        [(frame:35,bit:0,invert:false,),],
+        [(frame:35,bit:1,invert:false,),],
+      ],
+      desc: "output E VCO phase shift",
+    ),
+    "PHIF": (
+      bits: [
+        [(frame:35,bit:2,invert:false,),],
+        [(frame:35,bit:3,invert:false,),],
+        [(frame:35,bit:4,invert:false,),],
+      ],
+      desc: "output F VCO phase shift",
+    ),
+    "REF_MASK": (
+      bits: [
+        [(frame:11,bit:4,invert:false,),],
+        [(frame:11,bit:5,invert:false,),],
+        [(frame:11,bit:6,invert:false,),],
+        [(frame:11,bit:7,invert:false,),],
+        [(frame:12,bit:0,invert:false,),],
+        [(frame:12,bit:1,invert:false,),],
+        [(frame:12,bit:2,invert:false,),],
+        [(frame:12,bit:3,invert:false,),],
+      ],
+    ),
+    "REF_MMD_DIG": (
+      bits: [
+        [(frame:12,bit:4,invert:false,),],
+        [(frame:12,bit:5,invert:false,),],
+        [(frame:12,bit:6,invert:false,),],
+        [(frame:12,bit:7,invert:false,),],
+        [(frame:13,bit:0,invert:false,),],
+        [(frame:13,bit:1,invert:false,),],
+        [(frame:13,bit:2,invert:false,),],
+        [(frame:13,bit:3,invert:false,),],
+      ],
+    ),
+    "REF_MMD_IN": (
+      bits: [
+        [(frame:13,bit:4,invert:false,),],
+        [(frame:13,bit:5,invert:false,),],
+        [(frame:13,bit:6,invert:false,),],
+        [(frame:13,bit:7,invert:false,),],
+        [(frame:14,bit:0,invert:false,),],
+        [(frame:14,bit:1,invert:false,),],
+        [(frame:14,bit:2,invert:false,),],
+        [(frame:14,bit:3,invert:false,),],
+      ],
+    ),
+    "REF_MMD_PULS_CTL": (
+      bits: [
+        [(frame:14,bit:4,invert:false,),],
+        [(frame:14,bit:5,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "REF_TIMING_CTL": (
+      bits: [
+        [(frame:15,bit:0,invert:false,),],
+        [(frame:15,bit:1,invert:false,),],
+      ],
+    ),
+    "RESERVED": (
+      bits: [
+        [(frame:53,bit:1,invert:false,),],
+        [(frame:53,bit:2,invert:false,),],
+        [(frame:53,bit:3,invert:false,),],
+        [(frame:53,bit:4,invert:false,),],
+        [(frame:53,bit:5,invert:false,),],
+        [(frame:53,bit:6,invert:false,),],
+        [(frame:53,bit:7,invert:false,),],
+      ],
+    ),
+    "SSC_DELTA": (
+      bits: [
+        [(frame:16,bit:4,invert:false,),],
+        [(frame:16,bit:5,invert:false,),],
+        [(frame:16,bit:6,invert:false,),],
+        [(frame:16,bit:7,invert:false,),],
+        [(frame:17,bit:0,invert:false,),],
+        [(frame:17,bit:1,invert:false,),],
+        [(frame:17,bit:2,invert:false,),],
+        [(frame:17,bit:3,invert:false,),],
+        [(frame:17,bit:4,invert:false,),],
+        [(frame:17,bit:5,invert:false,),],
+        [(frame:17,bit:6,invert:false,),],
+        [(frame:17,bit:7,invert:false,),],
+        [(frame:18,bit:0,invert:false,),],
+        [(frame:18,bit:1,invert:false,),],
+        [(frame:18,bit:2,invert:false,),],
+      ],
+    ),
+    "SSC_DELTA_CTL": (
+      bits: [
+        [(frame:18,bit:3,invert:false,),],
+        [(frame:18,bit:4,invert:false,),],
+      ],
+    ),
+    "SSC_F_CODE": (
+      bits: [
+        [(frame:19,bit:1,invert:false,),],
+        [(frame:19,bit:2,invert:false,),],
+        [(frame:19,bit:3,invert:false,),],
+        [(frame:19,bit:4,invert:false,),],
+        [(frame:19,bit:5,invert:false,),],
+        [(frame:19,bit:6,invert:false,),],
+        [(frame:19,bit:7,invert:false,),],
+        [(frame:20,bit:0,invert:false,),],
+        [(frame:20,bit:1,invert:false,),],
+        [(frame:20,bit:2,invert:false,),],
+        [(frame:20,bit:3,invert:false,),],
+        [(frame:20,bit:4,invert:false,),],
+        [(frame:20,bit:5,invert:false,),],
+        [(frame:20,bit:6,invert:false,),],
+        [(frame:20,bit:7,invert:false,),],
+      ],
+    ),
+    "SSC_N_CODE": (
+      bits: [
+        [(frame:21,bit:0,invert:false,),],
+        [(frame:21,bit:1,invert:false,),],
+        [(frame:21,bit:2,invert:false,),],
+        [(frame:21,bit:3,invert:false,),],
+        [(frame:21,bit:4,invert:false,),],
+        [(frame:21,bit:5,invert:false,),],
+        [(frame:21,bit:6,invert:false,),],
+        [(frame:21,bit:7,invert:false,),],
+        [(frame:22,bit:0,invert:false,),],
+      ],
+    ),
+    "SSC_REG_WEIGHTING_SEL": (
+      bits: [
+        [(frame:22,bit:3,invert:false,),],
+        [(frame:22,bit:4,invert:false,),],
+        [(frame:22,bit:5,invert:false,),],
+      ],
+    ),
+    "SSC_STEP_IN": (
+      bits: [
+        [(frame:22,bit:7,invert:false,),],
+        [(frame:23,bit:0,invert:false,),],
+        [(frame:23,bit:1,invert:false,),],
+        [(frame:23,bit:2,invert:false,),],
+        [(frame:23,bit:3,invert:false,),],
+        [(frame:23,bit:4,invert:false,),],
+        [(frame:23,bit:5,invert:false,),],
+      ],
+    ),
+    "SSC_TBASE": (
+      bits: [
+        [(frame:23,bit:6,invert:false,),],
+        [(frame:23,bit:7,invert:false,),],
+        [(frame:24,bit:0,invert:false,),],
+        [(frame:24,bit:1,invert:false,),],
+        [(frame:24,bit:2,invert:false,),],
+        [(frame:24,bit:3,invert:false,),],
+        [(frame:24,bit:4,invert:false,),],
+        [(frame:24,bit:5,invert:false,),],
+        [(frame:24,bit:6,invert:false,),],
+        [(frame:24,bit:7,invert:false,),],
+        [(frame:25,bit:0,invert:false,),],
+        [(frame:25,bit:1,invert:false,),],
+      ],
+    ),
+    "V2I_PP_ICTRL": (
+      bits: [
+        [(frame:28,bit:7,invert:false,),],
+        [(frame:29,bit:0,invert:false,),],
+        [(frame:29,bit:1,invert:false,),],
+        [(frame:29,bit:2,invert:false,),],
+        [(frame:29,bit:3,invert:false,),],
+      ],
+    ),
+  },
+  enums: {
+    "CRIPPLE": (
+      options: {
+        "11P": [(frame:30,bit:5,invert:false,),(frame:30,bit:6,invert:true,),(frame:30,bit:7,invert:false,),],
+        "13P": [(frame:30,bit:5,invert:true,),(frame:30,bit:6,invert:false,),(frame:30,bit:7,invert:false,),],
+        "15P": [(frame:30,bit:5,invert:false,),(frame:30,bit:6,invert:false,),(frame:30,bit:7,invert:false,),],
+        "1P": [(frame:30,bit:5,invert:true,),(frame:30,bit:6,invert:true,),(frame:30,bit:7,invert:true,),],
+        "3P": [(frame:30,bit:5,invert:false,),(frame:30,bit:6,invert:true,),(frame:30,bit:7,invert:true,),],
+        "5P": [(frame:30,bit:5,invert:true,),(frame:30,bit:6,invert:false,),(frame:30,bit:7,invert:true,),],
+        "7P": [(frame:30,bit:5,invert:false,),(frame:30,bit:6,invert:false,),(frame:30,bit:7,invert:true,),],
+        "9P": [(frame:30,bit:5,invert:true,),(frame:30,bit:6,invert:true,),(frame:30,bit:7,invert:false,),],
+      },
+      desc: "LPF C<sub>ripple</sub>",
+    ),
+    "CSET": (
+      options: {
+        "12P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:true,),],
+        "16P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:true,),],
+        "20P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:true,),],
+        "24P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:true,),],
+        "28P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:true,),],
+        "32P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:true,),],
+        "36P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:true,),],
+        "40P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:false,),],
+        "44P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:false,),],
+        "48P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:false,),],
+        "52P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:false,),],
+        "56P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:false,),],
+        "60P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:false,),],
+        "64P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:false,),],
+        "68P": [(frame:30,bit:1,invert:false,),(frame:30,bit:2,invert:false,),(frame:30,bit:3,invert:false,),(frame:30,bit:4,invert:false,),],
+        "8P": [(frame:30,bit:1,invert:true,),(frame:30,bit:2,invert:true,),(frame:30,bit:3,invert:true,),(frame:30,bit:4,invert:true,),],
+      },
+      desc: "LPF C<sub>set</sub>",
+    ),
+    "DELAY_CTRL": (
+      options: {
+        "200PS": [(frame:25,bit:6,invert:true,),],
+        "300PS": [(frame:25,bit:6,invert:false,),],
+      },
+      desc: "PFD delay control",
+    ),
+    "DIRECTION": (
+      options: {
+        "DISABLED": [(frame:2,bit:0,invert:true,),],
+        "ENABLED": [(frame:2,bit:0,invert:false,),],
+      },
+      desc: "VCO direction selection",
+    ),
+    "ENABLE_SYNC": (
+      options: {
+        "DISABLED": [(frame:3,bit:1,invert:true,),],
+        "ENABLED": [(frame:3,bit:1,invert:false,),],
+      },
+      desc: "enable synchronous gating of secondary outputs",
+    ),
+    "ENCLK_CLKOP": (
+      options: {
+        "DISABLED": [(frame:2,bit:3,invert:true,),],
+        "ENABLED": [(frame:2,bit:3,invert:false,),],
+      },
+      desc: "CLKOP output enable",
+    ),
+    "ENCLK_CLKOS": (
+      options: {
+        "DISABLED": [(frame:2,bit:4,invert:true,),],
+        "ENABLED": [(frame:2,bit:4,invert:false,),],
+      },
+      desc: "CLKOS output enable",
+    ),
+    "ENCLK_CLKOS2": (
+      options: {
+        "DISABLED": [(frame:2,bit:5,invert:true,),],
+        "ENABLED": [(frame:2,bit:5,invert:false,),],
+      },
+      desc: "CLKOS2 output enable",
+    ),
+    "ENCLK_CLKOS3": (
+      options: {
+        "DISABLED": [(frame:2,bit:6,invert:true,),],
+        "ENABLED": [(frame:2,bit:6,invert:false,),],
+      },
+      desc: "CLKOS3 output enable",
+    ),
+    "ENCLK_CLKOS4": (
+      options: {
+        "DISABLED": [(frame:2,bit:7,invert:true,),],
+        "ENABLED": [(frame:2,bit:7,invert:false,),],
+      },
+      desc: "CLKOS4 output enable",
+    ),
+    "ENCLK_CLKOS5": (
+      options: {
+        "DISABLED": [(frame:3,bit:0,invert:true,),],
+        "ENABLED": [(frame:3,bit:0,invert:false,),],
+      },
+      desc: "CLKOS5 output enable",
+    ),
+    "FAST_LOCK_EN": (
+      options: {
+        "DISABLED": [(frame:28,bit:1,invert:true,),],
+        "ENABLED": [(frame:28,bit:1,invert:false,),],
+      },
+      desc: "enable fast lock mode",
+    ),
+    "FBK_EDGE_SEL": (
+      options: {
+        "NEGATIVE": [(frame:4,bit:4,invert:false,),],
+        "POSITIVE": [(frame:4,bit:4,invert:true,),],
+      },
+      desc: "feedback PI output edge select",
+    ),
+    "FBK_INTEGER_MODE": (
+      options: {
+        "DISABLED": [(frame:11,bit:2,invert:true,),],
+        "ENABLED": [(frame:11,bit:2,invert:false,),],
+      },
+      desc: "enable integer feedback divider",
+    ),
+    "FBK_PI_BYPASS": (
+      options: {
+        "BYPASSED": [(frame:7,bit:5,invert:false,),],
+        "NOT_BYPASSED": [(frame:7,bit:5,invert:true,),],
+      },
+      desc: "bypass feedback PI section",
+    ),
+    "FLOAT_CP": (
+      options: {
+        "DISABLED": [(frame:25,bit:5,invert:true,),],
+        "ENABLED": [(frame:25,bit:5,invert:false,),],
+      },
+      desc: "charge pump output hi-z",
+    ),
+    "FLOCK_CTRL": (
+      options: {
+        "1X": [(frame:16,bit:0,invert:true,),(frame:16,bit:1,invert:true,),],
+        "2X": [(frame:16,bit:0,invert:false,),(frame:16,bit:1,invert:true,),],
+        "4X": [(frame:16,bit:0,invert:true,),(frame:16,bit:1,invert:false,),],
+        "8X": [(frame:16,bit:0,invert:false,),(frame:16,bit:1,invert:false,),],
+      },
+      desc: "fast lock period control",
+    ),
+    "FLOCK_EN": (
+      options: {
+        "DISABLED": [(frame:16,bit:2,invert:true,),],
+        "ENABLED": [(frame:16,bit:2,invert:false,),],
+      },
+      desc: "enable fast lock",
+    ),
+    "FLOCK_SRC_SEL": (
+      options: {
+        "FBCLK": [(frame:16,bit:3,invert:false,),],
+        "REFCLK": [(frame:16,bit:3,invert:true,),],
+      },
+      desc: "fast lock input source selection",
+    ),
+    "FORCE_FILTER": (
+      options: {
+        "DISABLED": [(frame:32,bit:6,invert:true,),],
+        "ENABLED": [(frame:32,bit:6,invert:false,),],
+      },
+    ),
+    "IPI_COMP_EN": (
+      options: {
+        "DISABLED": [(frame:32,bit:5,invert:true,),],
+        "ENABLED": [(frame:32,bit:5,invert:false,),],
+      },
+    ),
+    "I_CTRL": (
+      options: {
+        "10UA": [(frame:25,bit:2,invert:true,),(frame:25,bit:3,invert:true,),(frame:25,bit:4,invert:true,),],
+        "12P4UA": [(frame:25,bit:2,invert:false,),(frame:25,bit:3,invert:false,),(frame:25,bit:4,invert:true,),],
+        "14P9UA": [(frame:25,bit:2,invert:true,),(frame:25,bit:3,invert:false,),(frame:25,bit:4,invert:true,),],
+        "17P3UA": [(frame:25,bit:2,invert:false,),(frame:25,bit:3,invert:true,),(frame:25,bit:4,invert:false,),],
+        "19P8UA": [(frame:25,bit:2,invert:true,),(frame:25,bit:3,invert:true,),(frame:25,bit:4,invert:false,),],
+        "22P3UA": [(frame:25,bit:2,invert:false,),(frame:25,bit:3,invert:false,),(frame:25,bit:4,invert:false,),],
+        "24P8UA": [(frame:25,bit:2,invert:true,),(frame:25,bit:3,invert:false,),(frame:25,bit:4,invert:false,),],
+        "8P3UA": [(frame:25,bit:2,invert:false,),(frame:25,bit:3,invert:true,),(frame:25,bit:4,invert:true,),],
+      },
+    ),
+    "LDT_INT_LOCK_STICKY": (
+      options: {
+        "DISABLED": [(frame:15,bit:7,invert:true,),],
+        "ENABLED": [(frame:15,bit:7,invert:false,),],
+      },
+      desc: "enable \'sticky\' internal lock",
+    ),
+    "LDT_LOCK": (
+      options: {
+        "1536CYC": [(frame:15,bit:2,invert:false,),(frame:15,bit:3,invert:false,),],
+        "24576CYC": [(frame:15,bit:2,invert:false,),(frame:15,bit:3,invert:true,),],
+        "6144CYC": [(frame:15,bit:2,invert:true,),(frame:15,bit:3,invert:false,),],
+        "98304CYC": [(frame:15,bit:2,invert:true,),(frame:15,bit:3,invert:true,),],
+      },
+      desc: "lock detector sensitivity",
+    ),
+    "LDT_LOCK_SEL": (
+      options: {
+        "SFREQ": [(frame:15,bit:4,invert:true,),(frame:15,bit:5,invert:false,),(frame:15,bit:6,invert:true,),],
+        "SPHASE": [(frame:15,bit:4,invert:false,),(frame:15,bit:5,invert:true,),(frame:15,bit:6,invert:true,),],
+        "S_FREQ": [(frame:15,bit:4,invert:true,),(frame:15,bit:5,invert:false,),(frame:15,bit:6,invert:false,),],
+        "UFREQ": [(frame:15,bit:4,invert:true,),(frame:15,bit:5,invert:true,),(frame:15,bit:6,invert:true,),],
+        "UFREQ_SPHASE": [(frame:15,bit:4,invert:false,),(frame:15,bit:5,invert:false,),(frame:15,bit:6,invert:true,),],
+        "U_FREQ": [(frame:15,bit:4,invert:true,),(frame:15,bit:5,invert:true,),(frame:15,bit:6,invert:false,),],
+        "U_FREQ_S_PHASE": [(frame:15,bit:4,invert:false,),(frame:15,bit:5,invert:false,),(frame:15,bit:6,invert:false,),],
+        "U_PHASE": [(frame:15,bit:4,invert:false,),(frame:15,bit:5,invert:true,),(frame:15,bit:6,invert:false,),],
+      },
+      desc: "lock detector type",
+    ),
+    "LEGACY_ATT": (
+      options: {
+        "DISABLED": [(frame:3,bit:3,invert:true,),],
+        "ENABLED": [(frame:3,bit:3,invert:false,),],
+      },
+    ),
+    "LOAD_REG": (
+      options: {
+        "DISABLED": [(frame:2,bit:1,invert:true,),],
+        "ENABLED": [(frame:2,bit:1,invert:false,),],
+      },
+      desc: "load divider phase control",
+    ),
+    "MFG_SEL": (
+      options: {
+        "ICP_DN": [(frame:33,bit:0,invert:true,),(frame:33,bit:1,invert:true,),(frame:33,bit:2,invert:false,),],
+        "ICP_UP": [(frame:33,bit:0,invert:true,),(frame:33,bit:1,invert:true,),(frame:33,bit:2,invert:true,),],
+        "IV2I": [(frame:33,bit:0,invert:true,),(frame:33,bit:1,invert:false,),(frame:33,bit:2,invert:true,),],
+        "PCP_DN": [(frame:33,bit:0,invert:false,),(frame:33,bit:1,invert:true,),(frame:33,bit:2,invert:false,),],
+        "PCP_UP": [(frame:33,bit:0,invert:false,),(frame:33,bit:1,invert:true,),(frame:33,bit:2,invert:true,),],
+        "PV21": [(frame:33,bit:0,invert:false,),(frame:33,bit:1,invert:false,),(frame:33,bit:2,invert:true,),],
+        "RSVD": [(frame:33,bit:0,invert:true,),(frame:33,bit:1,invert:false,),(frame:33,bit:2,invert:false,),],
+      },
+    ),
+    "OPENLOOP_EN": (
+      options: {
+        "DISABLED": [(frame:29,bit:7,invert:true,),],
+        "ENABLED": [(frame:29,bit:7,invert:false,),],
+      },
+    ),
+    "PLLPDN_EN": (
+      options: {
+        "DISABLED": [(frame:51,bit:3,invert:true,),],
+        "ENABLED": [(frame:51,bit:3,invert:false,),],
+      },
+      desc: "enable power down input",
+    ),
+    "PLLPD_N": (
+      options: {
+        "UNUSED": [(frame:1,bit:0,invert:true,),],
+        "USED": [(frame:1,bit:0,invert:false,),],
+      },
+      desc: "enable PLL power",
+    ),
+    "PLLRESET_ENA": (
+      options: {
+        "DISABLED": [(frame:1,bit:1,invert:true,),],
+        "ENABLED": [(frame:1,bit:1,invert:false,),],
+      },
+      desc: "enable external reset input",
+    ),
+    "REFIN_RESET": (
+      options: {
+        "RESET": [(frame:3,bit:2,invert:false,),],
+        "SET": [(frame:3,bit:2,invert:true,),],
+      },
+    ),
+    "REF_INTEGER_MODE": (
+      options: {
+        "DISABLED": [(frame:11,bit:3,invert:true,),],
+        "ENABLED": [(frame:11,bit:3,invert:false,),],
+      },
+      desc: "enable integer reference clock pre-divider",
+    ),
+    "RESET_LF": (
+      options: {
+        "DISABLED": [(frame:30,bit:0,invert:true,),],
+        "ENABLED": [(frame:30,bit:0,invert:false,),],
+      },
+      desc: "LPF reset",
+    ),
+    "ROTATE": (
+      options: {
+        "DISABLED": [(frame:1,bit:7,invert:true,),],
+        "ENABLED": [(frame:1,bit:7,invert:false,),],
+      },
+    ),
+    "SEL_OUTA": (
+      options: {
+        "DISABLED": [(frame:35,bit:5,invert:true,),],
+        "ENABLED": [(frame:35,bit:5,invert:false,),],
+      },
+    ),
+    "SEL_OUTB": (
+      options: {
+        "DISABLED": [(frame:35,bit:6,invert:true,),],
+        "ENABLED": [(frame:35,bit:6,invert:false,),],
+      },
+    ),
+    "SEL_OUTC": (
+      options: {
+        "DISABLED": [(frame:35,bit:7,invert:true,),],
+        "ENABLED": [(frame:35,bit:7,invert:false,),],
+      },
+    ),
+    "SEL_OUTD": (
+      options: {
+        "DISABLED": [(frame:36,bit:0,invert:true,),],
+        "ENABLED": [(frame:36,bit:0,invert:false,),],
+      },
+    ),
+    "SEL_OUTE": (
+      options: {
+        "DISABLED": [(frame:36,bit:1,invert:true,),],
+        "ENABLED": [(frame:36,bit:1,invert:false,),],
+      },
+    ),
+    "SEL_OUTF": (
+      options: {
+        "DISABLED": [(frame:36,bit:2,invert:true,),],
+        "ENABLED": [(frame:36,bit:2,invert:false,),],
+      },
+    ),
+    "SLEEP": (
+      options: {
+        "DISABLED": [(frame:1,bit:3,invert:true,),],
+        "ENABLED": [(frame:1,bit:3,invert:false,),],
+      },
+    ),
+    "SSC_DITHER": (
+      options: {
+        "DISABLED": [(frame:18,bit:5,invert:true,),],
+        "ENABLED": [(frame:18,bit:5,invert:false,),],
+      },
+    ),
+    "SSC_EN_CENTER_IN": (
+      options: {
+        "CENTER_TRIANGLE": [(frame:18,bit:6,invert:false,),],
+        "DOWN_TRIANGLE": [(frame:18,bit:6,invert:true,),],
+      },
+    ),
+    "SSC_EN_SDM": (
+      options: {
+        "DISABLED": [(frame:18,bit:7,invert:true,),],
+        "ENABLED": [(frame:18,bit:7,invert:false,),],
+      },
+    ),
+    "SSC_EN_SSC": (
+      options: {
+        "DISABLED": [(frame:19,bit:0,invert:true,),],
+        "ENABLED": [(frame:19,bit:0,invert:false,),],
+      },
+    ),
+    "SSC_ORDER": (
+      options: {
+        "SDM_ORDER1": [(frame:22,bit:1,invert:true,),],
+        "SDM_ORDER2": [(frame:22,bit:1,invert:false,),],
+      },
+    ),
+    "SSC_PI_BYPASS": (
+      options: {
+        "BYPASSED": [(frame:22,bit:2,invert:false,),],
+        "NOT_BYPASSED": [(frame:22,bit:2,invert:true,),],
+      },
+    ),
+    "SSC_SQUARE_MODE": (
+      options: {
+        "DISABLED": [(frame:22,bit:6,invert:true,),],
+        "ENABLED": [(frame:22,bit:6,invert:false,),],
+      },
+    ),
+    "STDBY_ATT": (
+      options: {
+        "DISABLED": [(frame:1,bit:2,invert:true,),],
+        "ENABLED": [(frame:1,bit:2,invert:false,),],
+      },
+      desc: "enable standby input",
+    ),
+    "TRIMOP_BYPASS_N": (
+      options: {
+        "BYPASSED": [(frame:50,bit:5,invert:true,),],
+        "USED": [(frame:50,bit:5,invert:false,),],
+      },
+      desc: "bypass CLKOP trimming",
+    ),
+    "TRIMOS2_BYPASS_N": (
+      options: {
+        "BYPASSED": [(frame:50,bit:7,invert:true,),],
+        "USED": [(frame:50,bit:7,invert:false,),],
+      },
+      desc: "bypass CLKOS2 trimming",
+    ),
+    "TRIMOS3_BYPASS_N": (
+      options: {
+        "BYPASSED": [(frame:51,bit:0,invert:true,),],
+        "USED": [(frame:51,bit:0,invert:false,),],
+      },
+      desc: "bypass CLKOS3 trimming",
+    ),
+    "TRIMOS4_BYPASS_N": (
+      options: {
+        "BYPASSED": [(frame:51,bit:1,invert:true,),],
+        "USED": [(frame:51,bit:1,invert:false,),],
+      },
+      desc: "bypass CLKOS4 trimming",
+    ),
+    "TRIMOS_BYPASS_N": (
+      options: {
+        "BYPASSED": [(frame:50,bit:6,invert:true,),],
+        "USED": [(frame:50,bit:6,invert:false,),],
+      },
+      desc: "bypass CLKOS trimming",
+    ),
+    "V2I_KVCO_SEL": (
+      options: {
+        "10": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:true,),],
+        "15": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:true,),],
+        "20": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:true,),],
+        "25": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:true,),],
+        "30": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:true,),],
+        "35": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:true,),],
+        "40": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:true,),],
+        "45": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:true,),],
+        "50": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:false,),],
+        "55": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:false,),],
+        "60": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:false,),],
+        "65": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:true,),(frame:28,bit:5,invert:false,),],
+        "70": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:false,),],
+        "75": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:true,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:false,),],
+        "80": [(frame:28,bit:2,invert:true,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:false,),],
+        "85": [(frame:28,bit:2,invert:false,),(frame:28,bit:3,invert:false,),(frame:28,bit:4,invert:false,),(frame:28,bit:5,invert:false,),],
+      },
+    ),
+    "V2I_PP_RES": (
+      options: {
+        "10K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+        "10P3K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+        "10P7K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+        "11K": [(frame:29,bit:5,invert:true,),(frame:29,bit:6,invert:true,),],
+        "11P3K": [(frame:29,bit:5,invert:true,),(frame:29,bit:6,invert:true,),],
+        "9K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+        "9P3K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+        "9P7K": [(frame:29,bit:5,invert:false,),(frame:29,bit:6,invert:false,),],
+      },
+      desc: "high frequency pole resistor",
+    ),
+  },
+  conns: {},
+)
