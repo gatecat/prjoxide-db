@@ -1,5 +1,71 @@
 (
   pips: {
+    "S1:JFBKCK_FBMUX_CORE_I_FBKMUX": [
+      (
+        from_wire: "S1:JFBKCLK0_FBMUX_CORE_I_FBKMUX",
+        bits: [],
+      ),
+      (
+        from_wire: "S1:JFBKCLK10_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:36,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK11_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK12_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK13_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK14_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK15_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK1_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK2_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:36,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK3_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK4_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:37,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK5_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK6_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK7_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK8_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "S1:JFBKCLK9_FBMUX_CORE_I_FBKMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+    ],
     "S1:JREFCK_REFMUX_CORE_I_REFMUX": [
       (
         from_wire: "S1:JREFCLK10_REFMUX_CORE_I_REFMUX",
@@ -263,6 +329,11 @@
     "S1:JFBKCLK0_FBMUX_CORE_I_FBKMUX": [
       (
         from_wire: "S1:JINTFBK0_PLL_CORE_I_PLL_LMMI",
+      ),
+    ],
+    "S1:JFBKCLK11_FBMUX_CORE_I_FBKMUX": [
+      (
+        from_wire: "S1:JCLK1",
       ),
     ],
     "S1:JFBKCLK1_FBMUX_CORE_I_FBKMUX": [
@@ -593,6 +664,11 @@
     "S1:JSTDBY_PLL_CORE_I_PLL_LMMI": [
       (
         from_wire: "S2:JCIBMUXOUTD1",
+      ),
+    ],
+    "S1:JWKUPSYNC_FBMUX_CORE_I_FBKMUX": [
+      (
+        from_wire: "S1:JCIBMUXOUTB2",
       ),
     ],
     "S1:JZRSEL3_PLL_CORE_I_PLL_LMMI": [
