@@ -118,13 +118,6 @@
     ),
   },
   enums: {
-    "CHIP.SPEED": (
-      options: {
-        "FAST_1V0": [(frame:56,bit:0,invert:false,),],
-        "SLOW_1V0": [(frame:56,bit:0,invert:true,),],
-      },
-      desc: "Adjust back bias for high speed or low power",
-    ),
     "EBR3.DP16K_MODE.ASYNC_RST_RELEASE_A": (
       options: {
         "ASYNC": [(frame:55,bit:0,invert:false,),],
@@ -994,4 +987,11 @@
       ),
     ],
   },
+  always_on: [
+    (
+      frame: 56,
+      bit: 0,
+      invert: false,
+    ),
+  ],
 )

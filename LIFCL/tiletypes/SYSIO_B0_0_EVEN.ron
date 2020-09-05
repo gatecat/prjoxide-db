@@ -15,14 +15,14 @@
         "INPUT_LVCMOS18": [(frame:49,bit:1,invert:false,),(frame:64,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
         "INPUT_LVCMOS25": [(frame:49,bit:1,invert:false,),(frame:73,bit:1,invert:false,),],
         "INPUT_LVCMOS33": [(frame:49,bit:1,invert:false,),],
-        "NONE": [],
+        "NONE": [(frame:69,bit:1,invert:false,),],
         "OUTPUT_LVCMOS12": [(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
         "OUTPUT_LVCMOS15": [(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
         "OUTPUT_LVCMOS18": [(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
         "OUTPUT_LVCMOS25": [(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
-        "OUTPUT_LVCMOS25D": [(frame:16,bit:1,invert:false,),(frame:19,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),(frame:101,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25D": [(frame:19,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),(frame:101,bit:0,invert:false,),],
         "OUTPUT_LVCMOS33": [(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
-        "OUTPUT_LVCMOS33D": [(frame:16,bit:1,invert:false,),(frame:19,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),(frame:101,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33D": [(frame:19,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:47,bit:1,invert:false,),(frame:48,bit:1,invert:false,),(frame:49,bit:1,invert:false,),(frame:50,bit:1,invert:false,),(frame:60,bit:1,invert:false,),(frame:66,bit:1,invert:false,),(frame:69,bit:1,invert:false,),(frame:82,bit:1,invert:false,),(frame:101,bit:0,invert:false,),],
       },
     ),
     "PIOA.CLAMP": (
@@ -196,7 +196,7 @@
         "INPUT_LVCMOS18": [(frame:21,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
         "INPUT_LVCMOS25": [(frame:12,bit:1,invert:false,),(frame:36,bit:1,invert:false,),],
         "INPUT_LVCMOS33": [(frame:36,bit:1,invert:false,),],
-        "NONE": [],
+        "NONE": [(frame:16,bit:1,invert:false,),],
         "OUTPUT_LVCMOS12": [(frame:16,bit:1,invert:false,),(frame:19,bit:1,invert:false,),(frame:25,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
         "OUTPUT_LVCMOS15": [(frame:16,bit:1,invert:false,),(frame:19,bit:1,invert:false,),(frame:25,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
         "OUTPUT_LVCMOS18": [(frame:16,bit:1,invert:false,),(frame:19,bit:1,invert:false,),(frame:25,bit:1,invert:false,),(frame:35,bit:1,invert:false,),(frame:36,bit:1,invert:false,),(frame:37,bit:1,invert:false,),(frame:38,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
@@ -362,6 +362,188 @@
       options: {
         "OFF": [(frame:12,bit:1,invert:true,),(frame:13,bit:1,invert:true,),],
         "ON": [(frame:12,bit:1,invert:false,),(frame:13,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.CEINMUX": (
+      options: {
+        "1": [(frame:32,bit:0,invert:false,),],
+        "CEIN": [(frame:31,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICA.CEOUTMUX": (
+      options: {
+        "1": [(frame:33,bit:0,invert:false,),],
+        "CEOUT": [(frame:30,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICA.GSR": (
+      options: {
+        "DISABLED": [(frame:42,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "SIOLOGICA.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:35,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:43,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:39,bit:0,invert:false,),],
+        "LSRIN": [(frame:37,bit:0,invert:false,),(frame:39,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:17,bit:0,invert:false,),],
+        "LSROUT": [(frame:17,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:61,bit:0,invert:false,),],
+        "IREG_OREG": [],
+        "NONE": [],
+      },
+    ),
+    "SIOLOGICA.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:44,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:23,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:48,bit:0,invert:false,),(frame:49,bit:0,invert:false,),],
+        "SCLKIN": [(frame:49,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "SCLKOUT": [(frame:62,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:41,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:22,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.CEINMUX": (
+      options: {
+        "1": [(frame:79,bit:0,invert:false,),],
+        "CEIN": [(frame:78,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.CEOUTMUX": (
+      options: {
+        "1": [(frame:80,bit:0,invert:false,),],
+        "CEOUT": [(frame:77,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.GSR": (
+      options: {
+        "DISABLED": [(frame:3,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "SIOLOGICB.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:82,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:100,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+        "LSRIN": [(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:0,bit:1,invert:false,),],
+        "LSROUT": [(frame:0,bit:1,invert:false,),(frame:85,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:99,bit:0,invert:false,),],
+        "IREG_OREG": [],
+        "NONE": [],
+      },
+    ),
+    "SIOLOGICB.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:102,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:70,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:false,),],
+        "SCLKIN": [(frame:5,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:9,bit:0,invert:false,),(frame:10,bit:0,invert:false,),],
+        "SCLKOUT": [(frame:9,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:2,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:69,bit:0,invert:false,),],
       },
     ),
   },

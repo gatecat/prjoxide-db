@@ -1,15 +1,7 @@
 (
   pips: {},
   words: {},
-  enums: {
-    "CHIP.SPEED": (
-      options: {
-        "FAST_1V0": [(frame:0,bit:2,invert:false,),(frame:0,bit:4,invert:true,),(frame:2,bit:2,invert:false,),(frame:2,bit:4,invert:true,),(frame:3,bit:2,invert:false,),(frame:3,bit:4,invert:true,),],
-        "SLOW_1V0": [(frame:0,bit:2,invert:true,),(frame:0,bit:4,invert:false,),(frame:2,bit:2,invert:true,),(frame:2,bit:4,invert:false,),(frame:3,bit:2,invert:true,),(frame:3,bit:4,invert:false,),],
-      },
-      desc: "Adjust back bias for high speed or low power",
-    ),
-  },
+  enums: {},
   conns: {},
   always_on: [
     (
@@ -18,13 +10,43 @@
       invert: false,
     ),
     (
+      frame: 0,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 0,
+      bit: 4,
+      invert: false,
+    ),
+    (
       frame: 2,
       bit: 0,
       invert: false,
     ),
     (
+      frame: 2,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 2,
+      bit: 4,
+      invert: false,
+    ),
+    (
       frame: 3,
       bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 3,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 3,
+      bit: 4,
       invert: false,
     ),
   ],

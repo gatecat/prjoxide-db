@@ -9,7 +9,7 @@
         "1V8": [],
         "2V5": [(frame:12,bit:1,invert:false,),(frame:13,bit:1,invert:false,),],
         "3V3": [(frame:14,bit:1,invert:false,),],
-        "NONE": [],
+        "NONE": [(frame:14,bit:1,invert:false,),],
       },
       desc: "VccIO of bank 1",
     ),

@@ -1,15 +1,7 @@
 (
   pips: {},
   words: {},
-  enums: {
-    "CHIP.SPEED": (
-      options: {
-        "FAST_1V0": [(frame:0,bit:4,invert:true,),(frame:1,bit:4,invert:true,),(frame:5,bit:2,invert:false,),(frame:6,bit:2,invert:false,),(frame:6,bit:4,invert:true,),(frame:7,bit:2,invert:false,),(frame:7,bit:4,invert:true,),(frame:8,bit:2,invert:false,),(frame:8,bit:3,invert:false,),(frame:8,bit:4,invert:true,),(frame:9,bit:2,invert:false,),(frame:9,bit:3,invert:false,),(frame:10,bit:2,invert:false,),(frame:10,bit:3,invert:false,),(frame:11,bit:2,invert:false,),(frame:11,bit:3,invert:false,),(frame:12,bit:2,invert:false,),(frame:12,bit:3,invert:false,),(frame:13,bit:2,invert:false,),(frame:13,bit:3,invert:false,),(frame:14,bit:2,invert:false,),(frame:14,bit:3,invert:false,),(frame:15,bit:3,invert:false,),],
-        "SLOW_1V0": [(frame:0,bit:4,invert:false,),(frame:1,bit:4,invert:false,),(frame:5,bit:2,invert:true,),(frame:6,bit:2,invert:true,),(frame:6,bit:4,invert:false,),(frame:7,bit:2,invert:true,),(frame:7,bit:4,invert:false,),(frame:8,bit:2,invert:true,),(frame:8,bit:3,invert:true,),(frame:8,bit:4,invert:false,),(frame:9,bit:2,invert:true,),(frame:9,bit:3,invert:true,),(frame:10,bit:2,invert:true,),(frame:10,bit:3,invert:true,),(frame:11,bit:2,invert:true,),(frame:11,bit:3,invert:true,),(frame:12,bit:2,invert:true,),(frame:12,bit:3,invert:true,),(frame:13,bit:2,invert:true,),(frame:13,bit:3,invert:true,),(frame:14,bit:2,invert:true,),(frame:14,bit:3,invert:true,),(frame:15,bit:3,invert:true,),],
-      },
-      desc: "Adjust back bias for high speed or low power",
-    ),
-  },
+  enums: {},
   conns: {},
   always_on: [
     (
@@ -18,8 +10,23 @@
       invert: false,
     ),
     (
+      frame: 0,
+      bit: 4,
+      invert: false,
+    ),
+    (
       frame: 1,
       bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 1,
+      bit: 4,
+      invert: false,
+    ),
+    (
+      frame: 5,
+      bit: 2,
       invert: false,
     ),
     (
@@ -28,13 +35,73 @@
       invert: false,
     ),
     (
+      frame: 6,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 6,
+      bit: 4,
+      invert: false,
+    ),
+    (
       frame: 7,
       bit: 0,
       invert: false,
     ),
     (
+      frame: 7,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 7,
+      bit: 4,
+      invert: false,
+    ),
+    (
       frame: 8,
       bit: 0,
+      invert: false,
+    ),
+    (
+      frame: 8,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 8,
+      bit: 4,
+      invert: false,
+    ),
+    (
+      frame: 9,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 10,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 11,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 12,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 13,
+      bit: 2,
+      invert: false,
+    ),
+    (
+      frame: 14,
+      bit: 2,
       invert: false,
     ),
   ],

@@ -35,6 +35,30 @@
     ),
   },
   enums: {
+    "EBR0.DP16K_MODE.ADA0MUX": (
+      options: {
+        "ADA0": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.ADA1MUX": (
+      options: {
+        "ADA1": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.ADA2MUX": (
+      options: {
+        "ADA2": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.DP16K_MODE.ADA3MUX": (
+      options: {
+        "ADA3": [],
+        "INV": [(frame:85,bit:0,invert:false,),],
+      },
+    ),
     "EBR0.DP16K_MODE.ASYNC_RST_RELEASE_A": (
       options: {
         "ASYNC": [(frame:93,bit:0,invert:false,),],
@@ -147,6 +171,30 @@
       },
       desc: "EBR0 primitive mode",
     ),
+    "EBR0.PDP16K_MODE.ADW0MUX": (
+      options: {
+        "ADW0": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.ADW1MUX": (
+      options: {
+        "ADW1": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.ADW2MUX": (
+      options: {
+        "ADW2": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.ADW3MUX": (
+      options: {
+        "ADW3": [],
+        "INV": [(frame:85,bit:0,invert:false,),],
+      },
+    ),
     "EBR0.PDP16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:93,bit:0,invert:false,),],
@@ -192,6 +240,30 @@
         "SYNC": [],
       },
     ),
+    "EBR0.PDPSC16K_MODE.ADW0MUX": (
+      options: {
+        "ADW0": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.ADW1MUX": (
+      options: {
+        "ADW1": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.ADW2MUX": (
+      options: {
+        "ADW2": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.ADW3MUX": (
+      options: {
+        "ADW3": [],
+        "INV": [(frame:85,bit:0,invert:false,),],
+      },
+    ),
     "EBR0.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:93,bit:0,invert:false,),],
@@ -235,6 +307,30 @@
       options: {
         "ASYNC": [(frame:101,bit:0,invert:false,),],
         "SYNC": [],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD0MUX": (
+      options: {
+        "AD0": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD1MUX": (
+      options: {
+        "AD1": [],
+        "INV": [(frame:82,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD2MUX": (
+      options: {
+        "AD2": [],
+        "INV": [(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD3MUX": (
+      options: {
+        "AD3": [],
+        "INV": [(frame:85,bit:0,invert:false,),],
       },
     ),
     "EBR0.SP16K_MODE.ASYNC_RST_RELEASE": (

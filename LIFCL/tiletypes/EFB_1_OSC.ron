@@ -164,6 +164,13 @@
       },
       desc: "watchdog timer mode",
     ),
+    "OSC_CORE.DEBUG_N": (
+      options: {
+        "DISABLED": [(frame:23,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "enable debug mode",
+    ),
     "OSC_CORE.DTR_EN": (
       options: {
         "DISABLED": [],
@@ -214,12 +221,12 @@
       },
       desc: "status of master SPI port after configuration",
     ),
-    "SYSCONFIG.SLAVE_I2CI3C_PORT": (
+    "SYSCONFIG.SLAVE_I2C_PORT": (
       options: {
         "DISABLE": [],
         "ENABLE": [(frame:29,bit:0,invert:false,),],
       },
-      desc: "status of slave I2C/I3C port after configuration",
+      desc: "status of slave I2C port after configuration",
     ),
     "SYSCONFIG.SLAVE_SPI_PORT": (
       options: {

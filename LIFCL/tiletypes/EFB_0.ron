@@ -84,12 +84,12 @@
       },
       desc: "selects next address from input pins or fixed parameter",
     ),
-    "SYSCONFIG.SLAVE_I2CI3C_PORT": (
+    "SYSCONFIG.SLAVE_I3C_PORT": (
       options: {
         "DISABLE": [],
         "ENABLE": [(frame:49,bit:0,invert:false,),],
       },
-      desc: "status of slave I2C/I3C port after configuration",
+      desc: "status of slave I3C port after configuration",
     ),
   },
   conns: {

@@ -110,12 +110,17 @@
     ),
   },
   enums: {
-    "CHIP.SPEED": (
+    "EBR0.DP16K_MODE.ADB0MUX": (
       options: {
-        "FAST_1V0": [(frame:42,bit:0,invert:false,),],
-        "SLOW_1V0": [(frame:42,bit:0,invert:true,),],
+        "ADB0": [],
+        "INV": [(frame:13,bit:0,invert:false,),],
       },
-      desc: "Adjust back bias for high speed or low power",
+    ),
+    "EBR0.DP16K_MODE.ADB1MUX": (
+      options: {
+        "ADB1": [],
+        "INV": [(frame:15,bit:0,invert:false,),],
+      },
     ),
     "EBR0.DP16K_MODE.ASYNC_RST_RELEASE_B": (
       options: {
@@ -261,6 +266,18 @@
       },
       desc: "EBR0 primitive mode",
     ),
+    "EBR0.PDP16K_MODE.ADR0MUX": (
+      options: {
+        "ADR0": [],
+        "INV": [(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDP16K_MODE.ADR1MUX": (
+      options: {
+        "ADR1": [],
+        "INV": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
     "EBR0.PDP16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:72,bit:0,invert:false,),],
@@ -312,6 +329,18 @@
         "RST": [],
       },
     ),
+    "EBR0.PDPSC16K_MODE.ADR0MUX": (
+      options: {
+        "ADR0": [],
+        "INV": [(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.PDPSC16K_MODE.ADR1MUX": (
+      options: {
+        "ADR1": [],
+        "INV": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
     "EBR0.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:72,bit:0,invert:false,),],
@@ -361,6 +390,18 @@
       options: {
         "INV": [(frame:21,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
         "RST": [],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD0MUX": (
+      options: {
+        "AD0": [],
+        "INV": [(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "EBR0.SP16K_MODE.AD1MUX": (
+      options: {
+        "AD1": [],
+        "INV": [(frame:15,bit:0,invert:false,),],
       },
     ),
     "EBR0.SP16K_MODE.ASYNC_RST_RELEASE": (
@@ -420,4 +461,11 @@
     ),
   },
   conns: {},
+  always_on: [
+    (
+      frame: 42,
+      bit: 0,
+      invert: false,
+    ),
+  ],
 )

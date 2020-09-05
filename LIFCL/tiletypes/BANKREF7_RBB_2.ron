@@ -9,16 +9,9 @@
         "1V8": [],
         "2V5": [(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:false,),],
         "3V3": [(frame:1,bit:1,invert:false,),],
-        "NONE": [],
+        "NONE": [(frame:1,bit:1,invert:false,),],
       },
       desc: "VccIO of bank 7",
-    ),
-    "CHIP.SPEED": (
-      options: {
-        "FAST_1V0": [(frame:14,bit:3,invert:false,),(frame:14,bit:5,invert:true,),(frame:15,bit:3,invert:false,),(frame:15,bit:5,invert:true,),],
-        "SLOW_1V0": [(frame:14,bit:3,invert:true,),(frame:14,bit:5,invert:false,),(frame:15,bit:3,invert:true,),(frame:15,bit:5,invert:false,),],
-      },
-      desc: "Adjust back bias for high speed or low power",
     ),
   },
   conns: {},
@@ -29,8 +22,28 @@
       invert: false,
     ),
     (
+      frame: 14,
+      bit: 3,
+      invert: false,
+    ),
+    (
+      frame: 14,
+      bit: 5,
+      invert: false,
+    ),
+    (
       frame: 15,
       bit: 1,
+      invert: false,
+    ),
+    (
+      frame: 15,
+      bit: 3,
+      invert: false,
+    ),
+    (
+      frame: 15,
+      bit: 5,
       invert: false,
     ),
   ],

@@ -97,12 +97,41 @@
     ),
   },
   enums: {
-    "CHIP.SPEED": (
+    "EBR1.DP16K_MODE.ADA0MUX": (
       options: {
-        "FAST_1V0": [(frame:103,bit:0,invert:false,),],
-        "SLOW_1V0": [(frame:103,bit:0,invert:true,),],
+        "ADA0": [],
+        "INV": [(frame:39,bit:0,invert:false,),],
       },
-      desc: "Adjust back bias for high speed or low power",
+    ),
+    "EBR1.DP16K_MODE.ADA1MUX": (
+      options: {
+        "ADA1": [],
+        "INV": [(frame:38,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.ADA2MUX": (
+      options: {
+        "ADA2": [],
+        "INV": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.ADA3MUX": (
+      options: {
+        "ADA3": [],
+        "INV": [(frame:41,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.ADB0MUX": (
+      options: {
+        "ADB0": [],
+        "INV": [(frame:72,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.DP16K_MODE.ADB1MUX": (
+      options: {
+        "ADB1": [],
+        "INV": [(frame:74,bit:0,invert:false,),],
+      },
     ),
     "EBR1.DP16K_MODE.ASYNC_RST_RELEASE_A": (
       options: {
@@ -312,6 +341,42 @@
       },
       desc: "EBR1 primitive mode",
     ),
+    "EBR1.PDP16K_MODE.ADR0MUX": (
+      options: {
+        "ADR0": [],
+        "INV": [(frame:72,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.ADR1MUX": (
+      options: {
+        "ADR1": [],
+        "INV": [(frame:74,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.ADW0MUX": (
+      options: {
+        "ADW0": [],
+        "INV": [(frame:39,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.ADW1MUX": (
+      options: {
+        "ADW1": [],
+        "INV": [(frame:38,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.ADW2MUX": (
+      options: {
+        "ADW2": [],
+        "INV": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDP16K_MODE.ADW3MUX": (
+      options: {
+        "ADW3": [],
+        "INV": [(frame:41,bit:0,invert:false,),],
+      },
+    ),
     "EBR1.PDP16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:49,bit:0,invert:false,),],
@@ -389,6 +454,42 @@
         "RST": [],
       },
     ),
+    "EBR1.PDPSC16K_MODE.ADR0MUX": (
+      options: {
+        "ADR0": [],
+        "INV": [(frame:72,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ADR1MUX": (
+      options: {
+        "ADR1": [],
+        "INV": [(frame:74,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ADW0MUX": (
+      options: {
+        "ADW0": [],
+        "INV": [(frame:39,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ADW1MUX": (
+      options: {
+        "ADW1": [],
+        "INV": [(frame:38,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ADW2MUX": (
+      options: {
+        "ADW2": [],
+        "INV": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.PDPSC16K_MODE.ADW3MUX": (
+      options: {
+        "ADW3": [],
+        "INV": [(frame:41,bit:0,invert:false,),],
+      },
+    ),
     "EBR1.PDPSC16K_MODE.ASYNC_RST_RELEASE": (
       options: {
         "ASYNC": [(frame:49,bit:0,invert:false,),],
@@ -456,6 +557,30 @@
       options: {
         "INV": [(frame:80,bit:0,invert:false,),],
         "RST": [],
+      },
+    ),
+    "EBR1.SP16K_MODE.AD0MUX": (
+      options: {
+        "AD0": [],
+        "INV": [(frame:39,bit:0,invert:false,),(frame:72,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.SP16K_MODE.AD1MUX": (
+      options: {
+        "AD1": [],
+        "INV": [(frame:38,bit:0,invert:false,),(frame:74,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.SP16K_MODE.AD2MUX": (
+      options: {
+        "AD2": [],
+        "INV": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
+    "EBR1.SP16K_MODE.AD3MUX": (
+      options: {
+        "AD3": [],
+        "INV": [(frame:41,bit:0,invert:false,),],
       },
     ),
     "EBR1.SP16K_MODE.ASYNC_RST_RELEASE": (
@@ -1141,4 +1266,11 @@
       ),
     ],
   },
+  always_on: [
+    (
+      frame: 103,
+      bit: 0,
+      invert: false,
+    ),
+  ],
 )

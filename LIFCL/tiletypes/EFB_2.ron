@@ -40,6 +40,13 @@
     ),
   },
   enums: {
+    "CONFIG_HSE_CORE.MODE": (
+      options: {
+        "CONFIG_HSE_CORE": [(frame:41,bit:0,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_HSE_CORE primitive mode",
+    ),
     "CONFIG_IP_CORE.DONEPHASE": (
       options: {
         "DIS": [],

@@ -1,0 +1,129 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "PIOA.BASE_TYPE": (
+      options: {
+        "BIDIR_LVCMOS12": [(frame:3,bit:0,invert:false,),(frame:14,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15": [(frame:3,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18": [(frame:3,bit:0,invert:false,),],
+        "BIDIR_LVCMOS25": [(frame:12,bit:0,invert:false,),],
+        "BIDIR_LVCMOS33": [],
+        "INPUT_LVCMOS10": [(frame:3,bit:0,invert:false,),(frame:11,bit:0,invert:false,),(frame:14,bit:0,invert:false,),],
+        "INPUT_LVCMOS12": [(frame:3,bit:0,invert:false,),(frame:14,bit:0,invert:false,),],
+        "INPUT_LVCMOS15": [(frame:3,bit:0,invert:false,),],
+        "INPUT_LVCMOS18": [(frame:3,bit:0,invert:false,),],
+        "INPUT_LVCMOS25": [(frame:12,bit:0,invert:false,),],
+        "INPUT_LVCMOS33": [],
+        "NONE": [],
+        "OUTPUT_LVCMOS12": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25D": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33": [(frame:3,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33D": [(frame:3,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.DFTDO2DI": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.HYSTERESIS_1V5": (
+      options: {
+        "OFF": [(frame:3,bit:0,invert:true,),],
+        "ON": [(frame:3,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.HYSTERESIS_1V8": (
+      options: {
+        "OFF": [(frame:3,bit:0,invert:true,),],
+        "ON": [(frame:3,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.HYSTERESIS_2V5": (
+      options: {
+        "OFF": [(frame:12,bit:0,invert:true,),],
+        "ON": [(frame:12,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.OPENDRAIN": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.TERMINATION_1V2": (
+      options: {
+        "40": [(frame:9,bit:0,invert:false,),],
+        "50": [(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:8,bit:0,invert:false,),],
+        "75": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.TERMINATION_1V5": (
+      options: {
+        "40": [(frame:6,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "50": [(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:8,bit:0,invert:false,),],
+        "75": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.TERMINATION_1V8": (
+      options: {
+        "150": [(frame:7,bit:0,invert:false,),],
+        "40": [(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "50": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:6,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "75": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.UNDERDRIVE_3V3": (
+      options: {
+        "OFF": [(frame:12,bit:0,invert:true,),(frame:13,bit:0,invert:true,),],
+        "ON": [(frame:12,bit:0,invert:false,),(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.BASE_TYPE": (
+      options: {
+        "BIDIR_LVCMOS12": [(frame:4,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15": [(frame:4,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18": [(frame:4,bit:0,invert:false,),],
+        "BIDIR_LVCMOS25": [],
+        "BIDIR_LVCMOS33": [],
+        "INPUT_LVCMOS10": [(frame:4,bit:0,invert:false,),],
+        "INPUT_LVCMOS12": [(frame:4,bit:0,invert:false,),],
+        "INPUT_LVCMOS15": [(frame:4,bit:0,invert:false,),],
+        "INPUT_LVCMOS18": [(frame:4,bit:0,invert:false,),],
+        "INPUT_LVCMOS25": [],
+        "INPUT_LVCMOS33": [],
+        "NONE": [],
+        "OUTPUT_LVCMOS12": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25D": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33": [(frame:4,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33D": [(frame:4,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.HYSTERESIS_1V5": (
+      options: {
+        "OFF": [(frame:4,bit:0,invert:true,),],
+        "ON": [(frame:4,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.HYSTERESIS_1V8": (
+      options: {
+        "OFF": [(frame:4,bit:0,invert:true,),],
+        "ON": [(frame:4,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {},
+)
