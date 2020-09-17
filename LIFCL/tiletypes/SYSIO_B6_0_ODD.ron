@@ -384,6 +384,12 @@
         "ENABLED": [],
       },
     ),
+    "SIOLOGICA.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:4,bit:3,invert:false,),],
+      },
+    ),
     "SIOLOGICA.INMUX": (
       options: {
         "BYPASS": [],
@@ -394,6 +400,12 @@
       options: {
         "RESET": [],
         "SET": [(frame:11,bit:2,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:3,bit:3,invert:false,),],
       },
     ),
     "SIOLOGICA.LSRINMUX": (
@@ -475,6 +487,12 @@
         "ENABLED": [],
       },
     ),
+    "SIOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:8,bit:0,invert:false,),],
+      },
+    ),
     "SIOLOGICB.INMUX": (
       options: {
         "BYPASS": [],
@@ -485,6 +503,12 @@
       options: {
         "RESET": [],
         "SET": [(frame:4,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:7,bit:0,invert:false,),],
       },
     ),
     "SIOLOGICB.LSRINMUX": (

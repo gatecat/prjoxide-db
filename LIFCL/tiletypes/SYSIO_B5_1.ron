@@ -53,6 +53,12 @@
         "ENABLED": [],
       },
     ),
+    "IOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:0,invert:false,),],
+      },
+    ),
     "IOLOGICB.IDDRXN.DDRMODE": (
       options: {
         "IDDR71": [(frame:68,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
@@ -72,6 +78,12 @@
       options: {
         "RESET": [],
         "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:1,invert:false,),],
       },
     ),
     "IOLOGICB.LOAD_NMUX": (
