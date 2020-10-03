@@ -970,10 +970,6 @@
         bits: [(frame:41,bit:1,invert:false,),(frame:42,bit:1,invert:false,),],
       ),
       (
-        from_wire: "WBOUNCE",
-        bits: [],
-      ),
-      (
         from_wire: "E1:H02W0501",
         bits: [(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
       ),
@@ -1056,10 +1052,6 @@
         bits: [(frame:41,bit:5,invert:false,),(frame:42,bit:5,invert:false,),],
       ),
       (
-        from_wire: "WBOUNCE",
-        bits: [],
-      ),
-      (
         from_wire: "E1:H02W0101",
         bits: [(frame:39,bit:4,invert:false,),(frame:44,bit:4,invert:false,),],
       ),
@@ -1084,10 +1076,6 @@
       (
         from_wire: "N1:V02S0701",
         bits: [(frame:41,bit:2,invert:false,),(frame:42,bit:2,invert:false,),],
-      ),
-      (
-        from_wire: "EBOUNCE",
-        bits: [],
       ),
       (
         from_wire: "H02E0401",
@@ -1170,10 +1158,6 @@
       (
         from_wire: "N1:V02S0601",
         bits: [(frame:41,bit:6,invert:false,),(frame:42,bit:6,invert:false,),],
-      ),
-      (
-        from_wire: "EBOUNCE",
-        bits: [],
       ),
       (
         from_wire: "H02E0001",
@@ -8254,10 +8238,6 @@
         bits: [(frame:46,bit:4,invert:false,),(frame:47,bit:5,invert:false,),(frame:90,bit:10,invert:false,),],
       ),
       (
-        from_wire: "SBOUNCE",
-        bits: [],
-      ),
-      (
         from_wire: "V02N0501",
         bits: [(frame:45,bit:4,invert:false,),(frame:47,bit:4,invert:false,),],
       ),
@@ -8338,10 +8318,6 @@
       (
         from_wire: "JQ7",
         bits: [(frame:46,bit:0,invert:false,),(frame:47,bit:1,invert:false,),(frame:99,bit:10,invert:false,),],
-      ),
-      (
-        from_wire: "SBOUNCE",
-        bits: [],
       ),
       (
         from_wire: "V02N0401",
@@ -8426,10 +8402,6 @@
         bits: [(frame:46,bit:6,invert:false,),(frame:47,bit:7,invert:false,),(frame:47,bit:10,invert:false,),],
       ),
       (
-        from_wire: "NBOUNCE",
-        bits: [],
-      ),
-      (
         from_wire: "V02N0101",
         bits: [(frame:45,bit:6,invert:false,),(frame:47,bit:6,invert:false,),],
       ),
@@ -8510,10 +8482,6 @@
       (
         from_wire: "JQ2",
         bits: [(frame:38,bit:10,invert:false,),(frame:46,bit:2,invert:false,),(frame:47,bit:3,invert:false,),],
-      ),
-      (
-        from_wire: "NBOUNCE",
-        bits: [],
       ),
       (
         from_wire: "V02N0001",
@@ -8894,10 +8862,6 @@
         bits: [(frame:20,bit:7,invert:false,),(frame:24,bit:7,invert:false,),],
       ),
       (
-        from_wire: "H02E0001",
-        bits: [],
-      ),
-      (
         from_wire: "W3:H06E0003",
         bits: [(frame:21,bit:6,invert:false,),(frame:22,bit:6,invert:false,),],
       ),
@@ -8978,10 +8942,6 @@
       (
         from_wire: "H01E0101",
         bits: [(frame:20,bit:5,invert:false,),(frame:24,bit:5,invert:false,),],
-      ),
-      (
-        from_wire: "H02E0101",
-        bits: [],
       ),
       (
         from_wire: "W3:H06E0103",
@@ -9066,10 +9026,6 @@
         bits: [(frame:70,bit:7,invert:false,),(frame:74,bit:7,invert:false,),],
       ),
       (
-        from_wire: "H02E0201",
-        bits: [],
-      ),
-      (
         from_wire: "W3:H06E0103",
         bits: [(frame:71,bit:6,invert:false,),(frame:72,bit:6,invert:false,),],
       ),
@@ -9150,10 +9106,6 @@
       (
         from_wire: "H01E0301",
         bits: [(frame:70,bit:5,invert:false,),(frame:74,bit:5,invert:false,),],
-      ),
-      (
-        from_wire: "H02E0301",
-        bits: [],
       ),
       (
         from_wire: "W3:H06E0003",
@@ -9238,10 +9190,6 @@
         bits: [(frame:20,bit:3,invert:false,),(frame:24,bit:3,invert:false,),],
       ),
       (
-        from_wire: "H02E0401",
-        bits: [],
-      ),
-      (
         from_wire: "W3:H06E0203",
         bits: [(frame:21,bit:2,invert:false,),(frame:22,bit:2,invert:false,),],
       ),
@@ -9322,10 +9270,6 @@
       (
         from_wire: "H01E0101",
         bits: [(frame:20,bit:1,invert:false,),(frame:24,bit:1,invert:false,),],
-      ),
-      (
-        from_wire: "H02E0501",
-        bits: [],
       ),
       (
         from_wire: "W3:H06E0303",
@@ -9410,10 +9354,6 @@
         bits: [(frame:70,bit:3,invert:false,),(frame:74,bit:3,invert:false,),],
       ),
       (
-        from_wire: "H02E0601",
-        bits: [],
-      ),
-      (
         from_wire: "W3:H06E0303",
         bits: [(frame:71,bit:2,invert:false,),(frame:72,bit:2,invert:false,),],
       ),
@@ -9494,10 +9434,6 @@
       (
         from_wire: "H01E0301",
         bits: [(frame:70,bit:1,invert:false,),(frame:74,bit:1,invert:false,),],
-      ),
-      (
-        from_wire: "H02E0701",
-        bits: [],
       ),
       (
         from_wire: "W3:H06E0203",
