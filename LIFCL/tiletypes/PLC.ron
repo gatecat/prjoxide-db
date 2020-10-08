@@ -9551,10 +9551,10 @@
     ),
     "SLICEA.CLKMUX": (
       options: {
+        "0": [],
         "CLK": [(frame:25,bit:10,invert:false,),],
         "DDR": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
         "INV": [(frame:26,bit:10,invert:false,),],
-        "OFF": [],
       },
       desc: "selects clock polarity",
     ),
@@ -9663,10 +9663,10 @@
     ),
     "SLICEB.CLKMUX": (
       options: {
+        "0": [],
         "CLK": [(frame:25,bit:10,invert:false,),],
         "DDR": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
         "INV": [(frame:26,bit:10,invert:false,),],
-        "OFF": [],
       },
       desc: "selects clock polarity",
     ),
@@ -9775,10 +9775,10 @@
     ),
     "SLICEC.CLKMUX": (
       options: {
+        "0": [],
         "CLK": [(frame:80,bit:10,invert:false,),],
         "DDR": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
         "INV": [(frame:79,bit:10,invert:false,),],
-        "OFF": [],
       },
       desc: "selects clock polarity",
     ),
@@ -9887,10 +9887,10 @@
     ),
     "SLICED.CLKMUX": (
       options: {
+        "0": [],
         "CLK": [(frame:80,bit:10,invert:false,),],
         "DDR": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
         "INV": [(frame:79,bit:10,invert:false,),],
-        "OFF": [],
       },
       desc: "selects clock polarity",
     ),
