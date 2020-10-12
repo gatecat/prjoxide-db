@@ -1,0 +1,4001 @@
+{
+    "packages": [
+        "CABGA400",
+        "CSBGA289",
+        "QFN72",
+        "CSFBGA121",
+        "CABGA256"
+    ],
+    "pads": [
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [
+                "ULC_GPLL0T_IN"
+            ],
+            "offset": 3,
+            "pins": [
+                "D10",
+                "D7",
+                "-",
+                "-",
+                "D4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [
+                "ULC_GPLL0C_IN"
+            ],
+            "offset": 3,
+            "pins": [
+                "D9",
+                "D6",
+                "-",
+                "-",
+                "D5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 4,
+            "pins": [
+                "D7",
+                "E7",
+                "-",
+                "-",
+                "D6"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 4,
+            "pins": [
+                "D8",
+                "E6",
+                "-",
+                "-",
+                "E6"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 6,
+            "pins": [
+                "D6",
+                "D4",
+                "-",
+                "-",
+                "E4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 6,
+            "pins": [
+                "D5",
+                "D5",
+                "-",
+                "-",
+                "E5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 8,
+            "pins": [
+                "D4",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 8,
+            "pins": [
+                "D3",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 10,
+            "pins": [
+                "E10",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 10,
+            "pins": [
+                "E9",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 11,
+            "pins": [
+                "E7",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 11,
+            "pins": [
+                "E8",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 13,
+            "pins": [
+                "E4",
+                "E5",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 13,
+            "pins": [
+                "E3",
+                "E4",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 15,
+            "pins": [
+                "E2",
+                "F7",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 15,
+            "pins": [
+                "F1",
+                "F6",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [
+                "PCLKT7_2"
+            ],
+            "offset": 17,
+            "pins": [
+                "J2",
+                "H3",
+                "-",
+                "-",
+                "F6"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 17,
+            "pins": [
+                "J1",
+                "H4",
+                "-",
+                "-",
+                "G6"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [
+                "PCLKT7_1"
+            ],
+            "offset": 19,
+            "pins": [
+                "K2",
+                "G7",
+                "-",
+                "-",
+                "F4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 19,
+            "pins": [
+                "K1",
+                "G6",
+                "-",
+                "-",
+                "G4"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [
+                "PCLKT7_0"
+            ],
+            "offset": 20,
+            "pins": [
+                "K3",
+                "H7",
+                "-",
+                "-",
+                "G3"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 7,
+            "dqs": [],
+            "func": [],
+            "offset": 20,
+            "pins": [
+                "K4",
+                "H8",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 24,
+            "pins": [
+                "K5",
+                "H1",
+                "-",
+                "-",
+                "H6"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 24,
+            "pins": [
+                "K6",
+                "J1",
+                "-",
+                "-",
+                "H5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "K7",
+                "H5",
+                "-",
+                "-",
+                "H4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "K8",
+                "H6",
+                "-",
+                "-",
+                "H3"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 27,
+            "pins": [
+                "L1",
+                "J7",
+                "-",
+                "-",
+                "H1"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 27,
+            "pins": [
+                "L2",
+                "J6",
+                "-",
+                "-",
+                "H2"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [
+                "PCLKT6_0"
+            ],
+            "offset": 30,
+            "pins": [
+                "L5",
+                "J2",
+                "-",
+                "-",
+                "J6"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 30,
+            "pins": [
+                "L6",
+                "J3",
+                "-",
+                "-",
+                "J5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [
+                "PCLKT6_1"
+            ],
+            "offset": 32,
+            "pins": [
+                "L7",
+                "J4",
+                "-",
+                "-",
+                "J1"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 32,
+            "pins": [
+                "L8",
+                "J5",
+                "-",
+                "-",
+                "J2"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [
+                "PCLKT6_2"
+            ],
+            "offset": 34,
+            "pins": [
+                "M2",
+                "K1",
+                "-",
+                "-",
+                "K1"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 34,
+            "pins": [
+                "M3",
+                "K2",
+                "-",
+                "-",
+                "K2"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "M4",
+                "L1",
+                "-",
+                "-",
+                "K4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "M5",
+                "L2",
+                "-",
+                "-",
+                "K3"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "M6",
+                "K6",
+                "-",
+                "-",
+                "K6"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "M7",
+                "K7",
+                "-",
+                "-",
+                "K5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 40,
+            "pins": [
+                "N4",
+                "L4",
+                "-",
+                "-",
+                "L1"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 40,
+            "pins": [
+                "N5",
+                "L5",
+                "-",
+                "-",
+                "L2"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "N6",
+                "L7",
+                "-",
+                "-",
+                "M1"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "N7",
+                "L6",
+                "-",
+                "-",
+                "M2"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 44,
+            "pins": [
+                "P1",
+                "M3",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 44,
+            "pins": [
+                "P2",
+                "M4",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 46,
+            "pins": [
+                "P5",
+                "M1",
+                "-",
+                "-",
+                "L4"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 46,
+            "pins": [
+                "P6",
+                "M2",
+                "-",
+                "-",
+                "L5"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 47,
+            "pins": [
+                "R1",
+                "N3",
+                "-",
+                "-",
+                "M3"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 47,
+            "pins": [
+                "R2",
+                "N2",
+                "-",
+                "-",
+                "L3"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 49,
+            "pins": [
+                "R3",
+                "P1",
+                "-",
+                "-",
+                "N2"
+            ],
+            "pio": 0,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 6,
+            "dqs": [],
+            "func": [],
+            "offset": 49,
+            "pins": [
+                "R4",
+                "N1",
+                "-",
+                "-",
+                "N1"
+            ],
+            "pio": 1,
+            "side": "L",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "CDR_RXP0",
+                "VREF5_1",
+                "ADC_CP0",
+                "COMP1P"
+            ],
+            "offset": 4,
+            "pins": [
+                "U1",
+                "N4",
+                "14",
+                "G11",
+                "P3"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": 1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "CDR_RXN0",
+                "ADC_CN0",
+                "COMP1N"
+            ],
+            "offset": 4,
+            "pins": [
+                "T1",
+                "M5",
+                "13",
+                "G10",
+                "N3"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKT5_0",
+                "CDR_RXP1",
+                "ADC_CP1",
+                "COMP2P"
+            ],
+            "offset": 6,
+            "pins": [
+                "V1",
+                "T1",
+                "16",
+                "H11",
+                "N4"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKC5_0",
+                "CDR_RXN1",
+                "ADC_CN1",
+                "COMP2N"
+            ],
+            "offset": 6,
+            "pins": [
+                "W1",
+                "R1",
+                "15",
+                "H10",
+                "M4"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKT5_1",
+                "LLC_GPLL0T_IN",
+                "ADC_CP3"
+            ],
+            "offset": 8,
+            "pins": [
+                "Y2",
+                "T2",
+                "11",
+                "J11",
+                "L7"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKC5_1",
+                "LLC_GPLL0C_IN",
+                "ADC_CN3"
+            ],
+            "offset": 8,
+            "pins": [
+                "Y3",
+                "U2",
+                "10",
+                "J10",
+                "M7"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKT5_2",
+                "ADC_CP2",
+                "COMP3P"
+            ],
+            "offset": 10,
+            "pins": [
+                "R5",
+                "R2",
+                "19",
+                "K11",
+                "L6"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKT5_3"
+            ],
+            "offset": 12,
+            "pins": [
+                "Y5",
+                "T3",
+                "9",
+                "L10",
+                "P1"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKC5_2",
+                "ADC_CN2",
+                "COMP3N"
+            ],
+            "offset": 10,
+            "pins": [
+                "R6",
+                "P2",
+                "20",
+                "L11",
+                "K7"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 5,
+            "dqs": [],
+            "func": [
+                "PCLKC5_3",
+                "VREF5_2"
+            ],
+            "offset": 12,
+            "pins": [
+                "W5",
+                "U3",
+                "8",
+                "K10",
+                "P2"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": 2
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [
+                "VREF4_1"
+            ],
+            "offset": 16,
+            "pins": [
+                "T6",
+                "R5",
+                "-",
+                "L9",
+                "R1"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": 1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 16,
+            "pins": [
+                "U6",
+                "T4",
+                "-",
+                "K9",
+                "R2"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [
+                "PCLKT4_3"
+            ],
+            "offset": 18,
+            "pins": [
+                "R7",
+                "R4",
+                "-",
+                "J8",
+                "R3"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [
+                "PCLKC4_3"
+            ],
+            "offset": 18,
+            "pins": [
+                "T7",
+                "P4",
+                "-",
+                "K8",
+                "T2"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 20,
+            "pins": [
+                "V6",
+                "N5",
+                "-",
+                "H8",
+                "T3"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 20,
+            "pins": [
+                "U7",
+                "P5",
+                "-",
+                "H7",
+                "T4"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                1,
+                22
+            ],
+            "func": [],
+            "offset": 22,
+            "pins": [
+                "W6",
+                "U4",
+                "-",
+                "G7",
+                "R5"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [
+                "PCLKT4_2"
+            ],
+            "offset": 24,
+            "pins": [
+                "W7",
+                "U6",
+                "-",
+                "F7",
+                "R4"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                2,
+                22
+            ],
+            "func": [],
+            "offset": 22,
+            "pins": [
+                "Y6",
+                "U5",
+                "-",
+                "G8",
+                "P5"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [
+                "PCLKC4_2"
+            ],
+            "offset": 24,
+            "pins": [
+                "V7",
+                "T6",
+                "-",
+                "F6",
+                "P4"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "P7",
+                "N6",
+                "-",
+                "L8",
+                "T5"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "P8",
+                "P6",
+                "-",
+                "L7",
+                "R6"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 28,
+            "pins": [
+                "R8",
+                "U7",
+                "-",
+                "K7",
+                "T6"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 28,
+            "pins": [
+                "T8",
+                "U8",
+                "-",
+                "J7",
+                "R7"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 30,
+            "pins": [
+                "Y7",
+                "T7",
+                "-",
+                "L6",
+                "T7"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                22
+            ],
+            "func": [],
+            "offset": 30,
+            "pins": [
+                "Y8",
+                "R7",
+                "-",
+                "K6",
+                "T8"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 32,
+            "pins": [
+                "R9",
+                "T8",
+                "-",
+                "F5",
+                "P6"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 32,
+            "pins": [
+                "P9",
+                "T9",
+                "-",
+                "G5",
+                "P7"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 34,
+            "pins": [
+                "P10",
+                "P7",
+                "-",
+                "-",
+                "L8"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 34,
+            "pins": [
+                "R10",
+                "N7",
+                "-",
+                "-",
+                "L9"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "W8",
+                "P8",
+                "-",
+                "-",
+                "N8"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "V9",
+                "N8",
+                "-",
+                "-",
+                "N9"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                1,
+                38
+            ],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "W9",
+                "U9",
+                "-",
+                "-",
+                "M9"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [
+                "PCLKT4_1"
+            ],
+            "offset": 40,
+            "pins": [
+                "T10",
+                "T10",
+                "-",
+                "H5",
+                "T9"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                2,
+                38
+            ],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "Y9",
+                "U10",
+                "-",
+                "-",
+                "M8"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [
+                "PCLKC4_1"
+            ],
+            "offset": 40,
+            "pins": [
+                "T11",
+                "R10",
+                "-",
+                "J5",
+                "T10"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "U10",
+                "P9",
+                "-",
+                "-",
+                "R8"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "V10",
+                "N9",
+                "-",
+                "-",
+                "P8"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [
+                "PCLKT4_0"
+            ],
+            "offset": 44,
+            "pins": [
+                "W10",
+                "T11",
+                "-",
+                "L5",
+                "R9"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [
+                "PCLKC4_0"
+            ],
+            "offset": 44,
+            "pins": [
+                "Y10",
+                "U11",
+                "-",
+                "K5",
+                "P9"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [],
+            "offset": 46,
+            "pins": [
+                "P11",
+                "M9",
+                "-",
+                "-",
+                "M10"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 4,
+            "dqs": [
+                0,
+                38
+            ],
+            "func": [
+                "VREF4_2"
+            ],
+            "offset": 46,
+            "pins": [
+                "R11",
+                "N10",
+                "-",
+                "-",
+                "N10"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": 2
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "PCLKT3_0",
+                "VREF3_1",
+                "ADC_CP5"
+            ],
+            "offset": 54,
+            "pins": [
+                "W11",
+                "R11",
+                "22",
+                "L4",
+                "R11"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": 1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "PCLKC3_0",
+                "ADC_CN5"
+            ],
+            "offset": 54,
+            "pins": [
+                "Y11",
+                "R12",
+                "23",
+                "L3",
+                "P11"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CP7"
+            ],
+            "offset": 56,
+            "pins": [
+                "V11",
+                "P10",
+                "-",
+                "J4",
+                "P10"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CN7"
+            ],
+            "offset": 56,
+            "pins": [
+                "U11",
+                "N11",
+                "-",
+                "K4",
+                "R10"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "PCLKT3_1",
+                "ADC_CP6"
+            ],
+            "offset": 58,
+            "pins": [
+                "Y12",
+                "M12",
+                "24",
+                "G4",
+                "T12"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "PCLKC3_1",
+                "ADC_CN6"
+            ],
+            "offset": 58,
+            "pins": [
+                "W12",
+                "M11",
+                "25",
+                "H4",
+                "T11"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                1,
+                60
+            ],
+            "func": [
+                "ADC_CP9"
+            ],
+            "offset": 60,
+            "pins": [
+                "W13",
+                "P11",
+                "-",
+                "L2",
+                "R12"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CP10"
+            ],
+            "offset": 62,
+            "pins": [
+                "U12",
+                "T12",
+                "-",
+                "-",
+                "R13"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                2,
+                60
+            ],
+            "func": [
+                "ADC_CN9"
+            ],
+            "offset": 60,
+            "pins": [
+                "V12",
+                "P12",
+                "-",
+                "L1",
+                "T13"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CN10"
+            ],
+            "offset": 62,
+            "pins": [
+                "T12",
+                "T13",
+                "-",
+                "-",
+                "R14"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CP4"
+            ],
+            "offset": 64,
+            "pins": [
+                "R12",
+                "N12",
+                "-",
+                "-",
+                "N12"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CN4"
+            ],
+            "offset": 64,
+            "pins": [
+                "P12",
+                "N13",
+                "-",
+                "-",
+                "N11"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "COMP1IP"
+            ],
+            "offset": 66,
+            "pins": [
+                "Y13",
+                "U13",
+                "-",
+                "-",
+                "T14"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "COMP1IN"
+            ],
+            "offset": 66,
+            "pins": [
+                "Y14",
+                "U12",
+                "-",
+                "-",
+                "T15"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CP8"
+            ],
+            "offset": 68,
+            "pins": [
+                "V14",
+                "T14",
+                "27",
+                "K1",
+                "R16"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                60
+            ],
+            "func": [
+                "ADC_CN8"
+            ],
+            "offset": 68,
+            "pins": [
+                "U14",
+                "U14",
+                "28",
+                "K2",
+                "R15"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "COMP2IP"
+            ],
+            "offset": 70,
+            "pins": [
+                "P13",
+                "M13",
+                "-",
+                "-",
+                "P14"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "COMP2IN"
+            ],
+            "offset": 70,
+            "pins": [
+                "R13",
+                "M14",
+                "-",
+                "-",
+                "N13"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "PCLKT3_2",
+                "ADC_CP13"
+            ],
+            "offset": 72,
+            "pins": [
+                "W14",
+                "N14",
+                "30",
+                "J1",
+                "P15"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "PCLKC3_2",
+                "ADC_CN13"
+            ],
+            "offset": 72,
+            "pins": [
+                "W15",
+                "M15",
+                "31",
+                "J2",
+                "P16"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "PCLKT3_3",
+                "ADC_CP14"
+            ],
+            "offset": 74,
+            "pins": [
+                "T13",
+                "P15",
+                "33",
+                "H1",
+                "M14"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "PCLKC3_3",
+                "ADC_CN14"
+            ],
+            "offset": 74,
+            "pins": [
+                "T14",
+                "N15",
+                "34",
+                "H2",
+                "N14"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                1,
+                76
+            ],
+            "func": [
+                "COMP3IP"
+            ],
+            "offset": 76,
+            "pins": [
+                "Y15",
+                "R15",
+                "-",
+                "-",
+                "N16"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CP11"
+            ],
+            "offset": 78,
+            "pins": [
+                "U15",
+                "U15",
+                "-",
+                "-",
+                "M12"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                2,
+                76
+            ],
+            "func": [
+                "COMP3IN"
+            ],
+            "offset": 76,
+            "pins": [
+                "Y16",
+                "T15",
+                "-",
+                "-",
+                "N15"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CN11"
+            ],
+            "offset": 78,
+            "pins": [
+                "V16",
+                "U16",
+                "-",
+                "-",
+                "M11"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CP12"
+            ],
+            "offset": 80,
+            "pins": [
+                "V17",
+                "T17",
+                "-",
+                "-",
+                "L11"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CN12"
+            ],
+            "offset": 80,
+            "pins": [
+                "U16",
+                "T16",
+                "-",
+                "-",
+                "L10"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CP15"
+            ],
+            "offset": 82,
+            "pins": [
+                "Y17",
+                "R17",
+                "-",
+                "-",
+                "M13"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "ADC_CN15"
+            ],
+            "offset": 82,
+            "pins": [
+                "W17",
+                "R16",
+                "-",
+                "-",
+                "L12"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "LRC_GPLL0T_IN"
+            ],
+            "offset": 84,
+            "pins": [
+                "W18",
+                "P16",
+                "36",
+                "G2",
+                "M16"
+            ],
+            "pio": 0,
+            "side": "B",
+            "vref": -1
+        },
+        {
+            "bank": 3,
+            "dqs": [
+                0,
+                76
+            ],
+            "func": [
+                "LRC_GPLL0C_IN",
+                "VREF3_2"
+            ],
+            "offset": 84,
+            "pins": [
+                "Y18",
+                "P17",
+                "37",
+                "G1",
+                "M15"
+            ],
+            "pio": 1,
+            "side": "B",
+            "vref": 2
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_REFP1"
+            ],
+            "offset": -1,
+            "pins": [
+                "P14",
+                "N17",
+                "-",
+                "-",
+                "L16"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_DP1"
+            ],
+            "offset": -1,
+            "pins": [
+                "T17",
+                "L17",
+                "-",
+                "-",
+                "K15"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_DN1"
+            ],
+            "offset": -1,
+            "pins": [
+                "U17",
+                "M17",
+                "-",
+                "-",
+                "K16"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_DN0"
+            ],
+            "offset": -1,
+            "pins": [
+                "R16",
+                "L16",
+                "-",
+                "-",
+                "K13"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_REFP0"
+            ],
+            "offset": -1,
+            "pins": [
+                "N13",
+                "L14",
+                "-",
+                "-",
+                "L15"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 70,
+            "dqs": [],
+            "func": [
+                "ADC_DP0"
+            ],
+            "offset": -1,
+            "pins": [
+                "T16",
+                "L15",
+                "-",
+                "-",
+                "K14"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 49,
+            "pins": [
+                "W19",
+                "L13",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 49,
+            "pins": [
+                "Y19",
+                "L12",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 47,
+            "pins": [
+                "V18",
+                "L11",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 47,
+            "pins": [
+                "V19",
+                "L10",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 46,
+            "pins": [
+                "T18",
+                "K11",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 46,
+            "pins": [
+                "U18",
+                "K10",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 44,
+            "pins": [
+                "W20",
+                "K17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 44,
+            "pins": [
+                "V20",
+                "K16",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "U20",
+                "J17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 42,
+            "pins": [
+                "T20",
+                "J16",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 40,
+            "pins": [
+                "R17",
+                "J15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 40,
+            "pins": [
+                "R18",
+                "J14",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "P17",
+                "-",
+                "-",
+                "-",
+                "K11"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 38,
+            "pins": [
+                "P18",
+                "-",
+                "-",
+                "-",
+                "K12"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "P19",
+                "-",
+                "-",
+                "-",
+                "J11"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 36,
+            "pins": [
+                "P20",
+                "-",
+                "-",
+                "-",
+                "J12"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [
+                "PCLKT2_2"
+            ],
+            "offset": 34,
+            "pins": [
+                "N19",
+                "J13",
+                "-",
+                "-",
+                "J16"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 34,
+            "pins": [
+                "N20",
+                "J12",
+                "-",
+                "-",
+                "J15"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [
+                "PCLKT2_1"
+            ],
+            "offset": 32,
+            "pins": [
+                "M19",
+                "J11",
+                "-",
+                "-",
+                "H13"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 32,
+            "pins": [
+                "M20",
+                "J10",
+                "-",
+                "-",
+                "H12"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [
+                "PCLKT2_0"
+            ],
+            "offset": 30,
+            "pins": [
+                "M17",
+                "H11",
+                "-",
+                "-",
+                "H11"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 30,
+            "pins": [
+                "M18",
+                "H12",
+                "-",
+                "-",
+                "H10"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 27,
+            "pins": [
+                "N15",
+                "H13",
+                "-",
+                "-",
+                "H15"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 27,
+            "pins": [
+                "N16",
+                "H14",
+                "-",
+                "-",
+                "H14"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "M16",
+                "H15",
+                "-",
+                "-",
+                "H16"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 26,
+            "pins": [
+                "M15",
+                "H16",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 24,
+            "pins": [
+                "N14",
+                "G17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 2,
+            "dqs": [],
+            "func": [],
+            "offset": 24,
+            "pins": [
+                "M14",
+                "H17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "PCLKT1_0"
+            ],
+            "offset": 20,
+            "pins": [
+                "L20",
+                "G11",
+                "-",
+                "F1",
+                "G15"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 20,
+            "pins": [
+                "L19",
+                "G10",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "PCLKT1_1"
+            ],
+            "offset": 19,
+            "pins": [
+                "L16",
+                "G13",
+                "-",
+                "F2",
+                "F16"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 19,
+            "pins": [
+                "L15",
+                "G12",
+                "-",
+                "-",
+                "G16"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "PCLKT1_2"
+            ],
+            "offset": 17,
+            "pins": [
+                "L13",
+                "G16",
+                "-",
+                "E1",
+                "G13"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 17,
+            "pins": [
+                "L14",
+                "G15",
+                "-",
+                "-",
+                "G14"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 15,
+            "pins": [
+                "G14",
+                "F16",
+                "-",
+                "E2",
+                "G11"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 15,
+            "pins": [
+                "G15",
+                "F17",
+                "-",
+                "-",
+                "G12"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "TCK",
+                "SCLK",
+                "PMU_EXT_CLK"
+            ],
+            "offset": 13,
+            "pins": [
+                "G18",
+                "F12",
+                "41",
+                "C1",
+                "F14"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "PMU_WAKEUP"
+            ],
+            "offset": 13,
+            "pins": [
+                "G19",
+                "F11",
+                "43",
+                "D1",
+                "F15"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "SDA",
+                "USER_SDA"
+            ],
+            "offset": 11,
+            "pins": [
+                "E20",
+                "E10",
+                "42",
+                "B2",
+                "G9"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "SCL",
+                "USER_SCL"
+            ],
+            "offset": 11,
+            "pins": [
+                "F20",
+                "F10",
+                "44",
+                "C2",
+                "G10"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 10,
+            "pins": [
+                "F18",
+                "-",
+                "-",
+                "-",
+                "E13"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "TDO",
+                "SSO"
+            ],
+            "offset": 10,
+            "pins": [
+                "F19",
+                "E11",
+                "45",
+                "A2",
+                "E14"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 8,
+            "pins": [
+                "F16",
+                "-",
+                "-",
+                "-",
+                "F10"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "TDI",
+                "SSI"
+            ],
+            "offset": 8,
+            "pins": [
+                "F17",
+                "E12",
+                "46",
+                "A3",
+                "F11"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 6,
+            "pins": [
+                "F14",
+                "E14",
+                "-",
+                "-",
+                "E12"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "TMS",
+                "SCSN"
+            ],
+            "offset": 6,
+            "pins": [
+                "F15",
+                "E13",
+                "48",
+                "B1",
+                "E11"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 4,
+            "pins": [
+                "F13",
+                "E16",
+                "-",
+                "-",
+                "E9"
+            ],
+            "pio": 0,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 4,
+            "pins": [
+                "G13",
+                "E15",
+                "-",
+                "-",
+                "E10"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [
+                "JTAG_EN"
+            ],
+            "offset": -1,
+            "pins": [
+                "E19",
+                "E17",
+                "50",
+                "A1",
+                "D10"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 1,
+            "dqs": [],
+            "func": [],
+            "offset": 3,
+            "pins": [
+                "E17",
+                "D17",
+                "-",
+                "-",
+                "F9"
+            ],
+            "pio": 1,
+            "side": "R",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [],
+            "offset": 84,
+            "pins": [
+                "D17",
+                "B17",
+                "-",
+                "C3",
+                "E16"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [],
+            "offset": 84,
+            "pins": [
+                "E18",
+                "A16",
+                "-",
+                "B3",
+                "E15"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MCSNO",
+                "MSDO"
+            ],
+            "offset": 82,
+            "pins": [
+                "E16",
+                "B15",
+                "53",
+                "E3",
+                "C13"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MD3"
+            ],
+            "offset": 82,
+            "pins": [
+                "D16",
+                "B16",
+                "52",
+                "E4",
+                "D12"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MD2"
+            ],
+            "offset": 80,
+            "pins": [
+                "D14",
+                "C17",
+                "55",
+                "D5",
+                "D15"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MISO",
+                "MD1"
+            ],
+            "offset": 80,
+            "pins": [
+                "D15",
+                "C16",
+                "51",
+                "E5",
+                "D16"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MOSI",
+                "MD0"
+            ],
+            "offset": 78,
+            "pins": [
+                "D13",
+                "C13",
+                "57",
+                "D6",
+                "C14"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MCSN",
+                "PCLKT0_1"
+            ],
+            "offset": 78,
+            "pins": [
+                "E13",
+                "C14",
+                "56",
+                "E6",
+                "C15"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "DONE"
+            ],
+            "offset": 76,
+            "pins": [
+                "D12",
+                "D14",
+                "58",
+                "D7",
+                "B16"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "MCLK",
+                "PCLKT0_0"
+            ],
+            "offset": 76,
+            "pins": [
+                "E12",
+                "D16",
+                "59",
+                "E7",
+                "C16"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "PROGRAMN"
+            ],
+            "offset": 74,
+            "pins": [
+                "E11",
+                "D13",
+                "60",
+                "D8",
+                "C12"
+            ],
+            "pio": 1,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 0,
+            "dqs": [],
+            "func": [
+                "INITN"
+            ],
+            "offset": 74,
+            "pins": [
+                "D11",
+                "D12",
+                "61",
+                "E8",
+                "D11"
+            ],
+            "pio": 0,
+            "side": "T",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "C14",
+                "C12",
+                "-",
+                "-",
+                "C11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A16",
+                "A13",
+                "-",
+                "-",
+                "A15"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A15",
+                "A14",
+                "-",
+                "-",
+                "A14"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "B14",
+                "B12",
+                "-",
+                "-",
+                "B12"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A13",
+                "A11",
+                "-",
+                "-",
+                "A12"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A12",
+                "A10",
+                "-",
+                "-",
+                "A11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_REFCLKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD0_REFCLKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DP3"
+            ],
+            "offset": -1,
+            "pins": [
+                "A10",
+                "A6",
+                "-",
+                "A5",
+                "A7"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DN3"
+            ],
+            "offset": -1,
+            "pins": [
+                "B10",
+                "B6",
+                "-",
+                "B5",
+                "B7"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DP1"
+            ],
+            "offset": -1,
+            "pins": [
+                "A9",
+                "A5",
+                "-",
+                "A6",
+                "A6"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DN1"
+            ],
+            "offset": -1,
+            "pins": [
+                "B9",
+                "B5",
+                "-",
+                "B6",
+                "B6"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_CKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A8",
+                "A4",
+                "-",
+                "A7",
+                "A5"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_CKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B8",
+                "B4",
+                "-",
+                "B7",
+                "B5"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DP0"
+            ],
+            "offset": -1,
+            "pins": [
+                "A7",
+                "A3",
+                "-",
+                "A8",
+                "A4"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DN0"
+            ],
+            "offset": -1,
+            "pins": [
+                "B7",
+                "B3",
+                "-",
+                "B8",
+                "B4"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DP2"
+            ],
+            "offset": -1,
+            "pins": [
+                "A6",
+                "A2",
+                "-",
+                "A9",
+                "A3"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 61,
+            "dqs": [],
+            "func": [
+                "DPHY1_DN2"
+            ],
+            "offset": -1,
+            "pins": [
+                "B6",
+                "B2",
+                "-",
+                "B9",
+                "B3"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DP3"
+            ],
+            "offset": -1,
+            "pins": [
+                "A4",
+                "B1",
+                "64",
+                "A11",
+                "B1"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DN3"
+            ],
+            "offset": -1,
+            "pins": [
+                "B4",
+                "C2",
+                "65",
+                "A10",
+                "B2"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DP1"
+            ],
+            "offset": -1,
+            "pins": [
+                "A3",
+                "C1",
+                "66",
+                "B11",
+                "C1"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DN1"
+            ],
+            "offset": -1,
+            "pins": [
+                "B3",
+                "D2",
+                "67",
+                "B10",
+                "C2"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_CKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A2",
+                "D1",
+                "68",
+                "C11",
+                "D1"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_CKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B1",
+                "E2",
+                "69",
+                "C10",
+                "D2"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DP0"
+            ],
+            "offset": -1,
+            "pins": [
+                "B2",
+                "E1",
+                "4",
+                "D11",
+                "E1"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DN0"
+            ],
+            "offset": -1,
+            "pins": [
+                "C1",
+                "F2",
+                "3",
+                "D10",
+                "E2"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DP2"
+            ],
+            "offset": -1,
+            "pins": [
+                "C2",
+                "F1",
+                "1",
+                "E11",
+                "F1"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 60,
+            "dqs": [],
+            "func": [
+                "DPHY0_DN2"
+            ],
+            "offset": -1,
+            "pins": [
+                "D1",
+                "G2",
+                "2",
+                "E10",
+                "F2"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        }
+    ]
+}
