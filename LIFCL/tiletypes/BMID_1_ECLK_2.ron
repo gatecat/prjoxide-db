@@ -368,6 +368,70 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "DCC_B10.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:11,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B11.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:12,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B12.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:13,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B13.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:14,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B14.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:15,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B15.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:16,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B16.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:17,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B17.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:18,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_B9.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:10,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+  },
   conns: {},
 )

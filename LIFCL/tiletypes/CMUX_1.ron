@@ -1022,6 +1022,28 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "DCC_C1.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:0,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_C2.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:1,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_C3.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:2,bit:0,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+  },
   conns: {},
 )

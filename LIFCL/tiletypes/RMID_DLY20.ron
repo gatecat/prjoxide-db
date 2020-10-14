@@ -346,7 +346,92 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "DCC_R0.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:8,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R1.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:7,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R10.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:14,bit:2,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R11.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:13,bit:2,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R2.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:6,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R3.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:5,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R4.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:4,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R5.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:3,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R6.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:2,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R7.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:1,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R8.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:0,bit:1,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+    "DCC_R9.DCCEN": (
+      options: {
+        "0": [],
+        "1": [(frame:15,bit:2,invert:false,),],
+      },
+      desc: "DCC bypassed (0) or used as gate (1)",
+    ),
+  },
   conns: {
     "G:JHPFW0_CMUX_CORE_CMUX0": [
       (
