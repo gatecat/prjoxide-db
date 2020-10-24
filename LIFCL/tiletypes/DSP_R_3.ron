@@ -44,6 +44,46 @@
     ),
   },
   conns: {
+    "N1:JADDSUB0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JADDSUB1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JCASIN0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JCASCOUT0_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JCASIN1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JCASCOUT1_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JCECIN_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E7:JCE0",
+      ),
+    ],
+    "N1:JCECTRL_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E7:JCE1",
+      ),
+    ],
+    "N1:JCEC_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E5:JCE0",
+      ),
+    ],
+    "N1:JCEO_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E5:JCE1",
+      ),
+    ],
     "N1:JCEP_REG18_CORE_REG18_L0_0": [
       (
         from_wire: "N1E3:JCE0",
@@ -64,6 +104,286 @@
         from_wire: "N1E3:JCE1",
       ),
     ],
+    "N1:JCINPUT0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1:JCINPUT10_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JCINPUT11_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JCINPUT12_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JCINPUT13_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JCINPUT14_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1:JCINPUT15_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1:JCINPUT16_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1:JCINPUT17_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1:JCINPUT18_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JCINPUT19_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JCINPUT1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1:JCINPUT20_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JCINPUT21_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JCINPUT22_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1:JCINPUT23_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1:JCINPUT24_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1:JCINPUT25_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1:JCINPUT26_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JCINPUT27_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JCINPUT28_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JCINPUT29_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JCINPUT2_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JCINPUT30_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1:JCINPUT31_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1:JCINPUT32_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1:JCINPUT33_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1:JCINPUT34_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JCINPUT35_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1:JCINPUT36_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1:JCINPUT37_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD5",
+      ),
+    ],
+    "N1:JCINPUT38_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD6",
+      ),
+    ],
+    "N1:JCINPUT39_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1:JCINPUT3_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JCINPUT40_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1:JCINPUT41_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1:JCINPUT42_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JCINPUT43_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1:JCINPUT44_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1:JCINPUT45_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD5",
+      ),
+    ],
+    "N1:JCINPUT46_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD6",
+      ),
+    ],
+    "N1:JCINPUT47_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1:JCINPUT48_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1:JCINPUT49_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1:JCINPUT4_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JCINPUT50_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JCINPUT51_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD3",
+      ),
+    ],
+    "N1:JCINPUT52_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD4",
+      ),
+    ],
+    "N1:JCINPUT53_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD5",
+      ),
+    ],
+    "N1:JCINPUT5_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JCINPUT6_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1:JCINPUT7_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1:JCINPUT8_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1:JCINPUT9_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1:JCIN_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC0",
+      ),
+    ],
+    "N1:JCLK_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E5:JCLK1",
+      ),
+    ],
     "N1:JCLK_REG18_CORE_REG18_L0_0": [
       (
         from_wire: "N1W1:JCLK0",
@@ -82,6 +402,331 @@
     "N1:JCLK_REG18_CORE_REG18_L1_1": [
       (
         from_wire: "N1W1:JCLK1",
+      ),
+    ],
+    "N1:JDSPIN0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT0_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN10_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT10_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN11_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT11_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN12_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT12_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN13_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT13_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN14_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT14_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN15_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT15_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN16_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT16_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN17_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT17_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN18_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT18_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN19_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT19_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT1_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN20_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT20_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN21_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT21_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN22_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT22_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN23_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT23_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN24_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT24_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN25_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT25_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN26_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT26_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN27_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT27_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN28_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT28_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN29_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT29_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN2_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT2_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN30_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT30_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN31_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT31_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN32_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT32_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN33_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT33_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN34_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT34_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN35_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT35_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN36_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT36_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN37_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT37_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN38_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT38_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN39_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT39_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN3_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT3_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN40_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT40_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN41_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT41_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN42_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT42_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN43_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT43_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN44_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT44_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN45_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT45_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN46_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT46_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN47_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT47_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN48_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT48_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN49_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT49_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN4_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT4_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN50_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT50_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN51_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT51_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN52_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT52_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN53_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT53_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN5_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT5_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN6_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT6_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN7_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT7_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN8_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT8_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JDSPIN9_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1W8:JDSPOUT9_ACC54_CORE_ACC54_1",
+      ),
+    ],
+    "N1:JF0": [
+      (
+        from_wire: "N1:JSUM032_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF1": [
+      (
+        from_wire: "N1:JSUM033_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF2": [
+      (
+        from_wire: "N1:JSUM034_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF3": [
+      (
+        from_wire: "N1:JSUM035_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF4": [
+      (
+        from_wire: "N1:JSUM10_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF5": [
+      (
+        from_wire: "N1:JSUM11_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF6": [
+      (
+        from_wire: "N1:JSUM12_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JF7": [
+      (
+        from_wire: "N1:JSUM13_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JLOAD_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC1",
+      ),
+    ],
+    "N1:JM9ADDSUB0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JM9ADDSUB1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC3",
       ),
     ],
     "N1:JP720_MULT18X36_CORE_MULT18X36_0": [
@@ -1904,9 +2549,74 @@
         from_wire: "N1:JPM9_REG18_CORE_REG18_L1_1",
       ),
     ],
+    "N1:JQ0": [
+      (
+        from_wire: "N1:JSUM14_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ1": [
+      (
+        from_wire: "N1:JSUM15_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ2": [
+      (
+        from_wire: "N1:JSUM16_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ3": [
+      (
+        from_wire: "N1:JSUM17_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ4": [
+      (
+        from_wire: "N1:JSUM18_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ5": [
+      (
+        from_wire: "N1:JSUM19_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ6": [
+      (
+        from_wire: "N1:JSUM110_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JQ7": [
+      (
+        from_wire: "N1:JSUM111_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JROUNDEN_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTA0",
+      ),
+    ],
     "N1:JROUNDEN_MULT18X36_CORE_MULT18X36_0": [
       (
         from_wire: "N1E3:JCIBMUXOUTB6",
+      ),
+    ],
+    "N1:JRSTCIN_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E7:JLSR0",
+      ),
+    ],
+    "N1:JRSTCTRL_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E7:JLSR1",
+      ),
+    ],
+    "N1:JRSTC_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E5:JLSR0",
+      ),
+    ],
+    "N1:JRSTO_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E5:JLSR1",
       ),
     ],
     "N1:JRSTP_REG18_CORE_REG18_L0_0": [
@@ -1929,9 +2639,19 @@
         from_wire: "N1E3:JLSR1",
       ),
     ],
+    "N1:JSFTCTRL0_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTA4",
+      ),
+    ],
     "N1:JSFTCTRL0_MULT18X36_CORE_MULT18X36_0": [
       (
         from_wire: "N1E8:JCIBMUXOUTD0",
+      ),
+    ],
+    "N1:JSFTCTRL1_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTA5",
       ),
     ],
     "N1:JSFTCTRL1_MULT18X36_CORE_MULT18X36_0": [
@@ -1939,9 +2659,19 @@
         from_wire: "N1E8:JCIBMUXOUTD1",
       ),
     ],
+    "N1:JSFTCTRL2_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTA6",
+      ),
+    ],
     "N1:JSFTCTRL2_MULT18X36_CORE_MULT18X36_0": [
       (
         from_wire: "N1E8:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JSFTCTRL3_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E8:JCIBMUXOUTA7",
       ),
     ],
     "N1:JSFTCTRL3_MULT18X36_CORE_MULT18X36_0": [
@@ -1957,6 +2687,771 @@
     "N1:JSGNED18L_MULT18X36_CORE_MULT18X36_0": [
       (
         from_wire: "N1W2:JSIGNED18_MULT18_CORE_MULT18_0",
+      ),
+    ],
+    "N1:JSIGNEDI_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC6",
+      ),
+    ],
+    "N1:JSUM00_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP0_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM010_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP10_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM011_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP11_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM012_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP12_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM013_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP13_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM014_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP14_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM015_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP15_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM016_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP16_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM017_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP17_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM018_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP18_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM019_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP19_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM01_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP1_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM020_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP20_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM021_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP21_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM022_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP22_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM023_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP23_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM024_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP24_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM025_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP25_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM026_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP26_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM027_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP27_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM028_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP28_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM029_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP29_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM02_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP2_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM030_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP30_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM031_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP31_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM032_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP32_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM033_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP33_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM034_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP34_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM035_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP35_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM03_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP3_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM04_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP4_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM05_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP5_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM06_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP6_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM07_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP7_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM08_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP8_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM09_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP9_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM10_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP36_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM110_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP46_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM111_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP47_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM112_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP48_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM113_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP49_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM114_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP50_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM115_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP51_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM116_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP52_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM117_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP53_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM118_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP54_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM119_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP55_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM11_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP37_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM120_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP56_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM121_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP57_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM122_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP58_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM123_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP59_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM124_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP60_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM125_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP61_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM126_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP62_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM127_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP63_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM128_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP64_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM129_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP65_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM12_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP38_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM130_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP66_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM131_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP67_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM132_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP68_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM133_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP69_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM134_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP70_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM135_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP71_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM13_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP39_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM14_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP40_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM15_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP41_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM16_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP42_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM17_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP43_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM18_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP44_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1:JSUM19_ACC54_CORE_ACC54_0": [
+      (
+        from_wire: "N1:JPP45_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF0": [
+      (
+        from_wire: "N1:JSUM112_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF1": [
+      (
+        from_wire: "N1:JSUM113_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF2": [
+      (
+        from_wire: "N1:JSUM114_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF3": [
+      (
+        from_wire: "N1:JSUM115_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF4": [
+      (
+        from_wire: "N1:JSUM116_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF5": [
+      (
+        from_wire: "N1:JSUM117_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF6": [
+      (
+        from_wire: "N1:JSUM118_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JF7": [
+      (
+        from_wire: "N1:JSUM119_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ0": [
+      (
+        from_wire: "N1:JSUM120_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ1": [
+      (
+        from_wire: "N1:JSUM121_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ2": [
+      (
+        from_wire: "N1:JSUM122_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ3": [
+      (
+        from_wire: "N1:JSUM123_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ4": [
+      (
+        from_wire: "N1:JSUM124_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ5": [
+      (
+        from_wire: "N1:JSUM125_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ6": [
+      (
+        from_wire: "N1:JSUM126_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E1:JQ7": [
+      (
+        from_wire: "N1:JSUM127_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF0": [
+      (
+        from_wire: "N1:JSUM128_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF1": [
+      (
+        from_wire: "N1:JSUM129_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF2": [
+      (
+        from_wire: "N1:JSUM130_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF3": [
+      (
+        from_wire: "N1:JSUM131_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF4": [
+      (
+        from_wire: "N1:JSUM132_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF5": [
+      (
+        from_wire: "N1:JSUM133_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF6": [
+      (
+        from_wire: "N1:JSUM134_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E2:JF7": [
+      (
+        from_wire: "N1:JSUM135_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JCASIN0_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JCASCOUT0_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JCASIN1_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JCASCOUT1_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN0_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT0_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN10_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT10_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN11_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT11_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN12_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT12_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN13_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT13_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN14_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT14_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN15_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT15_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN16_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT16_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN17_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT17_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN18_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT18_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN19_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT19_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN1_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT1_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN20_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT20_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN21_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT21_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN22_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT22_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN23_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT23_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN24_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT24_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN25_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT25_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN26_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT26_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN27_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT27_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN28_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT28_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN29_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT29_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN2_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT2_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN30_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT30_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN31_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT31_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN32_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT32_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN33_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT33_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN34_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT34_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN35_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT35_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN36_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT36_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN37_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT37_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN38_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT38_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN39_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT39_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN3_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT3_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN40_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT40_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN41_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT41_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN42_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT42_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN43_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT43_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN44_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT44_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN45_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT45_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN46_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT46_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN47_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT47_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN48_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT48_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN49_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT49_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN4_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT4_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN50_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT50_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN51_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT51_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN52_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT52_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN53_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT53_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN5_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT5_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN6_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT6_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN7_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT7_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN8_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT8_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1E4:JDSPIN9_ACC54_CORE_ACC54_1": [
+      (
+        from_wire: "N1:JDSPOUT9_ACC54_CORE_ACC54_0",
       ),
     ],
     "N1E4:JPL720_MULT36_CORE_MULT36": [
@@ -2322,6 +3817,166 @@
     "N1E4:JPL729_MULT36_CORE_MULT36": [
       (
         from_wire: "N1:JP729_MULT18X36_CORE_MULT18X36_0",
+      ),
+    ],
+    "N1W1:JF0": [
+      (
+        from_wire: "N1:JSUM016_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF1": [
+      (
+        from_wire: "N1:JSUM017_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF2": [
+      (
+        from_wire: "N1:JSUM018_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF3": [
+      (
+        from_wire: "N1:JSUM019_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF4": [
+      (
+        from_wire: "N1:JSUM020_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF5": [
+      (
+        from_wire: "N1:JSUM021_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF6": [
+      (
+        from_wire: "N1:JSUM022_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JF7": [
+      (
+        from_wire: "N1:JSUM023_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ0": [
+      (
+        from_wire: "N1:JSUM024_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ1": [
+      (
+        from_wire: "N1:JSUM025_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ2": [
+      (
+        from_wire: "N1:JSUM026_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ3": [
+      (
+        from_wire: "N1:JSUM027_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ4": [
+      (
+        from_wire: "N1:JSUM028_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ5": [
+      (
+        from_wire: "N1:JSUM029_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ6": [
+      (
+        from_wire: "N1:JSUM030_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W1:JQ7": [
+      (
+        from_wire: "N1:JSUM031_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF0": [
+      (
+        from_wire: "N1:JSUM00_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF1": [
+      (
+        from_wire: "N1:JSUM01_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF2": [
+      (
+        from_wire: "N1:JSUM02_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF3": [
+      (
+        from_wire: "N1:JSUM03_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF4": [
+      (
+        from_wire: "N1:JSUM04_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF5": [
+      (
+        from_wire: "N1:JSUM05_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF6": [
+      (
+        from_wire: "N1:JSUM06_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JF7": [
+      (
+        from_wire: "N1:JSUM07_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ0": [
+      (
+        from_wire: "N1:JSUM08_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ1": [
+      (
+        from_wire: "N1:JSUM09_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ2": [
+      (
+        from_wire: "N1:JSUM010_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ3": [
+      (
+        from_wire: "N1:JSUM011_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ4": [
+      (
+        from_wire: "N1:JSUM012_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ5": [
+      (
+        from_wire: "N1:JSUM013_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ6": [
+      (
+        from_wire: "N1:JSUM014_ACC54_CORE_ACC54_0",
+      ),
+    ],
+    "N1W2:JQ7": [
+      (
+        from_wire: "N1:JSUM015_ACC54_CORE_ACC54_0",
       ),
     ],
   },
