@@ -432,5 +432,244 @@
       },
     ),
   },
-  conns: {},
+  conns: {
+    "N1E1:JQ6": [
+      (
+        from_wire: "N1W5:JBTDETECT_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E1:JQ7": [
+      (
+        from_wire: "N1W5:JDATAVALID_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E2:JQ6": [
+      (
+        from_wire: "N1W5:JSR90CIB_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E2:JQ7": [
+      (
+        from_wire: "N1W5:JSW270CIB_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E3:JQ6": [
+      (
+        from_wire: "N1W5:JDQSWCIB_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E3:JQ7": [
+      (
+        from_wire: "N1W5:JREADCOUT_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E4:JQ6": [
+      (
+        from_wire: "N1W5:JWRCOUT_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E4:JQ7": [
+      (
+        from_wire: "N1W5:JWRLVCOUT_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E5:JQ6": [
+      (
+        from_wire: "N1W5:JBURSTDETECT_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1E5:JQ7": [
+      (
+        from_wire: "N1W5:JDQSWRD_DQSBUF_CORE_I_DQS_TOP",
+      ),
+    ],
+    "N1W5:JDLLCODE0_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD0_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE1_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD1_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE2_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD2_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE3_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD3_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE4_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD4_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE5_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD5_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE6_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD6_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE7_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD7_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDLLCODE8_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JSELDLLCD8_I_DQS_TOP_DLL_CODE_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JDQSI_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "E1:JINCK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
+      ),
+      (
+        from_wire: "E1:JPADDI_DIFFIO18_CORE_IOA",
+      ),
+    ],
+    "N1W5:JECLK0_I_DQS_TOP_ECLK_ROUTING_MUX": [
+      (
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1W5:JECLK1_I_DQS_TOP_ECLK_ROUTING_MUX": [
+      (
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1W5:JECLK2_I_DQS_TOP_ECLK_ROUTING_MUX": [
+      (
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1W5:JECLK3_I_DQS_TOP_ECLK_ROUTING_MUX": [
+      (
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1W5:JECLKIN_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1W5:JECLKOUT_I_DQS_TOP_ECLK_ROUTING_MUX",
+      ),
+    ],
+    "N1W5:JPAUSE_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E5:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W5:JRDCLKSEL0_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E4:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1W5:JRDCLKSEL1_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E4:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W5:JRDCLKSEL2_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E4:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W5:JRDCLKSEL3_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E4:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W5:JRDDIR_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W5:JRDLOADN_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W5:JREAD0_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1W5:JREAD1_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W5:JREAD2_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W5:JREAD3_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W5:JREADMOVE_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1W5:JRSTSMCNT_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTB4",
+      ),
+    ],
+    "N1W5:JRST_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JLSR1",
+      ),
+    ],
+    "N1W5:JSCLK_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCLK1",
+      ),
+    ],
+    "N1W5:JSELCLK_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E5:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W5:JWRDIR_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTD1",
+      ),
+    ],
+    "N1W5:JWRLOAD_N_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1W5:JWRLVDIR_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E5:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W5:JWRLVLOAD_N_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTD7",
+      ),
+    ],
+    "N1W5:JWRLVMOVE_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E3:JCIBMUXOUTC7",
+      ),
+    ],
+    "N1W5:JWRMOVE_DQSBUF_CORE_I_DQS_TOP": [
+      (
+        from_wire: "N1E2:JCIBMUXOUTD7",
+      ),
+    ],
+  },
 )
