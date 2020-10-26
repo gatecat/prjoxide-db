@@ -1,5 +1,185 @@
 (
   pips: {
+    "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKCAS0M0_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [(frame:94,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "N1:JECLKCAS1M0_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [(frame:93,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "N1:JECLKSYNCM0_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [(frame:93,bit:0,invert:false,),(frame:94,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKCAS0M1_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [],
+      ),
+      (
+        from_wire: "N1:JECLKCAS1M1_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [(frame:101,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "N1:JECLKSYNCM1_ECLKCASMUX_CORE_ECLKCASMUX3",
+        bits: [(frame:101,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4": [
+      (
+        from_wire: "N1W1:JECLKCAS0M3_ECLKCASMUX_CORE_ECLKCASMUX4",
+        bits: [(frame:103,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "N1W1:JECLKCAS1M3_ECLKCASMUX_CORE_ECLKCASMUX4",
+        bits: [(frame:102,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "N1W1:JECLKSYNCM3_ECLKCASMUX_CORE_ECLKCASMUX4",
+        bits: [(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JMUXIN0_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1:JECLKCIB0_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOP_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS3_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS5_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS2_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS4_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:90,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT0_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT1_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:90,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT2_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT3_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JMUXIN1_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1:JECLKCIB1_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:99,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOP_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS4_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:98,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS2_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:98,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS3_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS5_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:98,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT0_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT1_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:98,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT2_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT3_ECLKBANK_CORE_ECLKBANK3",
+        bits: [(frame:95,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JMUXIN2_ECLKBANK_CORE_ECLKBANK4": [
+      (
+        from_wire: "N1W1:JECLKCIB2_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS2_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS5_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:87,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOP_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS3_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:86,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS4_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:86,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT0_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:86,bit:0,invert:false,),(frame:87,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT1_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:86,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT2_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT3_ECLKBANK_CORE_ECLKBANK4",
+        bits: [(frame:84,bit:0,invert:false,),(frame:88,bit:0,invert:false,),],
+      ),
+    ],
     "G:JVPFN10_BMID_CORE_BMIDMUX": [
       (
         from_wire: "G:JECLKDIV1_BMID_CORE_BMIDMUX",
@@ -366,6 +546,56 @@
         bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
       ),
     ],
+    "N1E1:JECLKOUT_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR": [
+      (
+        from_wire: "G:JLLCLKOP_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:80,bit:1,invert:false,),(frame:81,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS2_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:80,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS3_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:80,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS4_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:81,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS5_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:80,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOP_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS2_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:80,bit:1,invert:false,),(frame:81,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS3_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:80,bit:1,invert:false,),(frame:82,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS4_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:80,bit:1,invert:false,),(frame:81,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS5_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:80,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS_ECLKLOGICMUXPLLFB_CORE_ECLKPLLFBR",
+        bits: [(frame:79,bit:1,invert:false,),],
+      ),
+    ],
   },
   words: {},
   enums: {
@@ -433,5 +663,426 @@
       desc: "DCC bypassed (0) or used as gate (1)",
     ),
   },
-  conns: {},
+  conns: {
+    "G:JECLKDIV0_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB3_0",
+      ),
+    ],
+    "G:JECLKDIV1_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB3_1",
+      ),
+    ],
+    "G:JECLKDIV2_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB3_2",
+      ),
+    ],
+    "G:JECLKDIV3_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB3_3",
+      ),
+    ],
+    "G:JPCLKT0_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1E4:JCLKOUT_DLLDEL_CORE_I0",
+      ),
+    ],
+    "G:JPCLKT2_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1E5:JCLKOUT_DLLDEL_CORE_I0",
+      ),
+    ],
+    "N1:JDIVRST_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1E3:JLSR0",
+      ),
+    ],
+    "N1:JDIVRST_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1E3:JLSR1",
+      ),
+    ],
+    "N1:JDIVRST_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1E2:JLSR0",
+      ),
+    ],
+    "N1:JDIVRST_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1E2:JLSR1",
+      ),
+    ],
+    "N1:JECLKCAS0M0_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC5_0",
+      ),
+    ],
+    "N1:JECLKCAS0M1_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC5_1",
+      ),
+    ],
+    "N1:JECLKCAS0M2_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC5_2",
+      ),
+    ],
+    "N1:JECLKCAS0M3_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC5_3",
+      ),
+    ],
+    "N1:JECLKCAS1M0_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC4_0",
+      ),
+    ],
+    "N1:JECLKCAS1M1_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC4_1",
+      ),
+    ],
+    "N1:JECLKCAS1M2_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC4_2",
+      ),
+    ],
+    "N1:JECLKCAS1M3_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC4_3",
+      ),
+    ],
+    "N1:JECLKCIB0_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB0",
+      ),
+    ],
+    "N1:JECLKCIB1_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB1",
+      ),
+    ],
+    "N1:JECLKCIB2_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB2",
+      ),
+    ],
+    "N1:JECLKCIB3_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W1:JCIBMUXOUTB3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_0": [
+      (
+        from_wire: "G:JMUXIN0_ECLKBANK_CORE_ECLKBANK3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_1": [
+      (
+        from_wire: "G:JMUXIN1_ECLKBANK_CORE_ECLKBANK3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_2": [
+      (
+        from_wire: "G:JMUXIN2_ECLKBANK_CORE_ECLKBANK3",
+      ),
+    ],
+    "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_3": [
+      (
+        from_wire: "G:JMUXIN3_ECLKBANK_CORE_ECLKBANK3",
+      ),
+    ],
+    "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_0": [
+      (
+        from_wire: "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_0",
+      ),
+    ],
+    "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_1": [
+      (
+        from_wire: "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_1",
+      ),
+    ],
+    "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_2": [
+      (
+        from_wire: "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_2",
+      ),
+    ],
+    "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_3": [
+      (
+        from_wire: "N1:JECLKIN_ECLKSYNC_CORE_ECLKSYNC3_3",
+      ),
+    ],
+    "N1:JECLKSYNCM0_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_0",
+      ),
+    ],
+    "N1:JECLKSYNCM1_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_1",
+      ),
+    ],
+    "N1:JECLKSYNCM2_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_2",
+      ),
+    ],
+    "N1:JECLKSYNCM3_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_3",
+      ),
+    ],
+    "N1:JECLKTREE0_ECLKDDRR_0": [
+      (
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKTREE0_ECLKDDRR_1": [
+      (
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKTREE0_ECLKDDRR_2": [
+      (
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKTREE0_ECLKDDRR_3": [
+      (
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX3",
+      ),
+    ],
+    "N1:JECLKTREE1_ECLKDDRR_0": [
+      (
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1:JECLKTREE1_ECLKDDRR_1": [
+      (
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1:JECLKTREE1_ECLKDDRR_2": [
+      (
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1:JECLKTREE1_ECLKDDRR_3": [
+      (
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
+      ),
+    ],
+    "N1:JSLIP_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JSLIP_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JSLIP_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JSLIP_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1E1:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JSTOP_ECLKSYNC_CORE_ECLKSYNC3_0": [
+      (
+        from_wire: "N1:JCIBMUXOUTD2",
+      ),
+    ],
+    "N1:JSTOP_ECLKSYNC_CORE_ECLKSYNC3_1": [
+      (
+        from_wire: "N1:JCIBMUXOUTB4",
+      ),
+    ],
+    "N1:JSTOP_ECLKSYNC_CORE_ECLKSYNC3_2": [
+      (
+        from_wire: "N1:JCIBMUXOUTB7",
+      ),
+    ],
+    "N1:JSTOP_ECLKSYNC_CORE_ECLKSYNC3_3": [
+      (
+        from_wire: "N1:JCIBMUXOUTB5",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA0",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA4",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JTESTINP0_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA1",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKCASMUX_CORE_ECLKCASMUX3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA5",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JTESTINP1_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "N1:JTESTINP2_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA2",
+      ),
+    ],
+    "N1:JTESTINP2_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JTESTINP2_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JTESTINP2_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JTESTINP2_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "N1:JTESTINP3_ECLKBANK_CORE_ECLKBANK3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTA3",
+      ),
+    ],
+    "N1:JTESTINP3_ECLKDIV_CORE_ECLKDIVB3_0": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JTESTINP3_ECLKDIV_CORE_ECLKDIVB3_1": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JTESTINP3_ECLKDIV_CORE_ECLKDIVB3_2": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1:JTESTINP3_ECLKDIV_CORE_ECLKDIVB3_3": [
+      (
+        from_wire: "N1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "N1W1:JECLKCAS0M0_ECLKCASMUX_CORE_ECLKCASMUX4": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_0",
+      ),
+    ],
+    "N1W1:JECLKCAS0M1_ECLKCASMUX_CORE_ECLKCASMUX4": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_1",
+      ),
+    ],
+    "N1W1:JECLKCAS0M2_ECLKCASMUX_CORE_ECLKCASMUX4": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_2",
+      ),
+    ],
+    "N1W1:JECLKCAS0M3_ECLKCASMUX_CORE_ECLKCASMUX4": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_3",
+      ),
+    ],
+    "N1W2:JECLKCAS1M0_ECLKCASMUX_CORE_ECLKCASMUX5": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_0",
+      ),
+    ],
+    "N1W2:JECLKCAS1M1_ECLKCASMUX_CORE_ECLKCASMUX5": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_1",
+      ),
+    ],
+    "N1W2:JECLKCAS1M2_ECLKCASMUX_CORE_ECLKCASMUX5": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_2",
+      ),
+    ],
+    "N1W2:JECLKCAS1M3_ECLKCASMUX_CORE_ECLKCASMUX5": [
+      (
+        from_wire: "N1:JECLKOUT_ECLKSYNC_CORE_ECLKSYNC3_3",
+      ),
+    ],
+  },
 )
