@@ -686,6 +686,170 @@
       },
       desc: "DCC bypassed (0) or used as gate (1)",
     ),
+    "ECLKDIV4A.ECLK_DIV": (
+      options: {
+        "2": [(frame:25,bit:1,invert:false,),],
+        "3P5": [(frame:34,bit:1,invert:false,),],
+        "4": [],
+        "5": [],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV4B.ECLK_DIV": (
+      options: {
+        "2": [(frame:26,bit:1,invert:false,),],
+        "3P5": [(frame:35,bit:1,invert:false,),],
+        "4": [],
+        "5": [],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV4C.ECLK_DIV": (
+      options: {
+        "2": [(frame:99,bit:0,invert:false,),],
+        "3P5": [(frame:104,bit:1,invert:false,),],
+        "4": [],
+        "5": [],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV4C.GSR": (
+      options: {
+        "DISABLED": [(frame:59,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKDIV4D.ECLK_DIV": (
+      options: {
+        "2": [(frame:101,bit:0,invert:false,),],
+        "3P5": [(frame:103,bit:1,invert:false,),],
+        "4": [],
+        "5": [],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV4D.GSR": (
+      options: {
+        "DISABLED": [(frame:60,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKDIV5A.ECLK_DIV": (
+      options: {
+        "2": [(frame:102,bit:0,invert:false,),],
+        "3P5": [(frame:94,bit:1,invert:false,),],
+        "4": [(frame:29,bit:1,invert:false,),],
+        "5": [(frame:51,bit:1,invert:false,),],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV5A.GSR": (
+      options: {
+        "DISABLED": [(frame:61,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKDIV5B.ECLK_DIV": (
+      options: {
+        "2": [(frame:103,bit:0,invert:false,),],
+        "3P5": [(frame:93,bit:1,invert:false,),],
+        "4": [(frame:30,bit:1,invert:false,),],
+        "5": [(frame:52,bit:1,invert:false,),],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV5B.GSR": (
+      options: {
+        "DISABLED": [(frame:62,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKDIV5C.ECLK_DIV": (
+      options: {
+        "2": [(frame:104,bit:0,invert:false,),],
+        "3P5": [(frame:92,bit:1,invert:false,),],
+        "4": [(frame:31,bit:1,invert:false,),],
+        "5": [(frame:55,bit:1,invert:false,),],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV5C.GSR": (
+      options: {
+        "DISABLED": [(frame:65,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKDIV5D.ECLK_DIV": (
+      options: {
+        "2": [(frame:105,bit:0,invert:false,),],
+        "3P5": [(frame:91,bit:1,invert:false,),],
+        "4": [(frame:32,bit:1,invert:false,),],
+        "5": [(frame:56,bit:1,invert:false,),],
+        "DISABLE": [],
+      },
+      desc: "ECLKDIV divide value",
+    ),
+    "ECLKDIV5D.GSR": (
+      options: {
+        "DISABLED": [(frame:66,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "ECLKDIV GSR mask",
+    ),
+    "ECLKSYNC4A.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:75,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
+    "ECLKSYNC4C.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:72,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
+    "ECLKSYNC5A.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:69,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
+    "ECLKSYNC5B.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:76,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
+    "ECLKSYNC5C.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:86,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
+    "ECLKSYNC5D.STOP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:87,bit:1,invert:false,),],
+      },
+      desc: "ECLKSYNC stop control enable",
+    ),
   },
   conns: {
     "G:JECLKDIV4_BMID_CORE_BMIDMUX": [
