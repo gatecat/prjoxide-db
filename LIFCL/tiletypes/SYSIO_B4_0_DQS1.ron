@@ -111,6 +111,62 @@
   },
   words: {},
   enums: {
+    "DQSBUF.ENABLE_FIFO": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:36,bit:1,invert:false,),],
+      },
+      desc: "DQSBUF read FIFO enable",
+    ),
+    "DQSBUF.FORCE_READ": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:37,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.FREE_WHEEL": (
+      options: {
+        "DDR": [],
+        "GDDR": [(frame:38,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.GSR": (
+      options: {
+        "DISABLED": [(frame:34,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "DQSBUF GSR mask",
+    ),
+    "DQSBUF.MT_EN_READ": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:39,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.MT_EN_WRITE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:40,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.MT_EN_WRITE_LEVELING": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:41,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.PAUSEMUX": (
+      options: {
+        "0": [],
+        "PAUSE": [(frame:42,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.READ_ENABLE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:43,bit:1,invert:false,),],
+      },
+    ),
     "IOLOGICA.CEINMUX": (
       options: {
         "1": [(frame:7,bit:0,invert:false,),],

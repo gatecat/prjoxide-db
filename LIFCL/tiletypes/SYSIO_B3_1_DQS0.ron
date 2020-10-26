@@ -21,6 +21,42 @@
   },
   words: {},
   enums: {
+    "DQSBUF.BYPASS_READ_SMTH_LATCH": (
+      options: {
+        "BYPASS_PATH": [(frame:40,bit:1,invert:false,),],
+        "SMOOTHING_PATH": [],
+      },
+    ),
+    "DQSBUF.BYPASS_WR_LEVEL_SMTH_LATCH": (
+      options: {
+        "BYPASS_PATH": [(frame:41,bit:1,invert:false,),],
+        "SMOOTHING_PATH": [],
+      },
+    ),
+    "DQSBUF.BYPASS_WR_SMTH_LATCH": (
+      options: {
+        "BYPASS_PATH": [(frame:42,bit:1,invert:false,),],
+        "SMOOTHING_PATH": [],
+      },
+    ),
+    "DQSBUF.RSTSMCNTMUX": (
+      options: {
+        "INV": [],
+        "RSTSMCNT": [(frame:43,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.SCLKMUX": (
+      options: {
+        "INV": [(frame:34,bit:1,invert:false,),],
+        "SCLK": [],
+      },
+    ),
+    "DQSBUF.SEL_READ_BIT_ENABLE_CYCLES": (
+      options: {
+        "DELAYED_0P5_ECLK": [(frame:35,bit:1,invert:false,),],
+        "NORMAL": [],
+      },
+    ),
     "IOLOGICB.CEINMUX": (
       options: {
         "1": [(frame:7,bit:0,invert:false,),],

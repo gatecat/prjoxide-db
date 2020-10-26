@@ -19,7 +19,28 @@
       ),
     ],
   },
-  words: {},
+  words: {
+    "DQSBUF.RD_PNTR": (
+      bits: [
+        [(frame:34,bit:1,invert:false,),],
+        [],
+        [],
+      ],
+    ),
+    "DQSBUF.S_WRITE": (
+      bits: [
+        [(frame:43,bit:1,invert:false,),],
+        [(frame:42,bit:1,invert:false,),],
+        [(frame:41,bit:1,invert:false,),],
+        [(frame:40,bit:1,invert:false,),],
+        [(frame:39,bit:1,invert:false,),],
+        [(frame:38,bit:1,invert:false,),],
+        [(frame:37,bit:1,invert:false,),],
+        [(frame:36,bit:1,invert:false,),],
+        [(frame:35,bit:1,invert:false,),],
+      ],
+    ),
+  },
   enums: {
     "IOLOGICB.CEINMUX": (
       options: {

@@ -19,8 +19,59 @@
       ),
     ],
   },
-  words: {},
+  words: {
+    "DQSBUF.S_READ": (
+      bits: [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [(frame:44,bit:1,invert:false,),],
+        [(frame:43,bit:1,invert:false,),],
+      ],
+    ),
+  },
   enums: {
+    "DQSBUF.MODX": (
+      options: {
+        "MDDRX2": [(frame:42,bit:1,invert:false,),],
+        "MDDRX4": [(frame:41,bit:1,invert:false,),(frame:42,bit:1,invert:false,),],
+        "NOT_USED": [],
+      },
+    ),
+    "DQSBUF.RSTMUX": (
+      options: {
+        "INV": [],
+        "RST": [(frame:34,bit:1,invert:false,),],
+      },
+    ),
+    "DQSBUF.RX_CENTERED": (
+      options: {
+        "DISABLED": [(frame:35,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "DQSBUF.SIGN_READ": (
+      options: {
+        "COMPLEMENT": [(frame:36,bit:1,invert:false,),],
+        "POSITIVE": [],
+      },
+    ),
+    "DQSBUF.SIGN_WRITE": (
+      options: {
+        "COMPLEMENT": [(frame:37,bit:1,invert:false,),],
+        "POSITIVE": [],
+      },
+    ),
+    "DQSBUF.UPDATE_QU": (
+      options: {
+        "UP1_AHEAD_OF_UP0": [],
+        "UP1_AND_UP0_SAME": [(frame:38,bit:1,invert:false,),],
+      },
+    ),
     "IOLOGICB.CEINMUX": (
       options: {
         "1": [(frame:7,bit:0,invert:false,),],
