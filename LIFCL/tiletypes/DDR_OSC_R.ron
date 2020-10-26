@@ -1,0 +1,201 @@
+(
+  pips: {
+    "W1:JCLKOUT_I0": [
+      (
+        from_wire: "W1:JECLK0_I0",
+        bits: [(frame:6,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLK1_I0",
+        bits: [(frame:4,bit:0,invert:false,),(frame:6,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLK2_I0",
+        bits: [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLK3_I0",
+        bits: [(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JPCLK_I0",
+        bits: [(frame:4,bit:0,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {
+    "DDRDLL.ENA_ROUNDOFF": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:11,bit:0,invert:false,),],
+      },
+    ),
+    "DDRDLL.FORCE_MAX_DELAY": (
+      options: {
+        "CODE_OR_LOCK_FROM_DLL_LOOP": [],
+        "FORCE_LOCK_AND_CODE": [(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "DDRDLL.GSR": (
+      options: {
+        "DISABLED": [(frame:14,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "DDRDLL GSR mask",
+    ),
+    "DDRDLL.RSTMUX": (
+      options: {
+        "INV": [],
+        "RST": [(frame:9,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {
+    "G:JCODEI10_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE0_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI11_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE1_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI12_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE2_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI13_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE3_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI14_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE4_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI15_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE5_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI16_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE6_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI17_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE7_DDRDLL_CORE_I1",
+      ),
+    ],
+    "G:JCODEI18_I_DQS_TOP_DLL_CODE_ROUTING_MUX": [
+      (
+        from_wire: "W1:JCODE8_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JCLKIN_DDRDLL_CORE_I1": [
+      (
+        from_wire: "W1:JCLKOUT_I0",
+      ),
+    ],
+    "W1:JECLK0_I0": [
+      (
+        from_wire: "G:JCLKOUT_ECLKDDRR_0",
+      ),
+    ],
+    "W1:JECLK1_I0": [
+      (
+        from_wire: "G:JCLKOUT_ECLKDDRR_1",
+      ),
+    ],
+    "W1:JECLK2_I0": [
+      (
+        from_wire: "G:JCLKOUT_ECLKDDRR_2",
+      ),
+    ],
+    "W1:JECLK3_I0": [
+      (
+        from_wire: "G:JCLKOUT_ECLKDDRR_3",
+      ),
+    ],
+    "W1:JF0": [
+      (
+        from_wire: "W1:JDCNTL0_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF1": [
+      (
+        from_wire: "W1:JDCNTL1_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF2": [
+      (
+        from_wire: "W1:JDCNTL2_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF3": [
+      (
+        from_wire: "W1:JDCNTL3_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF4": [
+      (
+        from_wire: "W1:JDCNTL4_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF5": [
+      (
+        from_wire: "W1:JDCNTL5_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF6": [
+      (
+        from_wire: "W1:JDCNTL6_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JF7": [
+      (
+        from_wire: "W1:JDCNTL7_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JFREEZE_DDRDLL_CORE_I1": [
+      (
+        from_wire: "W1:JCIBMUXOUTC2",
+      ),
+    ],
+    "W1:JPCLK_I0": [
+      (
+        from_wire: "W1:JCLK1",
+      ),
+    ],
+    "W1:JQ0": [
+      (
+        from_wire: "W1:JDCNTL8_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JQ1": [
+      (
+        from_wire: "W1:JDIVOSCIB_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JQ2": [
+      (
+        from_wire: "W1:JLOCK_DDRDLL_CORE_I1",
+      ),
+    ],
+    "W1:JRST_DDRDLL_CORE_I1": [
+      (
+        from_wire: "W1:JLSR1",
+      ),
+    ],
+    "W1:JUDDCNTL_N_DDRDLL_CORE_I1": [
+      (
+        from_wire: "W1:JCIBMUXOUTD1",
+      ),
+    ],
+  },
+)
