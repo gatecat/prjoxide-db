@@ -1,8 +1,223 @@
 (
-  pips: {},
-  words: {},
-  enums: {},
-  conns: {},
+  pips: {
+    "E1:JCLKOUT_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JCLKIN_DLLDEL_CORE_I0",
+        bits: [(frame:4,bit:11,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_0": [
+      (
+        from_wire: "G:JD0_I4_0",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_0",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_1": [
+      (
+        from_wire: "G:JD0_I4_1",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_1",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_2": [
+      (
+        from_wire: "G:JD0_I4_2",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_2",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_3": [
+      (
+        from_wire: "G:JD0_I4_3",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_3",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_4": [
+      (
+        from_wire: "G:JD0_I4_4",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_4",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_5": [
+      (
+        from_wire: "G:JD0_I4_5",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_5",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_6": [
+      (
+        from_wire: "G:JD0_I4_6",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_6",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_7": [
+      (
+        from_wire: "G:JD0_I4_7",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_7",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+    "E1:JZ_I4_8": [
+      (
+        from_wire: "G:JD0_I4_8",
+        bits: [],
+      ),
+      (
+        from_wire: "G:JD1_I4_8",
+        bits: [(frame:0,bit:10,invert:false,),],
+      ),
+    ],
+  },
+  words: {
+    "DLLDEL60.ADJUST": (
+      bits: [
+        [(frame:12,bit:10,invert:false,),],
+        [(frame:11,bit:10,invert:false,),],
+        [(frame:10,bit:10,invert:false,),],
+        [(frame:9,bit:10,invert:false,),],
+        [(frame:8,bit:10,invert:false,),],
+        [(frame:7,bit:10,invert:false,),],
+        [(frame:6,bit:10,invert:false,),],
+        [(frame:5,bit:10,invert:false,),],
+        [(frame:4,bit:10,invert:false,),],
+      ],
+    ),
+  },
+  enums: {
+    "DLLDEL60.CLKINMUX": (
+      options: {
+        "CLKIN": [],
+        "INV": [(frame:2,bit:11,invert:false,),],
+      },
+    ),
+    "DLLDEL60.DEL_ADJUST": (
+      options: {
+        "MINUS": [(frame:3,bit:10,invert:false,),],
+        "PLUS": [],
+      },
+    ),
+    "DLLDEL60.ENABLE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:4,bit:11,invert:false,),],
+      },
+      desc: "DLLDEL primitive mode",
+    ),
+  },
+  conns: {
+    "E1:JBYPASS_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JCIBMUXOUTC5",
+      ),
+    ],
+    "E1:JCLKIN_DLLDEL_CORE_I0": [
+      (
+        from_wire: "N1:JINCK_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "N1:JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "E1:JCODE0_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_0",
+      ),
+    ],
+    "E1:JCODE1_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_1",
+      ),
+    ],
+    "E1:JCODE2_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_2",
+      ),
+    ],
+    "E1:JCODE3_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_3",
+      ),
+    ],
+    "E1:JCODE4_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_4",
+      ),
+    ],
+    "E1:JCODE5_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_5",
+      ),
+    ],
+    "E1:JCODE6_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_6",
+      ),
+    ],
+    "E1:JCODE7_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_7",
+      ),
+    ],
+    "E1:JCODE8_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JZ_I4_8",
+      ),
+    ],
+    "E1:JDIR_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JCIBMUXOUTD7",
+      ),
+    ],
+    "E1:JLOAD_N_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JCIBMUXOUTD1",
+      ),
+    ],
+    "E1:JMOVE_DLLDEL_CORE_I0": [
+      (
+        from_wire: "E1:JCIBMUXOUTC6",
+      ),
+    ],
+    "E1:JQ6": [
+      (
+        from_wire: "E1:JCOUT_DLLDEL_CORE_I0",
+      ),
+    ],
+    "G:JPCLKT60_LMID_CORE_LMIDMUX": [
+      (
+        from_wire: "E1:JCLKOUT_DLLDEL_CORE_I0",
+      ),
+    ],
+  },
   always_on: [
     (
       frame: 0,

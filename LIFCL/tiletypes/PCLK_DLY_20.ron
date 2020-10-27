@@ -1,0 +1,27 @@
+(
+  pips: {
+    "N1W1:JCLKOUT_DLLDEL_CORE_I0": [
+      (
+        from_wire: "N1W1:JCLKIN_DLLDEL_CORE_I0",
+        bits: [(frame:11,bit:0,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {
+    "DLLDEL20.CLKINMUX": (
+      options: {
+        "CLKIN": [],
+        "INV": [(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "DLLDEL20.ENABLE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:11,bit:0,invert:false,),],
+      },
+      desc: "DLLDEL primitive mode",
+    ),
+  },
+  conns: {},
+)
