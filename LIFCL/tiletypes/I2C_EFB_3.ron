@@ -26,6 +26,13 @@
         "EN": [],
       },
     ),
+    "CONFIG_LMMI_CORE.LMMI_EN": (
+      options: {
+        "DIS": [],
+        "EN": [(frame:54,bit:0,invert:false,),],
+      },
+      desc: "enable LMMI access to configuration",
+    ),
   },
   conns: {},
   always_on: [
