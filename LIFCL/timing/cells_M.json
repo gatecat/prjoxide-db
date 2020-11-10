@@ -1,0 +1,4617 @@
+{
+    "celltypes": {
+        "ACC54_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 1046,
+                    "minv": 616,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 1300,
+                    "minv": 711,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 1046,
+                    "minv": 616,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 1300,
+                    "minv": 711,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 483,
+                    "minv": 381,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 547,
+                    "minv": 386,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 547,
+                    "minv": 314,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 1154,
+                    "minv": 784,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 1205,
+                    "minv": 673,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 1495,
+                    "minv": 896,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 896,
+                    "minv": 259,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1141,
+                    "minv": 772,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 1816,
+                    "minv": 1140,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 1568,
+                    "minv": 1087,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 713,
+                    "min_hold": 0,
+                    "min_setup": 478,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 881,
+                    "min_hold": 0,
+                    "min_setup": 881,
+                    "pin": "CASIN0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 881,
+                    "min_hold": 0,
+                    "min_setup": 881,
+                    "pin": "CASIN1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 824,
+                    "min_hold": 0,
+                    "min_setup": 507,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 606,
+                    "min_hold": 0,
+                    "min_setup": 470,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 920,
+                    "min_hold": 0,
+                    "min_setup": 747,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 592,
+                    "min_hold": 0,
+                    "min_setup": 507,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 678,
+                    "min_hold": 0,
+                    "min_setup": 449,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 880,
+                    "min_hold": 0,
+                    "min_setup": 549,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 493,
+                    "min_hold": 0,
+                    "min_setup": 439,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 713,
+                    "min_hold": 0,
+                    "min_setup": 478,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 939,
+                    "min_hold": 0,
+                    "min_setup": 933,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 632,
+                    "min_hold": 0,
+                    "min_setup": 618,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1120,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 491,
+                    "min_hold": 0,
+                    "min_setup": 488,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "DP16K_MODE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLKA",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOA"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOB"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLKA",
+                    "max_hold": 46,
+                    "max_setup": 16,
+                    "min_hold": 46,
+                    "min_setup": 16,
+                    "pin": "ADA_13_5"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 70,
+                    "max_setup": 220,
+                    "min_hold": 70,
+                    "min_setup": 220,
+                    "pin": "ADA_4_0"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 72,
+                    "max_setup": 0,
+                    "min_hold": 72,
+                    "min_setup": 0,
+                    "pin": "ADB_13_5"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 92,
+                    "max_setup": 187,
+                    "min_hold": 92,
+                    "min_setup": 187,
+                    "pin": "ADB_4_0"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 178,
+                    "min_hold": 0,
+                    "min_setup": 178,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 177,
+                    "min_hold": 0,
+                    "min_setup": 177,
+                    "pin": "CSA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 90,
+                    "max_setup": 43,
+                    "min_hold": 90,
+                    "min_setup": 43,
+                    "pin": "DIA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 58,
+                    "max_setup": 103,
+                    "min_hold": 58,
+                    "min_setup": 103,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 103,
+                    "max_setup": 15,
+                    "min_hold": 103,
+                    "min_setup": 15,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 110,
+                    "max_setup": 18,
+                    "min_hold": 110,
+                    "min_setup": 18,
+                    "pin": "RSTB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 88,
+                    "max_setup": 75,
+                    "min_hold": 88,
+                    "min_setup": 75,
+                    "pin": "WEA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 85,
+                    "max_setup": 123,
+                    "min_hold": 85,
+                    "min_setup": 123,
+                    "pin": "WEB"
+                }
+            ]
+        },
+        "FIFO16K_MODE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLKA",
+                    "maxv": 989,
+                    "minv": 989,
+                    "to_pin": "AEMPTY"
+                },
+                {
+                    "from_pin": "CLKA",
+                    "maxv": 995,
+                    "minv": 995,
+                    "to_pin": "AFULL"
+                },
+                {
+                    "from_pin": "CLKA",
+                    "maxv": 987,
+                    "minv": 987,
+                    "to_pin": "EMPTYF"
+                },
+                {
+                    "from_pin": "CLKA",
+                    "maxv": 1006,
+                    "minv": 1006,
+                    "to_pin": "FULLF"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 1007,
+                    "minv": 1007,
+                    "to_pin": "AEMPTY"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 983,
+                    "minv": 983,
+                    "to_pin": "AFULL"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOA"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOB"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 1005,
+                    "minv": 1005,
+                    "to_pin": "EMPTYF"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 994,
+                    "minv": 994,
+                    "to_pin": "FULLF"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 178,
+                    "min_hold": 0,
+                    "min_setup": 178,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 177,
+                    "min_hold": 0,
+                    "min_setup": 177,
+                    "pin": "CSA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 90,
+                    "max_setup": 43,
+                    "min_hold": 90,
+                    "min_setup": 43,
+                    "pin": "DIA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 58,
+                    "max_setup": 103,
+                    "min_hold": 58,
+                    "min_setup": 103,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 103,
+                    "max_setup": 15,
+                    "min_hold": 103,
+                    "min_setup": 15,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 110,
+                    "max_setup": 18,
+                    "min_hold": 110,
+                    "min_setup": 18,
+                    "pin": "RSTB"
+                }
+            ]
+        },
+        "IOLOGIC:DELAY": {
+            "iopaths": [
+                {
+                    "from_pin": "DI",
+                    "maxv": 803,
+                    "minv": 771,
+                    "to_pin": "INDD"
+                },
+                {
+                    "from_pin": "DIR",
+                    "maxv": 246,
+                    "minv": 245,
+                    "to_pin": "COUT"
+                },
+                {
+                    "from_pin": "LOAD_N",
+                    "maxv": 639,
+                    "minv": 637,
+                    "to_pin": "COUT"
+                },
+                {
+                    "from_pin": "MOVE",
+                    "maxv": 6592,
+                    "minv": 6569,
+                    "to_pin": "COUT"
+                }
+            ],
+            "setupholds": []
+        },
+        "IOLOGIC:IDDRX1": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKIN",
+                    "maxv": 456,
+                    "minv": 436,
+                    "to_pin": "RXDATA"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 452,
+                    "min_hold": 0,
+                    "min_setup": 34,
+                    "pin": "DI"
+                }
+            ]
+        },
+        "IOLOGIC:IDDRXN": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKIN",
+                    "maxv": 460,
+                    "minv": 408,
+                    "to_pin": "RXDATA"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "ECLK",
+                    "max_hold": 0,
+                    "max_setup": 480,
+                    "min_hold": 0,
+                    "min_setup": 62,
+                    "pin": "DI"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 0,
+                    "min_hold": 0,
+                    "min_setup": 0,
+                    "pin": "ECLK"
+                },
+                {
+                    "clock": "ECLK",
+                    "max_hold": 132,
+                    "max_setup": 0,
+                    "min_hold": 127,
+                    "min_setup": 0,
+                    "pin": "WORDALIGN"
+                }
+            ]
+        },
+        "IOLOGIC:IREG": {
+            "iopaths": [
+                {
+                    "from_pin": "LSRIN",
+                    "maxv": 968,
+                    "minv": 964,
+                    "to_pin": "INFF"
+                },
+                {
+                    "from_pin": "SCLKIN",
+                    "maxv": 337,
+                    "minv": 336,
+                    "to_pin": "INFF"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 475,
+                    "min_hold": 0,
+                    "min_setup": 475,
+                    "pin": "CEIN"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 487,
+                    "min_hold": 0,
+                    "min_setup": 67,
+                    "pin": "DI"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 593,
+                    "min_hold": 0,
+                    "min_setup": 593,
+                    "pin": "LSRIN"
+                }
+            ]
+        },
+        "IOLOGIC:ODDRX1": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 485,
+                    "minv": 477,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 593,
+                    "min_hold": 0,
+                    "min_setup": 373,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "IOLOGIC:ODDRX1:DELAYED": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 1004,
+                    "minv": 993,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 593,
+                    "min_hold": 0,
+                    "min_setup": 373,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "IOLOGIC:ODDRXN": {
+            "iopaths": [
+                {
+                    "from_pin": "ECLK",
+                    "maxv": 527,
+                    "minv": 471,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 485,
+                    "minv": 477,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "ECLK",
+                    "max_hold": 0,
+                    "max_setup": 0,
+                    "min_hold": 0,
+                    "min_setup": 0,
+                    "pin": "SCLKOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 354,
+                    "min_hold": 0,
+                    "min_setup": 318,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "IOLOGIC:ODDRXN:DELAYED": {
+            "iopaths": [
+                {
+                    "from_pin": "ECLK",
+                    "maxv": 1047,
+                    "minv": 988,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 1004,
+                    "minv": 993,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "ECLK",
+                    "max_hold": 0,
+                    "max_setup": 0,
+                    "min_hold": 0,
+                    "min_setup": 0,
+                    "pin": "SCLKOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 354,
+                    "min_hold": 0,
+                    "min_setup": 318,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "IOLOGIC:OREG": {
+            "iopaths": [
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 1147,
+                    "minv": 1143,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 1148,
+                    "minv": 1144,
+                    "to_pin": "TOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 485,
+                    "minv": 477,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 487,
+                    "minv": 484,
+                    "to_pin": "TOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 501,
+                    "min_hold": 0,
+                    "min_setup": 501,
+                    "pin": "CEOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 629,
+                    "min_hold": 0,
+                    "min_setup": 612,
+                    "pin": "LSROUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 364,
+                    "min_hold": 0,
+                    "min_setup": 364,
+                    "pin": "TSDATA0"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 373,
+                    "min_hold": 0,
+                    "min_setup": 373,
+                    "pin": "TXDATA0"
+                }
+            ]
+        },
+        "IOLOGIC:OREG:DELAYED": {
+            "iopaths": [
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 1147,
+                    "minv": 1143,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 1148,
+                    "minv": 1144,
+                    "to_pin": "TOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 1004,
+                    "minv": 993,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 487,
+                    "minv": 484,
+                    "to_pin": "TOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 501,
+                    "min_hold": 0,
+                    "min_setup": 501,
+                    "pin": "CEOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 629,
+                    "min_hold": 0,
+                    "min_setup": 612,
+                    "pin": "LSROUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 364,
+                    "min_hold": 0,
+                    "min_setup": 364,
+                    "pin": "TSDATA0"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 373,
+                    "min_hold": 0,
+                    "min_setup": 373,
+                    "pin": "TXDATA0"
+                }
+            ]
+        },
+        "MULT18X36_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "PH36",
+                    "maxv": 591,
+                    "minv": 45,
+                    "to_pin": "P72"
+                },
+                {
+                    "from_pin": "PL36",
+                    "maxv": 583,
+                    "minv": 194,
+                    "to_pin": "P72"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 372,
+                    "minv": 201,
+                    "to_pin": "P72"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 372,
+                    "minv": 201,
+                    "to_pin": "P72"
+                },
+                {
+                    "from_pin": "SGNED18H",
+                    "maxv": 786,
+                    "minv": 780,
+                    "to_pin": "P72"
+                },
+                {
+                    "from_pin": "SGNED18L",
+                    "maxv": 663,
+                    "minv": 510,
+                    "to_pin": "P72"
+                }
+            ],
+            "setupholds": []
+        },
+        "MULT18_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "ARH",
+                    "maxv": 1369,
+                    "minv": 1125,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "ARHSIGN",
+                    "maxv": 1323,
+                    "minv": 1125,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "ARHSIGN",
+                    "maxv": 101,
+                    "minv": 87,
+                    "to_pin": "SIGNED18"
+                },
+                {
+                    "from_pin": "ARL",
+                    "maxv": 1345,
+                    "minv": 1094,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "BRH",
+                    "maxv": 1309,
+                    "minv": 1057,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "BRHSIGN",
+                    "maxv": 1308,
+                    "minv": 1106,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "BRHSIGN",
+                    "maxv": 95,
+                    "minv": 83,
+                    "to_pin": "SIGNED18"
+                },
+                {
+                    "from_pin": "BRL",
+                    "maxv": 1369,
+                    "minv": 1125,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "PH18",
+                    "maxv": 789,
+                    "minv": 275,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "PL18",
+                    "maxv": 798,
+                    "minv": 159,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "PL18",
+                    "maxv": 786,
+                    "minv": 780,
+                    "to_pin": "SIGNED18"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 466,
+                    "minv": 263,
+                    "to_pin": "P36"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 2107,
+                    "minv": 2089,
+                    "to_pin": "P36"
+                }
+            ],
+            "setupholds": []
+        },
+        "MULT36_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "PH72",
+                    "maxv": 358,
+                    "minv": 136,
+                    "to_pin": "PMH72"
+                },
+                {
+                    "from_pin": "PH72",
+                    "maxv": 358,
+                    "minv": 136,
+                    "to_pin": "PML72"
+                },
+                {
+                    "from_pin": "PL72",
+                    "maxv": 369,
+                    "minv": 0,
+                    "to_pin": "PMH72"
+                },
+                {
+                    "from_pin": "PL72",
+                    "maxv": 369,
+                    "minv": 0,
+                    "to_pin": "PML72"
+                }
+            ],
+            "setupholds": []
+        },
+        "MULT9_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "A",
+                    "maxv": 265,
+                    "minv": 175,
+                    "to_pin": "AO"
+                },
+                {
+                    "from_pin": "A",
+                    "maxv": 168,
+                    "minv": 123,
+                    "to_pin": "AR"
+                },
+                {
+                    "from_pin": "A",
+                    "maxv": 837,
+                    "minv": 303,
+                    "to_pin": "P18"
+                },
+                {
+                    "from_pin": "ASIGNED",
+                    "maxv": 247,
+                    "minv": 217,
+                    "to_pin": "AOSIGNED"
+                },
+                {
+                    "from_pin": "ASIGNED",
+                    "maxv": 136,
+                    "minv": 128,
+                    "to_pin": "ARSIGNED"
+                },
+                {
+                    "from_pin": "ASIGNED",
+                    "maxv": 821,
+                    "minv": 576,
+                    "to_pin": "P18"
+                },
+                {
+                    "from_pin": "BR",
+                    "maxv": 119,
+                    "minv": 89,
+                    "to_pin": "BO"
+                },
+                {
+                    "from_pin": "BR",
+                    "maxv": 200,
+                    "minv": 103,
+                    "to_pin": "P18"
+                },
+                {
+                    "from_pin": "BRSIGNED",
+                    "maxv": 95,
+                    "minv": 89,
+                    "to_pin": "BOSIGNED"
+                },
+                {
+                    "from_pin": "BRSIGNED",
+                    "maxv": 819,
+                    "minv": 586,
+                    "to_pin": "P18"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 604,
+                    "minv": 373,
+                    "to_pin": "AO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 449,
+                    "minv": 436,
+                    "to_pin": "AOSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 535,
+                    "minv": 338,
+                    "to_pin": "AR"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 346,
+                    "minv": 339,
+                    "to_pin": "ARSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1175,
+                    "minv": 501,
+                    "to_pin": "P18"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 479,
+                    "min_hold": 0,
+                    "min_setup": 386,
+                    "pin": "A"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 517,
+                    "min_hold": 0,
+                    "min_setup": 418,
+                    "pin": "ASIGNED"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 734,
+                    "min_hold": 0,
+                    "min_setup": 695,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 744,
+                    "min_hold": 0,
+                    "min_setup": 476,
+                    "pin": "RSTA"
+                }
+            ]
+        },
+        "OXIDE_COMB:CCU2": {
+            "iopaths": [
+                {
+                    "from_pin": "A0",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "A0",
+                    "maxv": 289,
+                    "minv": 259,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "A0",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "A1",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "A1",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 289,
+                    "minv": 259,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "B1",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "B1",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "C0",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "C0",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "C1",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "C1",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "D0",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "D0",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "D1",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "D1",
+                    "maxv": 214,
+                    "minv": 162,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "FCI",
+                    "maxv": 136,
+                    "minv": 110,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "FCI",
+                    "maxv": 184,
+                    "minv": 151,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "FCI",
+                    "maxv": 36,
+                    "minv": 31,
+                    "to_pin": "FCO"
+                }
+            ],
+            "setupholds": []
+        },
+        "OXIDE_COMB:DPRAM": {
+            "iopaths": [
+                {
+                    "from_pin": "A",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "D",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "WDI",
+                    "maxv": 670,
+                    "minv": 585,
+                    "to_pin": "F"
+                }
+            ],
+            "setupholds": []
+        },
+        "OXIDE_COMB:LUT4": {
+            "iopaths": [
+                {
+                    "from_pin": "A",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                },
+                {
+                    "from_pin": "D",
+                    "maxv": 143,
+                    "minv": 121,
+                    "to_pin": "F"
+                }
+            ],
+            "setupholds": []
+        },
+        "OXIDE_COMB:WIDEFN9": {
+            "iopaths": [
+                {
+                    "from_pin": "A",
+                    "maxv": 182,
+                    "minv": 162,
+                    "to_pin": "OFX"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 183,
+                    "minv": 161,
+                    "to_pin": "OFX"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 180,
+                    "minv": 161,
+                    "to_pin": "OFX"
+                },
+                {
+                    "from_pin": "D",
+                    "maxv": 183,
+                    "minv": 156,
+                    "to_pin": "OFX"
+                },
+                {
+                    "from_pin": "F1",
+                    "maxv": 63,
+                    "minv": 20,
+                    "to_pin": "OFX"
+                },
+                {
+                    "from_pin": "SEL",
+                    "maxv": 105,
+                    "minv": 87,
+                    "to_pin": "OFX"
+                }
+            ],
+            "setupholds": []
+        },
+        "OXIDE_FF:PPP:ASYNC": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 205,
+                    "minv": 183,
+                    "to_pin": "Q"
+                },
+                {
+                    "from_pin": "LSR",
+                    "maxv": 387,
+                    "minv": 356,
+                    "to_pin": "Q"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 134,
+                    "min_hold": 0,
+                    "min_setup": 134,
+                    "pin": "CE"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 121,
+                    "max_setup": 0,
+                    "min_hold": 115,
+                    "min_setup": 0,
+                    "pin": "DI"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 271,
+                    "min_hold": 0,
+                    "min_setup": 271,
+                    "pin": "LSR"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 103,
+                    "max_setup": 0,
+                    "min_hold": 99,
+                    "min_setup": 0,
+                    "pin": "M"
+                }
+            ]
+        },
+        "OXIDE_FF:PPP:SYNC": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 205,
+                    "minv": 183,
+                    "to_pin": "Q"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 134,
+                    "min_hold": 0,
+                    "min_setup": 134,
+                    "pin": "CE"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 121,
+                    "max_setup": 0,
+                    "min_hold": 115,
+                    "min_setup": 0,
+                    "pin": "DI"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 30,
+                    "max_setup": 143,
+                    "min_hold": 30,
+                    "min_setup": 141,
+                    "pin": "LSR"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 103,
+                    "max_setup": 0,
+                    "min_hold": 99,
+                    "min_setup": 0,
+                    "pin": "M"
+                }
+            ]
+        },
+        "PDP16K_MODE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOA"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 2224,
+                    "minv": 2224,
+                    "to_pin": "DOB"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLKA",
+                    "max_hold": 46,
+                    "max_setup": 16,
+                    "min_hold": 46,
+                    "min_setup": 16,
+                    "pin": "ADA_13_5"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 70,
+                    "max_setup": 220,
+                    "min_hold": 70,
+                    "min_setup": 220,
+                    "pin": "ADA_4_0"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 72,
+                    "max_setup": 0,
+                    "min_hold": 72,
+                    "min_setup": 0,
+                    "pin": "ADB_13_5"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 92,
+                    "max_setup": 187,
+                    "min_hold": 92,
+                    "min_setup": 187,
+                    "pin": "ADB_4_0"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 178,
+                    "min_hold": 0,
+                    "min_setup": 178,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 177,
+                    "min_hold": 0,
+                    "min_setup": 177,
+                    "pin": "CSA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 78,
+                    "max_setup": 54,
+                    "min_hold": 78,
+                    "min_setup": 54,
+                    "pin": "DIA"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 78,
+                    "max_setup": 8,
+                    "min_hold": 78,
+                    "min_setup": 8,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 103,
+                    "max_setup": 15,
+                    "min_hold": 103,
+                    "min_setup": 15,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 102,
+                    "max_setup": 16,
+                    "min_hold": 102,
+                    "min_setup": 16,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 110,
+                    "max_setup": 18,
+                    "min_hold": 110,
+                    "min_setup": 18,
+                    "pin": "RSTB"
+                }
+            ]
+        },
+        "PDPSC16K_MODE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 1403,
+                    "minv": 1403,
+                    "to_pin": "DOA"
+                },
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 1281,
+                    "minv": 1281,
+                    "to_pin": "DOB"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLKA",
+                    "max_hold": 46,
+                    "max_setup": 16,
+                    "min_hold": 46,
+                    "min_setup": 16,
+                    "pin": "ADA_13_5"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 70,
+                    "max_setup": 220,
+                    "min_hold": 70,
+                    "min_setup": 220,
+                    "pin": "ADA_4_0"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 72,
+                    "max_setup": 0,
+                    "min_hold": 72,
+                    "min_setup": 0,
+                    "pin": "ADB_13_5"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 92,
+                    "max_setup": 187,
+                    "min_hold": 92,
+                    "min_setup": 187,
+                    "pin": "ADB_4_0"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 178,
+                    "min_hold": 0,
+                    "min_setup": 178,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 0,
+                    "max_setup": 177,
+                    "min_hold": 0,
+                    "min_setup": 177,
+                    "pin": "CSA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 78,
+                    "max_setup": 54,
+                    "min_hold": 78,
+                    "min_setup": 54,
+                    "pin": "DIA"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 78,
+                    "max_setup": 8,
+                    "min_hold": 78,
+                    "min_setup": 8,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLKA",
+                    "max_hold": 103,
+                    "max_setup": 15,
+                    "min_hold": 103,
+                    "min_setup": 15,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 102,
+                    "max_setup": 16,
+                    "min_hold": 102,
+                    "min_setup": 16,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 110,
+                    "max_setup": 18,
+                    "min_hold": 110,
+                    "min_setup": 18,
+                    "pin": "RSTB"
+                }
+            ]
+        },
+        "PIO:HSTL15D_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 296,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3402,
+                    "minv": 2960,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4557,
+                    "minv": 3123,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSTL15_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 296,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSTL15_I:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 296,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1256,
+                    "minv": 1183,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4552,
+                    "minv": 1152,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSTL15_I:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 296,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3402,
+                    "minv": 2960,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4557,
+                    "minv": 3123,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 856,
+                    "minv": 775,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2531,
+                    "minv": 1731,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2230,
+                    "minv": 2121,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5056,
+                    "minv": 2229,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 745,
+                    "minv": 687,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3203,
+                    "minv": 1100,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2135,
+                    "minv": 2043,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3824,
+                    "minv": 2858,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:HSUL12D": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 343,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2135,
+                    "minv": 2043,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3824,
+                    "minv": 2858,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 878,
+                    "minv": 768,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10H": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 329,
+                    "minv": 325,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10H:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 329,
+                    "minv": 325,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 807,
+                    "minv": 779,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4234,
+                    "minv": 1054,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10H:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 329,
+                    "minv": 325,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3366,
+                    "minv": 2530,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4249,
+                    "minv": 2669,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10H:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 329,
+                    "minv": 325,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5688,
+                    "minv": 4457,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5349,
+                    "minv": 3675,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS10R": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 322,
+                    "minv": 311,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2295,
+                    "minv": 2241,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7810,
+                    "minv": 1339,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4653,
+                    "minv": 3705,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 8322,
+                    "minv": 1361,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 9906,
+                    "minv": 6212,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 13229,
+                    "minv": 1375,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1599,
+                    "minv": 1532,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3317,
+                    "minv": 2087,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3987,
+                    "minv": 3206,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5571,
+                    "minv": 3075,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 812,
+                    "minv": 791,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 8597,
+                    "minv": 5104,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 10446,
+                    "minv": 3089,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1206,
+                    "minv": 1052,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3073,
+                    "minv": 2068,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6330,
+                    "minv": 2645,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 8887,
+                    "minv": 2069,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 11051,
+                    "minv": 4670,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 15473,
+                    "minv": 2069,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 851,
+                    "minv": 787,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4195,
+                    "minv": 1672,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3564,
+                    "minv": 3088,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5981,
+                    "minv": 5549,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 681,
+                    "minv": 642,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2378,
+                    "minv": 1115,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2983,
+                    "minv": 2683,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3880,
+                    "minv": 2146,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS12H:DRIVE_8:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 317,
+                    "minv": 302,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5097,
+                    "minv": 4861,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6739,
+                    "minv": 2146,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2480,
+                    "minv": 2137,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 15298,
+                    "minv": 2799,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3883,
+                    "minv": 3701,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 15312,
+                    "minv": 4381,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7167,
+                    "minv": 6588,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 15299,
+                    "minv": 7194,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1662,
+                    "minv": 1627,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3315,
+                    "minv": 1916,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3320,
+                    "minv": 3182,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4337,
+                    "minv": 3036,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1064,
+                    "minv": 1002,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6073,
+                    "minv": 5416,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7949,
+                    "minv": 3040,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1345,
+                    "minv": 1245,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3120,
+                    "minv": 1679,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6750,
+                    "minv": 3628,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 11745,
+                    "minv": 6537,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 14596,
+                    "minv": 1686,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 922,
+                    "minv": 824,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6394,
+                    "minv": 4513,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7578,
+                    "minv": 3801,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 709,
+                    "minv": 637,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2251,
+                    "minv": 1055,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3178,
+                    "minv": 2680,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3740,
+                    "minv": 2183,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_8:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5423,
+                    "minv": 4710,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6443,
+                    "minv": 2183,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2670,
+                    "minv": 2435,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 11443,
+                    "minv": 1069,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4062,
+                    "minv": 3750,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 11447,
+                    "minv": 1070,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6890,
+                    "minv": 6805,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 11446,
+                    "minv": 1062,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1736,
+                    "minv": 1683,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3332,
+                    "minv": 2094,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3411,
+                    "minv": 3010,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4192,
+                    "minv": 3192,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5698,
+                    "minv": 5317,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6959,
+                    "minv": 3193,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_50RS:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1278,
+                    "minv": 1194,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 1979,
+                    "minv": 1202,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_50RS:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2516,
+                    "minv": 2288,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3100,
+                    "minv": 1204,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_50RS:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3984,
+                    "minv": 3648,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4967,
+                    "minv": 1206,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1310,
+                    "minv": 1242,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2035,
+                    "minv": 1671,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2538,
+                    "minv": 2443,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3221,
+                    "minv": 1856,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18:DRIVE_8:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1079,
+                    "minv": 1031,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4049,
+                    "minv": 3909,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5028,
+                    "minv": 1858,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1492,
+                    "minv": 1241,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3198,
+                    "minv": 2524,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7118,
+                    "minv": 3824,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 12379,
+                    "minv": 6784,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 15774,
+                    "minv": 2505,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 998,
+                    "minv": 857,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4497,
+                    "minv": 1784,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4026,
+                    "minv": 2809,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5011,
+                    "minv": 3486,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6770,
+                    "minv": 4779,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 8243,
+                    "minv": 4431,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_50RS:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 753,
+                    "minv": 686,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_50RS:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 5726,
+                    "minv": 5571,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_10:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1376,
+                    "minv": 1361,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2237,
+                    "minv": 1155,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_10:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3747,
+                    "minv": 3457,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3947,
+                    "minv": 1026,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_10:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7747,
+                    "minv": 5930,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7027,
+                    "minv": 1020,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3209,
+                    "minv": 3006,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 18552,
+                    "minv": 3264,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7348,
+                    "minv": 6311,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 16145,
+                    "minv": 7404,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 13467,
+                    "minv": 13012,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 16184,
+                    "minv": 7141,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2021,
+                    "minv": 1855,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4117,
+                    "minv": 2243,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6096,
+                    "minv": 5840,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5986,
+                    "minv": 3243,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 12171,
+                    "minv": 9970,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 11422,
+                    "minv": 3249,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_50RS:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1358,
+                    "minv": 1354,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2227,
+                    "minv": 1235,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_50RS:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3744,
+                    "minv": 3558,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3926,
+                    "minv": 1126,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_50RS:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 8134,
+                    "minv": 5874,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6940,
+                    "minv": 1119,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1512,
+                    "minv": 1448,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2360,
+                    "minv": 1834,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4198,
+                    "minv": 3683,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4077,
+                    "minv": 1985,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS25:DRIVE_8:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1073,
+                    "minv": 994,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 8049,
+                    "minv": 6819,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6747,
+                    "minv": 1984,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_12:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1462,
+                    "minv": 1388,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2571,
+                    "minv": 1786,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_12:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4372,
+                    "minv": 3479,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4705,
+                    "minv": 1660,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_12:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7252,
+                    "minv": 7049,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7937,
+                    "minv": 1665,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_2:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3698,
+                    "minv": 2885,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 27217,
+                    "minv": 4576,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_2:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 8265,
+                    "minv": 6393,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 25336,
+                    "minv": 5156,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 14953,
+                    "minv": 13767,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 24599,
+                    "minv": 3743,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_4:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2230,
+                    "minv": 1966,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4758,
+                    "minv": 2807,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_4:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6928,
+                    "minv": 5235,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 7287,
+                    "minv": 3756,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_4:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 11454,
+                    "minv": 10929,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 12199,
+                    "minv": 3755,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_50RS:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1295,
+                    "minv": 1237,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2305,
+                    "minv": 1667,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_50RS:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3366,
+                    "minv": 2628,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3708,
+                    "minv": 1574,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_50RS:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 6019,
+                    "minv": 5371,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6108,
+                    "minv": 1573,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1602,
+                    "minv": 1449,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2670,
+                    "minv": 2105,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4848,
+                    "minv": 3622,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5117,
+                    "minv": 2225,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS33:DRIVE_8:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 1033,
+                    "minv": 952,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 7940,
+                    "minv": 7445,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 8495,
+                    "minv": 2224,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVDS": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 327,
+                    "minv": 324,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 611,
+                    "minv": 608,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SLVS": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 330,
+                    "minv": 329,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL135D_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 345,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2956,
+                    "minv": 2446,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5843,
+                    "minv": 2951,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL135_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 345,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL135_I:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 345,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1219,
+                    "minv": 1134,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5837,
+                    "minv": 1410,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL135_I:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 345,
+                    "minv": 335,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2956,
+                    "minv": 2446,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5843,
+                    "minv": 2951,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL15D_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 330,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3004,
+                    "minv": 2591,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6225,
+                    "minv": 3007,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL15_I": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 330,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL15_I:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 330,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 1255,
+                    "minv": 1183,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6221,
+                    "minv": 1371,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SSTL15_I:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 341,
+                    "minv": 330,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3004,
+                    "minv": 2591,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6225,
+                    "minv": 3007,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:SUBLVDS": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 339,
+                    "minv": 333,
+                    "to_pin": "PADDI"
+                }
+            ],
+            "setupholds": []
+        },
+        "PREADD9_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "B",
+                    "maxv": 416,
+                    "minv": 129,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 233,
+                    "minv": 129,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 406,
+                    "minv": 321,
+                    "to_pin": "PRCASOUT"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 300,
+                    "minv": 263,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 233,
+                    "minv": 211,
+                    "to_pin": "BRSOSGND"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 723,
+                    "minv": 330,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 723,
+                    "minv": 330,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 380,
+                    "minv": 238,
+                    "to_pin": "PRCASOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 272,
+                    "minv": 248,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 268,
+                    "minv": 248,
+                    "to_pin": "BLSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 702,
+                    "minv": 335,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 479,
+                    "minv": 373,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 515,
+                    "minv": 335,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 411,
+                    "minv": 405,
+                    "to_pin": "BRSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 689,
+                    "minv": 572,
+                    "to_pin": "PRCASOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 531,
+                    "min_hold": 0,
+                    "min_setup": 449,
+                    "pin": "B"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 473,
+                    "min_hold": 0,
+                    "min_setup": 373,
+                    "pin": "BLS1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 466,
+                    "min_hold": 0,
+                    "min_setup": 386,
+                    "pin": "BLSS1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 474,
+                    "min_hold": 0,
+                    "min_setup": 397,
+                    "pin": "BSIGNED"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 564,
+                    "min_hold": 0,
+                    "min_setup": 410,
+                    "pin": "C"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 802,
+                    "min_hold": 0,
+                    "min_setup": 773,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 588,
+                    "min_hold": 0,
+                    "min_setup": 580,
+                    "pin": "CECL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 863,
+                    "min_hold": 0,
+                    "min_setup": 604,
+                    "pin": "RSTB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 733,
+                    "min_hold": 0,
+                    "min_setup": 604,
+                    "pin": "RSTCL"
+                }
+            ]
+        },
+        "RAMW": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 0,
+                    "minv": 0,
+                    "to_pin": "WDO0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 0,
+                    "minv": 0,
+                    "to_pin": "WDO1"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 0,
+                    "minv": 0,
+                    "to_pin": "WDO2"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 0,
+                    "minv": 0,
+                    "to_pin": "WDO3"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 222,
+                    "max_setup": 0,
+                    "min_hold": 199,
+                    "min_setup": 0,
+                    "pin": "A0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 205,
+                    "max_setup": 0,
+                    "min_hold": 182,
+                    "min_setup": 0,
+                    "pin": "A1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 222,
+                    "max_setup": 0,
+                    "min_hold": 199,
+                    "min_setup": 0,
+                    "pin": "B0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 205,
+                    "max_setup": 0,
+                    "min_hold": 182,
+                    "min_setup": 0,
+                    "pin": "B1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 222,
+                    "max_setup": 0,
+                    "min_hold": 199,
+                    "min_setup": 0,
+                    "pin": "C0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 205,
+                    "max_setup": 0,
+                    "min_hold": 182,
+                    "min_setup": 0,
+                    "pin": "C1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 222,
+                    "max_setup": 0,
+                    "min_hold": 199,
+                    "min_setup": 0,
+                    "pin": "D0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 205,
+                    "max_setup": 0,
+                    "min_hold": 182,
+                    "min_setup": 0,
+                    "pin": "D1"
+                }
+            ]
+        },
+        "REG18_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 299,
+                    "minv": 259,
+                    "to_pin": "PP"
+                },
+                {
+                    "from_pin": "PM",
+                    "maxv": 102,
+                    "minv": 86,
+                    "to_pin": "PP"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 681,
+                    "min_hold": 0,
+                    "min_setup": 649,
+                    "pin": "CEP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 403,
+                    "min_hold": 0,
+                    "min_setup": 338,
+                    "pin": "PM"
+                }
+            ]
+        },
+        "SIOLOGIC:DELAY": {
+            "iopaths": [
+                {
+                    "from_pin": "DI",
+                    "maxv": 1262,
+                    "minv": 1257,
+                    "to_pin": "INDD"
+                }
+            ],
+            "setupholds": []
+        },
+        "SIOLOGIC:IDDRX1": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKIN",
+                    "maxv": 405,
+                    "minv": 402,
+                    "to_pin": "RXDATA"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 979,
+                    "min_hold": 0,
+                    "min_setup": 199,
+                    "pin": "DI"
+                }
+            ]
+        },
+        "SIOLOGIC:IREG": {
+            "iopaths": [
+                {
+                    "from_pin": "LSRIN",
+                    "maxv": 468,
+                    "minv": 466,
+                    "to_pin": "INFF"
+                },
+                {
+                    "from_pin": "SCLKIN",
+                    "maxv": 322,
+                    "minv": 321,
+                    "to_pin": "INFF"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 95,
+                    "min_hold": 0,
+                    "min_setup": 95,
+                    "pin": "CEIN"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 1015,
+                    "min_hold": 0,
+                    "min_setup": 236,
+                    "pin": "DI"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 0,
+                    "max_setup": 210,
+                    "min_hold": 0,
+                    "min_setup": 142,
+                    "pin": "LSRIN"
+                }
+            ]
+        },
+        "SIOLOGIC:ODDRX1": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 450,
+                    "minv": 448,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 228,
+                    "min_hold": 0,
+                    "min_setup": 160,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "SIOLOGIC:ODDRX1:DELAYED": {
+            "iopaths": [
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 1240,
+                    "minv": 1236,
+                    "to_pin": "DOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 228,
+                    "min_hold": 0,
+                    "min_setup": 160,
+                    "pin": "TXDATA"
+                }
+            ]
+        },
+        "SIOLOGIC:OREG": {
+            "iopaths": [
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 601,
+                    "minv": 599,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 601,
+                    "minv": 599,
+                    "to_pin": "TOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 450,
+                    "minv": 448,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 451,
+                    "minv": 449,
+                    "to_pin": "TOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 95,
+                    "min_hold": 0,
+                    "min_setup": 95,
+                    "pin": "CEOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 206,
+                    "min_hold": 0,
+                    "min_setup": 149,
+                    "pin": "LSROUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 231,
+                    "min_hold": 0,
+                    "min_setup": 230,
+                    "pin": "TSDATA0"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 228,
+                    "min_hold": 0,
+                    "min_setup": 227,
+                    "pin": "TXDATA0"
+                }
+            ]
+        },
+        "SIOLOGIC:OREG:DELAYED": {
+            "iopaths": [
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 601,
+                    "minv": 599,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "LSROUT",
+                    "maxv": 601,
+                    "minv": 599,
+                    "to_pin": "TOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 1240,
+                    "minv": 1236,
+                    "to_pin": "DOUT"
+                },
+                {
+                    "from_pin": "SCLKOUT",
+                    "maxv": 451,
+                    "minv": 449,
+                    "to_pin": "TOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 95,
+                    "min_hold": 0,
+                    "min_setup": 95,
+                    "pin": "CEOUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 206,
+                    "min_hold": 0,
+                    "min_setup": 149,
+                    "pin": "LSROUT"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 231,
+                    "min_hold": 0,
+                    "min_setup": 230,
+                    "pin": "TSDATA0"
+                },
+                {
+                    "clock": "SCLKOUT",
+                    "max_hold": 0,
+                    "max_setup": 228,
+                    "min_hold": 0,
+                    "min_setup": 227,
+                    "pin": "TXDATA0"
+                }
+            ]
+        },
+        "SP16K_MODE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLKB",
+                    "maxv": 1281,
+                    "minv": 1281,
+                    "to_pin": "DOB"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLKB",
+                    "max_hold": 72,
+                    "max_setup": 0,
+                    "min_hold": 72,
+                    "min_setup": 0,
+                    "pin": "ADB_13_5"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 92,
+                    "max_setup": 187,
+                    "min_hold": 92,
+                    "min_setup": 187,
+                    "pin": "ADB_4_0"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 0,
+                    "max_setup": 190,
+                    "min_hold": 0,
+                    "min_setup": 190,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 58,
+                    "max_setup": 103,
+                    "min_hold": 58,
+                    "min_setup": 103,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 110,
+                    "max_setup": 18,
+                    "min_hold": 110,
+                    "min_setup": 18,
+                    "pin": "RSTB"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 85,
+                    "max_setup": 123,
+                    "min_hold": 85,
+                    "min_setup": 123,
+                    "pin": "WEB"
+                }
+            ]
+        }
+    }
+}

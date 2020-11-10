@@ -1,0 +1,2500 @@
+{
+    "pip_classes": {
+        "abcd -> a_lut": {
+            "base": [
+                25,
+                47
+            ]
+        },
+        "abcd -> b_lut": {
+            "base": [
+                19,
+                42
+            ]
+        },
+        "abcd -> c_drmux": {
+            "base": [
+                0,
+                10
+            ]
+        },
+        "abcd -> c_lut": {
+            "base": [
+                16,
+                43
+            ]
+        },
+        "abcd -> cibmuxi": {
+            "base": [
+                -3,
+                -3
+            ]
+        },
+        "abcd -> d_dimux": {
+            "base": [
+                -6,
+                1
+            ]
+        },
+        "abcd -> d_drmux": {
+            "base": [
+                0,
+                10
+            ]
+        },
+        "acc54 -> f": {
+            "base": [
+                63,
+                93
+            ]
+        },
+        "acc54 -> q": {
+            "base": [
+                53,
+                87
+            ]
+        },
+        "acc54_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "acc54_routethru": {
+            "base": [
+                134,
+                161
+            ]
+        },
+        "ce -> acc54": {
+            "base": [
+                53,
+                85
+            ]
+        },
+        "ce -> ce_dff": {
+            "base": [
+                0,
+                -17
+            ]
+        },
+        "ce -> ebr": {
+            "base": [
+                55,
+                88
+            ]
+        },
+        "ce -> iologic": {
+            "base": [
+                12,
+                20
+            ]
+        },
+        "ce -> lram": {
+            "base": [
+                58,
+                83
+            ]
+        },
+        "ce -> mult9": {
+            "base": [
+                52,
+                85
+            ]
+        },
+        "ce -> preadd9": {
+            "base": [
+                53,
+                86
+            ]
+        },
+        "ce -> reg18": {
+            "base": [
+                53,
+                85
+            ]
+        },
+        "ce -> siologic": {
+            "base": [
+                41,
+                65
+            ]
+        },
+        "cibmuxi -> cibmuxo": {
+            "base": [
+                -3,
+                -3
+            ]
+        },
+        "cibmuxo -> acc54": {
+            "base": [
+                102,
+                177
+            ]
+        },
+        "cibmuxo -> dcc": {
+            "base": [
+                70,
+                125
+            ]
+        },
+        "cibmuxo -> dcs": {
+            "base": [
+                39,
+                89
+            ]
+        },
+        "cibmuxo -> ebr": {
+            "base": [
+                81,
+                152
+            ]
+        },
+        "cibmuxo -> io18": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "cibmuxo -> io33": {
+            "base": [
+                43,
+                60
+            ]
+        },
+        "cibmuxo -> iologic": {
+            "base": [
+                56,
+                110
+            ]
+        },
+        "cibmuxo -> lram": {
+            "base": [
+                81,
+                147
+            ]
+        },
+        "cibmuxo -> mult18": {
+            "base": [
+                99,
+                174
+            ]
+        },
+        "cibmuxo -> mult18x36": {
+            "base": [
+                100,
+                175
+            ]
+        },
+        "cibmuxo -> mult9": {
+            "base": [
+                102,
+                177
+            ]
+        },
+        "cibmuxo -> preadd9": {
+            "base": [
+                101,
+                175
+            ]
+        },
+        "cibmuxo -> siologic": {
+            "base": [
+                64,
+                123
+            ]
+        },
+        "clk -> acc54": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> clk_dff": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "clk -> ebr": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> iologic": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> lram": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> mult9": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> pll": {
+            "base": [
+                33,
+                63
+            ]
+        },
+        "clk -> preadd9": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> reg18": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "clk -> siologic": {
+            "base": [
+                32,
+                62
+            ]
+        },
+        "dcc -> jhpfe_cmux": {
+            "base": [
+                65,
+                75
+            ]
+        },
+        "dcc -> jhpfe_dcs": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "dcc -> jhpfw_cmux": {
+            "base": [
+                58,
+                67
+            ]
+        },
+        "dcc -> jjclkll_cmux": {
+            "base": [
+                -17,
+                -18
+            ]
+        },
+        "dcc -> jjclklr_cmux": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "dcc -> jjclkul_dcs": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "dcc -> jjclkur_cmux": {
+            "base": [
+                -18,
+                -21
+            ]
+        },
+        "dcc -> jvpfn_cmux": {
+            "base": [
+                65,
+                75
+            ]
+        },
+        "dcc -> jvpfn_dcs": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "dcc -> jvpfs_cmux": {
+            "base": [
+                65,
+                76
+            ]
+        },
+        "dcc -> jvpfs_dcs": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "dcc_internal": {
+            "base": [
+                0,
+                -1
+            ]
+        },
+        "dcs -> cmux": {
+            "base": [
+                5,
+                -2
+            ]
+        },
+        "e1:f -> span2w": {
+            "base": [
+                29,
+                48
+            ]
+        },
+        "e1:q -> span2w": {
+            "base": [
+                39,
+                53
+            ]
+        },
+        "e1:span1w -> abcd": {
+            "base": [
+                -13,
+                -19
+            ]
+        },
+        "e1:span1w -> m": {
+            "base": [
+                -15,
+                -8
+            ]
+        },
+        "e1:span2s -> span2w": {
+            "base": [
+                76,
+                103
+            ]
+        },
+        "e1:span2v -> span2w": {
+            "base": [
+                75,
+                101
+            ]
+        },
+        "e1:span2w -> abcd": {
+            "base": [
+                34,
+                43
+            ]
+        },
+        "e1:span2w -> ce": {
+            "base": [
+                34,
+                51
+            ]
+        },
+        "e1:span2w -> lsr": {
+            "base": [
+                33,
+                48
+            ]
+        },
+        "e1:span2w -> m": {
+            "base": [
+                33,
+                42
+            ]
+        },
+        "e1:span2w -> span0h": {
+            "base": [
+                31,
+                38
+            ]
+        },
+        "e1:span2w -> span0v": {
+            "base": [
+                32,
+                40
+            ]
+        },
+        "e1:span6s -> span2w": {
+            "base": [
+                60,
+                77
+            ]
+        },
+        "e1:span6v -> span2w": {
+            "base": [
+                61,
+                80
+            ]
+        },
+        "e2:span1w -> span2w": {
+            "base": [
+                22,
+                30
+            ]
+        },
+        "e2:span2w -> span2w": {
+            "base": [
+                78,
+                104
+            ]
+        },
+        "e2:span6w -> span2e": {
+            "base": [
+                57,
+                68
+            ]
+        },
+        "e3:f -> span6w": {
+            "base": [
+                72,
+                96
+            ]
+        },
+        "e3:q -> span6w": {
+            "base": [
+                80,
+                100
+            ]
+        },
+        "e3:span6s -> span6w": {
+            "base": [
+                100,
+                120
+            ]
+        },
+        "e3:span6v -> span6w": {
+            "base": [
+                99,
+                116
+            ]
+        },
+        "e3:span6w -> span1w": {
+            "base": [
+                114,
+                151
+            ]
+        },
+        "e4:span1w -> span6w": {
+            "base": [
+                65,
+                79
+            ]
+        },
+        "e4:span2w -> span6w": {
+            "base": [
+                111,
+                141
+            ]
+        },
+        "e4:span6w -> span2w": {
+            "base": [
+                55,
+                65
+            ]
+        },
+        "e6:span6w -> span6w": {
+            "base": [
+                93,
+                106
+            ]
+        },
+        "ebr -> f": {
+            "base": [
+                89,
+                125
+            ]
+        },
+        "ebr -> q": {
+            "base": [
+                79,
+                120
+            ]
+        },
+        "f -> a": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "f -> abcd": {
+            "base": [
+                -6,
+                -3
+            ]
+        },
+        "f -> b": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "f -> c": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "f -> d": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "f -> span0h": {
+            "base": [
+                -6,
+                -3
+            ]
+        },
+        "f -> span0v": {
+            "base": [
+                -6,
+                -4
+            ]
+        },
+        "f -> span1s": {
+            "base": [
+                90,
+                138
+            ]
+        },
+        "f -> span1w": {
+            "base": [
+                85,
+                127
+            ]
+        },
+        "f_lut -> di_dff": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "f_lut -> f": {
+            "base": [
+                61,
+                89
+            ]
+        },
+        "f_lut -> f_drmux": {
+            "base": [
+                6,
+                6
+            ]
+        },
+        "hpbx -> ce": {
+            "base": [
+                2,
+                2
+            ]
+        },
+        "hpbx -> clk": {
+            "base": [
+                6,
+                -17
+            ]
+        },
+        "hpbx -> hpbx": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "hpbx -> lsr": {
+            "base": [
+                5,
+                3
+            ]
+        },
+        "hpbx -> span1s": {
+            "base": [
+                105,
+                138
+            ]
+        },
+        "hpbx -> span1w": {
+            "base": [
+                102,
+                123
+            ]
+        },
+        "hprx -> vpsx": {
+            "base": [
+                221,
+                248
+            ]
+        },
+        "hprx_cmux -> hprx_g": {
+            "base": [
+                221,
+                248
+            ]
+        },
+        "hprx_g -> hprx": {
+            "base": [
+                221,
+                248
+            ]
+        },
+        "io18 -> iologic": {
+            "base": [
+                19,
+                20
+            ]
+        },
+        "io18 -> q": {
+            "base": [
+                57,
+                85
+            ]
+        },
+        "io33 -> f": {
+            "base": [
+                70,
+                108
+            ]
+        },
+        "io33 -> q": {
+            "base": [
+                67,
+                109
+            ]
+        },
+        "io33 -> siologic": {
+            "base": [
+                26,
+                26
+            ]
+        },
+        "iologic -> f": {
+            "base": [
+                88,
+                130
+            ]
+        },
+        "iologic -> io18": {
+            "base": [
+                11,
+                11
+            ]
+        },
+        "iologic -> q": {
+            "base": [
+                67,
+                109
+            ]
+        },
+        "jdcs_cmux -> hprx_cmux": {
+            "base": [
+                5,
+                -2
+            ]
+        },
+        "jeclkdiv0 -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv0_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv1 -> jvpf_mid": {
+            "base": [
+                -2,
+                -3
+            ]
+        },
+        "jeclkdiv10 -> jvpf_mid": {
+            "base": [
+                -2,
+                -3
+            ]
+        },
+        "jeclkdiv10_mid_entry": {
+            "base": [
+                -2,
+                -3
+            ]
+        },
+        "jeclkdiv11 -> jvpf_mid": {
+            "base": [
+                0,
+                -2
+            ]
+        },
+        "jeclkdiv11_mid_entry": {
+            "base": [
+                0,
+                -2
+            ]
+        },
+        "jeclkdiv1_mid_entry": {
+            "base": [
+                -2,
+                -3
+            ]
+        },
+        "jeclkdiv2 -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv2_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv3 -> jvpf_mid": {
+            "base": [
+                0,
+                -1
+            ]
+        },
+        "jeclkdiv3_mid_entry": {
+            "base": [
+                0,
+                -1
+            ]
+        },
+        "jeclkdiv4 -> jvpf_mid": {
+            "base": [
+                -3,
+                -4
+            ]
+        },
+        "jeclkdiv4_mid_entry": {
+            "base": [
+                -3,
+                -4
+            ]
+        },
+        "jeclkdiv5 -> jvpf_mid": {
+            "base": [
+                -1,
+                -1
+            ]
+        },
+        "jeclkdiv5_mid_entry": {
+            "base": [
+                -1,
+                -1
+            ]
+        },
+        "jeclkdiv6 -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv6_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jeclkdiv7 -> jvpf_mid": {
+            "base": [
+                -1,
+                -2
+            ]
+        },
+        "jeclkdiv7_mid_entry": {
+            "base": [
+                -1,
+                -2
+            ]
+        },
+        "jeclkdiv8 -> jvpf_mid": {
+            "base": [
+                0,
+                1
+            ]
+        },
+        "jeclkdiv8_mid_entry": {
+            "base": [
+                0,
+                1
+            ]
+        },
+        "jeclkdiv9 -> jvpf_mid": {
+            "base": [
+                0,
+                -1
+            ]
+        },
+        "jeclkdiv9_mid_entry": {
+            "base": [
+                0,
+                -1
+            ]
+        },
+        "jhpfe_cmux -> hprx_cmux": {
+            "base": [
+                65,
+                75
+            ]
+        },
+        "jhpfw_cmux -> hprx_cmux": {
+            "base": [
+                58,
+                67
+            ]
+        },
+        "jjclkll_cmux -> hprx_cmux": {
+            "base": [
+                -17,
+                -18
+            ]
+        },
+        "jjclklr_cmux -> hprx_cmux": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jjclkur_cmux -> hprx_cmux": {
+            "base": [
+                -18,
+                -21
+            ]
+        },
+        "jllclkop -> jhpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jllclkop -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jllclkop_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jllclkos -> jvpf_mid": {
+            "base": [
+                100,
+                113
+            ]
+        },
+        "jllclkos2 -> jvpf_mid": {
+            "base": [
+                100,
+                111
+            ]
+        },
+        "jllclkos2_mid_entry": {
+            "base": [
+                100,
+                111
+            ]
+        },
+        "jllclkos3 -> jvpf_mid": {
+            "base": [
+                100,
+                112
+            ]
+        },
+        "jllclkos3_mid_entry": {
+            "base": [
+                100,
+                112
+            ]
+        },
+        "jllclkos4 -> jvpf_mid": {
+            "base": [
+                101,
+                114
+            ]
+        },
+        "jllclkos4_mid_entry": {
+            "base": [
+                101,
+                114
+            ]
+        },
+        "jllclkos5 -> jvpf_mid": {
+            "base": [
+                99,
+                111
+            ]
+        },
+        "jllclkos5_mid_entry": {
+            "base": [
+                99,
+                111
+            ]
+        },
+        "jllclkos_mid_entry": {
+            "base": [
+                100,
+                113
+            ]
+        },
+        "jlrclkop -> jvpf_mid": {
+            "base": [
+                100,
+                111
+            ]
+        },
+        "jlrclkop_mid_entry": {
+            "base": [
+                100,
+                111
+            ]
+        },
+        "jlrclkos -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jlrclkos2 -> jvpf_mid": {
+            "base": [
+                101,
+                113
+            ]
+        },
+        "jlrclkos2_mid_entry": {
+            "base": [
+                101,
+                113
+            ]
+        },
+        "jlrclkos3 -> jvpf_mid": {
+            "base": [
+                99,
+                110
+            ]
+        },
+        "jlrclkos3_mid_entry": {
+            "base": [
+                99,
+                110
+            ]
+        },
+        "jlrclkos4 -> jhpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jlrclkos4 -> jvpf_mid": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jlrclkos4_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jlrclkos5 -> jvpf_mid": {
+            "base": [
+                100,
+                113
+            ]
+        },
+        "jlrclkos5_mid_entry": {
+            "base": [
+                100,
+                113
+            ]
+        },
+        "jlrclkos_mid_entry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "jpclkcibl1 -> jhpf_mid": {
+            "base": [
+                57,
+                50
+            ]
+        },
+        "jpclkcibl1_mid_entry": {
+            "base": [
+                57,
+                50
+            ]
+        },
+        "jpclkcibl2 -> jhpf_mid": {
+            "base": [
+                48,
+                38
+            ]
+        },
+        "jpclkcibl2_mid_entry": {
+            "base": [
+                48,
+                38
+            ]
+        },
+        "jpclkt00 -> jvpf_mid": {
+            "base": [
+                97,
+                95
+            ]
+        },
+        "jpclkt00_mid_entry": {
+            "base": [
+                97,
+                95
+            ]
+        },
+        "jpclkt01 -> jvpf_mid": {
+            "base": [
+                97,
+                95
+            ]
+        },
+        "jpclkt01_mid_entry": {
+            "base": [
+                97,
+                95
+            ]
+        },
+        "jpclkt11 -> jhpf_mid": {
+            "base": [
+                129,
+                157
+            ]
+        },
+        "jpclkt11_mid_entry": {
+            "base": [
+                129,
+                157
+            ]
+        },
+        "jpclkt12 -> jhpf_mid": {
+            "base": [
+                125,
+                152
+            ]
+        },
+        "jpclkt12_mid_entry": {
+            "base": [
+                125,
+                152
+            ]
+        },
+        "jpclkt22 -> jhpf_mid": {
+            "base": [
+                133,
+                162
+            ]
+        },
+        "jpclkt22_mid_entry": {
+            "base": [
+                133,
+                162
+            ]
+        },
+        "jpclkt31 -> jvpf_mid": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt31_mid_entry": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt33 -> jvpf_mid": {
+            "base": [
+                153,
+                164
+            ]
+        },
+        "jpclkt33_mid_entry": {
+            "base": [
+                153,
+                164
+            ]
+        },
+        "jpclkt41 -> jvpf_mid": {
+            "base": [
+                155,
+                166
+            ]
+        },
+        "jpclkt41_mid_entry": {
+            "base": [
+                155,
+                166
+            ]
+        },
+        "jpclkt43 -> jvpf_mid": {
+            "base": [
+                153,
+                165
+            ]
+        },
+        "jpclkt43_mid_entry": {
+            "base": [
+                153,
+                165
+            ]
+        },
+        "jpclkt51 -> jvpf_mid": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt51_mid_entry": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt53 -> jvpf_mid": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt53_mid_entry": {
+            "base": [
+                152,
+                163
+            ]
+        },
+        "jpclkt61 -> jhpf_mid": {
+            "base": [
+                56,
+                145
+            ]
+        },
+        "jpclkt61_mid_entry": {
+            "base": [
+                56,
+                145
+            ]
+        },
+        "jpclkt62 -> jhpf_mid": {
+            "base": [
+                56,
+                147
+            ]
+        },
+        "jpclkt62_mid_entry": {
+            "base": [
+                56,
+                147
+            ]
+        },
+        "julclkop -> jhpf_mid": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkop_mid_entry": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos -> jhpf_mid": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos2 -> jhpf_mid": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos2_mid_entry": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos3 -> jhpf_mid": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos3_mid_entry": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "julclkos4 -> jhpf_mid": {
+            "base": [
+                90,
+                98
+            ]
+        },
+        "julclkos4_mid_entry": {
+            "base": [
+                90,
+                98
+            ]
+        },
+        "julclkos5 -> jhpf_mid": {
+            "base": [
+                90,
+                98
+            ]
+        },
+        "julclkos5_mid_entry": {
+            "base": [
+                90,
+                98
+            ]
+        },
+        "julclkos_mid_entry": {
+            "base": [
+                90,
+                97
+            ]
+        },
+        "jvpfn_cmux -> hprx_cmux": {
+            "base": [
+                65,
+                75
+            ]
+        },
+        "jvpfs_cmux -> hprx_cmux": {
+            "base": [
+                65,
+                76
+            ]
+        },
+        "lram -> f": {
+            "base": [
+                82,
+                126
+            ]
+        },
+        "lram -> q": {
+            "base": [
+                70,
+                113
+            ]
+        },
+        "lsr -> ebr": {
+            "base": [
+                61,
+                93
+            ]
+        },
+        "lsr -> iologic": {
+            "base": [
+                9,
+                19
+            ]
+        },
+        "lsr -> lram": {
+            "base": [
+                44,
+                73
+            ]
+        },
+        "lsr -> lsr_dff": {
+            "base": [
+                -2,
+                -18
+            ]
+        },
+        "lsr -> mult9": {
+            "base": [
+                47,
+                79
+            ]
+        },
+        "lsr -> pll": {
+            "base": [
+                48,
+                79
+            ]
+        },
+        "lsr -> preadd9": {
+            "base": [
+                46,
+                77
+            ]
+        },
+        "lsr -> siologic": {
+            "base": [
+                42,
+                59
+            ]
+        },
+        "lutram_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "m -> m_dimux": {
+            "base": [
+                -8,
+                -12
+            ]
+        },
+        "mid -> dcc": {
+            "base": [
+                178,
+                200
+            ]
+        },
+        "mult18 -> mult18x36": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "mult18_routethru": {
+            "base": [
+                45,
+                113
+            ]
+        },
+        "mult18x36 -> mult36": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "mult18x36_routethru": {
+            "base": [
+                211,
+                214
+            ]
+        },
+        "mult36 -> reg18": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "mult36_routethru": {
+            "base": [
+                45,
+                104
+            ]
+        },
+        "mult9 -> mult18": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "mult9_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "n1:f -> span2s": {
+            "base": [
+                33,
+                55
+            ]
+        },
+        "n1:q -> span2s": {
+            "base": [
+                40,
+                58
+            ]
+        },
+        "n1:span1s -> abcd": {
+            "base": [
+                -21,
+                -29
+            ]
+        },
+        "n1:span1s -> clk": {
+            "base": [
+                26,
+                62
+            ]
+        },
+        "n1:span2e -> span2s": {
+            "base": [
+                78,
+                107
+            ]
+        },
+        "n1:span2s -> abcd": {
+            "base": [
+                33,
+                42
+            ]
+        },
+        "n1:span2s -> ce": {
+            "base": [
+                36,
+                58
+            ]
+        },
+        "n1:span2s -> clk": {
+            "base": [
+                51,
+                65
+            ]
+        },
+        "n1:span2s -> lsr": {
+            "base": [
+                29,
+                49
+            ]
+        },
+        "n1:span2s -> span0h": {
+            "base": [
+                31,
+                40
+            ]
+        },
+        "n1:span2s -> span0v": {
+            "base": [
+                32,
+                41
+            ]
+        },
+        "n1:span2w -> span2s": {
+            "base": [
+                78,
+                107
+            ]
+        },
+        "n1:span6e -> span2s": {
+            "base": [
+                59,
+                72
+            ]
+        },
+        "n1:span6w -> span2s": {
+            "base": [
+                59,
+                74
+            ]
+        },
+        "n1e1:span1s -> span2w": {
+            "base": [
+                22,
+                36
+            ]
+        },
+        "n1e1:span1w -> span2s": {
+            "base": [
+                25,
+                40
+            ]
+        },
+        "n1e1:span2s -> span2w": {
+            "base": [
+                75,
+                102
+            ]
+        },
+        "n1e1:span2w -> span2s": {
+            "base": [
+                77,
+                106
+            ]
+        },
+        "n1e3:span1s -> span6w": {
+            "base": [
+                67,
+                83
+            ]
+        },
+        "n1e3:span6w -> span2s": {
+            "base": [
+                59,
+                73
+            ]
+        },
+        "n1w1:span1s -> span2e": {
+            "base": [
+                23,
+                37
+            ]
+        },
+        "n1w1:span1w -> span2s": {
+            "base": [
+                26,
+                38
+            ]
+        },
+        "n1w1:span2e -> span2s": {
+            "base": [
+                78,
+                107
+            ]
+        },
+        "n1w1:span2s -> span2e": {
+            "base": [
+                77,
+                103
+            ]
+        },
+        "n1w3:span1s -> span6e": {
+            "base": [
+                71,
+                90
+            ]
+        },
+        "n1w3:span6e -> span2s": {
+            "base": [
+                60,
+                74
+            ]
+        },
+        "n2:span1s -> span2s": {
+            "base": [
+                25,
+                42
+            ]
+        },
+        "n2:span2s -> span2s": {
+            "base": [
+                76,
+                105
+            ]
+        },
+        "n2:span6s -> span2v": {
+            "base": [
+                63,
+                83
+            ]
+        },
+        "n3:f -> span6s": {
+            "base": [
+                76,
+                110
+            ]
+        },
+        "n3:q -> span6s": {
+            "base": [
+                84,
+                113
+            ]
+        },
+        "n3:span6e -> span6s": {
+            "base": [
+                104,
+                125
+            ]
+        },
+        "n3:span6s -> span1s": {
+            "base": [
+                123,
+                175
+            ]
+        },
+        "n3:span6w -> span6s": {
+            "base": [
+                102,
+                123
+            ]
+        },
+        "n3e1:span1w -> span6s": {
+            "base": [
+                71,
+                91
+            ]
+        },
+        "n3e1:span6s -> span2w": {
+            "base": [
+                60,
+                77
+            ]
+        },
+        "n3e3:span6s -> span6w": {
+            "base": [
+                101,
+                124
+            ]
+        },
+        "n3e3:span6w -> span6s": {
+            "base": [
+                99,
+                118
+            ]
+        },
+        "n3w1:span1w -> span6s": {
+            "base": [
+                70,
+                88
+            ]
+        },
+        "n3w1:span6s -> span2e": {
+            "base": [
+                62,
+                83
+            ]
+        },
+        "n3w3:span6e -> span6s": {
+            "base": [
+                100,
+                119
+            ]
+        },
+        "n3w3:span6s -> span6e": {
+            "base": [
+                101,
+                120
+            ]
+        },
+        "n4:span1s -> span6s": {
+            "base": [
+                77,
+                103
+            ]
+        },
+        "n4:span2s -> span6s": {
+            "base": [
+                114,
+                151
+            ]
+        },
+        "n4:span6s -> span2s": {
+            "base": [
+                62,
+                81
+            ]
+        },
+        "n6:span6s -> span6s": {
+            "base": [
+                100,
+                125
+            ]
+        },
+        "ofx -> di_dff": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "ofx -> f": {
+            "base": [
+                53,
+                80
+            ]
+        },
+        "preadd9 -> mult9": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "preadd9_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "q -> abcd": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "q -> span0h": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "q -> span0v": {
+            "base": [
+                1,
+                0
+            ]
+        },
+        "q -> span1s": {
+            "base": [
+                99,
+                145
+            ]
+        },
+        "q -> span1w": {
+            "base": [
+                96,
+                135
+            ]
+        },
+        "q_dff -> q": {
+            "base": [
+                54,
+                86
+            ]
+        },
+        "reg18 -> acc54": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "reg18_routethru": {
+            "base": [
+                86,
+                103
+            ]
+        },
+        "s1:f -> span2v": {
+            "base": [
+                33,
+                56
+            ]
+        },
+        "s1:q -> span2v": {
+            "base": [
+                40,
+                58
+            ]
+        },
+        "s1:span1s -> a": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "s1:span1s -> abcd": {
+            "base": [
+                -17,
+                -21
+            ]
+        },
+        "s1:span1s -> clk": {
+            "base": [
+                -15,
+                -28
+            ]
+        },
+        "s1:span2e -> span2v": {
+            "base": [
+                77,
+                105
+            ]
+        },
+        "s1:span2v -> abcd": {
+            "base": [
+                31,
+                39
+            ]
+        },
+        "s1:span2v -> ce": {
+            "base": [
+                38,
+                60
+            ]
+        },
+        "s1:span2v -> clk": {
+            "base": [
+                56,
+                73
+            ]
+        },
+        "s1:span2v -> lsr": {
+            "base": [
+                30,
+                50
+            ]
+        },
+        "s1:span2v -> span0h": {
+            "base": [
+                29,
+                37
+            ]
+        },
+        "s1:span2v -> span0v": {
+            "base": [
+                30,
+                39
+            ]
+        },
+        "s1:span2w -> span2v": {
+            "base": [
+                78,
+                107
+            ]
+        },
+        "s1:span6e -> span2v": {
+            "base": [
+                60,
+                72
+            ]
+        },
+        "s1:span6w -> span2v": {
+            "base": [
+                62,
+                77
+            ]
+        },
+        "s1e1:span1s -> span2w": {
+            "base": [
+                25,
+                44
+            ]
+        },
+        "s1e1:span1w -> span2v": {
+            "base": [
+                25,
+                38
+            ]
+        },
+        "s1e1:span2v -> span2w": {
+            "base": [
+                77,
+                105
+            ]
+        },
+        "s1e1:span2w -> span2v": {
+            "base": [
+                80,
+                109
+            ]
+        },
+        "s1e3:span1s -> span6w": {
+            "base": [
+                71,
+                87
+            ]
+        },
+        "s1e3:span6w -> span2v": {
+            "base": [
+                59,
+                74
+            ]
+        },
+        "s1w1:span1s -> span2e": {
+            "base": [
+                24,
+                38
+            ]
+        },
+        "s1w1:span1w -> span2v": {
+            "base": [
+                22,
+                33
+            ]
+        },
+        "s1w1:span2e -> span2v": {
+            "base": [
+                78,
+                107
+            ]
+        },
+        "s1w1:span2v -> span2e": {
+            "base": [
+                77,
+                105
+            ]
+        },
+        "s1w3:span1s -> span6e": {
+            "base": [
+                73,
+                92
+            ]
+        },
+        "s1w3:span6e -> span2v": {
+            "base": [
+                60,
+                72
+            ]
+        },
+        "s2:span1s -> span2v": {
+            "base": [
+                22,
+                34
+            ]
+        },
+        "s2:span2v -> span2v": {
+            "base": [
+                75,
+                105
+            ]
+        },
+        "s2:span6v -> span2s": {
+            "base": [
+                63,
+                84
+            ]
+        },
+        "s3:f -> span6v": {
+            "base": [
+                74,
+                107
+            ]
+        },
+        "s3:q -> span6v": {
+            "base": [
+                82,
+                111
+            ]
+        },
+        "s3:span6e -> span6v": {
+            "base": [
+                102,
+                124
+            ]
+        },
+        "s3:span6v -> span1s": {
+            "base": [
+                124,
+                179
+            ]
+        },
+        "s3:span6w -> span6v": {
+            "base": [
+                101,
+                121
+            ]
+        },
+        "s3e1:span1w -> span6v": {
+            "base": [
+                67,
+                86
+            ]
+        },
+        "s3e1:span6v -> span2w": {
+            "base": [
+                61,
+                79
+            ]
+        },
+        "s3e3:span6v -> span6w": {
+            "base": [
+                99,
+                117
+            ]
+        },
+        "s3e3:span6w -> span6v": {
+            "base": [
+                98,
+                119
+            ]
+        },
+        "s3w1:span1w -> span6v": {
+            "base": [
+                68,
+                85
+            ]
+        },
+        "s3w1:span6v -> span2e": {
+            "base": [
+                59,
+                78
+            ]
+        },
+        "s3w3:span6e -> span6v": {
+            "base": [
+                99,
+                121
+            ]
+        },
+        "s3w3:span6v -> span6e": {
+            "base": [
+                97,
+                115
+            ]
+        },
+        "s4:span1s -> span6v": {
+            "base": [
+                75,
+                98
+            ]
+        },
+        "s4:span2v -> span6v": {
+            "base": [
+                114,
+                151
+            ]
+        },
+        "s4:span6v -> span2v": {
+            "base": [
+                58,
+                77
+            ]
+        },
+        "s6:span6v -> span6v": {
+            "base": [
+                101,
+                127
+            ]
+        },
+        "siologic -> f": {
+            "base": [
+                68,
+                118
+            ]
+        },
+        "siologic -> io33": {
+            "base": [
+                30,
+                30
+            ]
+        },
+        "siologic -> q": {
+            "base": [
+                61,
+                117
+            ]
+        },
+        "slice_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "span0h -> abcd": {
+            "base": [
+                58,
+                67
+            ]
+        },
+        "span0h -> ce": {
+            "base": [
+                58,
+                76
+            ]
+        },
+        "span0h -> lsr": {
+            "base": [
+                56,
+                77
+            ]
+        },
+        "span0h -> m": {
+            "base": [
+                57,
+                74
+            ]
+        },
+        "span0v -> abcd": {
+            "base": [
+                57,
+                67
+            ]
+        },
+        "span0v -> ce": {
+            "base": [
+                54,
+                74
+            ]
+        },
+        "span0v -> clk": {
+            "base": [
+                74,
+                93
+            ]
+        },
+        "span0v -> m": {
+            "base": [
+                58,
+                75
+            ]
+        },
+        "span1s -> abcd": {
+            "base": [
+                -20,
+                -27
+            ]
+        },
+        "span1s -> m": {
+            "base": [
+                -18,
+                -16
+            ]
+        },
+        "span1s -> span2s": {
+            "base": [
+                17,
+                24
+            ]
+        },
+        "span1s -> span2v": {
+            "base": [
+                21,
+                32
+            ]
+        },
+        "span1w -> abcd": {
+            "base": [
+                -18,
+                -25
+            ]
+        },
+        "span1w -> m": {
+            "base": [
+                -12,
+                -7
+            ]
+        },
+        "span1w -> span2e": {
+            "base": [
+                19,
+                26
+            ]
+        },
+        "span1w -> span2w": {
+            "base": [
+                21,
+                29
+            ]
+        },
+        "span2e -> abcd": {
+            "base": [
+                32,
+                40
+            ]
+        },
+        "span2e -> ce": {
+            "base": [
+                35,
+                56
+            ]
+        },
+        "span2e -> lsr": {
+            "base": [
+                31,
+                50
+            ]
+        },
+        "span2e -> m": {
+            "base": [
+                41,
+                51
+            ]
+        },
+        "span2e -> span0h": {
+            "base": [
+                29,
+                37
+            ]
+        },
+        "span2e -> span0v": {
+            "base": [
+                31,
+                39
+            ]
+        },
+        "span2s -> abcd": {
+            "base": [
+                31,
+                40
+            ]
+        },
+        "span2s -> ce": {
+            "base": [
+                38,
+                60
+            ]
+        },
+        "span2s -> clk": {
+            "base": [
+                51,
+                63
+            ]
+        },
+        "span2s -> lsr": {
+            "base": [
+                29,
+                49
+            ]
+        },
+        "span2s -> span0h": {
+            "base": [
+                29,
+                37
+            ]
+        },
+        "span2s -> span0v": {
+            "base": [
+                31,
+                38
+            ]
+        },
+        "span2v -> abcd": {
+            "base": [
+                30,
+                38
+            ]
+        },
+        "span2v -> ce": {
+            "base": [
+                31,
+                52
+            ]
+        },
+        "span2v -> clk": {
+            "base": [
+                52,
+                61
+            ]
+        },
+        "span2v -> lsr": {
+            "base": [
+                33,
+                52
+            ]
+        },
+        "span2v -> span0h": {
+            "base": [
+                28,
+                35
+            ]
+        },
+        "span2v -> span0v": {
+            "base": [
+                30,
+                37
+            ]
+        },
+        "span2w -> abcd": {
+            "base": [
+                32,
+                41
+            ]
+        },
+        "span2w -> ce": {
+            "base": [
+                33,
+                51
+            ]
+        },
+        "span2w -> lsr": {
+            "base": [
+                29,
+                43
+            ]
+        },
+        "span2w -> m": {
+            "base": [
+                40,
+                50
+            ]
+        },
+        "span2w -> span0h": {
+            "base": [
+                30,
+                38
+            ]
+        },
+        "span2w -> span0v": {
+            "base": [
+                31,
+                39
+            ]
+        },
+        "tile_carry": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "vcc -> abcd": {
+            "base": [
+                -32,
+                -55
+            ]
+        },
+        "vcc -> ce": {
+            "base": [
+                -18,
+                -15
+            ]
+        },
+        "vcc -> clk": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "vcc -> lsr": {
+            "base": [
+                -13,
+                -9
+            ]
+        },
+        "vcc_internal": {
+            "base": [
+                0,
+                0
+            ]
+        },
+        "vpsx -> hpbx": {
+            "base": [
+                221,
+                248
+            ]
+        },
+        "w1:f -> span2e": {
+            "base": [
+                31,
+                51
+            ]
+        },
+        "w1:q -> span2e": {
+            "base": [
+                40,
+                55
+            ]
+        },
+        "w1:span1w -> abcd": {
+            "base": [
+                -13,
+                -16
+            ]
+        },
+        "w1:span2e -> abcd": {
+            "base": [
+                33,
+                41
+            ]
+        },
+        "w1:span2e -> ce": {
+            "base": [
+                36,
+                56
+            ]
+        },
+        "w1:span2e -> lsr": {
+            "base": [
+                32,
+                50
+            ]
+        },
+        "w1:span2e -> m": {
+            "base": [
+                36,
+                45
+            ]
+        },
+        "w1:span2e -> span0h": {
+            "base": [
+                29,
+                37
+            ]
+        },
+        "w1:span2e -> span0v": {
+            "base": [
+                32,
+                40
+            ]
+        },
+        "w1:span2s -> span2e": {
+            "base": [
+                75,
+                101
+            ]
+        },
+        "w1:span2v -> span2e": {
+            "base": [
+                76,
+                101
+            ]
+        },
+        "w1:span6s -> span2e": {
+            "base": [
+                61,
+                80
+            ]
+        },
+        "w1:span6v -> span2e": {
+            "base": [
+                61,
+                81
+            ]
+        },
+        "w2:span1w -> span2e": {
+            "base": [
+                23,
+                31
+            ]
+        },
+        "w2:span2e -> span2e": {
+            "base": [
+                75,
+                98
+            ]
+        },
+        "w2:span6e -> span2w": {
+            "base": [
+                57,
+                67
+            ]
+        },
+        "w3:f -> span6e": {
+            "base": [
+                71,
+                95
+            ]
+        },
+        "w3:q -> span6e": {
+            "base": [
+                83,
+                106
+            ]
+        },
+        "w3:span6e -> span1w": {
+            "base": [
+                116,
+                158
+            ]
+        },
+        "w3:span6s -> span6e": {
+            "base": [
+                101,
+                121
+            ]
+        },
+        "w3:span6v -> span6e": {
+            "base": [
+                98,
+                116
+            ]
+        },
+        "w4:span1w -> span6e": {
+            "base": [
+                65,
+                78
+            ]
+        },
+        "w4:span2e -> span6e": {
+            "base": [
+                110,
+                137
+            ]
+        },
+        "w4:span6e -> span2e": {
+            "base": [
+                54,
+                65
+            ]
+        },
+        "w6:span6e -> span6e": {
+            "base": [
+                90,
+                104
+            ]
+        }
+    }
+}
