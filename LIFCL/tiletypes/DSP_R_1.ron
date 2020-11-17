@@ -16,6 +16,19 @@
       },
       desc: "accumulator bypass",
     ),
+    "ACC54_0.ACCUMODE": (
+      options: {
+        "MODE0": [],
+        "MODE1": [(frame:62,bit:0,invert:false,),],
+        "MODE2": [(frame:63,bit:0,invert:false,),],
+        "MODE3": [(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+        "MODE4": [(frame:64,bit:0,invert:false,),],
+        "MODE5": [(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MODE6": [(frame:63,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MODE7": [(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+      },
+      desc: "accumulator mode",
+    ),
     "ACC54_0.ADDSUBSIGNREGBYPS1": (
       options: {
         "BYPASS": [(frame:67,bit:0,invert:false,),],
