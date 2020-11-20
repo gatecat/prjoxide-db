@@ -1,6 +1,1082 @@
 {
     "celltypes": {
-        "ACC54_CORE": {
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG1,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG1,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG1,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG1,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
             "iopaths": [
                 {
                     "from_pin": "CASIN0",
@@ -27,6 +1103,470 @@
                     "to_pin": "SUM1"
                 },
                 {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG1,ADDSUBSIGNREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG1,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2100,
+                    "min_hold": 0,
+                    "min_setup": 1718,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1168,
+                    "min_hold": 0,
+                    "min_setup": 1099,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG1,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
                     "from_pin": "CLK",
                     "maxv": 1065,
                     "minv": 840,
@@ -41,7 +1581,7 @@
                 {
                     "from_pin": "CLK",
                     "maxv": 1206,
-                    "minv": 692,
+                    "minv": 852,
                     "to_pin": "SUM1"
                 },
                 {
@@ -93,7 +1633,1377 @@
                     "max_hold": 0,
                     "max_setup": 1296,
                     "min_hold": 0,
-                    "min_setup": 1099,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG1,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG1,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG1,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1233,
+                    "min_hold": 0,
+                    "min_setup": 1146,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1206,
+                    "minv": 852,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CINREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1065,
+                    "minv": 840,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2544,
+                    "minv": 1728,
+                    "to_pin": "CASCOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1394,
+                    "min_hold": 0,
+                    "min_setup": 1081,
+                    "pin": "CECIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1111,
+                    "min_hold": 0,
+                    "min_setup": 1033,
+                    "pin": "CIN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN0"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2026,
+                    "min_hold": 0,
+                    "min_setup": 2026,
+                    "pin": "CASIN1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1362,
+                    "min_hold": 0,
+                    "min_setup": 1166,
+                    "pin": "CEO"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1600,
+                    "min_hold": 0,
+                    "min_setup": 1456,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2160,
+                    "min_hold": 0,
+                    "min_setup": 2146,
+                    "pin": "PP"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1454,
+                    "min_hold": 0,
+                    "min_setup": 1421,
+                    "pin": "ROUNDEN"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2576,
+                    "min_hold": 0,
+                    "min_setup": 2486,
+                    "pin": "SFTCTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
+            "iopaths": [
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN0",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2307,
+                    "minv": 1359,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CASIN1",
+                    "maxv": 2867,
+                    "minv": 1568,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 2658,
+                    "minv": 1484,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 3297,
+                    "minv": 1976,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 1976,
+                    "minv": 571,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "ROUNDEN",
+                    "maxv": 2516,
+                    "minv": 1702,
+                    "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3164,
+                    "minv": 1982,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "SFTCTRL",
+                    "maxv": 3458,
+                    "minv": 2397,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1513,
+                    "min_hold": 0,
+                    "min_setup": 1295,
+                    "pin": "CEC"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 2116,
+                    "min_hold": 0,
+                    "min_setup": 1720,
+                    "pin": "CECTRL"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1442,
+                    "min_hold": 0,
+                    "min_setup": 1263,
+                    "pin": "CINPUT"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1134,
+                    "min_hold": 0,
+                    "min_setup": 1010,
+                    "pin": "LOAD"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
+                    "pin": "M9ADDSUB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1129,
+                    "min_hold": 0,
+                    "min_setup": 1122,
+                    "pin": "SIGNEDI"
+                }
+            ]
+        },
+        "ACC54_CORE:ADDSUBSIGNREG2,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2,OUTREG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 944,
+                    "to_pin": "SUM0"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1147,
+                    "minv": 692,
+                    "to_pin": "SUM1"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1296,
+                    "min_hold": 0,
+                    "min_setup": 1219,
                     "pin": "ADDSUB"
                 },
                 {
@@ -117,23 +3027,15 @@
                     "max_hold": 0,
                     "max_setup": 1513,
                     "min_hold": 0,
-                    "min_setup": 1166,
+                    "min_setup": 1295,
                     "pin": "CEC"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 1394,
-                    "min_hold": 0,
-                    "min_setup": 1081,
-                    "pin": "CECIN"
                 },
                 {
                     "clock": "CLK",
                     "max_hold": 0,
                     "max_setup": 2116,
                     "min_hold": 0,
-                    "min_setup": 1718,
+                    "min_setup": 1720,
                     "pin": "CECTRL"
                 },
                 {
@@ -147,15 +3049,7 @@
                 {
                     "clock": "CLK",
                     "max_hold": 0,
-                    "max_setup": 1233,
-                    "min_hold": 0,
-                    "min_setup": 1033,
-                    "pin": "CIN"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 1600,
+                    "max_setup": 1442,
                     "min_hold": 0,
                     "min_setup": 1263,
                     "pin": "CINPUT"
@@ -173,7 +3067,7 @@
                     "max_hold": 0,
                     "max_setup": 1296,
                     "min_hold": 0,
-                    "min_setup": 1099,
+                    "min_setup": 1219,
                     "pin": "M9ADDSUB"
                 },
                 {
@@ -1020,6 +3914,35 @@
                     "minv": 1012,
                     "to_pin": "P18"
                 },
+                {
+                    "from_pin": "BR",
+                    "maxv": 208,
+                    "minv": 156,
+                    "to_pin": "BO"
+                },
+                {
+                    "from_pin": "BR",
+                    "maxv": 349,
+                    "minv": 180,
+                    "to_pin": "P18"
+                },
+                {
+                    "from_pin": "BRSIGNED",
+                    "maxv": 166,
+                    "minv": 156,
+                    "to_pin": "BOSIGNED"
+                },
+                {
+                    "from_pin": "BRSIGNED",
+                    "maxv": 1427,
+                    "minv": 1030,
+                    "to_pin": "P18"
+                }
+            ],
+            "setupholds": []
+        },
+        "MULT9_CORE:REGA1": {
+            "iopaths": [
                 {
                     "from_pin": "BR",
                     "maxv": 208,
@@ -4035,7 +6958,7 @@
                 {
                     "from_pin": "BSIGNED",
                     "maxv": 511,
-                    "minv": 440,
+                    "minv": 457,
                     "to_pin": "BRSIGNED"
                 },
                 {
@@ -4073,17 +6996,100 @@
                     "maxv": 462,
                     "minv": 421,
                     "to_pin": "BLSOSGND"
+                }
+            ],
+            "setupholds": []
+        },
+        "PREADD9_CORE:BYPASS,REGBL": {
+            "iopaths": [
+                {
+                    "from_pin": "B",
+                    "maxv": 418,
+                    "minv": 392,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 396,
+                    "minv": 223,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 511,
+                    "minv": 440,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 396,
+                    "minv": 364,
+                    "to_pin": "BRSOSGND"
                 },
                 {
                     "from_pin": "CLK",
-                    "maxv": 1197,
+                    "maxv": 468,
+                    "minv": 421,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 462,
+                    "minv": 421,
+                    "to_pin": "BLSOSGND"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 860,
+                    "min_hold": 0,
+                    "min_setup": 678,
+                    "pin": "BLS1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 848,
+                    "min_hold": 0,
+                    "min_setup": 699,
+                    "pin": "BLSS1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1346,
+                    "min_hold": 0,
+                    "min_setup": 1050,
+                    "pin": "RSTCL"
+                }
+            ]
+        },
+        "PREADD9_CORE:BYPASS,REGBL,REGBR0": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 468,
+                    "minv": 421,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 462,
+                    "minv": 421,
+                    "to_pin": "BLSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1005,
                     "minv": 568,
                     "to_pin": "BR"
                 },
                 {
                     "from_pin": "CLK",
                     "maxv": 814,
-                    "minv": 633,
+                    "minv": 785,
                     "to_pin": "BRSIGNED"
                 },
                 {
@@ -4097,12 +7103,6 @@
                     "maxv": 700,
                     "minv": 695,
                     "to_pin": "BRSOSGND"
-                },
-                {
-                    "from_pin": "CLK",
-                    "maxv": 1184,
-                    "minv": 971,
-                    "to_pin": "PRCASOUT"
                 }
             ],
             "setupholds": [
@@ -4129,6 +7129,170 @@
                     "min_hold": 0,
                     "min_setup": 699,
                     "pin": "BLSS1"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 862,
+                    "min_hold": 0,
+                    "min_setup": 727,
+                    "pin": "BSIGNED"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1457,
+                    "min_hold": 0,
+                    "min_setup": 1416,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1584,
+                    "min_hold": 0,
+                    "min_setup": 1050,
+                    "pin": "RSTB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1346,
+                    "min_hold": 0,
+                    "min_setup": 1050,
+                    "pin": "RSTCL"
+                }
+            ]
+        },
+        "PREADD9_CORE:REGBL": {
+            "iopaths": [
+                {
+                    "from_pin": "B",
+                    "maxv": 715,
+                    "minv": 223,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 396,
+                    "minv": 223,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "B",
+                    "maxv": 698,
+                    "minv": 544,
+                    "to_pin": "PRCASOUT"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 511,
+                    "minv": 457,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "BSIGNED",
+                    "maxv": 396,
+                    "minv": 364,
+                    "to_pin": "BRSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 468,
+                    "minv": 421,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 462,
+                    "minv": 421,
+                    "to_pin": "BLSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 669,
+                    "minv": 633,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1018,
+                    "minv": 971,
+                    "to_pin": "PRCASOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1026,
+                    "min_hold": 0,
+                    "min_setup": 745,
+                    "pin": "C"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1081,
+                    "min_hold": 0,
+                    "min_setup": 1053,
+                    "pin": "CECL"
+                }
+            ]
+        },
+        "PREADD9_CORE:REGBL,REGBR0": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 468,
+                    "minv": 421,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 462,
+                    "minv": 421,
+                    "to_pin": "BLSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 568,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 814,
+                    "minv": 788,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 876,
+                    "minv": 568,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 700,
+                    "minv": 695,
+                    "to_pin": "BRSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1184,
+                    "minv": 1170,
+                    "to_pin": "PRCASOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 965,
+                    "min_hold": 0,
+                    "min_setup": 819,
+                    "pin": "B"
                 },
                 {
                     "clock": "CLK",
@@ -4169,14 +7333,104 @@
                     "min_hold": 0,
                     "min_setup": 1050,
                     "pin": "RSTB"
+                }
+            ]
+        },
+        "PREADD9_CORE:REGBR0": {
+            "iopaths": [
+                {
+                    "from_pin": "C",
+                    "maxv": 1238,
+                    "minv": 562,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 1238,
+                    "minv": 562,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "C",
+                    "maxv": 648,
+                    "minv": 409,
+                    "to_pin": "PRCASOUT"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 468,
+                    "minv": 421,
+                    "to_pin": "BLSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 462,
+                    "minv": 421,
+                    "to_pin": "BLSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1197,
+                    "minv": 568,
+                    "to_pin": "BR"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 814,
+                    "minv": 788,
+                    "to_pin": "BRSIGNED"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 876,
+                    "minv": 568,
+                    "to_pin": "BRSO"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 700,
+                    "minv": 695,
+                    "to_pin": "BRSOSGND"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 1184,
+                    "minv": 1170,
+                    "to_pin": "PRCASOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 965,
+                    "min_hold": 0,
+                    "min_setup": 819,
+                    "pin": "B"
                 },
                 {
                     "clock": "CLK",
                     "max_hold": 0,
-                    "max_setup": 1346,
+                    "max_setup": 862,
+                    "min_hold": 0,
+                    "min_setup": 727,
+                    "pin": "BSIGNED"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1457,
+                    "min_hold": 0,
+                    "min_setup": 1416,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 0,
+                    "max_setup": 1584,
                     "min_hold": 0,
                     "min_setup": 1050,
-                    "pin": "RSTCL"
+                    "pin": "RSTB"
                 }
             ]
         },
@@ -4277,15 +7531,20 @@
         "REG18_CORE": {
             "iopaths": [
                 {
-                    "from_pin": "CLK",
-                    "maxv": 532,
-                    "minv": 451,
-                    "to_pin": "PP"
-                },
-                {
                     "from_pin": "PM",
                     "maxv": 173,
                     "minv": 143,
+                    "to_pin": "PP"
+                }
+            ],
+            "setupholds": []
+        },
+        "REG18_CORE:REG": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 532,
+                    "minv": 451,
                     "to_pin": "PP"
                 }
             ],
