@@ -1044,6 +1044,32 @@
       },
       desc: "DCC bypassed (0) or used as gate (1)",
     ),
+    "GSR_CORE.CLKMUX": (
+      options: {
+        "CLK": [],
+        "INV": [(frame:81,bit:0,invert:false,),],
+      },
+    ),
+    "GSR_CORE.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:80,bit:0,invert:false,),],
+      },
+      desc: "enable global set/reset",
+    ),
+    "GSR_CORE.GSR_NMUX": (
+      options: {
+        "GSR_N": [],
+        "INV": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "GSR_CORE.GSR_SYNC": (
+      options: {
+        "ASYNC": [],
+        "SYNC": [(frame:82,bit:0,invert:false,),],
+      },
+      desc: "synchronise global set/reset",
+    ),
   },
   conns: {},
 )
