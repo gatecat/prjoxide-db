@@ -201,6 +201,17 @@
       ],
       desc: "divider F minus 1",
     ),
+    "DIV_DEL": (
+      bits: [
+        [(frame:51,bit:4,invert:false,),],
+        [(frame:51,bit:5,invert:false,),],
+        [(frame:51,bit:6,invert:false,),],
+        [(frame:51,bit:7,invert:false,),],
+        [(frame:52,bit:0,invert:false,),],
+        [(frame:52,bit:1,invert:false,),],
+        [(frame:52,bit:2,invert:false,),],
+      ],
+    ),
     "DYN_SEL": (
       bits: [
         [(frame:1,bit:4,invert:false,),],

@@ -135,6 +135,17 @@
   },
   words: {},
   enums: {
+    "PLL_LRC.CLKMUX_FB": (
+      options: {
+        "CMUX_CLKOP": [],
+        "CMUX_CLKOS": [(frame:11,bit:1,invert:false,),],
+        "CMUX_CLKOS2": [(frame:10,bit:1,invert:false,),],
+        "CMUX_CLKOS3": [(frame:10,bit:1,invert:false,),(frame:11,bit:1,invert:false,),],
+        "CMUX_CLKOS4": [(frame:9,bit:1,invert:false,),],
+        "CMUX_CLKOS5": [(frame:9,bit:1,invert:false,),(frame:11,bit:1,invert:false,),],
+      },
+      desc: "internal feedback selection",
+    ),
     "PLL_LRC.LMMICLKMUX": (
       options: {
         "INV": [(frame:3,bit:2,invert:false,),],
