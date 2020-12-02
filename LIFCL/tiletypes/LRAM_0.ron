@@ -929,6 +929,81 @@
         from_wire: "N5W1:JDOA10_LRAM_CORE",
       ),
     ],
+    "S5W1:JF0": [
+      (
+        from_wire: "N5W1:JDOA4_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF1": [
+      (
+        from_wire: "N5W1:JDOA5_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF2": [
+      (
+        from_wire: "N5W1:JDOA6_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF3": [
+      (
+        from_wire: "N5W1:JDOA7_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF4": [
+      (
+        from_wire: "N5W1:JDOA8_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF5": [
+      (
+        from_wire: "N5W1:JDOA9_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF6": [
+      (
+        from_wire: "N5W1:JERRDECA1_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JF7": [
+      (
+        from_wire: "N5W1:JERRDECA0_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ0": [
+      (
+        from_wire: "N5W1:JDOA3_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ1": [
+      (
+        from_wire: "N5W1:JDOA2_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ2": [
+      (
+        from_wire: "N5W1:JDOA1_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ3": [
+      (
+        from_wire: "N5W1:JDOA0_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ4": [
+      (
+        from_wire: "N5W1:JERRDECB1_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ5": [
+      (
+        from_wire: "N5W1:JERRDECB0_LRAM_CORE",
+      ),
+    ],
+    "S5W1:JQ7": [
+      (
+        from_wire: "N5W1:JERRDET_LRAM_CORE",
+      ),
+    ],
     "W1:JF0": [
       (
         from_wire: "N5W1:JDOB15_LRAM_CORE",
