@@ -134,7 +134,27 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "PLL_LRC.LMMICLKMUX": (
+      options: {
+        "INV": [(frame:3,bit:2,invert:false,),],
+        "LMMICLK": [],
+      },
+    ),
+    "PLL_LRC.LMMIRESETNMUX": (
+      options: {
+        "INV": [(frame:7,bit:3,invert:false,),],
+        "LMMIRESETN": [],
+      },
+    ),
+    "PLL_LRC.MODE": (
+      options: {
+        "NONE": [],
+        "PLL_CORE": [(frame:7,bit:2,invert:false,),],
+      },
+      desc: "PLL_CORE primitive mode",
+    ),
+  },
   conns: {
     "G:JLRCLKOP_BMID_CORE_BMIDMUX": [
       (

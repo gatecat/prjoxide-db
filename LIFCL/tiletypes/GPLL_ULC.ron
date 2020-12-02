@@ -134,7 +134,27 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "PLL_ULC.LMMICLKMUX": (
+      options: {
+        "INV": [(frame:44,bit:0,invert:false,),],
+        "LMMICLK": [],
+      },
+    ),
+    "PLL_ULC.LMMIRESETNMUX": (
+      options: {
+        "INV": [(frame:56,bit:0,invert:false,),],
+        "LMMIRESETN": [],
+      },
+    ),
+    "PLL_ULC.MODE": (
+      options: {
+        "NONE": [],
+        "PLL_CORE": [(frame:40,bit:0,invert:false,),],
+      },
+      desc: "PLL_CORE primitive mode",
+    ),
+  },
   conns: {
     "G:JULCLKOP_LMID_CORE_LMIDMUX": [
       (
