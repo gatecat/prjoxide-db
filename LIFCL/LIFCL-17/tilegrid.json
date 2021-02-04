@@ -6345,31 +6345,31 @@
             "x": 14,
             "y": 29
         },
-        "MIB_B_TAP_R29C38:MIB_B_TAP": {
+        "MIB_B_TAP_R29C26:MIB_B_TAP": {
             "bits": 2,
             "frames": 6,
             "start_bit": 336,
             "start_frame": 22,
             "tiletype": "MIB_B_TAP",
-            "x": 38,
+            "x": 26,
+            "y": 29
+        },
+        "MIB_B_TAP_R29C50:MIB_B_TAP": {
+            "bits": 2,
+            "frames": 6,
+            "start_bit": 336,
+            "start_frame": 28,
+            "tiletype": "MIB_B_TAP",
+            "x": 50,
             "y": 29
         },
         "MIB_B_TAP_R29C62:MIB_B_TAP": {
             "bits": 2,
             "frames": 6,
             "start_bit": 336,
-            "start_frame": 28,
-            "tiletype": "MIB_B_TAP",
-            "x": 62,
-            "y": 29
-        },
-        "MIB_B_TAP_R29C74:MIB_B_TAP": {
-            "bits": 2,
-            "frames": 6,
-            "start_bit": 336,
             "start_frame": 34,
             "tiletype": "MIB_B_TAP",
-            "x": 74,
+            "x": 62,
             "y": 29
         },
         "MIB_EBR_TAP_R11C14:MIB_EBR_TAP": {
@@ -6381,31 +6381,31 @@
             "x": 14,
             "y": 11
         },
-        "MIB_EBR_TAP_R11C38:MIB_EBR_TAP": {
+        "MIB_EBR_TAP_R11C26:MIB_EBR_TAP": {
             "bits": 1,
             "frames": 6,
             "start_bit": 120,
             "start_frame": 22,
             "tiletype": "MIB_EBR_TAP",
-            "x": 38,
+            "x": 26,
+            "y": 11
+        },
+        "MIB_EBR_TAP_R11C50:MIB_EBR_TAP": {
+            "bits": 1,
+            "frames": 6,
+            "start_bit": 120,
+            "start_frame": 28,
+            "tiletype": "MIB_EBR_TAP",
+            "x": 50,
             "y": 11
         },
         "MIB_EBR_TAP_R11C62:MIB_EBR_TAP": {
             "bits": 1,
             "frames": 6,
             "start_bit": 120,
-            "start_frame": 28,
-            "tiletype": "MIB_EBR_TAP",
-            "x": 62,
-            "y": 11
-        },
-        "MIB_EBR_TAP_R11C74:MIB_EBR_TAP": {
-            "bits": 1,
-            "frames": 6,
-            "start_bit": 120,
             "start_frame": 34,
             "tiletype": "MIB_EBR_TAP",
-            "x": 74,
+            "x": 62,
             "y": 11
         },
         "MIB_EBR_TAP_R20C14:MIB_EBR_TAP": {
@@ -6417,31 +6417,31 @@
             "x": 14,
             "y": 20
         },
-        "MIB_EBR_TAP_R20C38:MIB_EBR_TAP": {
+        "MIB_EBR_TAP_R20C26:MIB_EBR_TAP": {
             "bits": 1,
             "frames": 6,
             "start_bit": 228,
             "start_frame": 22,
             "tiletype": "MIB_EBR_TAP",
-            "x": 38,
+            "x": 26,
+            "y": 20
+        },
+        "MIB_EBR_TAP_R20C50:MIB_EBR_TAP": {
+            "bits": 1,
+            "frames": 6,
+            "start_bit": 228,
+            "start_frame": 28,
+            "tiletype": "MIB_EBR_TAP",
+            "x": 50,
             "y": 20
         },
         "MIB_EBR_TAP_R20C62:MIB_EBR_TAP": {
             "bits": 1,
             "frames": 6,
             "start_bit": 228,
-            "start_frame": 28,
-            "tiletype": "MIB_EBR_TAP",
-            "x": 62,
-            "y": 20
-        },
-        "MIB_EBR_TAP_R20C74:MIB_EBR_TAP": {
-            "bits": 1,
-            "frames": 6,
-            "start_bit": 228,
             "start_frame": 34,
             "tiletype": "MIB_EBR_TAP",
-            "x": 74,
+            "x": 62,
             "y": 20
         },
         "MIB_T_TAP_R0C14:MIB_T_TAP": {
@@ -6453,31 +6453,31 @@
             "x": 14,
             "y": 0
         },
-        "MIB_T_TAP_R0C38:MIB_T_TAP": {
+        "MIB_T_TAP_R0C26:MIB_T_TAP": {
             "bits": 2,
             "frames": 6,
             "start_bit": 0,
             "start_frame": 22,
             "tiletype": "MIB_T_TAP",
-            "x": 38,
+            "x": 26,
+            "y": 0
+        },
+        "MIB_T_TAP_R0C50:MIB_T_TAP": {
+            "bits": 2,
+            "frames": 6,
+            "start_bit": 0,
+            "start_frame": 28,
+            "tiletype": "MIB_T_TAP",
+            "x": 50,
             "y": 0
         },
         "MIB_T_TAP_R0C62:MIB_T_TAP": {
             "bits": 2,
             "frames": 6,
             "start_bit": 0,
-            "start_frame": 28,
-            "tiletype": "MIB_T_TAP",
-            "x": 62,
-            "y": 0
-        },
-        "MIB_T_TAP_R0C74:MIB_T_TAP": {
-            "bits": 2,
-            "frames": 6,
-            "start_bit": 0,
             "start_frame": 34,
             "tiletype": "MIB_T_TAP",
-            "x": 74,
+            "x": 62,
             "y": 0
         },
         "R11C10:PLC": {
@@ -22041,31 +22041,31 @@
             "x": 14,
             "y": 1
         },
-        "TAP_CIBT_1S_R1C74:TAP_CIBT_1S": {
+        "TAP_CIBT_1S_R1C62:TAP_CIBT_1S": {
             "bits": 11,
             "frames": 6,
             "start_bit": 2,
             "start_frame": 34,
             "tiletype": "TAP_CIBT_1S",
-            "x": 74,
+            "x": 62,
             "y": 1
         },
-        "TAP_CIBT_R1C38:TAP_CIBT": {
+        "TAP_CIBT_R1C26:TAP_CIBT": {
             "bits": 11,
             "frames": 6,
             "start_bit": 2,
             "start_frame": 22,
             "tiletype": "TAP_CIBT",
-            "x": 38,
+            "x": 26,
             "y": 1
         },
-        "TAP_CIBT_R1C62:TAP_CIBT": {
+        "TAP_CIBT_R1C50:TAP_CIBT": {
             "bits": 11,
             "frames": 6,
             "start_bit": 2,
             "start_frame": 28,
             "tiletype": "TAP_CIBT",
-            "x": 62,
+            "x": 50,
             "y": 1
         },
         "TAP_CIB_1S_L_R10C14:TAP_CIB_1S_L": {
@@ -22095,85 +22095,85 @@
             "x": 14,
             "y": 28
         },
-        "TAP_CIB_1S_R10C74:TAP_CIB_1S": {
+        "TAP_CIB_1S_R10C62:TAP_CIB_1S": {
             "bits": 11,
             "frames": 6,
             "start_bit": 109,
             "start_frame": 34,
             "tiletype": "TAP_CIB_1S",
-            "x": 74,
+            "x": 62,
             "y": 10
         },
-        "TAP_CIB_1S_R19C74:TAP_CIB_1S": {
+        "TAP_CIB_1S_R19C62:TAP_CIB_1S": {
             "bits": 11,
             "frames": 6,
             "start_bit": 217,
             "start_frame": 34,
             "tiletype": "TAP_CIB_1S",
-            "x": 74,
+            "x": 62,
             "y": 19
         },
-        "TAP_CIB_1S_R28C74:TAP_CIB_1S": {
+        "TAP_CIB_1S_R28C62:TAP_CIB_1S": {
             "bits": 11,
             "frames": 6,
             "start_bit": 325,
             "start_frame": 34,
             "tiletype": "TAP_CIB_1S",
-            "x": 74,
+            "x": 62,
             "y": 28
         },
-        "TAP_CIB_R10C38:TAP_CIB": {
+        "TAP_CIB_R10C26:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 109,
             "start_frame": 22,
             "tiletype": "TAP_CIB",
-            "x": 38,
+            "x": 26,
             "y": 10
         },
-        "TAP_CIB_R10C62:TAP_CIB": {
+        "TAP_CIB_R10C50:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 109,
             "start_frame": 28,
             "tiletype": "TAP_CIB",
-            "x": 62,
+            "x": 50,
             "y": 10
         },
-        "TAP_CIB_R19C38:TAP_CIB": {
+        "TAP_CIB_R19C26:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 217,
             "start_frame": 22,
             "tiletype": "TAP_CIB",
-            "x": 38,
+            "x": 26,
             "y": 19
         },
-        "TAP_CIB_R19C62:TAP_CIB": {
+        "TAP_CIB_R19C50:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 217,
             "start_frame": 28,
             "tiletype": "TAP_CIB",
-            "x": 62,
+            "x": 50,
             "y": 19
         },
-        "TAP_CIB_R28C38:TAP_CIB": {
+        "TAP_CIB_R28C26:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 325,
             "start_frame": 22,
             "tiletype": "TAP_CIB",
-            "x": 38,
+            "x": 26,
             "y": 28
         },
-        "TAP_CIB_R28C62:TAP_CIB": {
+        "TAP_CIB_R28C50:TAP_CIB": {
             "bits": 11,
             "frames": 6,
             "start_bit": 325,
             "start_frame": 28,
             "tiletype": "TAP_CIB",
-            "x": 62,
+            "x": 50,
             "y": 28
         },
         "TAP_PLC_1S_L_R11C14:TAP_PLC_1S_L": {
@@ -22392,652 +22392,652 @@
             "x": 14,
             "y": 9
         },
-        "TAP_PLC_1S_R11C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R11C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 121,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 11
         },
-        "TAP_PLC_1S_R12C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R12C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 133,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 12
         },
-        "TAP_PLC_1S_R13C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R13C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 145,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 13
         },
-        "TAP_PLC_1S_R14C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R14C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 157,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 14
         },
-        "TAP_PLC_1S_R15C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R15C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 169,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 15
         },
-        "TAP_PLC_1S_R16C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R16C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 181,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 16
         },
-        "TAP_PLC_1S_R17C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R17C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 193,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 17
         },
-        "TAP_PLC_1S_R18C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R18C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 205,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 18
         },
-        "TAP_PLC_1S_R20C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R20C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 229,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 20
         },
-        "TAP_PLC_1S_R21C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R21C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 241,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 21
         },
-        "TAP_PLC_1S_R22C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R22C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 253,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 22
         },
-        "TAP_PLC_1S_R23C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R23C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 265,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 23
         },
-        "TAP_PLC_1S_R24C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R24C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 277,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 24
         },
-        "TAP_PLC_1S_R25C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R25C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 289,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 25
         },
-        "TAP_PLC_1S_R26C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R26C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 301,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 26
         },
-        "TAP_PLC_1S_R27C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R27C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 313,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 27
         },
-        "TAP_PLC_1S_R2C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R2C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 13,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 2
         },
-        "TAP_PLC_1S_R3C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R3C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 25,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 3
         },
-        "TAP_PLC_1S_R4C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R4C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 37,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 4
         },
-        "TAP_PLC_1S_R5C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R5C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 49,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 5
         },
-        "TAP_PLC_1S_R6C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R6C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 61,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 6
         },
-        "TAP_PLC_1S_R7C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R7C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 73,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 7
         },
-        "TAP_PLC_1S_R8C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R8C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 85,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 8
         },
-        "TAP_PLC_1S_R9C74:TAP_PLC_1S": {
+        "TAP_PLC_1S_R9C62:TAP_PLC_1S": {
             "bits": 12,
             "frames": 6,
             "start_bit": 97,
             "start_frame": 34,
             "tiletype": "TAP_PLC_1S",
-            "x": 74,
+            "x": 62,
             "y": 9
         },
-        "TAP_PLC_R11C38:TAP_PLC": {
+        "TAP_PLC_R11C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 121,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 11
         },
-        "TAP_PLC_R11C62:TAP_PLC": {
+        "TAP_PLC_R11C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 121,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 11
         },
-        "TAP_PLC_R12C38:TAP_PLC": {
+        "TAP_PLC_R12C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 133,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 12
         },
-        "TAP_PLC_R12C62:TAP_PLC": {
+        "TAP_PLC_R12C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 133,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 12
         },
-        "TAP_PLC_R13C38:TAP_PLC": {
+        "TAP_PLC_R13C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 145,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 13
         },
-        "TAP_PLC_R13C62:TAP_PLC": {
+        "TAP_PLC_R13C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 145,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 13
         },
-        "TAP_PLC_R14C38:TAP_PLC": {
+        "TAP_PLC_R14C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 157,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 14
         },
-        "TAP_PLC_R14C62:TAP_PLC": {
+        "TAP_PLC_R14C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 157,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 14
         },
-        "TAP_PLC_R15C38:TAP_PLC": {
+        "TAP_PLC_R15C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 169,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 15
         },
-        "TAP_PLC_R15C62:TAP_PLC": {
+        "TAP_PLC_R15C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 169,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 15
         },
-        "TAP_PLC_R16C38:TAP_PLC": {
+        "TAP_PLC_R16C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 181,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 16
         },
-        "TAP_PLC_R16C62:TAP_PLC": {
+        "TAP_PLC_R16C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 181,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 16
         },
-        "TAP_PLC_R17C38:TAP_PLC": {
+        "TAP_PLC_R17C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 193,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 17
         },
-        "TAP_PLC_R17C62:TAP_PLC": {
+        "TAP_PLC_R17C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 193,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 17
         },
-        "TAP_PLC_R18C38:TAP_PLC": {
+        "TAP_PLC_R18C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 205,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 18
         },
-        "TAP_PLC_R18C62:TAP_PLC": {
+        "TAP_PLC_R18C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 205,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 18
         },
-        "TAP_PLC_R20C38:TAP_PLC": {
+        "TAP_PLC_R20C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 229,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 20
         },
-        "TAP_PLC_R20C62:TAP_PLC": {
+        "TAP_PLC_R20C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 229,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 20
         },
-        "TAP_PLC_R21C38:TAP_PLC": {
+        "TAP_PLC_R21C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 241,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 21
         },
-        "TAP_PLC_R21C62:TAP_PLC": {
+        "TAP_PLC_R21C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 241,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 21
         },
-        "TAP_PLC_R22C38:TAP_PLC": {
+        "TAP_PLC_R22C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 253,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 22
         },
-        "TAP_PLC_R22C62:TAP_PLC": {
+        "TAP_PLC_R22C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 253,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 22
         },
-        "TAP_PLC_R23C38:TAP_PLC": {
+        "TAP_PLC_R23C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 265,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 23
         },
-        "TAP_PLC_R23C62:TAP_PLC": {
+        "TAP_PLC_R23C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 265,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 23
         },
-        "TAP_PLC_R24C38:TAP_PLC": {
+        "TAP_PLC_R24C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 277,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 24
         },
-        "TAP_PLC_R24C62:TAP_PLC": {
+        "TAP_PLC_R24C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 277,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 24
         },
-        "TAP_PLC_R25C38:TAP_PLC": {
+        "TAP_PLC_R25C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 289,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 25
         },
-        "TAP_PLC_R25C62:TAP_PLC": {
+        "TAP_PLC_R25C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 289,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 25
         },
-        "TAP_PLC_R26C38:TAP_PLC": {
+        "TAP_PLC_R26C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 301,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 26
         },
-        "TAP_PLC_R26C62:TAP_PLC": {
+        "TAP_PLC_R26C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 301,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 26
         },
-        "TAP_PLC_R27C38:TAP_PLC": {
+        "TAP_PLC_R27C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 313,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 27
         },
-        "TAP_PLC_R27C62:TAP_PLC": {
+        "TAP_PLC_R27C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 313,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 27
         },
-        "TAP_PLC_R2C38:TAP_PLC": {
+        "TAP_PLC_R2C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 13,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 2
         },
-        "TAP_PLC_R2C62:TAP_PLC": {
+        "TAP_PLC_R2C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 13,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 2
         },
-        "TAP_PLC_R3C38:TAP_PLC": {
+        "TAP_PLC_R3C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 25,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 3
         },
-        "TAP_PLC_R3C62:TAP_PLC": {
+        "TAP_PLC_R3C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 25,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 3
         },
-        "TAP_PLC_R4C38:TAP_PLC": {
+        "TAP_PLC_R4C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 37,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 4
         },
-        "TAP_PLC_R4C62:TAP_PLC": {
+        "TAP_PLC_R4C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 37,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 4
         },
-        "TAP_PLC_R5C38:TAP_PLC": {
+        "TAP_PLC_R5C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 49,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 5
         },
-        "TAP_PLC_R5C62:TAP_PLC": {
+        "TAP_PLC_R5C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 49,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 5
         },
-        "TAP_PLC_R6C38:TAP_PLC": {
+        "TAP_PLC_R6C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 61,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 6
         },
-        "TAP_PLC_R6C62:TAP_PLC": {
+        "TAP_PLC_R6C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 61,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 6
         },
-        "TAP_PLC_R7C38:TAP_PLC": {
+        "TAP_PLC_R7C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 73,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 7
         },
-        "TAP_PLC_R7C62:TAP_PLC": {
+        "TAP_PLC_R7C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 73,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 7
         },
-        "TAP_PLC_R8C38:TAP_PLC": {
+        "TAP_PLC_R8C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 85,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 8
         },
-        "TAP_PLC_R8C62:TAP_PLC": {
+        "TAP_PLC_R8C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 85,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 8
         },
-        "TAP_PLC_R9C38:TAP_PLC": {
+        "TAP_PLC_R9C26:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 97,
             "start_frame": 22,
             "tiletype": "TAP_PLC",
-            "x": 38,
+            "x": 26,
             "y": 9
         },
-        "TAP_PLC_R9C62:TAP_PLC": {
+        "TAP_PLC_R9C50:TAP_PLC": {
             "bits": 12,
             "frames": 6,
             "start_bit": 97,
             "start_frame": 28,
             "tiletype": "TAP_PLC",
-            "x": 62,
+            "x": 50,
             "y": 9
         }
     }

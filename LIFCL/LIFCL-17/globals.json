@@ -1,0 +1,69 @@
+{
+    "branches": [
+        {
+            "branch_col": 7,
+            "from_col": 1,
+            "tap_driver_col": 14,
+            "tap_side": "L",
+            "to_col": 13
+        },
+        {
+            "branch_col": 20,
+            "from_col": 14,
+            "tap_driver_col": 26,
+            "tap_side": "L",
+            "to_col": 25
+        },
+        {
+            "branch_col": 31,
+            "from_col": 26,
+            "tap_driver_col": 26,
+            "tap_side": "R",
+            "to_col": 37
+        },
+        {
+            "branch_col": 44,
+            "from_col": 38,
+            "tap_driver_col": 50,
+            "tap_side": "L",
+            "to_col": 49
+        },
+        {
+            "branch_col": 55,
+            "from_col": 50,
+            "tap_driver_col": 50,
+            "tap_side": "R",
+            "to_col": 61
+        },
+        {
+            "branch_col": 68,
+            "from_col": 62,
+            "tap_driver_col": 62,
+            "tap_side": "R",
+            "to_col": 74
+        }
+    ],
+    "hrows": [
+        {
+            "hrow_col": 25,
+            "spine_cols": [
+                13,
+                25
+            ]
+        },
+        {
+            "hrow_col": 49,
+            "spine_cols": [
+                49,
+                61
+            ]
+        }
+    ],
+    "spines": [
+        {
+            "from_row": 1,
+            "spine_row": 14,
+            "to_row": 28
+        }
+    ]
+}
