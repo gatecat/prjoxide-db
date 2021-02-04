@@ -310,6 +310,12 @@
       (
         from_wire: "E27:JPADDI_SEIO33_CORE_IOA",
       ),
+      (
+        from_wire: "E22:JINCK_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "E22:JPADDI_SEIO33_CORE_IOA",
+      ),
     ],
     "G:JPCLKT01_TMID_CORE_TMIDMUX": [
       (
@@ -317,6 +323,12 @@
       ),
       (
         from_wire: "E29:JPADDI_SEIO33_CORE_IOA",
+      ),
+      (
+        from_wire: "E24:JINCK_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "E24:JPADDI_SEIO33_CORE_IOA",
       ),
     ],
     "G:JTESTINP0_TMID_CORE_TMIDMUX": [

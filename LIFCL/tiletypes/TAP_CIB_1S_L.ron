@@ -1,0 +1,359 @@
+(
+  pips: {
+    "BRANCH_L:HPBX0000": [
+      (
+        from_wire: "W1:RHPBX0000",
+        bits: [(frame:1,bit:0,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0100": [
+      (
+        from_wire: "W1:RHPBX0100",
+        bits: [(frame:1,bit:4,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0200": [
+      (
+        from_wire: "W1:RHPBX0200",
+        bits: [(frame:1,bit:2,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0300": [
+      (
+        from_wire: "W1:RHPBX0300",
+        bits: [(frame:1,bit:6,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0400": [
+      (
+        from_wire: "W1:RHPBX0400",
+        bits: [(frame:1,bit:1,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0500": [
+      (
+        from_wire: "W1:RHPBX0500",
+        bits: [(frame:1,bit:5,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0600": [
+      (
+        from_wire: "W1:RHPBX0600",
+        bits: [(frame:1,bit:3,invert:false,),],
+      ),
+    ],
+    "BRANCH_L:HPBX0700": [
+      (
+        from_wire: "W1:RHPBX0700",
+        bits: [(frame:1,bit:7,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0000": [
+      (
+        from_wire: "SPINE:VPSX0000",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:true,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0100",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:true,),(frame:4,bit:0,invert:true,),(frame:5,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0200",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:true,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0300",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:true,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0400",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:true,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:true,),(frame:5,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0500",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:true,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0600",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0700",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:true,),(frame:5,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1500",
+        bits: [(frame:1,bit:0,invert:false,),(frame:2,bit:0,invert:false,),(frame:3,bit:0,invert:false,),(frame:4,bit:0,invert:false,),(frame:5,bit:0,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0100": [
+      (
+        from_wire: "SPINE:VPSX0000",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:true,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0100",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:true,),(frame:4,bit:4,invert:true,),(frame:5,bit:4,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0400",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:true,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0500",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:true,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0600",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:true,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:true,),(frame:5,bit:4,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0800",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:true,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0900",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1200",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:true,),(frame:5,bit:4,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1300",
+        bits: [(frame:1,bit:4,invert:false,),(frame:2,bit:4,invert:false,),(frame:3,bit:4,invert:false,),(frame:4,bit:4,invert:false,),(frame:5,bit:4,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0200": [
+      (
+        from_wire: "SPINE:VPSX0000",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:true,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0100",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:true,),(frame:4,bit:2,invert:true,),(frame:5,bit:2,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0200",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:true,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0300",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:true,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0400",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:true,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:true,),(frame:5,bit:2,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0800",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:true,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0900",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1000",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:true,),(frame:5,bit:2,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1100",
+        bits: [(frame:1,bit:2,invert:false,),(frame:2,bit:2,invert:false,),(frame:3,bit:2,invert:false,),(frame:4,bit:2,invert:false,),(frame:5,bit:2,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0300": [
+      (
+        from_wire: "SPINE:VPSX0000",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:true,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0200",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:true,),(frame:4,bit:6,invert:true,),(frame:5,bit:6,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0400",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:true,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0600",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:true,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0700",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:true,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:true,),(frame:5,bit:6,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0800",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:true,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1000",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1200",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:true,),(frame:5,bit:6,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1400",
+        bits: [(frame:1,bit:6,invert:false,),(frame:2,bit:6,invert:false,),(frame:3,bit:6,invert:false,),(frame:4,bit:6,invert:false,),(frame:5,bit:6,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0400": [
+      (
+        from_wire: "SPINE:VPSX0000",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:true,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0800",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:true,),(frame:4,bit:1,invert:true,),(frame:5,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0900",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:true,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1000",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:true,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1100",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:true,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:true,),(frame:5,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1200",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:true,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1300",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1400",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:true,),(frame:5,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1500",
+        bits: [(frame:1,bit:1,invert:false,),(frame:2,bit:1,invert:false,),(frame:3,bit:1,invert:false,),(frame:4,bit:1,invert:false,),(frame:5,bit:1,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0500": [
+      (
+        from_wire: "SPINE:VPSX0200",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:true,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0300",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:true,),(frame:4,bit:5,invert:true,),(frame:5,bit:5,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0600",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:true,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0700",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:true,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0900",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:true,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:true,),(frame:5,bit:5,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1000",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:true,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1100",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1400",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:true,),(frame:5,bit:5,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1500",
+        bits: [(frame:1,bit:5,invert:false,),(frame:2,bit:5,invert:false,),(frame:3,bit:5,invert:false,),(frame:4,bit:5,invert:false,),(frame:5,bit:5,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0600": [
+      (
+        from_wire: "SPINE:VPSX0400",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:true,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0500",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:true,),(frame:4,bit:3,invert:true,),(frame:5,bit:3,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0600",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:true,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0700",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:true,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1100",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:true,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:true,),(frame:5,bit:3,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1200",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:true,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1300",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1400",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:true,),(frame:5,bit:3,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1500",
+        bits: [(frame:1,bit:3,invert:false,),(frame:2,bit:3,invert:false,),(frame:3,bit:3,invert:false,),(frame:4,bit:3,invert:false,),(frame:5,bit:3,invert:false,),],
+      ),
+    ],
+    "W1:RHPBX0700": [
+      (
+        from_wire: "SPINE:VPSX0100",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:true,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0300",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:true,),(frame:4,bit:7,invert:true,),(frame:5,bit:7,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0500",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:true,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0700",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:true,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0800",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:true,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:true,),(frame:5,bit:7,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX0900",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:true,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1100",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:true,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1300",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:true,),(frame:5,bit:7,invert:false,),],
+      ),
+      (
+        from_wire: "SPINE:VPSX1500",
+        bits: [(frame:1,bit:7,invert:false,),(frame:2,bit:7,invert:false,),(frame:3,bit:7,invert:false,),(frame:4,bit:7,invert:false,),(frame:5,bit:7,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)
