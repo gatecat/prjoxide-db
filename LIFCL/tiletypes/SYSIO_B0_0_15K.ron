@@ -1,0 +1,598 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "PIOA.BASE_TYPE": (
+      options: {
+        "BIDIR_LVCMOS12": [(frame:14,bit:0,invert:false,),(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:23,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "BIDIR_LVCMOS25": [(frame:12,bit:0,invert:false,),(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),],
+        "BIDIR_LVCMOS33": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),],
+        "INPUT_LVCMOS10": [(frame:11,bit:0,invert:false,),(frame:14,bit:0,invert:false,),(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "INPUT_LVCMOS12": [(frame:14,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "INPUT_LVCMOS15": [(frame:23,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "INPUT_LVCMOS18": [(frame:23,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "INPUT_LVCMOS25": [(frame:12,bit:0,invert:false,),(frame:37,bit:0,invert:false,),],
+        "INPUT_LVCMOS33": [(frame:37,bit:0,invert:false,),],
+        "NONE": [(frame:18,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS12": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25D": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33D": [(frame:18,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:44,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.CLAMP": (
+      options: {
+        "OFF": [(frame:35,bit:0,invert:true,),],
+        "ON": [(frame:35,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.DFTDO2DI": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:16,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.DRIVE_1V2": (
+      options: {
+        "12": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),],
+        "2": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "4": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "8": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+      },
+    ),
+    "PIOA.DRIVE_1V5": (
+      options: {
+        "12": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),],
+        "2": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "4": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "8": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+      },
+    ),
+    "PIOA.DRIVE_1V8": (
+      options: {
+        "2": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "4": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "50RS": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "8": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+      },
+    ),
+    "PIOA.DRIVE_2V5": (
+      options: {
+        "10": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:true,),],
+        "2": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "4": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "50RS": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "8": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+      },
+    ),
+    "PIOA.DRIVE_3V3": (
+      options: {
+        "12": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),],
+        "2": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "4": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:false,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+        "50RS": [(frame:18,bit:0,invert:true,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),],
+        "8": [(frame:18,bit:0,invert:false,),(frame:19,bit:0,invert:true,),(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),],
+      },
+    ),
+    "PIOA.GLITCHFILTER": (
+      options: {
+        "OFF": [(frame:28,bit:0,invert:false,),],
+        "ON": [],
+      },
+    ),
+    "PIOA.HYSTERESIS_1V5": (
+      options: {
+        "OFF": [(frame:23,bit:0,invert:true,),(frame:25,bit:0,invert:true,),(frame:44,bit:0,invert:true,),],
+        "ON": [(frame:23,bit:0,invert:false,),(frame:25,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.HYSTERESIS_1V8": (
+      options: {
+        "OFF": [(frame:23,bit:0,invert:true,),(frame:44,bit:0,invert:true,),],
+        "ON": [(frame:23,bit:0,invert:false,),(frame:44,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.HYSTERESIS_2V5": (
+      options: {
+        "OFF": [(frame:12,bit:0,invert:true,),],
+        "ON": [(frame:12,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.LOOPBKCD2AB": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:33,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.OPENDRAIN": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.PULLMODE": (
+      options: {
+        "DOWN": [(frame:24,bit:0,invert:true,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:true,),],
+        "I3C": [(frame:24,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),],
+        "KEEPER": [(frame:24,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),],
+        "NONE": [(frame:24,bit:0,invert:true,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:false,),],
+        "UP": [(frame:24,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.SLEEPHIGHLEAKAGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:40,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.SLEWRATE": (
+      options: {
+        "FAST": [(frame:29,bit:0,invert:false,),(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),],
+        "MED": [(frame:29,bit:0,invert:false,),],
+        "SLOW": [],
+      },
+    ),
+    "PIOA.TERMINATION_1V2": (
+      options: {
+        "40": [(frame:9,bit:0,invert:false,),],
+        "50": [(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:8,bit:0,invert:false,),],
+        "75": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.TERMINATION_1V5": (
+      options: {
+        "40": [(frame:6,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "50": [(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:8,bit:0,invert:false,),],
+        "75": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.TERMINATION_1V8": (
+      options: {
+        "150": [(frame:7,bit:0,invert:false,),],
+        "40": [(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:false,),],
+        "50": [(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "60": [(frame:6,bit:0,invert:false,),(frame:8,bit:0,invert:false,),],
+        "75": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOA.TMUX": (
+      options: {
+        "INV": [(frame:36,bit:0,invert:false,),],
+        "T": [],
+      },
+    ),
+    "PIOA.UNDERDRIVE_1V8": (
+      options: {
+        "OFF": [(frame:25,bit:0,invert:true,),],
+        "ON": [(frame:25,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.UNDERDRIVE_3V3": (
+      options: {
+        "OFF": [(frame:12,bit:0,invert:true,),(frame:13,bit:0,invert:true,),],
+        "ON": [(frame:12,bit:0,invert:false,),(frame:13,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.BASE_TYPE": (
+      options: {
+        "BIDIR_LVCMOS12": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:63,bit:0,invert:false,),(frame:65,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:65,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "BIDIR_LVCMOS25": [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),(frame:78,bit:0,invert:false,),],
+        "BIDIR_LVCMOS33": [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "INPUT_LVCMOS10": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),(frame:77,bit:0,invert:false,),(frame:79,bit:0,invert:false,),],
+        "INPUT_LVCMOS12": [(frame:45,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:77,bit:0,invert:false,),],
+        "INPUT_LVCMOS15": [(frame:45,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:63,bit:0,invert:false,),(frame:65,bit:0,invert:false,),],
+        "INPUT_LVCMOS18": [(frame:45,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:65,bit:0,invert:false,),],
+        "INPUT_LVCMOS25": [(frame:52,bit:0,invert:false,),(frame:78,bit:0,invert:false,),],
+        "INPUT_LVCMOS33": [(frame:52,bit:0,invert:false,),],
+        "NONE": [(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS12": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS25D": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS33D": [(frame:45,bit:0,invert:false,),(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:71,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.CLAMP": (
+      options: {
+        "OFF": [(frame:54,bit:0,invert:true,),],
+        "ON": [(frame:54,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DFTDO2DI": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:75,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DRIVE_1V2": (
+      options: {
+        "12": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+        "2": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "4": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:true,),],
+        "8": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DRIVE_1V5": (
+      options: {
+        "12": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+        "2": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "4": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:true,),],
+        "8": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DRIVE_1V8": (
+      options: {
+        "2": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "4": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:true,),],
+        "50RS": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+        "8": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DRIVE_2V5": (
+      options: {
+        "10": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:false,),],
+        "2": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "4": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:true,),],
+        "50RS": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+        "8": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.DRIVE_3V3": (
+      options: {
+        "12": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+        "2": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:false,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "4": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:false,),(frame:71,bit:0,invert:true,),],
+        "50RS": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:true,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:true,),],
+        "8": [(frame:66,bit:0,invert:true,),(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:true,),(frame:70,bit:0,invert:true,),(frame:71,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.GLITCHFILTER": (
+      options: {
+        "OFF": [(frame:60,bit:0,invert:false,),],
+        "ON": [],
+      },
+    ),
+    "PIOB.HYSTERESIS_1V5": (
+      options: {
+        "OFF": [(frame:45,bit:0,invert:true,),(frame:63,bit:0,invert:true,),(frame:65,bit:0,invert:true,),],
+        "ON": [(frame:45,bit:0,invert:false,),(frame:63,bit:0,invert:false,),(frame:65,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.HYSTERESIS_1V8": (
+      options: {
+        "OFF": [(frame:45,bit:0,invert:true,),(frame:65,bit:0,invert:true,),],
+        "ON": [(frame:45,bit:0,invert:false,),(frame:65,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.HYSTERESIS_2V5": (
+      options: {
+        "OFF": [(frame:78,bit:0,invert:true,),],
+        "ON": [(frame:78,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.LOOPBKCD2AB": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:55,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.OPENDRAIN": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:80,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.PULLMODE": (
+      options: {
+        "DOWN": [(frame:61,bit:0,invert:true,),(frame:62,bit:0,invert:true,),(frame:64,bit:0,invert:true,),],
+        "I3C": [(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "KEEPER": [(frame:61,bit:0,invert:true,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:true,),],
+        "NONE": [(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:true,),(frame:64,bit:0,invert:true,),],
+        "UP": [(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:64,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SLEEPHIGHLEAKAGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:49,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SLEWRATE": (
+      options: {
+        "FAST": [(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),(frame:59,bit:0,invert:false,),],
+        "MED": [(frame:59,bit:0,invert:false,),],
+        "SLOW": [],
+      },
+    ),
+    "PIOB.TERMINATION_1V2": (
+      options: {
+        "40": [(frame:82,bit:0,invert:false,),],
+        "50": [(frame:83,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "60": [(frame:83,bit:0,invert:false,),],
+        "75": [(frame:84,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.TERMINATION_1V5": (
+      options: {
+        "40": [(frame:82,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "50": [(frame:83,bit:0,invert:false,),(frame:84,bit:0,invert:false,),(frame:102,bit:0,invert:false,),],
+        "60": [(frame:83,bit:0,invert:false,),],
+        "75": [(frame:84,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.TERMINATION_1V8": (
+      options: {
+        "150": [(frame:84,bit:0,invert:false,),],
+        "40": [(frame:82,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+        "50": [(frame:83,bit:0,invert:false,),(frame:84,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "60": [(frame:83,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "75": [(frame:84,bit:0,invert:false,),(frame:101,bit:0,invert:false,),(frame:102,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.TMUX": (
+      options: {
+        "INV": [(frame:53,bit:0,invert:false,),],
+        "T": [],
+      },
+    ),
+    "PIOB.UNDERDRIVE_1V8": (
+      options: {
+        "OFF": [(frame:63,bit:0,invert:true,),(frame:81,bit:0,invert:true,),],
+        "ON": [(frame:63,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.UNDERDRIVE_3V3": (
+      options: {
+        "OFF": [(frame:78,bit:0,invert:true,),(frame:81,bit:0,invert:true,),],
+        "ON": [(frame:78,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {
+    "JCEIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCE0",
+      ),
+    ],
+    "JCEIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCE1",
+      ),
+    ],
+    "JCEOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCE0",
+      ),
+    ],
+    "JCEOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCE1",
+      ),
+    ],
+    "JDI_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "JDI_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOB",
+      ),
+    ],
+    "JDOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JDOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JI3CRESEN_SEIO33_CORE_IOA": [
+      (
+        from_wire: "S1:JCIBMUXOUTA2",
+      ),
+    ],
+    "JI3CRESEN_SEIO33_CORE_IOB": [
+      (
+        from_wire: "S1:JCIBMUXOUTA5",
+      ),
+    ],
+    "JI3CWKPU_SEIO33_CORE_IOA": [
+      (
+        from_wire: "S1:JCIBMUXOUTB2",
+      ),
+    ],
+    "JI3CWKPU_SEIO33_CORE_IOB": [
+      (
+        from_wire: "S1:JCIBMUXOUTB5",
+      ),
+    ],
+    "JINDD_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JDI_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JINDD_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JDI_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JLSRIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JLSR0",
+      ),
+    ],
+    "JLSRIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JLSR1",
+      ),
+    ],
+    "JLSROUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JLSR0",
+      ),
+    ],
+    "JLSROUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JLSR1",
+      ),
+    ],
+    "JPADDO_SEIO33_CORE_IOA": [
+      (
+        from_wire: "JDOUT_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "S1:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPADDO_SEIO33_CORE_IOB": [
+      (
+        from_wire: "JDOUT_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "S1:JCIBMUXOUTC0",
+      ),
+    ],
+    "JPADDT_SEIO33_CORE_IOA": [
+      (
+        from_wire: "JTOUT_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "S1:JCIBMUXOUTB1",
+      ),
+    ],
+    "JPADDT_SEIO33_CORE_IOB": [
+      (
+        from_wire: "JTOUT_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "S1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JSCLKIN_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCLK0",
+      ),
+    ],
+    "JSCLKIN_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCLK1",
+      ),
+    ],
+    "JSCLKOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCLK0",
+      ),
+    ],
+    "JSCLKOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCLK1",
+      ),
+    ],
+    "JTOUT_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "JTOUT_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCIBMUXOUTB1",
+      ),
+    ],
+    "JTSDATA0_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCIBMUXOUTA0",
+      ),
+    ],
+    "JTXDATA0_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCIBMUXOUTC0",
+      ),
+    ],
+    "JTXDATA1_SIOLOGIC_CORE_IBASE_PIC_A": [
+      (
+        from_wire: "S1:JCIBMUXOUTB0",
+      ),
+    ],
+    "JTXDATA1_SIOLOGIC_CORE_IBASE_PIC_B": [
+      (
+        from_wire: "S1:JCIBMUXOUTD0",
+      ),
+    ],
+    "S1:JF0": [
+      (
+        from_wire: "JRXDATA0_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "S1:JF1": [
+      (
+        from_wire: "JRXDATA1_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "S1:JF4": [
+      (
+        from_wire: "JINFF_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+    ],
+    "S1:JF5": [
+      (
+        from_wire: "JINDD_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "S1:JQ0": [
+      (
+        from_wire: "JRXDATA0_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "S1:JQ1": [
+      (
+        from_wire: "JRXDATA1_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "S1:JQ4": [
+      (
+        from_wire: "JINFF_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+    ],
+    "S1:JQ5": [
+      (
+        from_wire: "JINDD_SIOLOGIC_CORE_IBASE_PIC_B",
+      ),
+      (
+        from_wire: "JPADDI_SEIO33_CORE_IOB",
+      ),
+    ],
+  },
+)
