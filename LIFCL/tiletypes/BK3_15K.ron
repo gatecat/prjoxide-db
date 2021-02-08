@@ -1,0 +1,42 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "BANK3.DIFF_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:9,bit:0,invert:false,),],
+      },
+      desc: "use differential IO in bank 3",
+    ),
+    "BANK3.LVDS_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:5,bit:0,invert:false,),(frame:7,bit:0,invert:false,),],
+      },
+      desc: "use LVDS IO in bank 3",
+    ),
+    "BANK3.MIPI_DPHY_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:8,bit:0,invert:false,),],
+      },
+      desc: "use DPHY IO in bank 3",
+    ),
+    "BANK3.REF_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:5,bit:0,invert:false,),],
+      },
+      desc: "use referenced inputs in bank 3",
+    ),
+    "BANK3.SLVS_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:8,bit:0,invert:false,),],
+      },
+      desc: "use SLVS IO in bank 3",
+    ),
+  },
+  conns: {},
+)

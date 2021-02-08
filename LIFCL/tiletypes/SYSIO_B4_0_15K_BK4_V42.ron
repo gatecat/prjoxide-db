@@ -1,0 +1,49 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "BANK4.DIFF_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:46,bit:1,invert:false,),],
+      },
+      desc: "use differential IO in bank 4",
+    ),
+    "BANK4.LVDS_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:32,bit:1,invert:false,),(frame:45,bit:1,invert:false,),],
+      },
+      desc: "use LVDS IO in bank 4",
+    ),
+    "BANK4.MIPI_DPHY_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:36,bit:1,invert:false,),],
+      },
+      desc: "use DPHY IO in bank 4",
+    ),
+    "BANK4.REF_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:45,bit:1,invert:false,),],
+      },
+      desc: "use referenced inputs in bank 4",
+    ),
+    "BANK4.SLVS_IO": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:36,bit:1,invert:false,),],
+      },
+      desc: "use SLVS IO in bank 4",
+    ),
+    "BANK4.VREF2_USED": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:94,bit:1,invert:false,),],
+      },
+      desc: "use VREF2 input for bank 4",
+    ),
+  },
+  conns: {},
+)
