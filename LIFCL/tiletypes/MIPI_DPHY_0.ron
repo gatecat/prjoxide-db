@@ -1,0 +1,3284 @@
+(
+  pips: {},
+  words: {},
+  enums: {},
+  conns: {
+    "G:JCLKHSBYTE0_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "W2:JUCRXWCHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "G:JMIPIDPHY0RX_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "W2:JURWDCKHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "G:JMIPIDPHY0TX_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "W2:JUTWDCKHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF0": [
+      (
+        from_wire: "W2:JU2RXDHS8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF1": [
+      (
+        from_wire: "W2:JU2RXDHS9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF2": [
+      (
+        from_wire: "W2:JU2RXDHS10_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF3": [
+      (
+        from_wire: "W2:JU2RXDHS11_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF4": [
+      (
+        from_wire: "W2:JU2RXDE2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF5": [
+      (
+        from_wire: "W2:JU2RXDE3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF6": [
+      (
+        from_wire: "W2:JU2RXVDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JF7": [
+      (
+        from_wire: "W2:JU2RXSHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ0": [
+      (
+        from_wire: "W2:JU2ERE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ1": [
+      (
+        from_wire: "W2:JU2ERSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ2": [
+      (
+        from_wire: "W2:JD2BYTCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ3": [
+      (
+        from_wire: "W2:JD2BYTCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ4": [
+      (
+        from_wire: "W2:JD2ERRCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ5": [
+      (
+        from_wire: "W2:JD2ERRCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ6": [
+      (
+        from_wire: "W2:JU2ERCLP0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1:JQ7": [
+      (
+        from_wire: "W2:JU2ERCLP1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF0": [
+      (
+        from_wire: "W2:JD0ACTIVE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF1": [
+      (
+        from_wire: "W2:JD0VALID1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF2": [
+      (
+        from_wire: "W2:JUCRXUCKN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF3": [
+      (
+        from_wire: "W2:JUCSSTT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF4": [
+      (
+        from_wire: "W2:JUCUSAN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF5": [
+      (
+        from_wire: "W2:JD1PASS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF6": [
+      (
+        from_wire: "W2:JD1PASS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JF7": [
+      (
+        from_wire: "W2:JUCRXCKAT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JQ0": [
+      (
+        from_wire: "W2:JUCRXWCHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E10:JQ2": [
+      (
+        from_wire: "W2:JCLKLBACT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF0": [
+      (
+        from_wire: "W2:JU1RXDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF1": [
+      (
+        from_wire: "W2:JU1RXDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF2": [
+      (
+        from_wire: "W2:JU1RXDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF3": [
+      (
+        from_wire: "W2:JU1RXDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF4": [
+      (
+        from_wire: "W2:JU1RE0D_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF5": [
+      (
+        from_wire: "W2:JU1RE1CN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF6": [
+      (
+        from_wire: "W2:JU1RE2D_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JF7": [
+      (
+        from_wire: "W2:JU1RE3N_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ0": [
+      (
+        from_wire: "W2:JU1RXUPSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ1": [
+      (
+        from_wire: "W2:JU1RXVDE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ2": [
+      (
+        from_wire: "W2:JD1ACTIVE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ3": [
+      (
+        from_wire: "W2:JD1VALID0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ4": [
+      (
+        from_wire: "W2:JD1BYTCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ5": [
+      (
+        from_wire: "W2:JD1BYTCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ6": [
+      (
+        from_wire: "W2:JD1ERRCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E11:JQ7": [
+      (
+        from_wire: "W2:JD1ERRCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF0": [
+      (
+        from_wire: "W2:JU1RXDHS4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF1": [
+      (
+        from_wire: "W2:JU1RXDHS5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF2": [
+      (
+        from_wire: "W2:JU1RXDHS6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF3": [
+      (
+        from_wire: "W2:JU1RXDHS7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF4": [
+      (
+        from_wire: "W2:JU1RXDE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF5": [
+      (
+        from_wire: "W2:JU1RXDE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF6": [
+      (
+        from_wire: "W2:JU1RXVDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JF7": [
+      (
+        from_wire: "W2:JU1RXSHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ0": [
+      (
+        from_wire: "W2:JU1RXDTE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ1": [
+      (
+        from_wire: "W2:JU1RXCKE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ2": [
+      (
+        from_wire: "W2:JD1BYTCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ3": [
+      (
+        from_wire: "W2:JD1BYTCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ4": [
+      (
+        from_wire: "W2:JD1ERRCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ5": [
+      (
+        from_wire: "W2:JD1ERRCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ6": [
+      (
+        from_wire: "W2:JU1TXRYE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E12:JQ7": [
+      (
+        from_wire: "W2:JU1TXRY_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF0": [
+      (
+        from_wire: "W2:JU1RXDHS8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF1": [
+      (
+        from_wire: "W2:JU1RXDHS9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF2": [
+      (
+        from_wire: "W2:JU1RXDHS10_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF3": [
+      (
+        from_wire: "W2:JU1RXDHS11_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF4": [
+      (
+        from_wire: "W2:JU1RXDE2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF5": [
+      (
+        from_wire: "W2:JU1RXDE3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF6": [
+      (
+        from_wire: "W2:JU1RXVDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JF7": [
+      (
+        from_wire: "W2:JU1RXSHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ0": [
+      (
+        from_wire: "W2:JU1ERE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ1": [
+      (
+        from_wire: "W2:JU1ERSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ2": [
+      (
+        from_wire: "W2:JD1BYTCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ3": [
+      (
+        from_wire: "W2:JD1BYTCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ4": [
+      (
+        from_wire: "W2:JD1ERRCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ5": [
+      (
+        from_wire: "W2:JD1ERRCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ6": [
+      (
+        from_wire: "W2:JU1ERCLP0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E13:JQ7": [
+      (
+        from_wire: "W2:JU1ERCLP1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF0": [
+      (
+        from_wire: "W2:JU1RXDHS12_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF1": [
+      (
+        from_wire: "W2:JU1RXDHS13_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF2": [
+      (
+        from_wire: "W2:JU1RXDHS14_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF3": [
+      (
+        from_wire: "W2:JU1RXDHS15_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF4": [
+      (
+        from_wire: "W2:JU1RXDE4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF5": [
+      (
+        from_wire: "W2:JU1RXDE5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF6": [
+      (
+        from_wire: "W2:JU1RXVDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JF7": [
+      (
+        from_wire: "W2:JU1RXSHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ0": [
+      (
+        from_wire: "W2:JD1ACTIVE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ1": [
+      (
+        from_wire: "W2:JD1VALID1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ2": [
+      (
+        from_wire: "W2:JD1BYTCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ3": [
+      (
+        from_wire: "W2:JD1BYTCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ4": [
+      (
+        from_wire: "W2:JD1ERRCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ5": [
+      (
+        from_wire: "W2:JD1ERRCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ6": [
+      (
+        from_wire: "W2:JU1ERCTRL_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E14:JQ7": [
+      (
+        from_wire: "W2:JU1DIR_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF0": [
+      (
+        from_wire: "W2:JU1RXSKS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF1": [
+      (
+        from_wire: "W2:JU1RXSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF2": [
+      (
+        from_wire: "W2:JU1ERSTHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF3": [
+      (
+        from_wire: "W2:JU1ERSSHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF4": [
+      (
+        from_wire: "W2:JU1RXDE6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF5": [
+      (
+        from_wire: "W2:JU1RXDE7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF6": [
+      (
+        from_wire: "W2:JU1RXVDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JF7": [
+      (
+        from_wire: "W2:JU1RXSHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ0": [
+      (
+        from_wire: "W2:JU1RXATHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ1": [
+      (
+        from_wire: "W2:JU1SSTT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ2": [
+      (
+        from_wire: "W2:JU1TXRYSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ3": [
+      (
+        from_wire: "W2:JU1USAN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ4": [
+      (
+        from_wire: "W2:JD1BYTCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ5": [
+      (
+        from_wire: "W2:JD1BYTCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ6": [
+      (
+        from_wire: "W2:JD1ERRCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E15:JQ7": [
+      (
+        from_wire: "W2:JD1ERRCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF0": [
+      (
+        from_wire: "W2:JU3RXDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF1": [
+      (
+        from_wire: "W2:JU3RXDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF2": [
+      (
+        from_wire: "W2:JU3RXDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF3": [
+      (
+        from_wire: "W2:JU3RXDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF4": [
+      (
+        from_wire: "W2:JU3RE0CK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF5": [
+      (
+        from_wire: "W2:JU3RE1CK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF6": [
+      (
+        from_wire: "W2:JU3RE2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JF7": [
+      (
+        from_wire: "W2:JU3RE3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ0": [
+      (
+        from_wire: "W2:JU3RXUPSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ1": [
+      (
+        from_wire: "W2:JU3RXVDE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ2": [
+      (
+        from_wire: "W2:JD3PASS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ3": [
+      (
+        from_wire: "W2:JD3PASS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ4": [
+      (
+        from_wire: "W2:JD3BYTCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ5": [
+      (
+        from_wire: "W2:JD3BYTCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ6": [
+      (
+        from_wire: "W2:JD3ERRCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E16:JQ7": [
+      (
+        from_wire: "W2:JD3ERRCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF0": [
+      (
+        from_wire: "W2:JU3RXDHS4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF1": [
+      (
+        from_wire: "W2:JU3RXDHS5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF2": [
+      (
+        from_wire: "W2:JU3RXDHS6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF3": [
+      (
+        from_wire: "W2:JU3RXDHS7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF4": [
+      (
+        from_wire: "W2:JU3RXDE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF5": [
+      (
+        from_wire: "W2:JU3RXDE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF6": [
+      (
+        from_wire: "W2:JU3RXVDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JF7": [
+      (
+        from_wire: "W2:JU3RXSHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ0": [
+      (
+        from_wire: "W2:JU3RPDTE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ1": [
+      (
+        from_wire: "W2:JU3RXCKE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ2": [
+      (
+        from_wire: "W2:JD3BYTCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ3": [
+      (
+        from_wire: "W2:JD3BYTCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ4": [
+      (
+        from_wire: "W2:JD3ERRCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ5": [
+      (
+        from_wire: "W2:JD3ERRCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ6": [
+      (
+        from_wire: "W2:JU3TXRY_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E17:JQ7": [
+      (
+        from_wire: "W2:JU3TXRYHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF0": [
+      (
+        from_wire: "W2:JU3RXDHS8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF1": [
+      (
+        from_wire: "W2:JU3RXDHS9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF2": [
+      (
+        from_wire: "W2:JU3RXDHS10_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF3": [
+      (
+        from_wire: "W2:JU3RXDHS11_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF4": [
+      (
+        from_wire: "W2:JU3RXDE2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF5": [
+      (
+        from_wire: "W2:JU3RXDE3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF6": [
+      (
+        from_wire: "W2:JU3RXVDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JF7": [
+      (
+        from_wire: "W2:JU3RXSHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ0": [
+      (
+        from_wire: "W2:JU3ERE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ1": [
+      (
+        from_wire: "W2:JU3ERSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ2": [
+      (
+        from_wire: "W2:JD3BYTCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ3": [
+      (
+        from_wire: "W2:JD3BYTCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ4": [
+      (
+        from_wire: "W2:JD3ERRCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ5": [
+      (
+        from_wire: "W2:JD3ERRCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ6": [
+      (
+        from_wire: "W2:JU3ERCLP0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E18:JQ7": [
+      (
+        from_wire: "W2:JU3ERCLP1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF0": [
+      (
+        from_wire: "W2:JU3RXDHS12_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF1": [
+      (
+        from_wire: "W2:JU3RXDHS13_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF2": [
+      (
+        from_wire: "W2:JU3RXDHS14_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF3": [
+      (
+        from_wire: "W2:JU3RXDHS15_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF4": [
+      (
+        from_wire: "W2:JU3RXDE4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF5": [
+      (
+        from_wire: "W2:JU3RXDE5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF6": [
+      (
+        from_wire: "W2:JU3RXVDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JF7": [
+      (
+        from_wire: "W2:JU3RXSHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ0": [
+      (
+        from_wire: "W2:JD3ACTIVE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ1": [
+      (
+        from_wire: "W2:JD3VALID0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ2": [
+      (
+        from_wire: "W2:JD3BYTCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ3": [
+      (
+        from_wire: "W2:JD3BYTCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ4": [
+      (
+        from_wire: "W2:JD3ERRCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ5": [
+      (
+        from_wire: "W2:JD3ERRCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ6": [
+      (
+        from_wire: "W2:JU3ERCTRL_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E19:JQ7": [
+      (
+        from_wire: "W2:JU3DIR_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF0": [
+      (
+        from_wire: "W2:JU2RXDHS12_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF1": [
+      (
+        from_wire: "W2:JU2RXDHS13_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF2": [
+      (
+        from_wire: "W2:JU2RXDHS14_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF3": [
+      (
+        from_wire: "W2:JU2RXDHS15_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF4": [
+      (
+        from_wire: "W2:JU2RXDE4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF5": [
+      (
+        from_wire: "W2:JU2RXDE5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF6": [
+      (
+        from_wire: "W2:JU2RXVDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JF7": [
+      (
+        from_wire: "W2:JU2RXSHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ0": [
+      (
+        from_wire: "W2:JD2ACTIVE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ1": [
+      (
+        from_wire: "W2:JD2VALID0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ2": [
+      (
+        from_wire: "W2:JD2BYTCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ3": [
+      (
+        from_wire: "W2:JD2BYTCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ4": [
+      (
+        from_wire: "W2:JD2ERRCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ5": [
+      (
+        from_wire: "W2:JD2ERRCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ6": [
+      (
+        from_wire: "W2:JU2ERCTRL_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E1:JQ7": [
+      (
+        from_wire: "W2:JU2DIR_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF0": [
+      (
+        from_wire: "W2:JU3RXSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF1": [
+      (
+        from_wire: "W2:JU3RXSKC_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF2": [
+      (
+        from_wire: "W2:JU3ERSTHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF3": [
+      (
+        from_wire: "W2:JU3ERSSHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF4": [
+      (
+        from_wire: "W2:JU3RXDE6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF5": [
+      (
+        from_wire: "W2:JU3RXDE7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF6": [
+      (
+        from_wire: "W2:JU3RXVDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JF7": [
+      (
+        from_wire: "W2:JU3RXSHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ0": [
+      (
+        from_wire: "W2:JU3RXATHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ1": [
+      (
+        from_wire: "W2:JU3SSTT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ2": [
+      (
+        from_wire: "W2:JU3TXRYSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ3": [
+      (
+        from_wire: "W2:JU3USAN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ4": [
+      (
+        from_wire: "W2:JD3BYTCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ5": [
+      (
+        from_wire: "W2:JD3BYTCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ6": [
+      (
+        from_wire: "W2:JD3ERRCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E20:JQ7": [
+      (
+        from_wire: "W2:JD3ERRCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF0": [
+      (
+        from_wire: "W2:JD3ACTIVE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF1": [
+      (
+        from_wire: "W2:JD3VALID1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF2": [
+      (
+        from_wire: "W2:JLMMIRDATA0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF3": [
+      (
+        from_wire: "W2:JLMMIRDATA1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF4": [
+      (
+        from_wire: "W2:JLMMIRDATA2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF5": [
+      (
+        from_wire: "W2:JLMMIRDATA3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF6": [
+      (
+        from_wire: "W2:JLMMIREADY_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E21:JF7": [
+      (
+        from_wire: "W2:JLMMIRDATAVALID_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF0": [
+      (
+        from_wire: "W2:JU2RXSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF1": [
+      (
+        from_wire: "W2:JU2RXSKC_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF2": [
+      (
+        from_wire: "W2:JU2ERSTHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF3": [
+      (
+        from_wire: "W2:JU2ERSSHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF4": [
+      (
+        from_wire: "W2:JU2RXDE6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF5": [
+      (
+        from_wire: "W2:JU2RXDE7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF6": [
+      (
+        from_wire: "W2:JU2RXVDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JF7": [
+      (
+        from_wire: "W2:JU2RXSHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ0": [
+      (
+        from_wire: "W2:JU2RXACHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ1": [
+      (
+        from_wire: "W2:JU2SSTT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ2": [
+      (
+        from_wire: "W2:JU2TXRYSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ3": [
+      (
+        from_wire: "W2:JU2USAN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ4": [
+      (
+        from_wire: "W2:JD2BYTCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ5": [
+      (
+        from_wire: "W2:JD2BYTCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ6": [
+      (
+        from_wire: "W2:JD2ERRCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E2:JQ7": [
+      (
+        from_wire: "W2:JD2ERRCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E3:JF0": [
+      (
+        from_wire: "W2:JD2ACTIVE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E3:JF1": [
+      (
+        from_wire: "W2:JD2VALID1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E3:JF2": [
+      (
+        from_wire: "W2:JLOCK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF0": [
+      (
+        from_wire: "W2:JURXDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF1": [
+      (
+        from_wire: "W2:JURXDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF2": [
+      (
+        from_wire: "W2:JURXDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF3": [
+      (
+        from_wire: "W2:JURXDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF4": [
+      (
+        from_wire: "W2:JURE0D3DP_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF5": [
+      (
+        from_wire: "W2:JURE1D3DN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF6": [
+      (
+        from_wire: "W2:JURE2CKDP_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JF7": [
+      (
+        from_wire: "W2:JURE3CKDN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ0": [
+      (
+        from_wire: "W2:JURXULPSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ1": [
+      (
+        from_wire: "W2:JURXVDE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ2": [
+      (
+        from_wire: "W2:JD0PASS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ3": [
+      (
+        from_wire: "W2:JD0PASS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ4": [
+      (
+        from_wire: "W2:JD0BYTCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ5": [
+      (
+        from_wire: "W2:JD0BYTCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ6": [
+      (
+        from_wire: "W2:JD0ERRCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E4:JQ7": [
+      (
+        from_wire: "W2:JD0ERRCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF0": [
+      (
+        from_wire: "W2:JURXDHS4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF1": [
+      (
+        from_wire: "W2:JURXDHS5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF2": [
+      (
+        from_wire: "W2:JURXDHS6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF3": [
+      (
+        from_wire: "W2:JURXDHS7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF4": [
+      (
+        from_wire: "W2:JURXDE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF5": [
+      (
+        from_wire: "W2:JURXDE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF6": [
+      (
+        from_wire: "W2:JURXVDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JF7": [
+      (
+        from_wire: "W2:JURXSHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ0": [
+      (
+        from_wire: "W2:JURXLPDTE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ1": [
+      (
+        from_wire: "W2:JURXCKE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ2": [
+      (
+        from_wire: "W2:JD0BYTCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ3": [
+      (
+        from_wire: "W2:JD0BYTCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ4": [
+      (
+        from_wire: "W2:JD0ERRCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ5": [
+      (
+        from_wire: "W2:JD0ERRCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ6": [
+      (
+        from_wire: "W2:JUTXRRS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E5:JQ7": [
+      (
+        from_wire: "W2:JUTXRYP_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF0": [
+      (
+        from_wire: "W2:JURXDHS8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF1": [
+      (
+        from_wire: "W2:JURXDHS9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF2": [
+      (
+        from_wire: "W2:JURXDHS10_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF3": [
+      (
+        from_wire: "W2:JURXDHS11_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF4": [
+      (
+        from_wire: "W2:JURXDE2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF5": [
+      (
+        from_wire: "W2:JURXDE3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF6": [
+      (
+        from_wire: "W2:JURXVDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JF7": [
+      (
+        from_wire: "W2:JURXSHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ0": [
+      (
+        from_wire: "W2:JUERE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ1": [
+      (
+        from_wire: "W2:JUERSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ2": [
+      (
+        from_wire: "W2:JD0BYTCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ3": [
+      (
+        from_wire: "W2:JD0BYTCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ4": [
+      (
+        from_wire: "W2:JD0ERRCNT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ5": [
+      (
+        from_wire: "W2:JD0ERRCNT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ6": [
+      (
+        from_wire: "W2:JUERCLP0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E6:JQ7": [
+      (
+        from_wire: "W2:JUERCLP1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF0": [
+      (
+        from_wire: "W2:JURXDHS12_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF1": [
+      (
+        from_wire: "W2:JURXDHS13_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF2": [
+      (
+        from_wire: "W2:JURXDHS14_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF3": [
+      (
+        from_wire: "W2:JURXDHS15_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF4": [
+      (
+        from_wire: "W2:JURXDE4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF5": [
+      (
+        from_wire: "W2:JURXDE5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF6": [
+      (
+        from_wire: "W2:JURXVDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JF7": [
+      (
+        from_wire: "W2:JURXSHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ0": [
+      (
+        from_wire: "W2:JD0ACTIVE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ1": [
+      (
+        from_wire: "W2:JD0VALID0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ2": [
+      (
+        from_wire: "W2:JD0BYTCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ3": [
+      (
+        from_wire: "W2:JD0BYTCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ4": [
+      (
+        from_wire: "W2:JD0ERRCNT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ5": [
+      (
+        from_wire: "W2:JD0ERRCNT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ6": [
+      (
+        from_wire: "W2:JUERCTRL_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E7:JQ7": [
+      (
+        from_wire: "W2:JUDIR_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF0": [
+      (
+        from_wire: "W2:JURXSKCHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF1": [
+      (
+        from_wire: "W2:JURXDRX_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF2": [
+      (
+        from_wire: "W2:JUERSTHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF3": [
+      (
+        from_wire: "W2:JUERSSHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF4": [
+      (
+        from_wire: "W2:JURXDE6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF5": [
+      (
+        from_wire: "W2:JURXDE7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF6": [
+      (
+        from_wire: "W2:JURXVDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JF7": [
+      (
+        from_wire: "W2:JURXSHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ0": [
+      (
+        from_wire: "W2:JURXACTHS_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ1": [
+      (
+        from_wire: "W2:JUSSTT_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ2": [
+      (
+        from_wire: "W2:JUTXRYSK_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ3": [
+      (
+        from_wire: "W2:JUUSAN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ4": [
+      (
+        from_wire: "W2:JD0BYTCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ5": [
+      (
+        from_wire: "W2:JD0BYTCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ6": [
+      (
+        from_wire: "W2:JD0ERRCNT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E8:JQ7": [
+      (
+        from_wire: "W2:JD0ERRCNT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF0": [
+      (
+        from_wire: "W2:JDCTSTOUT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF1": [
+      (
+        from_wire: "W2:JDCTSTOUT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF2": [
+      (
+        from_wire: "W2:JDCTSTOUT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF3": [
+      (
+        from_wire: "W2:JDCTSTOUT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF4": [
+      (
+        from_wire: "W2:JDCTSTOUT4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF5": [
+      (
+        from_wire: "W2:JDCTSTOUT5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF6": [
+      (
+        from_wire: "W2:JDCTSTOUT6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JF7": [
+      (
+        from_wire: "W2:JDCTSTOUT7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JQ0": [
+      (
+        from_wire: "W2:JDCTSTOUT8_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1E9:JQ1": [
+      (
+        from_wire: "W2:JDCTSTOUT9_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF0": [
+      (
+        from_wire: "W2:JU2RXDHS4_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF1": [
+      (
+        from_wire: "W2:JU2RXDHS5_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF2": [
+      (
+        from_wire: "W2:JU2RXDHS6_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF3": [
+      (
+        from_wire: "W2:JU2RXDHS7_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF4": [
+      (
+        from_wire: "W2:JU2RXDE0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF5": [
+      (
+        from_wire: "W2:JU2RXDE1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF6": [
+      (
+        from_wire: "W2:JU2TXRYE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JF7": [
+      (
+        from_wire: "W2:JU2TXRYH_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ0": [
+      (
+        from_wire: "W2:JU2RPDTE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ1": [
+      (
+        from_wire: "W2:JU2RXCKE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ2": [
+      (
+        from_wire: "W2:JD2BYTCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ3": [
+      (
+        from_wire: "W2:JD2BYTCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ4": [
+      (
+        from_wire: "W2:JD2ERRCNT2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ5": [
+      (
+        from_wire: "W2:JD2ERRCNT3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ6": [
+      (
+        from_wire: "W2:JU2RXVDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W1:JQ7": [
+      (
+        from_wire: "W2:JU2RXSHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF0": [
+      (
+        from_wire: "W2:JU2RXDHS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF1": [
+      (
+        from_wire: "W2:JU2RXDHS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF2": [
+      (
+        from_wire: "W2:JU2RXDHS2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF3": [
+      (
+        from_wire: "W2:JU2RXDHS3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF4": [
+      (
+        from_wire: "W2:JU2RE0D2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF5": [
+      (
+        from_wire: "W2:JU2RE1D2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF6": [
+      (
+        from_wire: "W2:JU2RE2D3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JF7": [
+      (
+        from_wire: "W2:JU2RE3D3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ0": [
+      (
+        from_wire: "W2:JU2RXUPSE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ1": [
+      (
+        from_wire: "W2:JU2RXVDE_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ2": [
+      (
+        from_wire: "W2:JD2PASS0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ3": [
+      (
+        from_wire: "W2:JD2PASS1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ4": [
+      (
+        from_wire: "W2:JD2BYTCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ5": [
+      (
+        from_wire: "W2:JD2BYTCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ6": [
+      (
+        from_wire: "W2:JD2ERRCNT0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "S1W2:JQ7": [
+      (
+        from_wire: "W2:JD2ERRCNT1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JBITCKEXT_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JCKN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_CKN",
+      ),
+    ],
+    "W2:JCKP_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_CKP",
+      ),
+    ],
+    "W2:JCLKIN0_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S1E10:JCLK0",
+      ),
+    ],
+    "W2:JCLKIN1_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S56E14:JINCK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
+      ),
+      (
+        from_wire: "S56E14:JPADDI_DIFFIO18_CORE_IOA",
+      ),
+    ],
+    "W2:JCLKIN2_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S56E70:JINCK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
+      ),
+      (
+        from_wire: "S56E70:JPADDI_DIFFIO18_CORE_IOA",
+      ),
+    ],
+    "W2:JCLKIN3_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S56E54:JINCK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
+      ),
+      (
+        from_wire: "S56E54:JPADDI_DIFFIO18_CORE_IOA",
+      ),
+    ],
+    "W2:JCLKIN4_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "E72:JINCK_SIOLOGIC_CORE_IBASE_PIC_A",
+      ),
+      (
+        from_wire: "E72:JPADDI_SEIO33_CORE_IOA",
+      ),
+    ],
+    "W2:JCLKREF_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JCLKOUT_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0",
+      ),
+    ],
+    "W2:JDN0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DN0",
+      ),
+    ],
+    "W2:JDN1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DN1",
+      ),
+    ],
+    "W2:JDN2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DN2",
+      ),
+    ],
+    "W2:JDN3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DN3",
+      ),
+    ],
+    "W2:JDP0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DP0",
+      ),
+    ],
+    "W2:JDP1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DP1",
+      ),
+    ],
+    "W2:JDP2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DP2",
+      ),
+    ],
+    "W2:JDP3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "W2:JPAD_APIO_DP3",
+      ),
+    ],
+    "W2:JLMMICLK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCLK0",
+      ),
+    ],
+    "W2:JLMMIOFFSET0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTA0",
+      ),
+    ],
+    "W2:JLMMIOFFSET1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JLMMIOFFSET2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTA2",
+      ),
+    ],
+    "W2:JLMMIOFFSET3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTA3",
+      ),
+    ],
+    "W2:JLMMIOFFSET4_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JLMMIREQUEST_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JLMMIRESETN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JLSR0",
+      ),
+    ],
+    "W2:JLMMIWDATA0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JLMMIWDATA1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JLMMIWDATA2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JLMMIWDATA3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB3",
+      ),
+    ],
+    "W2:JLMMIWRRDN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E21:JCIBMUXOUTB5",
+      ),
+    ],
+    "W2:JLTSTEN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA0",
+      ),
+    ],
+    "W2:JLTSTLANE0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA2",
+      ),
+    ],
+    "W2:JLTSTLANE1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JOPCGLDCK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E2:JCLK1",
+      ),
+    ],
+    "W2:JPAD_APIO_CKN": [
+      (
+        from_wire: "W2:JCKN_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_CKP": [
+      (
+        from_wire: "W2:JCKP_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DN0": [
+      (
+        from_wire: "W2:JDN0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DN1": [
+      (
+        from_wire: "W2:JDN1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DN2": [
+      (
+        from_wire: "W2:JDN2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DN3": [
+      (
+        from_wire: "W2:JDN3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DP0": [
+      (
+        from_wire: "W2:JDP0_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DP1": [
+      (
+        from_wire: "W2:JDP1_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DP2": [
+      (
+        from_wire: "W2:JDP2_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPAD_APIO_DP3": [
+      (
+        from_wire: "W2:JDP3_DPHY_CORE_DPHY0",
+      ),
+    ],
+    "W2:JPDDPHY_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E2:JCIBMUXOUTC0",
+      ),
+    ],
+    "W2:JPDPLL_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E2:JCIBMUXOUTC1",
+      ),
+    ],
+    "W2:JSCANCLK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E20:JCLK0",
+      ),
+    ],
+    "W2:JSCANRST_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E20:JLSR0",
+      ),
+    ],
+    "W2:JSCCLKIN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E2:JCLK0",
+      ),
+    ],
+    "W2:JSCRSTNIN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E2:JLSR0",
+      ),
+    ],
+    "W2:JTESTINP0_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC1",
+      ),
+    ],
+    "W2:JTESTINP1_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JTESTINP2_DPHY_REFCLOCK_MUX_CORE_DPHY_REFCLOCK_MUX0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU1ENTHEN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCE0",
+      ),
+    ],
+    "W2:JU1FRXMD_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU1FTXST_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU1TDE0D3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU1TDE1CK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU1TDE2D0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU1TDE3D1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU1TDE4D2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU1TDE5D3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU1TDE6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU1TDE7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU1TDIS_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU1TREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU1TXDHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU1TXDHS10_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU1TXDHS11_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU1TXDHS12_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU1TXDHS13_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU1TXDHS14_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU1TXDHS15_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU1TXDHS16_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU1TXDHS17_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU1TXDHS18_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU1TXDHS19_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU1TXDHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU1TXDHS20_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU1TXDHS21_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU1TXDHS22_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU1TXDHS23_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU1TXDHS24_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU1TXDHS25_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU1TXDHS26_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU1TXDHS27_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU1TXDHS28_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU1TXDHS29_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU1TXDHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU1TXDHS30_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU1TXDHS31_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU1TXDHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU1TXDHS4_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU1TXDHS5_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU1TXDHS6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU1TXDHS7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU1TXDHS8_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU1TXDHS9_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU1TXLPD_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU1TXREQH_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU1TXREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU1TXSK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU1TXTGE0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU1TXTGE1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU1TXTGE2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU1TXTGE3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU1TXUPSE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU1TXUPSX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU1TXVDE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU1TXWVHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU1TXWVHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU1TXWVHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU1TXWVHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU2END2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCE0",
+      ),
+    ],
+    "W2:JU2FRXMD_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU2FTXST_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU2TDE0D0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU2TDE1D1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU2TDE2D2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU2TDE3D3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU2TDE4CK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCLK0",
+      ),
+    ],
+    "W2:JU2TDE5D0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU2TDE6D1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU2TDE7D2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU2TDIS_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU2TPDTE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU2TREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU2TXDHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU2TXDHS10_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU2TXDHS11_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU2TXDHS12_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU2TXDHS13_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU2TXDHS14_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU2TXDHS15_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU2TXDHS16_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU2TXDHS17_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU2TXDHS18_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU2TXDHS19_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU2TXDHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU2TXDHS20_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU2TXDHS21_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU2TXDHS22_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU2TXDHS23_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU2TXDHS24_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU2TXDHS25_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU2TXDHS26_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU2TXDHS27_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU2TXDHS28_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU2TXDHS29_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU2TXDHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU2TXDHS30_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU2TXDHS31_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU2TXDHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU2TXDHS4_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU2TXDHS5_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU2TXDHS6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU2TXDHS7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU2TXDHS8_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU2TXDHS9_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU2TXREQH_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU2TXREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU2TXSKC_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU2TXTGE0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU2TXTGE1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU2TXTGE2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU2TXTGE3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU2TXUPSE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU2TXUPSX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU2TXVDE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU2TXWVHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W2:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU2TXWVHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1W1:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU2TXWVHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU2TXWVHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E1:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU3END3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCE0",
+      ),
+    ],
+    "W2:JU3FRXMD_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU3FTXST_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU3TDE0D3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU3TDE1D0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU3TDE2D1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU3TDE3D2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JU3TDE4D3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU3TDE5CK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU3TDE6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU3TDE7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JU3TDISD2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU3TREQD2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU3TXDHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU3TXDHS10_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU3TXDHS11_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU3TXDHS12_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU3TXDHS13_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU3TXDHS14_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU3TXDHS15_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU3TXDHS16_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU3TXDHS17_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU3TXDHS18_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU3TXDHS19_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU3TXDHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU3TXDHS20_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU3TXDHS21_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU3TXDHS22_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU3TXDHS23_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU3TXDHS24_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU3TXDHS25_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU3TXDHS26_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU3TXDHS27_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU3TXDHS28_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JU3TXDHS29_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JU3TXDHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU3TXDHS30_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JU3TXDHS31_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JU3TXDHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU3TXDHS4_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU3TXDHS5_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU3TXDHS6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JU3TXDHS7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JU3TXDHS8_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JU3TXDHS9_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JU3TXLPDT_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU3TXREQH_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU3TXREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU3TXSKC_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JU3TXTGE0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU3TXTGE1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU3TXTGE2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU3TXTGE3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JU3TXULPS_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU3TXUPSX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JU3TXVD3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JU3TXWVHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E16:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU3TXWVHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E17:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU3TXWVHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E18:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JU3TXWVHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E19:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JUCENCK_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JUCTXREQH_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JUCTXUPSC_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JUCTXUPSX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JUDE0D0TN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JUDE1D1TN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JUDE2D2TN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JUDE3D3TN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA1",
+      ),
+    ],
+    "W2:JUDE4CKTN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JUDE5D0RN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JUDE6D1RN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JUDE7D2RN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB1",
+      ),
+    ],
+    "W2:JUED0THEN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCE0",
+      ),
+    ],
+    "W2:JUFRXMODE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JURXCKINE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTD0",
+      ),
+    ],
+    "W2:JUTDIS_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JUTRD0SEN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JUTRNREQ_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JUTXCKE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTD0",
+      ),
+    ],
+    "W2:JUTXDHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JUTXDHS10_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JUTXDHS11_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JUTXDHS12_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JUTXDHS13_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JUTXDHS14_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JUTXDHS15_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JUTXDHS16_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JUTXDHS17_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JUTXDHS18_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JUTXDHS19_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JUTXDHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JUTXDHS20_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JUTXDHS21_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JUTXDHS22_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JUTXDHS23_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JUTXDHS24_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JUTXDHS25_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JUTXDHS26_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JUTXDHS27_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JUTXDHS28_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC4",
+      ),
+    ],
+    "W2:JUTXDHS29_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC5",
+      ),
+    ],
+    "W2:JUTXDHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JUTXDHS30_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC6",
+      ),
+    ],
+    "W2:JUTXDHS31_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC7",
+      ),
+    ],
+    "W2:JUTXDHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JUTXDHS4_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JUTXDHS5_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JUTXDHS6_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB4",
+      ),
+    ],
+    "W2:JUTXDHS7_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB6",
+      ),
+    ],
+    "W2:JUTXDHS8_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA4",
+      ),
+    ],
+    "W2:JUTXDHS9_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA6",
+      ),
+    ],
+    "W2:JUTXENER_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JUTXMDTX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JUTXRD0EN_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JUTXSKD0N_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB7",
+      ),
+    ],
+    "W2:JUTXTGE0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JUTXTGE1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JUTXTGE2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JUTXTGE3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC2",
+      ),
+    ],
+    "W2:JUTXULPSE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JUTXUPSEX_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB0",
+      ),
+    ],
+    "W2:JUTXVDE_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC3",
+      ),
+    ],
+    "W2:JUTXWVDHS0_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JUTXWVDHS1_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JUTXWVDHS2_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB2",
+      ),
+    ],
+    "W2:JUTXWVDHS3_DPHY_CORE_DPHY0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB2",
+      ),
+    ],
+  },
+)

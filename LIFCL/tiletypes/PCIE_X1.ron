@@ -2,7 +2,2298 @@
   pips: {},
   words: {},
   enums: {},
-  conns: {},
+  conns: {
+    "G:JPCIECLKRX0_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "JERXCKDO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "G:JPCIECLKTX0_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "JETXCKDO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "G:JPCIELINKCLK0_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "JECKINDO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "G:JPCIEUSRCLK0_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "JCKUSRO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JACTACMD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC3",
+      ),
+    ],
+    "JACTDR11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC2",
+      ),
+    ],
+    "JACTEN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCE0",
+      ),
+    ],
+    "JACTHIGHZ_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC1",
+      ),
+    ],
+    "JACTMD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC4",
+      ),
+    ],
+    "JALTCLKIN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCLK0",
+      ),
+    ],
+    "JAUXCK_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCLK0",
+      ),
+    ],
+    "JCKUSRI_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCLK0",
+      ),
+    ],
+    "JCLKREQI_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB3",
+      ),
+    ],
+    "JECKIND2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCLK1",
+      ),
+    ],
+    "JECKIN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCLK1",
+      ),
+    ],
+    "JERSTND2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JLSR1",
+      ),
+    ],
+    "JERSTN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JLSR1",
+      ),
+    ],
+    "JERXCKD2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCLK0",
+      ),
+    ],
+    "JERXRSND2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JLSR0",
+      ),
+    ],
+    "JETXCKD2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E1:JCLK0",
+      ),
+    ],
+    "JETXRSND2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E1:JLSR0",
+      ),
+    ],
+    "JFLRACK0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA3",
+      ),
+    ],
+    "JFLRACK1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA4",
+      ),
+    ],
+    "JFLRACK2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA5",
+      ),
+    ],
+    "JFLRACK3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA6",
+      ),
+    ],
+    "JLMMICLK_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCLK0",
+      ),
+    ],
+    "JLMMIOFFSET10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB5",
+      ),
+    ],
+    "JLMMIOFFSET11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC4",
+      ),
+    ],
+    "JLMMIOFFSET12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC5",
+      ),
+    ],
+    "JLMMIOFFSET13_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB6",
+      ),
+    ],
+    "JLMMIOFFSET14_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB7",
+      ),
+    ],
+    "JLMMIOFFSET15_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC6",
+      ),
+    ],
+    "JLMMIOFFSET16_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC7",
+      ),
+    ],
+    "JLMMIOFFSET2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC0",
+      ),
+    ],
+    "JLMMIOFFSET3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC1",
+      ),
+    ],
+    "JLMMIOFFSET4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTD0",
+      ),
+    ],
+    "JLMMIOFFSET5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTD1",
+      ),
+    ],
+    "JLMMIOFFSET6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC2",
+      ),
+    ],
+    "JLMMIOFFSET7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTC3",
+      ),
+    ],
+    "JLMMIOFFSET8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTD2",
+      ),
+    ],
+    "JLMMIOFFSET9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB4",
+      ),
+    ],
+    "JLMMIREQUEST_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA1",
+      ),
+    ],
+    "JLMMIRESETN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JLSR0",
+      ),
+    ],
+    "JLMMIWDATA0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB0",
+      ),
+    ],
+    "JLMMIWDATA10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC2",
+      ),
+    ],
+    "JLMMIWDATA11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC3",
+      ),
+    ],
+    "JLMMIWDATA12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD2",
+      ),
+    ],
+    "JLMMIWDATA13_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD3",
+      ),
+    ],
+    "JLMMIWDATA14_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA5",
+      ),
+    ],
+    "JLMMIWDATA15_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA4",
+      ),
+    ],
+    "JLMMIWDATA16_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB4",
+      ),
+    ],
+    "JLMMIWDATA17_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB5",
+      ),
+    ],
+    "JLMMIWDATA18_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC4",
+      ),
+    ],
+    "JLMMIWDATA19_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC5",
+      ),
+    ],
+    "JLMMIWDATA1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB1",
+      ),
+    ],
+    "JLMMIWDATA20_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD4",
+      ),
+    ],
+    "JLMMIWDATA21_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD5",
+      ),
+    ],
+    "JLMMIWDATA22_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA6",
+      ),
+    ],
+    "JLMMIWDATA23_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA7",
+      ),
+    ],
+    "JLMMIWDATA24_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB6",
+      ),
+    ],
+    "JLMMIWDATA25_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB7",
+      ),
+    ],
+    "JLMMIWDATA26_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC6",
+      ),
+    ],
+    "JLMMIWDATA27_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC7",
+      ),
+    ],
+    "JLMMIWDATA28_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD6",
+      ),
+    ],
+    "JLMMIWDATA29_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA5",
+      ),
+    ],
+    "JLMMIWDATA2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC0",
+      ),
+    ],
+    "JLMMIWDATA30_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA4",
+      ),
+    ],
+    "JLMMIWDATA31_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA6",
+      ),
+    ],
+    "JLMMIWDATA3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTC1",
+      ),
+    ],
+    "JLMMIWDATA4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD0",
+      ),
+    ],
+    "JLMMIWDATA5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTD1",
+      ),
+    ],
+    "JLMMIWDATA6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA2",
+      ),
+    ],
+    "JLMMIWDATA7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTA3",
+      ),
+    ],
+    "JLMMIWDATA8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB2",
+      ),
+    ],
+    "JLMMIWDATA9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E9:JCIBMUXOUTB3",
+      ),
+    ],
+    "JLMMIWRRDN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTA7",
+      ),
+    ],
+    "JMINTLEG0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB1",
+      ),
+    ],
+    "JMINTLEG1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB2",
+      ),
+    ],
+    "JMINTLEG2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB3",
+      ),
+    ],
+    "JMINTLEG3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB4",
+      ),
+    ],
+    "JOPCGLDCK_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCLK1",
+      ),
+    ],
+    "JPAD_APIO_SD0_REFCLKN": [
+      (
+        from_wire: "JS0REFCKN_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_REFCLKP": [
+      (
+        from_wire: "JS0REFCKP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_REFRET": [
+      (
+        from_wire: "JS0REFRET_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_REXT": [
+      (
+        from_wire: "JS0REXT_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_RXN": [
+      (
+        from_wire: "JS0RXN_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_RXP": [
+      (
+        from_wire: "JS0RXP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_TXN": [
+      (
+        from_wire: "JS0TXN_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPAD_APIO_SD0_TXP": [
+      (
+        from_wire: "JS0TXP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "JPERSTN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JLSR1",
+      ),
+    ],
+    "JPMDPAST0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPMDPAST1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA1",
+      ),
+    ],
+    "JPMDPAST2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA2",
+      ),
+    ],
+    "JPMDPAST3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA3",
+      ),
+    ],
+    "JPMDPAST4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA4",
+      ),
+    ],
+    "JPPBDREG0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB6",
+      ),
+    ],
+    "JPPBDREG10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB2",
+      ),
+    ],
+    "JPPBDREG11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB3",
+      ),
+    ],
+    "JPPBDREG12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB4",
+      ),
+    ],
+    "JPPBDREG13_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB5",
+      ),
+    ],
+    "JPPBDREG14_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB6",
+      ),
+    ],
+    "JPPBDREG15_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB7",
+      ),
+    ],
+    "JPPBDREG16_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC0",
+      ),
+    ],
+    "JPPBDREG17_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC1",
+      ),
+    ],
+    "JPPBDREG18_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC2",
+      ),
+    ],
+    "JPPBDREG19_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC3",
+      ),
+    ],
+    "JPPBDREG1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTB7",
+      ),
+    ],
+    "JPPBDREG20_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC4",
+      ),
+    ],
+    "JPPBDREG21_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC5",
+      ),
+    ],
+    "JPPBDREG22_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC6",
+      ),
+    ],
+    "JPPBDREG23_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTC7",
+      ),
+    ],
+    "JPPBDREG24_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD0",
+      ),
+    ],
+    "JPPBDREG25_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD1",
+      ),
+    ],
+    "JPPBDREG26_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD2",
+      ),
+    ],
+    "JPPBDREG27_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD3",
+      ),
+    ],
+    "JPPBDREG28_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD4",
+      ),
+    ],
+    "JPPBDREG29_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD5",
+      ),
+    ],
+    "JPPBDREG2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC0",
+      ),
+    ],
+    "JPPBDREG30_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD6",
+      ),
+    ],
+    "JPPBDREG31_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTD7",
+      ),
+    ],
+    "JPPBDREG3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTC1",
+      ),
+    ],
+    "JPPBDREG4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPPBDREG5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA1",
+      ),
+    ],
+    "JPPBDREG6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA2",
+      ),
+    ],
+    "JPPBDREG7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTA3",
+      ),
+    ],
+    "JPPBDREG8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB0",
+      ),
+    ],
+    "JPPBDREG9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JCIBMUXOUTB1",
+      ),
+    ],
+    "JPRMSGSD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA5",
+      ),
+    ],
+    "JPRNOSNP0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA6",
+      ),
+    ],
+    "JPRNOSNP10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPRNOSNP11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA1",
+      ),
+    ],
+    "JPRNOSNP12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA2",
+      ),
+    ],
+    "JPRNOSNP1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTA7",
+      ),
+    ],
+    "JPRNOSNP2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB0",
+      ),
+    ],
+    "JPRNOSNP3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB1",
+      ),
+    ],
+    "JPRNOSNP4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB2",
+      ),
+    ],
+    "JPRNOSNP5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB3",
+      ),
+    ],
+    "JPRNOSNP6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB4",
+      ),
+    ],
+    "JPRNOSNP7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB5",
+      ),
+    ],
+    "JPRNOSNP8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB6",
+      ),
+    ],
+    "JPRNOSNP9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E4:JCIBMUXOUTB7",
+      ),
+    ],
+    "JPRNSNPRE_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA3",
+      ),
+    ],
+    "JPRSNOOP0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA4",
+      ),
+    ],
+    "JPRSNOOP10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA0",
+      ),
+    ],
+    "JPRSNOOP11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA1",
+      ),
+    ],
+    "JPRSNOOP12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA2",
+      ),
+    ],
+    "JPRSNOOP1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTA5",
+      ),
+    ],
+    "JPRSNOOP2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB0",
+      ),
+    ],
+    "JPRSNOOP3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTB1",
+      ),
+    ],
+    "JPRSNOOP4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC0",
+      ),
+    ],
+    "JPRSNOOP5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC1",
+      ),
+    ],
+    "JPRSNOOP6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC2",
+      ),
+    ],
+    "JPRSNOOP7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC3",
+      ),
+    ],
+    "JPRSNOOP8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC4",
+      ),
+    ],
+    "JPRSNOOP9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E5:JCIBMUXOUTC5",
+      ),
+    ],
+    "JPRSNPRE_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E6:JCIBMUXOUTA7",
+      ),
+    ],
+    "JREFCLKNA_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC0",
+      ),
+    ],
+    "JREXTCK_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCLK1",
+      ),
+    ],
+    "JREXTRST_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JLSR0",
+      ),
+    ],
+    "JRSTUSRN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E7:JLSR0",
+      ),
+    ],
+    "JS0REFCKN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_REFCLKN",
+      ),
+    ],
+    "JS0REFCKP_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_REFCLKP",
+      ),
+    ],
+    "JS0REFRET_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_REFRET",
+      ),
+    ],
+    "JS0REXT_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_REXT",
+      ),
+    ],
+    "JS0RXN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_RXN",
+      ),
+    ],
+    "JS0RXP_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_RXP",
+      ),
+    ],
+    "JS0TXN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_TXN",
+      ),
+    ],
+    "JS0TXP_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "JPAD_APIO_SD0_TXP",
+      ),
+    ],
+    "JSCANCLK_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCLK0",
+      ),
+    ],
+    "JSCANRST_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JLSR0",
+      ),
+    ],
+    "JUCFGADDR10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA6",
+      ),
+    ],
+    "JUCFGADDR11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA7",
+      ),
+    ],
+    "JUCFGADDR2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA1",
+      ),
+    ],
+    "JUCFGADDR3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA0",
+      ),
+    ],
+    "JUCFGADDR4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTD0",
+      ),
+    ],
+    "JUCFGADDR5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTD1",
+      ),
+    ],
+    "JUCFGADDR6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA2",
+      ),
+    ],
+    "JUCFGADDR7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA3",
+      ),
+    ],
+    "JUCFGADDR8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA5",
+      ),
+    ],
+    "JUCFGADDR9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTA4",
+      ),
+    ],
+    "JUCFGF0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB0",
+      ),
+    ],
+    "JUCFGF1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB1",
+      ),
+    ],
+    "JUCFGF2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTB2",
+      ),
+    ],
+    "JUCFGSERD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC0",
+      ),
+    ],
+    "JUCFGVD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC1",
+      ),
+    ],
+    "JUCFGWRBE0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC2",
+      ),
+    ],
+    "JUCFGWRBE1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC3",
+      ),
+    ],
+    "JUCFGWRBE2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC4",
+      ),
+    ],
+    "JUCFGWRBE3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC5",
+      ),
+    ],
+    "JUCFGWRD0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTD0",
+      ),
+    ],
+    "JUCFGWRD10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB1",
+      ),
+    ],
+    "JUCFGWRD11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC0",
+      ),
+    ],
+    "JUCFGWRD12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC1",
+      ),
+    ],
+    "JUCFGWRD13_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTD0",
+      ),
+    ],
+    "JUCFGWRD14_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA2",
+      ),
+    ],
+    "JUCFGWRD15_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA3",
+      ),
+    ],
+    "JUCFGWRD16_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB2",
+      ),
+    ],
+    "JUCFGWRD17_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB3",
+      ),
+    ],
+    "JUCFGWRD18_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC2",
+      ),
+    ],
+    "JUCFGWRD19_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC3",
+      ),
+    ],
+    "JUCFGWRD1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTD1",
+      ),
+    ],
+    "JUCFGWRD20_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA5",
+      ),
+    ],
+    "JUCFGWRD21_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA4",
+      ),
+    ],
+    "JUCFGWRD22_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB4",
+      ),
+    ],
+    "JUCFGWRD23_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB5",
+      ),
+    ],
+    "JUCFGWRD24_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC4",
+      ),
+    ],
+    "JUCFGWRD25_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC5",
+      ),
+    ],
+    "JUCFGWRD26_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA6",
+      ),
+    ],
+    "JUCFGWRD27_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA7",
+      ),
+    ],
+    "JUCFGWRD28_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB6",
+      ),
+    ],
+    "JUCFGWRD29_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB7",
+      ),
+    ],
+    "JUCFGWRD2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTD2",
+      ),
+    ],
+    "JUCFGWRD30_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC6",
+      ),
+    ],
+    "JUCFGWRD31_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTC7",
+      ),
+    ],
+    "JUCFGWRD3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTD3",
+      ),
+    ],
+    "JUCFGWRD4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTD4",
+      ),
+    ],
+    "JUCFGWRD5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC6",
+      ),
+    ],
+    "JUCFGWRD6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTC7",
+      ),
+    ],
+    "JUCFGWRD7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA1",
+      ),
+    ],
+    "JUCFGWRD8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTA0",
+      ),
+    ],
+    "JUCFGWRD9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTB0",
+      ),
+    ],
+    "JUCFGWRDN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E13:JCIBMUXOUTD1",
+      ),
+    ],
+    "JULTSDIS_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTA4",
+      ),
+    ],
+    "JUSERAUPD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTA5",
+      ),
+    ],
+    "JUSERTRS0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB0",
+      ),
+    ],
+    "JUSERTRS1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB1",
+      ),
+    ],
+    "JUSERTRS2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB2",
+      ),
+    ],
+    "JUSERTRS3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E8:JCIBMUXOUTB3",
+      ),
+    ],
+    "JVRXCINIT_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA0",
+      ),
+    ],
+    "JVRXCNH0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA1",
+      ),
+    ],
+    "JVRXCNH10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB3",
+      ),
+    ],
+    "JVRXCNH11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JVRXCNH1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA2",
+      ),
+    ],
+    "JVRXCNH2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA3",
+      ),
+    ],
+    "JVRXCNH3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA4",
+      ),
+    ],
+    "JVRXCNH4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA5",
+      ),
+    ],
+    "JVRXCNH5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA6",
+      ),
+    ],
+    "JVRXCNH6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTA7",
+      ),
+    ],
+    "JVRXCNH7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB0",
+      ),
+    ],
+    "JVRXCNH8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB1",
+      ),
+    ],
+    "JVRXCNH9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB2",
+      ),
+    ],
+    "JVRXCNINF_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB5",
+      ),
+    ],
+    "JVRXCRRE_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1:JCIBMUXOUTB6",
+      ),
+    ],
+    "JVRXRDY_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E14:JCIBMUXOUTC5",
+      ),
+    ],
+    "JVXD0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB0",
+      ),
+    ],
+    "JVXD10_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC4",
+      ),
+    ],
+    "JVXD11_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC5",
+      ),
+    ],
+    "JVXD12_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB6",
+      ),
+    ],
+    "JVXD13_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB7",
+      ),
+    ],
+    "JVXD14_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC6",
+      ),
+    ],
+    "JVXD15_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC7",
+      ),
+    ],
+    "JVXD16_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB0",
+      ),
+    ],
+    "JVXD17_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB1",
+      ),
+    ],
+    "JVXD18_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC0",
+      ),
+    ],
+    "JVXD19_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC1",
+      ),
+    ],
+    "JVXD1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB1",
+      ),
+    ],
+    "JVXD20_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD0",
+      ),
+    ],
+    "JVXD21_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD1",
+      ),
+    ],
+    "JVXD22_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB2",
+      ),
+    ],
+    "JVXD23_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB3",
+      ),
+    ],
+    "JVXD24_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC2",
+      ),
+    ],
+    "JVXD25_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC3",
+      ),
+    ],
+    "JVXD26_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD2",
+      ),
+    ],
+    "JVXD27_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD3",
+      ),
+    ],
+    "JVXD28_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB4",
+      ),
+    ],
+    "JVXD29_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB5",
+      ),
+    ],
+    "JVXD2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC0",
+      ),
+    ],
+    "JVXD30_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC4",
+      ),
+    ],
+    "JVXD31_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC5",
+      ),
+    ],
+    "JVXD3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC1",
+      ),
+    ],
+    "JVXD4_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB2",
+      ),
+    ],
+    "JVXD5_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB3",
+      ),
+    ],
+    "JVXD6_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC2",
+      ),
+    ],
+    "JVXD7_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTC3",
+      ),
+    ],
+    "JVXD8_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB4",
+      ),
+    ],
+    "JVXD9_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E10:JCIBMUXOUTB5",
+      ),
+    ],
+    "JVXDP0_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB6",
+      ),
+    ],
+    "JVXDP1_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTB7",
+      ),
+    ],
+    "JVXDP2_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC6",
+      ),
+    ],
+    "JVXDP3_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTC7",
+      ),
+    ],
+    "JVXEOPN_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD5",
+      ),
+    ],
+    "JVXEOP_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD4",
+      ),
+    ],
+    "JVXSOP_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E11:JCIBMUXOUTD7",
+      ),
+    ],
+    "JVXVD_PCIE_CORE_PCIE0": [
+      (
+        from_wire: "S1E12:JCIBMUXOUTB0",
+      ),
+    ],
+    "S1:JF0": [
+      (
+        from_wire: "JVRXCMDD1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF1": [
+      (
+        from_wire: "JVRXCMDD2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF2": [
+      (
+        from_wire: "JVRXCMDD5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF3": [
+      (
+        from_wire: "JVRXCMDD6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF4": [
+      (
+        from_wire: "JVRXCMDD9_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF5": [
+      (
+        from_wire: "JVRXCMDD10_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JF6": [
+      (
+        from_wire: "JVRXD0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ0": [
+      (
+        from_wire: "JVRXCMDD0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ1": [
+      (
+        from_wire: "JVRXCMDD3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ2": [
+      (
+        from_wire: "JVRXCMDD4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ3": [
+      (
+        from_wire: "JVRXCMDD7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ4": [
+      (
+        from_wire: "JVRXCMDD8_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ5": [
+      (
+        from_wire: "JVRXCMDD11_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ6": [
+      (
+        from_wire: "JVRXCMDD12_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1:JQ7": [
+      (
+        from_wire: "JVRXD1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF0": [
+      (
+        from_wire: "JLMMIRDATAVALID_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF1": [
+      (
+        from_wire: "JLMMIREADY_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF2": [
+      (
+        from_wire: "JVXCDINIT_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF3": [
+      (
+        from_wire: "JVXCDNH0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF4": [
+      (
+        from_wire: "JVXCDNH1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF5": [
+      (
+        from_wire: "JVXCDNH2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF6": [
+      (
+        from_wire: "JVXCDNH3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JF7": [
+      (
+        from_wire: "JVXCDNH4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ0": [
+      (
+        from_wire: "JVXCDNH5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ1": [
+      (
+        from_wire: "JVXCDNH6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ2": [
+      (
+        from_wire: "JVXCDNH7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ3": [
+      (
+        from_wire: "JVXCDNH8_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ4": [
+      (
+        from_wire: "JVXCDNH9_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ5": [
+      (
+        from_wire: "JVXCDNH10_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ6": [
+      (
+        from_wire: "JVXCDNH11_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E10:JQ7": [
+      (
+        from_wire: "JVTXCRRE_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF0": [
+      (
+        from_wire: "JUCFGRDD1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF1": [
+      (
+        from_wire: "JUCFGRDD2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF2": [
+      (
+        from_wire: "JUCFGRDD5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF3": [
+      (
+        from_wire: "JUCFGRDD6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF4": [
+      (
+        from_wire: "JUCFGRDD9_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF5": [
+      (
+        from_wire: "JUCFGRDD10_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF6": [
+      (
+        from_wire: "JUCFGRDD13_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JF7": [
+      (
+        from_wire: "JUCFGRDD14_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ0": [
+      (
+        from_wire: "JUCFGRDD0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ1": [
+      (
+        from_wire: "JUCFGRDD3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ2": [
+      (
+        from_wire: "JUCFGRDD4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ3": [
+      (
+        from_wire: "JUCFGRDD7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ4": [
+      (
+        from_wire: "JUCFGRDD8_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ5": [
+      (
+        from_wire: "JUCFGRDD11_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ6": [
+      (
+        from_wire: "JUCFGRDD12_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E11:JQ7": [
+      (
+        from_wire: "JUCFGRDD15_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF0": [
+      (
+        from_wire: "JUCFGRDD17_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF1": [
+      (
+        from_wire: "JUCFGRDD18_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF2": [
+      (
+        from_wire: "JUCFGRDD21_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF3": [
+      (
+        from_wire: "JUCFGRDD22_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF4": [
+      (
+        from_wire: "JUCFGRDD25_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF5": [
+      (
+        from_wire: "JUCFGRDD26_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF6": [
+      (
+        from_wire: "JUCFGRDD29_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JF7": [
+      (
+        from_wire: "JUCFGRDD30_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ0": [
+      (
+        from_wire: "JUCFGRDD16_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ1": [
+      (
+        from_wire: "JUCFGRDD19_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ2": [
+      (
+        from_wire: "JUCFGRDD20_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ3": [
+      (
+        from_wire: "JUCFGRDD23_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ4": [
+      (
+        from_wire: "JUCFGRDD24_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ5": [
+      (
+        from_wire: "JUCFGRDD27_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ6": [
+      (
+        from_wire: "JUCFGRDD28_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E12:JQ7": [
+      (
+        from_wire: "JUCFGRDD31_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF0": [
+      (
+        from_wire: "JUCFGRDE_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF1": [
+      (
+        from_wire: "JUCFGRDY_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF2": [
+      (
+        from_wire: "JCLKREQOE_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF3": [
+      (
+        from_wire: "JCLKREQO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF6": [
+      (
+        from_wire: "JVXRDY_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JF7": [
+      (
+        from_wire: "JMINTO_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ0": [
+      (
+        from_wire: "JTESTOUT0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ1": [
+      (
+        from_wire: "JTESTOUT1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ2": [
+      (
+        from_wire: "JTESTOUT2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ3": [
+      (
+        from_wire: "JTESTOUT3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ4": [
+      (
+        from_wire: "JTESTOUT4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ5": [
+      (
+        from_wire: "JTESTOUT5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ6": [
+      (
+        from_wire: "JTESTOUT6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E13:JQ7": [
+      (
+        from_wire: "JTESTOUT7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E14:JF0": [
+      (
+        from_wire: "JACJNOUT_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E14:JF1": [
+      (
+        from_wire: "JACJPOUT_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E14:JF2": [
+      (
+        from_wire: "JVRXSEL0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E14:JF3": [
+      (
+        from_wire: "JVRXSEL1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF0": [
+      (
+        from_wire: "JVRXD3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF1": [
+      (
+        from_wire: "JVRXD4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF2": [
+      (
+        from_wire: "JVRXD7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF3": [
+      (
+        from_wire: "JVRXD8_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF4": [
+      (
+        from_wire: "JVRXD11_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF5": [
+      (
+        from_wire: "JVRXD12_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JF6": [
+      (
+        from_wire: "JVRXD15_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ0": [
+      (
+        from_wire: "JVRXD2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ1": [
+      (
+        from_wire: "JVRXD5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ2": [
+      (
+        from_wire: "JVRXD6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ3": [
+      (
+        from_wire: "JVRXD9_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ4": [
+      (
+        from_wire: "JVRXD10_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ5": [
+      (
+        from_wire: "JVRXD13_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ6": [
+      (
+        from_wire: "JVRXD14_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E1:JQ7": [
+      (
+        from_wire: "JVRXD16_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF0": [
+      (
+        from_wire: "JVRXD18_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF1": [
+      (
+        from_wire: "JVRXD19_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF2": [
+      (
+        from_wire: "JVRXD22_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF3": [
+      (
+        from_wire: "JVRXD23_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF6": [
+      (
+        from_wire: "JVRXD27_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JF7": [
+      (
+        from_wire: "JVRXD28_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ0": [
+      (
+        from_wire: "JVRXD17_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ1": [
+      (
+        from_wire: "JVRXD20_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ2": [
+      (
+        from_wire: "JVRXD21_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ3": [
+      (
+        from_wire: "JVRXD24_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ4": [
+      (
+        from_wire: "JVRXD25_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ5": [
+      (
+        from_wire: "JVRXD26_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E2:JQ7": [
+      (
+        from_wire: "JVRXD29_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JF0": [
+      (
+        from_wire: "JVRXD31_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JF1": [
+      (
+        from_wire: "JVRXDP0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JF2": [
+      (
+        from_wire: "JVRXDP1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JF3": [
+      (
+        from_wire: "JVRXDP2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JF6": [
+      (
+        from_wire: "JVRXDP3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ0": [
+      (
+        from_wire: "JVRXD30_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ1": [
+      (
+        from_wire: "JVRXEOP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ2": [
+      (
+        from_wire: "JVRXERR_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ3": [
+      (
+        from_wire: "JVRXF0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ4": [
+      (
+        from_wire: "JVRXF1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ5": [
+      (
+        from_wire: "JVRXSOP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E3:JQ6": [
+      (
+        from_wire: "JVRXVD_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF0": [
+      (
+        from_wire: "JPMCTRL0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF1": [
+      (
+        from_wire: "JPMCTRL1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF2": [
+      (
+        from_wire: "JPMCTRL2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF3": [
+      (
+        from_wire: "JPMCTRL3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF4": [
+      (
+        from_wire: "JPMCTRL4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF5": [
+      (
+        from_wire: "JPMCTRLEN_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF6": [
+      (
+        from_wire: "JFLR0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JF7": [
+      (
+        from_wire: "JFLR1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JQ0": [
+      (
+        from_wire: "JFLR2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E4:JQ1": [
+      (
+        from_wire: "JFLR3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JF0": [
+      (
+        from_wire: "JPPBDSEL0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JF1": [
+      (
+        from_wire: "JPPBDSEL1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JF3": [
+      (
+        from_wire: "JPPBDSEL2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JF4": [
+      (
+        from_wire: "JPPBDSEL3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JF6": [
+      (
+        from_wire: "JPPBDSEL4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ0": [
+      (
+        from_wire: "JPPBDSEL5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ1": [
+      (
+        from_wire: "JPPBDSEL6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ2": [
+      (
+        from_wire: "JPPBDSEL7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ3": [
+      (
+        from_wire: "JUDLLKUP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ4": [
+      (
+        from_wire: "JUPLLKUP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E7:JQ5": [
+      (
+        from_wire: "JUTLLKUP_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF0": [
+      (
+        from_wire: "JLMMIRDATA1_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF1": [
+      (
+        from_wire: "JLMMIRDATA2_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF2": [
+      (
+        from_wire: "JLMMIRDATA5_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF3": [
+      (
+        from_wire: "JLMMIRDATA6_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF4": [
+      (
+        from_wire: "JLMMIRDATA9_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF5": [
+      (
+        from_wire: "JLMMIRDATA10_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF6": [
+      (
+        from_wire: "JLMMIRDATA13_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JF7": [
+      (
+        from_wire: "JLMMIRDATA14_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ0": [
+      (
+        from_wire: "JLMMIRDATA0_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ1": [
+      (
+        from_wire: "JLMMIRDATA3_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ2": [
+      (
+        from_wire: "JLMMIRDATA4_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ3": [
+      (
+        from_wire: "JLMMIRDATA7_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ4": [
+      (
+        from_wire: "JLMMIRDATA8_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ5": [
+      (
+        from_wire: "JLMMIRDATA11_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ6": [
+      (
+        from_wire: "JLMMIRDATA12_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E8:JQ7": [
+      (
+        from_wire: "JLMMIRDATA15_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF0": [
+      (
+        from_wire: "JLMMIRDATA17_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF1": [
+      (
+        from_wire: "JLMMIRDATA18_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF2": [
+      (
+        from_wire: "JLMMIRDATA21_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF3": [
+      (
+        from_wire: "JLMMIRDATA22_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF4": [
+      (
+        from_wire: "JLMMIRDATA25_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF5": [
+      (
+        from_wire: "JLMMIRDATA26_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF6": [
+      (
+        from_wire: "JLMMIRDATA29_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JF7": [
+      (
+        from_wire: "JLMMIRDATA30_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ0": [
+      (
+        from_wire: "JLMMIRDATA16_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ1": [
+      (
+        from_wire: "JLMMIRDATA19_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ2": [
+      (
+        from_wire: "JLMMIRDATA20_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ3": [
+      (
+        from_wire: "JLMMIRDATA23_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ4": [
+      (
+        from_wire: "JLMMIRDATA24_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ5": [
+      (
+        from_wire: "JLMMIRDATA27_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ6": [
+      (
+        from_wire: "JLMMIRDATA28_PCIE_CORE_PCIE0",
+      ),
+    ],
+    "S1E9:JQ7": [
+      (
+        from_wire: "JLMMIRDATA31_PCIE_CORE_PCIE0",
+      ),
+    ],
+  },
   always_on: [
     (
       frame: 25,
