@@ -18,46 +18,8 @@
         bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),],
       ),
     ],
-    "N1W8:JECLKOUT_I_DQS_TOP_ECLK_ROUTING_MUX": [
-      (
-        from_wire: "N1W8:JECLK0_I_DQS_TOP_ECLK_ROUTING_MUX",
-        bits: [],
-      ),
-      (
-        from_wire: "N1W8:JECLK1_I_DQS_TOP_ECLK_ROUTING_MUX",
-        bits: [(frame:42,bit:1,invert:false,),],
-      ),
-      (
-        from_wire: "N1W8:JECLK2_I_DQS_TOP_ECLK_ROUTING_MUX",
-        bits: [(frame:41,bit:1,invert:false,),],
-      ),
-      (
-        from_wire: "N1W8:JECLK3_I_DQS_TOP_ECLK_ROUTING_MUX",
-        bits: [(frame:41,bit:1,invert:false,),(frame:42,bit:1,invert:false,),],
-      ),
-    ],
   },
   words: {
-    "DQSBUF.RD_PNTR": (
-      bits: [
-        [],
-        [(frame:44,bit:1,invert:false,),],
-        [(frame:43,bit:1,invert:false,),],
-      ],
-    ),
-    "DQSBUF.S_READ": (
-      bits: [
-        [(frame:40,bit:1,invert:false,),],
-        [(frame:39,bit:1,invert:false,),],
-        [(frame:38,bit:1,invert:false,),],
-        [(frame:37,bit:1,invert:false,),],
-        [(frame:36,bit:1,invert:false,),],
-        [(frame:35,bit:1,invert:false,),],
-        [(frame:34,bit:1,invert:false,),],
-        [],
-        [],
-      ],
-    ),
     "IOLOGICA.DELAY.DEL_VALUE": (
       bits: [
         [(frame:43,bit:0,invert:false,),],
@@ -641,74 +603,44 @@
         from_wire: "JTXDATA0_IOLOGIC_CORE_I_GEARING_PIC_TOP_B",
       ),
     ],
-    "JDQSR90_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JDQSR90_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JDQSR90_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JDQSR90_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JDQSW270_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JDQSW270_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JDQSW270_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JDQSW270_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JDQSW_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JDQSW_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JDQSW_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JDQSW_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
     "JECLKIN0_I217": [
       (
-        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN0_I218": [
       (
-        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT0_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN1_I217": [
       (
-        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN1_I218": [
       (
-        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT1_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN2_I217": [
       (
-        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN2_I218": [
       (
-        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT2_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN3_I217": [
       (
-        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLKIN3_I218": [
       (
-        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX4",
+        from_wire: "G:JECLKOUT3_ECLKCASMUX_CORE_ECLKCASMUX5",
       ),
     ],
     "JECLK_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
@@ -861,36 +793,6 @@
     "JRANKSELECT_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
       (
         from_wire: "N1E1:JCIBMUXOUTA6",
-      ),
-    ],
-    "JRDPNTR0_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JRDPNTR0_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JRDPNTR0_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JRDPNTR0_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JRDPNTR1_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JRDPNTR1_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JRDPNTR1_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JRDPNTR1_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JRDPNTR2_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JRDPNTR2_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JRDPNTR2_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JRDPNTR2_DQSBUF_CORE_I_DQS_TOP",
       ),
     ],
     "JSCLKIN_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
@@ -1081,36 +983,6 @@
     "JWORDALIGN_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
       (
         from_wire: "N1E1:JCIBMUXOUTB1",
-      ),
-    ],
-    "JWRPNTR0_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JWRPNTR0_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JWRPNTR0_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JWRPNTR0_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JWRPNTR1_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JWRPNTR1_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JWRPNTR1_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JWRPNTR1_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JWRPNTR2_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
-      (
-        from_wire: "DQSG:JWRPNTR2_DQSBUF_CORE_I_DQS_TOP",
-      ),
-    ],
-    "JWRPNTR2_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
-      (
-        from_wire: "DQSG:JWRPNTR2_DQSBUF_CORE_I_DQS_TOP",
       ),
     ],
     "N1:JF0": [

@@ -40,6 +40,18 @@
         [(frame:35,bit:1,invert:false,),],
       ],
     ),
+    "IOLOGICB.DELAY.DEL_VALUE": (
+      bits: [
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:48,bit:0,invert:false,),],
+        [(frame:49,bit:0,invert:false,),],
+        [(frame:50,bit:0,invert:false,),],
+      ],
+      desc: "initial fine delay value",
+    ),
   },
   enums: {
     "IOLOGICB.CEINMUX": (
@@ -54,6 +66,25 @@
         "1": [(frame:8,bit:0,invert:false,),],
         "CEOUT": [(frame:5,bit:0,invert:false,),],
         "INV": [],
+      },
+    ),
+    "IOLOGICB.DELAY.COARSE_DELAY": (
+      options: {
+        "0NS": [],
+        "0P8NS": [(frame:53,bit:0,invert:false,),],
+        "1P6NS": [(frame:54,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DELAY.EDGE_MONITOR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:17,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DELAY.WAIT_FOR_EDGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:43,bit:0,invert:false,),],
       },
     ),
     "IOLOGICB.DELAYMUX": (
@@ -72,6 +103,12 @@
       options: {
         "DISABLED": [(frame:34,bit:0,invert:false,),],
         "ENABLED": [],
+      },
+    ),
+    "IOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:0,invert:false,),],
       },
     ),
     "IOLOGICB.IDDRXN.DDRMODE": (
@@ -93,6 +130,12 @@
       options: {
         "RESET": [],
         "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:1,invert:false,),],
       },
     ),
     "IOLOGICB.LOAD_NMUX": (
@@ -175,6 +218,30 @@
       options: {
         "RESET": [],
         "SET": [(frame:65,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANK0UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK0UPDATE": [(frame:56,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANK1UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK1UPDATE": [(frame:59,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANKENABLEMUX": (
+      options: {
+        "OFF": [],
+        "RANKENABLE": [(frame:57,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANKSELECTMUX": (
+      options: {
+        "OFF": [],
+        "RANKSELECT": [(frame:58,bit:0,invert:false,),],
       },
     ),
     "IOLOGICB.SCLKINMUX": (

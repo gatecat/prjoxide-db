@@ -129,6 +129,18 @@
         [(frame:59,bit:1,invert:false,),],
       ],
     ),
+    "IOLOGICA.DELAY.DEL_VALUE": (
+      bits: [
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:48,bit:0,invert:false,),],
+        [(frame:49,bit:0,invert:false,),],
+      ],
+      desc: "initial fine delay value",
+    ),
   },
   enums: {
     "BANK3.VREF1_USED": (
@@ -171,6 +183,25 @@
         "INV": [],
       },
     ),
+    "IOLOGICA.DELAY.COARSE_DELAY": (
+      options: {
+        "0NS": [],
+        "0P8NS": [(frame:52,bit:0,invert:false,),],
+        "1P6NS": [(frame:53,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.DELAY.EDGE_MONITOR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:17,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.DELAY.WAIT_FOR_EDGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:42,bit:0,invert:false,),],
+      },
+    ),
     "IOLOGICA.DELAYMUX": (
       options: {
         "IN": [],
@@ -187,6 +218,12 @@
       options: {
         "DISABLED": [(frame:33,bit:0,invert:false,),],
         "ENABLED": [],
+      },
+    ),
+    "IOLOGICA.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:22,bit:0,invert:false,),],
       },
     ),
     "IOLOGICA.IDDRXN.DDRMODE": (
@@ -208,6 +245,12 @@
       options: {
         "RESET": [],
         "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:23,bit:0,invert:false,),],
       },
     ),
     "IOLOGICA.LOAD_NMUX": (
@@ -290,6 +333,30 @@
       options: {
         "RESET": [],
         "SET": [(frame:64,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.RANK0UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK0UPDATE": [(frame:55,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.RANK1UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK1UPDATE": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.RANKENABLEMUX": (
+      options: {
+        "OFF": [],
+        "RANKENABLE": [(frame:56,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.RANKSELECTMUX": (
+      options: {
+        "OFF": [],
+        "RANKSELECT": [(frame:57,bit:0,invert:false,),],
       },
     ),
     "IOLOGICA.SCLKINMUX": (

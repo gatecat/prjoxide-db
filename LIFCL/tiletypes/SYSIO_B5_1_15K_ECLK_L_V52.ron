@@ -1,6 +1,38 @@
 (
-  pips: {},
-  words: {},
+  pips: {
+    "W1:JECLKOUT_I218": [
+      (
+        from_wire: "W1:JECLKIN0_I218",
+        bits: [],
+      ),
+      (
+        from_wire: "W1:JECLKIN1_I218",
+        bits: [(frame:20,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLKIN2_I218",
+        bits: [(frame:20,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLKIN3_I218",
+        bits: [(frame:20,bit:0,invert:false,),(frame:20,bit:1,invert:false,),],
+      ),
+    ],
+  },
+  words: {
+    "IOLOGICB.DELAY.DEL_VALUE": (
+      bits: [
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:48,bit:0,invert:false,),],
+        [(frame:49,bit:0,invert:false,),],
+        [(frame:50,bit:0,invert:false,),],
+      ],
+      desc: "initial fine delay value",
+    ),
+  },
   enums: {
     "BANK5.VREF2_USED": (
       options: {
@@ -8,6 +40,471 @@
         "ON": [(frame:94,bit:1,invert:false,),],
       },
       desc: "use VREF2 input for bank 5",
+    ),
+    "IOLOGICB.CEINMUX": (
+      options: {
+        "1": [(frame:7,bit:0,invert:false,),],
+        "CEIN": [(frame:6,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICB.CEOUTMUX": (
+      options: {
+        "1": [(frame:8,bit:0,invert:false,),],
+        "CEOUT": [(frame:5,bit:0,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "IOLOGICB.DELAY.COARSE_DELAY": (
+      options: {
+        "0NS": [],
+        "0P8NS": [(frame:53,bit:0,invert:false,),],
+        "1P6NS": [(frame:54,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DELAY.EDGE_MONITOR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:17,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DELAY.WAIT_FOR_EDGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:43,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DELAYMUX": (
+      options: {
+        "IN": [],
+        "OUT_REG": [(frame:36,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.DIRMUX": (
+      options: {
+        "0": [],
+        "DIR": [(frame:55,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.GSR": (
+      options: {
+        "DISABLED": [(frame:34,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "IOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.IDDRXN.DDRMODE": (
+      options: {
+        "IDDR71": [(frame:68,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+        "IDDRX2": [(frame:68,bit:0,invert:false,),],
+        "IDDRX4": [(frame:67,bit:0,invert:false,),],
+        "IDDRX5": [(frame:67,bit:0,invert:false,),(frame:69,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:31,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:15,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:21,bit:1,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LOAD_NMUX": (
+      options: {
+        "1": [],
+        "LOAD_N": [(frame:51,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:10,bit:0,invert:false,),],
+        "LSRIN": [(frame:9,bit:0,invert:false,),(frame:10,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:11,bit:0,invert:false,),],
+        "LSROUT": [(frame:11,bit:0,invert:false,),(frame:12,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.MIDDRXN.DDRMODE": (
+      options: {
+        "MIDDRX2": [(frame:66,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
+        "MIDDRX4": [(frame:66,bit:0,invert:false,),(frame:67,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.MODDRXN.DDRMODE": (
+      options: {
+        "MODDRX2_DQSW": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:39,bit:0,invert:false,),(frame:42,bit:0,invert:false,),],
+        "MODDRX2_DQSW270": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:42,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MODDRX4_DQSW": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:39,bit:0,invert:false,),(frame:42,bit:0,invert:false,),],
+        "MODDRX4_DQSW270": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MOSHX2": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:22,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "MOSHX4": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:22,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:69,bit:0,invert:false,),],
+        "IDDRXN": [],
+        "IREG_OREG": [],
+        "MIDDRXN_MODDRXN": [(frame:13,bit:0,invert:false,),],
+        "NONE": [],
+        "ODDRXN": [],
+      },
+    ),
+    "IOLOGICB.MOVEMUX": (
+      options: {
+        "0": [],
+        "MOVE": [(frame:62,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.MTDDRXN.DDRMODE": (
+      options: {
+        "MTSHX2": [(frame:19,bit:0,invert:false,),],
+        "MTSHX4": [(frame:19,bit:0,invert:false,),],
+        "NONE": [],
+      },
+    ),
+    "IOLOGICB.ODDRXN.DDRMODE": (
+      options: {
+        "NONE": [],
+        "ODDR71": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX2": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX4": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+        "ODDRX5": [(frame:21,bit:0,invert:false,),(frame:21,bit:1,invert:false,),(frame:23,bit:0,invert:false,),(frame:24,bit:0,invert:false,),(frame:64,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:32,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:65,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANK0UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK0UPDATE": [(frame:56,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANK1UPDATEMUX": (
+      options: {
+        "OFF": [],
+        "RANK1UPDATE": [(frame:59,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANKENABLEMUX": (
+      options: {
+        "OFF": [],
+        "RANKENABLE": [(frame:57,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.RANKSELECTMUX": (
+      options: {
+        "OFF": [],
+        "RANKSELECT": [(frame:58,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),],
+        "SCLKIN": [(frame:26,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+        "SCLKOUT": [(frame:37,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:33,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICB.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:40,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.DIFFIO18.BASE_TYPE": (
+      options: {
+        "BIDIR_HSTL15D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_HSUL12D": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_LVDS": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "BIDIR_MIPI_DPHY": [(frame:0,bit:1,invert:false,),(frame:16,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "BIDIR_SLVS": [(frame:0,bit:1,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "BIDIR_SSTL135D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL135D_II": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL15D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL15D_II": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "INPUT_HSTL15D_I": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_HSUL12D": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_LVDS": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_MIPI_DPHY": [(frame:0,bit:1,invert:false,),(frame:16,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:87,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SLVS": [(frame:0,bit:1,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SSTL135D_I": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SSTL135D_II": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SSTL15D_I": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SSTL15D_II": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "INPUT_SUBLVDS": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "NONE": [],
+        "OUTPUT_HSTL15D_I": [(frame:25,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_HSUL12D": [(frame:25,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVDS": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "OUTPUT_MIPI_DPHY": [(frame:16,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "OUTPUT_SLVS": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),],
+        "OUTPUT_SSTL135D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL135D_II": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL15D_I": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL15D_II": [(frame:25,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SUBLVDSEH": [(frame:25,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.DIFFIO18.DIFFDRIVE_MIPI_DPHY": (
+      options: {
+        "2P0": [(frame:76,bit:0,invert:false,),(frame:87,bit:0,invert:false,),],
+        "NA": [],
+      },
+    ),
+    "PIOA.DIFFIO18.PULLMODE": (
+      options: {
+        "FAILSAFE": [(frame:83,bit:0,invert:true,),],
+        "NONE": [(frame:83,bit:0,invert:false,),],
+      },
+    ),
+    "PIOA.SEIO18.BASE_TYPE": (
+      options: {
+        "BIDIR_HSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_HSUL12": [],
+        "BIDIR_LVCMOS10H": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_LVCMOS12H": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15H": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18H": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_SSTL135_I": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_SSTL135_II": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_SSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "BIDIR_SSTL15_II": [(frame:89,bit:0,invert:false,),],
+        "INPUT_HSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "INPUT_HSUL12": [],
+        "INPUT_LVCMOS10H": [(frame:89,bit:0,invert:false,),],
+        "INPUT_LVCMOS10R": [(frame:89,bit:0,invert:false,),],
+        "INPUT_LVCMOS12H": [(frame:89,bit:0,invert:false,),],
+        "INPUT_LVCMOS15H": [(frame:89,bit:0,invert:false,),],
+        "INPUT_LVCMOS18H": [(frame:89,bit:0,invert:false,),],
+        "INPUT_SSTL135_I": [(frame:89,bit:0,invert:false,),],
+        "INPUT_SSTL135_II": [(frame:89,bit:0,invert:false,),],
+        "INPUT_SSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "INPUT_SSTL15_II": [(frame:89,bit:0,invert:false,),],
+        "NONE": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_HSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_HSUL12": [],
+        "OUTPUT_LVCMOS10H": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS12H": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15H": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18H": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_SSTL135_I": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_SSTL135_II": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_SSTL15_I": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_SSTL15_II": [(frame:89,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.BASE_TYPE": (
+      options: {
+        "BIDIR_HSTL15_I": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_HSUL12": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_LVCMOS10H": [(frame:12,bit:1,invert:false,),(frame:85,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_LVCMOS12H": [(frame:85,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_LVCMOS15H": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_LVCMOS18H": [(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL135_I": [(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL135_II": [(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL15_I": [(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "BIDIR_SSTL15_II": [(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "INPUT_HSTL15_I": [(frame:103,bit:0,invert:false,),],
+        "INPUT_HSUL12": [(frame:103,bit:0,invert:false,),],
+        "INPUT_LVCMOS10H": [(frame:12,bit:1,invert:false,),(frame:85,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:103,bit:0,invert:false,),],
+        "INPUT_LVCMOS10R": [(frame:103,bit:0,invert:false,),],
+        "INPUT_LVCMOS12H": [(frame:85,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:103,bit:0,invert:false,),],
+        "INPUT_LVCMOS15H": [(frame:103,bit:0,invert:false,),],
+        "INPUT_LVCMOS18H": [(frame:103,bit:0,invert:false,),],
+        "INPUT_SSTL135_I": [(frame:103,bit:0,invert:false,),],
+        "INPUT_SSTL135_II": [(frame:103,bit:0,invert:false,),],
+        "INPUT_SSTL15_I": [(frame:103,bit:0,invert:false,),],
+        "INPUT_SSTL15_II": [(frame:103,bit:0,invert:false,),],
+        "NONE": [(frame:89,bit:0,invert:false,),],
+        "OUTPUT_HSTL15_I": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_HSUL12": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS10H": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS12H": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS15H": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_LVCMOS18H": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL135_I": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL135_II": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL15_I": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+        "OUTPUT_SSTL15_II": [(frame:83,bit:0,invert:false,),(frame:86,bit:0,invert:false,),(frame:102,bit:0,invert:false,),(frame:103,bit:0,invert:false,),(frame:104,bit:0,invert:false,),(frame:105,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.DFTDO2DI": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:79,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.DRIVE_1V0": (
+      options: {
+        "2": [(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:true,),(frame:93,bit:0,invert:false,),],
+        "4": [(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.DRIVE_1V2": (
+      options: {
+        "2": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:true,),(frame:93,bit:0,invert:false,),],
+        "4": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+        "8": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.DRIVE_1V5": (
+      options: {
+        "2": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:true,),(frame:93,bit:0,invert:false,),],
+        "4": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+        "8": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.DRIVE_1V8": (
+      options: {
+        "12": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:false,),],
+        "2": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:false,),(frame:92,bit:0,invert:true,),(frame:93,bit:0,invert:false,),],
+        "4": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+        "50RS": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+        "8": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:true,),(frame:92,bit:0,invert:false,),(frame:93,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.DRIVE_HSUL12": (
+      options: {
+        "4": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:true,),(frame:93,bit:0,invert:true,),],
+        "6": [(frame:89,bit:0,invert:true,),(frame:90,bit:0,invert:false,),(frame:91,bit:0,invert:false,),(frame:93,bit:0,invert:false,),],
+        "8": [(frame:89,bit:0,invert:false,),(frame:90,bit:0,invert:true,),(frame:91,bit:0,invert:true,),(frame:93,bit:0,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.ENADC_IN": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:77,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.LOOPBKCD2AB": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:75,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.OPENDRAIN": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:88,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.PULLMODE": (
+      options: {
+        "DOWN": [(frame:83,bit:0,invert:true,),(frame:84,bit:0,invert:true,),],
+        "KEEPER": [(frame:83,bit:0,invert:true,),(frame:84,bit:0,invert:false,),],
+        "NONE": [(frame:83,bit:0,invert:false,),(frame:84,bit:0,invert:true,),],
+        "UP": [(frame:83,bit:0,invert:false,),(frame:84,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.SLEEPHIGHLEAKAGE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:1,bit:1,invert:false,),],
+      },
+    ),
+    "PIOB.SEIO18.SLEWRATE": (
+      options: {
+        "FAST": [(frame:5,bit:1,invert:false,),(frame:6,bit:1,invert:false,),(frame:7,bit:1,invert:false,),],
+        "MED": [(frame:5,bit:1,invert:true,),(frame:6,bit:1,invert:true,),(frame:7,bit:1,invert:false,),],
+        "SLOW": [(frame:5,bit:1,invert:true,),(frame:6,bit:1,invert:true,),(frame:7,bit:1,invert:true,),],
+      },
+    ),
+    "PIOB.SEIO18.TERMINATION_1V2": (
+      options: {
+        "40": [(frame:94,bit:0,invert:false,),],
+        "50": [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),],
+        "60": [(frame:98,bit:0,invert:false,),],
+        "75": [(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.SEIO18.TERMINATION_1V35": (
+      options: {
+        "40": [(frame:94,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "50": [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "60": [(frame:98,bit:0,invert:false,),],
+        "75": [(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.SEIO18.TERMINATION_1V5": (
+      options: {
+        "40": [(frame:94,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "50": [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "60": [(frame:98,bit:0,invert:false,),],
+        "75": [(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.SEIO18.TERMINATION_1V8": (
+      options: {
+        "150": [(frame:99,bit:0,invert:false,),],
+        "40": [(frame:94,bit:0,invert:false,),(frame:99,bit:0,invert:false,),],
+        "50": [(frame:98,bit:0,invert:false,),(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "60": [(frame:98,bit:0,invert:false,),(frame:100,bit:0,invert:false,),],
+        "75": [(frame:99,bit:0,invert:false,),(frame:100,bit:0,invert:false,),(frame:101,bit:0,invert:false,),],
+        "OFF": [],
+      },
+    ),
+    "PIOB.SEIO18.VREF": (
+      options: {
+        "OFF": [],
+        "VREF1_LOAD": [(frame:81,bit:0,invert:false,),(frame:82,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
+        "VREF2_LOAD": [(frame:80,bit:0,invert:false,),(frame:82,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
+      },
+    ),
+    "PIOB.TMUX": (
+      options: {
+        "INV": [(frame:102,bit:0,invert:false,),],
+        "T": [],
+      },
     ),
   },
   conns: {},
