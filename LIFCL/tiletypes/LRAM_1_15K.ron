@@ -1,7 +1,140 @@
 (
   pips: {},
   words: {},
-  enums: {},
+  enums: {
+    "LRAM1.ASYNC_RST_RELEASE": (
+      options: {
+        "ASYNC": [(frame:10,bit:0,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "LRAM reset release configuration",
+    ),
+    "LRAM1.CLKMUX": (
+      options: {
+        "CLK": [],
+        "INV": [(frame:0,bit:0,invert:false,),],
+      },
+      desc: "LRAM CLK inversion control",
+    ),
+    "LRAM1.CSAMUX": (
+      options: {
+        "CSA": [],
+        "INV": [(frame:1,bit:0,invert:false,),],
+      },
+      desc: "LRAM CSA inversion control",
+    ),
+    "LRAM1.CSBMUX": (
+      options: {
+        "CSB": [],
+        "INV": [(frame:2,bit:0,invert:false,),],
+      },
+      desc: "LRAM CSB inversion control",
+    ),
+    "LRAM1.DATA_PRESERVE": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:7,bit:0,invert:false,),],
+      },
+      desc: "LRAM data preservation across resets",
+    ),
+    "LRAM1.EBR_SP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:10,bit:1,invert:false,),],
+      },
+      desc: "EBR single port mode",
+    ),
+    "LRAM1.ECC_BYTE_SEL": (
+      options: {
+        "BYTE_EN": [(frame:3,bit:0,invert:false,),],
+        "ECC_EN": [],
+      },
+    ),
+    "LRAM1.GSR": (
+      options: {
+        "DISABLED": [(frame:4,bit:0,invert:false,),],
+        "ENABLED": [],
+      },
+      desc: "LRAM global set/reset mask",
+    ),
+    "LRAM1.MODE": (
+      options: {
+        "LRAM_CORE": [(frame:12,bit:0,invert:false,),],
+        "NONE": [],
+      },
+      desc: "LRAM1 primitive mode",
+    ),
+    "LRAM1.OUT_REGMODE_A": (
+      options: {
+        "NO_REG": [],
+        "OUT_REG": [(frame:5,bit:0,invert:false,),],
+      },
+      desc: "LRAM output pipeline register A enable",
+    ),
+    "LRAM1.OUT_REGMODE_B": (
+      options: {
+        "NO_REG": [],
+        "OUT_REG": [(frame:6,bit:0,invert:false,),],
+      },
+      desc: "LRAM output pipeline register B enable",
+    ),
+    "LRAM1.RESETMODE": (
+      options: {
+        "ASYNC": [(frame:13,bit:1,invert:false,),],
+        "SYNC": [],
+      },
+      desc: "LRAM sync/async reset select",
+    ),
+    "LRAM1.RSTAMUX": (
+      options: {
+        "INV": [(frame:8,bit:0,invert:false,),],
+        "RSTA": [],
+      },
+      desc: "LRAM RSTA inversion control",
+    ),
+    "LRAM1.RSTBMUX": (
+      options: {
+        "INV": [(frame:9,bit:0,invert:false,),],
+        "RSTB": [],
+      },
+      desc: "LRAM RSTB inversion control",
+    ),
+    "LRAM1.RST_AB_EN": (
+      options: {
+        "RESET_AB_DISABLE": [],
+        "RESET_AB_ENABLE": [(frame:15,bit:0,invert:false,),],
+      },
+      desc: "LRAM reset A/B enable",
+    ),
+    "LRAM1.SP_EN": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:12,bit:1,invert:false,),],
+      },
+      desc: "LRAM single port mode",
+    ),
+    "LRAM1.UNALIGNED_READ": (
+      options: {
+        "DISABLE": [],
+        "ENABLE": [(frame:11,bit:0,invert:false,),],
+      },
+      desc: "LRAM unaligned read support",
+    ),
+    "LRAM1.WEAMUX": (
+      options: {
+        "INV": [(frame:13,bit:0,invert:false,),],
+        "WEA": [],
+      },
+      desc: "LRAM WEA inversion control",
+    ),
+    "LRAM1.WEBMUX": (
+      options: {
+        "INV": [(frame:14,bit:0,invert:false,),],
+        "WEB": [],
+      },
+      desc: "LRAM WEB inversion control",
+    ),
+  },
   conns: {
     "S2W1:JF0": [
       (
