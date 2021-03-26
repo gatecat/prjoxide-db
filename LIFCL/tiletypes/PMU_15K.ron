@@ -2,6 +2,48 @@
   pips: {},
   words: {},
   enums: {
+    "CONFIG_CLKRST_CORE.MODE": (
+      options: {
+        "CONFIG_CLKRST_CORE": [(frame:7,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_CLKRST_CORE primitive mode",
+    ),
+    "CONFIG_CRE_CORE.MODE": (
+      options: {
+        "CONFIG_CRE_CORE": [(frame:5,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_CRE_CORE primitive mode",
+    ),
+    "CONFIG_IP_CORE.MODE": (
+      options: {
+        "CONFIG_IP_CORE": [(frame:7,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_IP_CORE primitive mode",
+    ),
+    "CONFIG_LMMI_CORE.MODE": (
+      options: {
+        "CONFIG_LMMI_CORE": [(frame:7,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_LMMI_CORE primitive mode",
+    ),
+    "CONFIG_MULTIBOOT_CORE.MODE": (
+      options: {
+        "CONFIG_MULTIBOOT_CORE": [(frame:7,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_MULTIBOOT_CORE primitive mode",
+    ),
+    "CONFIG_WDT_CORE.MODE": (
+      options: {
+        "CONFIG_WDT_CORE": [(frame:7,bit:1,invert:false,),],
+        "NONE": [],
+      },
+      desc: "CONFIG_WDT_CORE primitive mode",
+    ),
     "SYSCONFIG.MASTER_SPI_PORT": (
       options: {
         "DISABLE": [],
