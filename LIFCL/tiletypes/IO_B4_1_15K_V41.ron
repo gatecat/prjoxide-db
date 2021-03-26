@@ -11,4 +11,11 @@
     ),
   },
   conns: {},
+  always_on: [
+    (
+      frame: 89,
+      bit: 0,
+      invert: false,
+    ),
+  ],
 )
