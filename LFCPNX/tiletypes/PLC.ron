@@ -1,0 +1,403 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "SLICEA.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:27,bit:10,invert:false,),],
+      },
+      desc: "selects clock enable polarity",
+    ),
+    "SLICEA.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:25,bit:10,invert:false,),],
+        "DDR": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
+        "INV": [(frame:26,bit:10,invert:false,),],
+      },
+      desc: "selects clock polarity",
+    ),
+    "SLICEA.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:26,bit:11,invert:false,),],
+      },
+      desc: "if `ENABLED`, then FFs in SLICE A/B are set/reset by user GSR signal",
+    ),
+    "SLICEA.LSRMUX": (
+      options: {
+        "0": [(frame:24,bit:10,invert:false,),],
+        "INV": [(frame:24,bit:10,invert:false,),],
+        "LSR": [],
+      },
+      desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEA.REG0.LSRMODE": (
+      options: {
+        "LSR": [(frame:20,bit:10,invert:true,),],
+        "PRLD": [(frame:20,bit:10,invert:false,),],
+      },
+    ),
+    "SLICEA.REG0.REGSET": (
+      options: {
+        "RESET": [(frame:21,bit:10,invert:false,),],
+        "SET": [(frame:21,bit:10,invert:true,),],
+      },
+      desc: "SLICE A register 0 set/reset and init value",
+    ),
+    "SLICEA.REG0.SEL": (
+      options: {
+        "DF": [(frame:19,bit:10,invert:false,),],
+        "DL": [(frame:19,bit:10,invert:true,),],
+      },
+      desc: "SLICE A register 0 data selection. `DL`=LUT output, `DF`=bypass (M0)",
+    ),
+    "SLICEA.REG0.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:18,bit:10,invert:false,),],
+      },
+      desc: "`YES` if SLICE A register 0 (Q0) is used",
+    ),
+    "SLICEA.REG1.LSRMODE": (
+      options: {
+        "LSR": [(frame:20,bit:11,invert:true,),],
+        "PRLD": [(frame:20,bit:11,invert:false,),],
+      },
+    ),
+    "SLICEA.REG1.REGSET": (
+      options: {
+        "RESET": [(frame:21,bit:11,invert:false,),],
+        "SET": [(frame:21,bit:11,invert:true,),],
+      },
+      desc: "SLICE A register 1 set/reset and init value",
+    ),
+    "SLICEA.REG1.SEL": (
+      options: {
+        "DF": [(frame:19,bit:11,invert:false,),],
+        "DL": [(frame:19,bit:11,invert:true,),],
+      },
+      desc: "SLICE A register 1 data selection. `DL`=LUT output, `DF`=bypass (M1)",
+    ),
+    "SLICEA.REG1.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:18,bit:11,invert:false,),],
+      },
+      desc: "`YES` if SLICE A register 1 (Q1) is used",
+    ),
+    "SLICEA.REGDDR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
+      },
+      desc: "if ENABLED then FFs in SLICE A/B are clocked by both edges of the clock",
+    ),
+    "SLICEA.SRMODE": (
+      options: {
+        "ASYNC": [(frame:25,bit:11,invert:false,),],
+        "LSR_OVER_CE": [],
+      },
+      desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE A/B",
+    ),
+    "SLICEB.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:27,bit:10,invert:false,),],
+      },
+      desc: "selects clock enable polarity",
+    ),
+    "SLICEB.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:25,bit:10,invert:false,),],
+        "DDR": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
+        "INV": [(frame:26,bit:10,invert:false,),],
+      },
+      desc: "selects clock polarity",
+    ),
+    "SLICEB.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:26,bit:11,invert:false,),],
+      },
+      desc: "if `ENABLED`, then FFs in SLICE A/B are set/reset by user GSR signal",
+    ),
+    "SLICEB.LSRMUX": (
+      options: {
+        "0": [(frame:24,bit:10,invert:false,),],
+        "INV": [(frame:24,bit:10,invert:false,),],
+        "LSR": [],
+      },
+      desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEB.REG0.LSRMODE": (
+      options: {
+        "LSR": [(frame:31,bit:10,invert:true,),],
+        "PRLD": [(frame:31,bit:10,invert:false,),],
+      },
+    ),
+    "SLICEB.REG0.REGSET": (
+      options: {
+        "RESET": [(frame:30,bit:10,invert:false,),],
+        "SET": [(frame:30,bit:10,invert:true,),],
+      },
+      desc: "SLICE B register 0 set/reset and init value",
+    ),
+    "SLICEB.REG0.SEL": (
+      options: {
+        "DF": [(frame:32,bit:10,invert:false,),],
+        "DL": [(frame:32,bit:10,invert:true,),],
+      },
+      desc: "SLICE B register 0 data selection. `DL`=LUT output, `DF`=bypass (M0)",
+    ),
+    "SLICEB.REG0.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:33,bit:10,invert:false,),],
+      },
+      desc: "`YES` if SLICE B register 0 (Q0) is used",
+    ),
+    "SLICEB.REG1.LSRMODE": (
+      options: {
+        "LSR": [(frame:31,bit:11,invert:true,),],
+        "PRLD": [(frame:31,bit:11,invert:false,),],
+      },
+    ),
+    "SLICEB.REG1.REGSET": (
+      options: {
+        "RESET": [(frame:30,bit:11,invert:false,),],
+        "SET": [(frame:30,bit:11,invert:true,),],
+      },
+      desc: "SLICE B register 1 set/reset and init value",
+    ),
+    "SLICEB.REG1.SEL": (
+      options: {
+        "DF": [(frame:32,bit:11,invert:false,),],
+        "DL": [(frame:32,bit:11,invert:true,),],
+      },
+      desc: "SLICE B register 1 data selection. `DL`=LUT output, `DF`=bypass (M1)",
+    ),
+    "SLICEB.REG1.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:33,bit:11,invert:false,),],
+      },
+      desc: "`YES` if SLICE B register 1 (Q1) is used",
+    ),
+    "SLICEB.REGDDR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:25,bit:10,invert:false,),(frame:26,bit:10,invert:false,),],
+      },
+      desc: "if ENABLED then FFs in SLICE A/B are clocked by both edges of the clock",
+    ),
+    "SLICEB.SRMODE": (
+      options: {
+        "ASYNC": [(frame:25,bit:11,invert:false,),],
+        "LSR_OVER_CE": [],
+      },
+      desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE A/B",
+    ),
+    "SLICEC.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:81,bit:10,invert:false,),],
+      },
+      desc: "selects clock enable polarity",
+    ),
+    "SLICEC.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:80,bit:10,invert:false,),],
+        "DDR": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
+        "INV": [(frame:79,bit:10,invert:false,),],
+      },
+      desc: "selects clock polarity",
+    ),
+    "SLICEC.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:79,bit:11,invert:false,),],
+      },
+      desc: "if `ENABLED`, then FFs in SLICE C/D are set/reset by user GSR signal",
+    ),
+    "SLICEC.LSRMUX": (
+      options: {
+        "0": [(frame:78,bit:10,invert:false,),],
+        "INV": [(frame:78,bit:10,invert:false,),],
+        "LSR": [],
+      },
+      desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEC.REG0.LSRMODE": (
+      options: {
+        "LSR": [(frame:74,bit:10,invert:true,),],
+        "PRLD": [(frame:74,bit:10,invert:false,),],
+      },
+    ),
+    "SLICEC.REG0.REGSET": (
+      options: {
+        "RESET": [(frame:75,bit:10,invert:false,),],
+        "SET": [(frame:75,bit:10,invert:true,),],
+      },
+      desc: "SLICE C register 0 set/reset and init value",
+    ),
+    "SLICEC.REG0.SEL": (
+      options: {
+        "DF": [(frame:73,bit:10,invert:false,),],
+        "DL": [(frame:73,bit:10,invert:true,),],
+      },
+      desc: "SLICE C register 0 data selection. `DL`=LUT output, `DF`=bypass (M0)",
+    ),
+    "SLICEC.REG0.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:72,bit:10,invert:false,),],
+      },
+      desc: "`YES` if SLICE C register 0 (Q0) is used",
+    ),
+    "SLICEC.REG1.LSRMODE": (
+      options: {
+        "LSR": [(frame:74,bit:11,invert:true,),],
+        "PRLD": [(frame:74,bit:11,invert:false,),],
+      },
+    ),
+    "SLICEC.REG1.REGSET": (
+      options: {
+        "RESET": [(frame:75,bit:11,invert:false,),],
+        "SET": [(frame:75,bit:11,invert:true,),],
+      },
+      desc: "SLICE C register 1 set/reset and init value",
+    ),
+    "SLICEC.REG1.SEL": (
+      options: {
+        "DF": [(frame:73,bit:11,invert:false,),],
+        "DL": [(frame:73,bit:11,invert:true,),],
+      },
+      desc: "SLICE C register 1 data selection. `DL`=LUT output, `DF`=bypass (M1)",
+    ),
+    "SLICEC.REG1.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:72,bit:11,invert:false,),],
+      },
+      desc: "`YES` if SLICE C register 1 (Q1) is used",
+    ),
+    "SLICEC.REGDDR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
+      },
+      desc: "if ENABLED then FFs in SLICE C/D are clocked by both edges of the clock",
+    ),
+    "SLICEC.SRMODE": (
+      options: {
+        "ASYNC": [(frame:80,bit:11,invert:false,),],
+        "LSR_OVER_CE": [],
+      },
+      desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE C/D",
+    ),
+    "SLICED.CEMUX": (
+      options: {
+        "CE": [],
+        "INV": [(frame:81,bit:10,invert:false,),],
+      },
+      desc: "selects clock enable polarity",
+    ),
+    "SLICED.CLKMUX": (
+      options: {
+        "0": [],
+        "CLK": [(frame:80,bit:10,invert:false,),],
+        "DDR": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
+        "INV": [(frame:79,bit:10,invert:false,),],
+      },
+      desc: "selects clock polarity",
+    ),
+    "SLICED.GSR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:79,bit:11,invert:false,),],
+      },
+      desc: "if `ENABLED`, then FFs in SLICE C/D are set/reset by user GSR signal",
+    ),
+    "SLICED.LSRMUX": (
+      options: {
+        "0": [(frame:78,bit:10,invert:false,),],
+        "INV": [(frame:78,bit:10,invert:false,),],
+        "LSR": [],
+      },
+      desc: "selects set/reset gating and inversion",
+    ),
+    "SLICED.REG0.LSRMODE": (
+      options: {
+        "LSR": [(frame:85,bit:10,invert:true,),],
+        "PRLD": [(frame:85,bit:10,invert:false,),],
+      },
+    ),
+    "SLICED.REG0.REGSET": (
+      options: {
+        "RESET": [(frame:84,bit:10,invert:false,),],
+        "SET": [(frame:84,bit:10,invert:true,),],
+      },
+      desc: "SLICE D register 0 set/reset and init value",
+    ),
+    "SLICED.REG0.SEL": (
+      options: {
+        "DF": [(frame:86,bit:10,invert:false,),],
+        "DL": [(frame:86,bit:10,invert:true,),],
+      },
+      desc: "SLICE D register 0 data selection. `DL`=LUT output, `DF`=bypass (M0)",
+    ),
+    "SLICED.REG0.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:87,bit:10,invert:false,),],
+      },
+      desc: "`YES` if SLICE D register 0 (Q0) is used",
+    ),
+    "SLICED.REG1.LSRMODE": (
+      options: {
+        "LSR": [(frame:85,bit:11,invert:true,),],
+        "PRLD": [(frame:85,bit:11,invert:false,),],
+      },
+    ),
+    "SLICED.REG1.REGSET": (
+      options: {
+        "RESET": [(frame:84,bit:11,invert:false,),],
+        "SET": [(frame:84,bit:11,invert:true,),],
+      },
+      desc: "SLICE D register 1 set/reset and init value",
+    ),
+    "SLICED.REG1.SEL": (
+      options: {
+        "DF": [(frame:86,bit:11,invert:false,),],
+        "DL": [(frame:86,bit:11,invert:true,),],
+      },
+      desc: "SLICE D register 1 data selection. `DL`=LUT output, `DF`=bypass (M1)",
+    ),
+    "SLICED.REG1.USED": (
+      options: {
+        "NO": [],
+        "YES": [(frame:87,bit:11,invert:false,),],
+      },
+      desc: "`YES` if SLICE D register 1 (Q1) is used",
+    ),
+    "SLICED.REGDDR": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:79,bit:10,invert:false,),(frame:80,bit:10,invert:false,),],
+      },
+      desc: "if ENABLED then FFs in SLICE C/D are clocked by both edges of the clock",
+    ),
+    "SLICED.SRMODE": (
+      options: {
+        "ASYNC": [(frame:80,bit:11,invert:false,),],
+        "LSR_OVER_CE": [],
+      },
+      desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE C/D",
+    ),
+  },
+  conns: {},
+)
