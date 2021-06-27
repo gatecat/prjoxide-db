@@ -1,7 +1,182 @@
 (
   pips: {},
-  words: {},
+  words: {
+    "SLICEA.K0.INIT": (
+      bits: [
+        [(frame:15,bit:10,invert:true,),],
+        [(frame:14,bit:10,invert:true,),],
+        [(frame:13,bit:10,invert:true,),],
+        [(frame:12,bit:10,invert:true,),],
+        [(frame:11,bit:10,invert:true,),],
+        [(frame:10,bit:10,invert:true,),],
+        [(frame:9,bit:10,invert:true,),],
+        [(frame:8,bit:10,invert:true,),],
+        [(frame:7,bit:10,invert:true,),],
+        [(frame:3,bit:10,invert:true,),],
+        [(frame:5,bit:10,invert:true,),],
+        [(frame:1,bit:10,invert:true,),],
+        [(frame:6,bit:10,invert:true,),],
+        [(frame:2,bit:10,invert:true,),],
+        [(frame:4,bit:10,invert:true,),],
+        [(frame:0,bit:10,invert:true,),],
+      ],
+      desc: "SLICE A LUT0 init value",
+    ),
+    "SLICEA.K1.INIT": (
+      bits: [
+        [(frame:15,bit:11,invert:true,),],
+        [(frame:14,bit:11,invert:true,),],
+        [(frame:13,bit:11,invert:true,),],
+        [(frame:12,bit:11,invert:true,),],
+        [(frame:11,bit:11,invert:true,),],
+        [(frame:10,bit:11,invert:true,),],
+        [(frame:9,bit:11,invert:true,),],
+        [(frame:8,bit:11,invert:true,),],
+        [(frame:7,bit:11,invert:true,),],
+        [(frame:3,bit:11,invert:true,),],
+        [(frame:5,bit:11,invert:true,),],
+        [(frame:1,bit:11,invert:true,),],
+        [(frame:6,bit:11,invert:true,),],
+        [(frame:2,bit:11,invert:true,),],
+        [(frame:4,bit:11,invert:true,),],
+        [(frame:0,bit:11,invert:true,),],
+      ],
+      desc: "SLICE A LUT1 init value",
+    ),
+    "SLICEB.K0.INIT": (
+      bits: [
+        [(frame:36,bit:10,invert:true,),],
+        [(frame:37,bit:10,invert:true,),],
+        [(frame:38,bit:10,invert:true,),],
+        [(frame:39,bit:10,invert:true,),],
+        [(frame:40,bit:10,invert:true,),],
+        [(frame:41,bit:10,invert:true,),],
+        [(frame:42,bit:10,invert:true,),],
+        [(frame:43,bit:10,invert:true,),],
+        [(frame:44,bit:10,invert:true,),],
+        [(frame:48,bit:10,invert:true,),],
+        [(frame:46,bit:10,invert:true,),],
+        [(frame:50,bit:10,invert:true,),],
+        [(frame:45,bit:10,invert:true,),],
+        [(frame:49,bit:10,invert:true,),],
+        [(frame:47,bit:10,invert:true,),],
+        [(frame:51,bit:10,invert:true,),],
+      ],
+      desc: "SLICE B LUT0 init value",
+    ),
+    "SLICEB.K1.INIT": (
+      bits: [
+        [(frame:36,bit:11,invert:true,),],
+        [(frame:37,bit:11,invert:true,),],
+        [(frame:38,bit:11,invert:true,),],
+        [(frame:39,bit:11,invert:true,),],
+        [(frame:40,bit:11,invert:true,),],
+        [(frame:41,bit:11,invert:true,),],
+        [(frame:42,bit:11,invert:true,),],
+        [(frame:43,bit:11,invert:true,),],
+        [(frame:44,bit:11,invert:true,),],
+        [(frame:48,bit:11,invert:true,),],
+        [(frame:46,bit:11,invert:true,),],
+        [(frame:50,bit:11,invert:true,),],
+        [(frame:45,bit:11,invert:true,),],
+        [(frame:49,bit:11,invert:true,),],
+        [(frame:47,bit:11,invert:true,),],
+        [(frame:51,bit:11,invert:true,),],
+      ],
+      desc: "SLICE B LUT1 init value",
+    ),
+    "SLICEC.K0.INIT": (
+      bits: [
+        [(frame:69,bit:10,invert:true,),],
+        [(frame:68,bit:10,invert:true,),],
+        [(frame:67,bit:10,invert:true,),],
+        [(frame:66,bit:10,invert:true,),],
+        [(frame:65,bit:10,invert:true,),],
+        [(frame:64,bit:10,invert:true,),],
+        [(frame:63,bit:10,invert:true,),],
+        [(frame:62,bit:10,invert:true,),],
+        [(frame:61,bit:10,invert:true,),],
+        [(frame:57,bit:10,invert:true,),],
+        [(frame:59,bit:10,invert:true,),],
+        [(frame:55,bit:10,invert:true,),],
+        [(frame:60,bit:10,invert:true,),],
+        [(frame:56,bit:10,invert:true,),],
+        [(frame:58,bit:10,invert:true,),],
+        [(frame:54,bit:10,invert:true,),],
+      ],
+      desc: "SLICE C LUT0 init value",
+    ),
+    "SLICEC.K1.INIT": (
+      bits: [
+        [(frame:69,bit:11,invert:true,),],
+        [(frame:68,bit:11,invert:true,),],
+        [(frame:67,bit:11,invert:true,),],
+        [(frame:66,bit:11,invert:true,),],
+        [(frame:65,bit:11,invert:true,),],
+        [(frame:64,bit:11,invert:true,),],
+        [(frame:63,bit:11,invert:true,),],
+        [(frame:62,bit:11,invert:true,),],
+        [(frame:61,bit:11,invert:true,),],
+        [(frame:57,bit:11,invert:true,),],
+        [(frame:59,bit:11,invert:true,),],
+        [(frame:55,bit:11,invert:true,),],
+        [(frame:60,bit:11,invert:true,),],
+        [(frame:56,bit:11,invert:true,),],
+        [(frame:58,bit:11,invert:true,),],
+        [(frame:54,bit:11,invert:true,),],
+      ],
+      desc: "SLICE C LUT1 init value",
+    ),
+    "SLICED.K0.INIT": (
+      bits: [
+        [(frame:90,bit:10,invert:true,),],
+        [(frame:91,bit:10,invert:true,),],
+        [(frame:92,bit:10,invert:true,),],
+        [(frame:93,bit:10,invert:true,),],
+        [(frame:94,bit:10,invert:true,),],
+        [(frame:95,bit:10,invert:true,),],
+        [(frame:96,bit:10,invert:true,),],
+        [(frame:97,bit:10,invert:true,),],
+        [(frame:98,bit:10,invert:true,),],
+        [(frame:102,bit:10,invert:true,),],
+        [(frame:100,bit:10,invert:true,),],
+        [(frame:104,bit:10,invert:true,),],
+        [(frame:99,bit:10,invert:true,),],
+        [(frame:103,bit:10,invert:true,),],
+        [(frame:101,bit:10,invert:true,),],
+        [(frame:105,bit:10,invert:true,),],
+      ],
+      desc: "SLICE D LUT0 init value",
+    ),
+    "SLICED.K1.INIT": (
+      bits: [
+        [(frame:90,bit:11,invert:true,),],
+        [(frame:91,bit:11,invert:true,),],
+        [(frame:92,bit:11,invert:true,),],
+        [(frame:93,bit:11,invert:true,),],
+        [(frame:94,bit:11,invert:true,),],
+        [(frame:95,bit:11,invert:true,),],
+        [(frame:96,bit:11,invert:true,),],
+        [(frame:97,bit:11,invert:true,),],
+        [(frame:98,bit:11,invert:true,),],
+        [(frame:102,bit:11,invert:true,),],
+        [(frame:100,bit:11,invert:true,),],
+        [(frame:104,bit:11,invert:true,),],
+        [(frame:99,bit:11,invert:true,),],
+        [(frame:103,bit:11,invert:true,),],
+        [(frame:101,bit:11,invert:true,),],
+        [(frame:105,bit:11,invert:true,),],
+      ],
+      desc: "SLICE D LUT1 init value",
+    ),
+  },
   enums: {
+    "SLICEA.CCU2.INJECT": (
+      options: {
+        "NO": [(frame:22,bit:10,invert:false,),],
+        "YES": [],
+      },
+    ),
     "SLICEA.CEMUX": (
       options: {
         "CE": [],
@@ -32,6 +207,13 @@
         "LSR": [],
       },
       desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEA.MODE": (
+      options: {
+        "CCU2": [(frame:22,bit:11,invert:false,),],
+        "DPRAM": [],
+        "LOGIC": [],
+      },
     ),
     "SLICEA.REG0.LSRMODE": (
       options: {
@@ -101,6 +283,12 @@
       },
       desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE A/B",
     ),
+    "SLICEB.CCU2.INJECT": (
+      options: {
+        "NO": [(frame:29,bit:10,invert:false,),],
+        "YES": [],
+      },
+    ),
     "SLICEB.CEMUX": (
       options: {
         "CE": [],
@@ -131,6 +319,13 @@
         "LSR": [],
       },
       desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEB.MODE": (
+      options: {
+        "CCU2": [(frame:29,bit:11,invert:false,),],
+        "DPRAM": [],
+        "LOGIC": [],
+      },
     ),
     "SLICEB.REG0.LSRMODE": (
       options: {
@@ -200,6 +395,12 @@
       },
       desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE A/B",
     ),
+    "SLICEC.CCU2.INJECT": (
+      options: {
+        "NO": [(frame:76,bit:10,invert:false,),],
+        "YES": [],
+      },
+    ),
     "SLICEC.CEMUX": (
       options: {
         "CE": [],
@@ -230,6 +431,13 @@
         "LSR": [],
       },
       desc: "selects set/reset gating and inversion",
+    ),
+    "SLICEC.MODE": (
+      options: {
+        "CCU2": [(frame:76,bit:11,invert:false,),],
+        "LOGIC": [],
+        "RAMW": [(frame:78,bit:10,invert:false,),(frame:80,bit:11,invert:false,),(frame:81,bit:11,invert:false,),],
+      },
     ),
     "SLICEC.REG0.LSRMODE": (
       options: {
@@ -299,6 +507,12 @@
       },
       desc: "selects asynchronous set/reset, or sync set/reset which overrides CE for FFs in SLICE C/D",
     ),
+    "SLICED.CCU2.INJECT": (
+      options: {
+        "NO": [(frame:83,bit:10,invert:false,),],
+        "YES": [],
+      },
+    ),
     "SLICED.CEMUX": (
       options: {
         "CE": [],
@@ -329,6 +543,12 @@
         "LSR": [],
       },
       desc: "selects set/reset gating and inversion",
+    ),
+    "SLICED.MODE": (
+      options: {
+        "CCU2": [(frame:83,bit:11,invert:false,),],
+        "LOGIC": [],
+      },
     ),
     "SLICED.REG0.LSRMODE": (
       options: {
