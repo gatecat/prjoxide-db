@@ -1,0 +1,25 @@
+(
+  pips: {
+    "W1:JECLKOUT_I218": [
+      (
+        from_wire: "W1:JECLKIN0_I218",
+        bits: [],
+      ),
+      (
+        from_wire: "W1:JECLKIN1_I218",
+        bits: [(frame:20,bit:1,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLKIN2_I218",
+        bits: [(frame:20,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "W1:JECLKIN3_I218",
+        bits: [(frame:20,bit:0,invert:false,),(frame:20,bit:1,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)
