@@ -1,0 +1,103 @@
+(
+  pips: {
+    "SPINE:VPSX0000": [
+      (
+        from_wire: "HROW:HPRX0000",
+        bits: [(frame:0,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0100": [
+      (
+        from_wire: "HROW:HPRX0100",
+        bits: [(frame:1,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0200": [
+      (
+        from_wire: "HROW:HPRX0200",
+        bits: [(frame:2,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0300": [
+      (
+        from_wire: "HROW:HPRX0300",
+        bits: [(frame:3,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0400": [
+      (
+        from_wire: "HROW:HPRX0400",
+        bits: [(frame:4,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0500": [
+      (
+        from_wire: "HROW:HPRX0500",
+        bits: [(frame:5,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0600": [
+      (
+        from_wire: "HROW:HPRX0600",
+        bits: [(frame:6,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0700": [
+      (
+        from_wire: "HROW:HPRX0700",
+        bits: [(frame:7,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0800": [
+      (
+        from_wire: "HROW:HPRX0800",
+        bits: [(frame:8,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX0900": [
+      (
+        from_wire: "HROW:HPRX0900",
+        bits: [(frame:9,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1000": [
+      (
+        from_wire: "HROW:HPRX1000",
+        bits: [(frame:10,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1100": [
+      (
+        from_wire: "HROW:HPRX1100",
+        bits: [(frame:11,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1200": [
+      (
+        from_wire: "HROW:HPRX1200",
+        bits: [(frame:12,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1300": [
+      (
+        from_wire: "HROW:HPRX1300",
+        bits: [(frame:13,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1400": [
+      (
+        from_wire: "HROW:HPRX1400",
+        bits: [(frame:14,bit:0,invert:false,),],
+      ),
+    ],
+    "SPINE:VPSX1500": [
+      (
+        from_wire: "HROW:HPRX1500",
+        bits: [(frame:15,bit:0,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)

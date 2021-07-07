@@ -1,5 +1,101 @@
 (
   pips: {
+    "G:BLHPRX0": [
+      (
+        from_wire: "N10:JHPRX0_CMUX_CORE_CMUX2",
+        bits: [(frame:88,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX1": [
+      (
+        from_wire: "N10:JHPRX1_CMUX_CORE_CMUX2",
+        bits: [(frame:89,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX10": [
+      (
+        from_wire: "N10:JHPRX10_CMUX_CORE_CMUX2",
+        bits: [(frame:100,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX11": [
+      (
+        from_wire: "N10:JHPRX11_CMUX_CORE_CMUX2",
+        bits: [(frame:101,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX12": [
+      (
+        from_wire: "N10:JHPRX12_CMUX_CORE_CMUX2",
+        bits: [(frame:102,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX13": [
+      (
+        from_wire: "N10:JHPRX13_CMUX_CORE_CMUX2",
+        bits: [(frame:103,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX14": [
+      (
+        from_wire: "N10:JHPRX14_CMUX_CORE_CMUX2",
+        bits: [(frame:104,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX15": [
+      (
+        from_wire: "N10:JHPRX15_CMUX_CORE_CMUX2",
+        bits: [(frame:105,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX2": [
+      (
+        from_wire: "N10:JHPRX2_CMUX_CORE_CMUX2",
+        bits: [(frame:90,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX3": [
+      (
+        from_wire: "N10:JHPRX3_CMUX_CORE_CMUX2",
+        bits: [(frame:91,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX4": [
+      (
+        from_wire: "N10:JHPRX4_CMUX_CORE_CMUX2",
+        bits: [(frame:92,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX5": [
+      (
+        from_wire: "N10:JHPRX5_CMUX_CORE_CMUX2",
+        bits: [(frame:93,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX6": [
+      (
+        from_wire: "N10:JHPRX6_CMUX_CORE_CMUX2",
+        bits: [(frame:94,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX7": [
+      (
+        from_wire: "N10:JHPRX7_CMUX_CORE_CMUX2",
+        bits: [(frame:95,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX8": [
+      (
+        from_wire: "N10:JHPRX8_CMUX_CORE_CMUX2",
+        bits: [(frame:98,bit:0,invert:false,),],
+      ),
+    ],
+    "G:BLHPRX9": [
+      (
+        from_wire: "N10:JHPRX9_CMUX_CORE_CMUX2",
+        bits: [(frame:99,bit:0,invert:false,),],
+      ),
+    ],
     "N10:JHPRX10_CMUX_CORE_CMUX0": [
       (
         from_wire: "G:JHPFE5_CMUX_CORE_CMUX0",
