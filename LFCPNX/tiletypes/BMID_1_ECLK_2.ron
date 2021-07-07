@@ -1,0 +1,373 @@
+(
+  pips: {
+    "G:JVPFN10_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV1_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV5_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV9_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOP_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS3_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB3_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB4_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT42_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT52_BMID_CORE_BMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFN11_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV4_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV6_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOP_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS5_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB0_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB5_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT32_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT50_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT53_BMID_CORE_BMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN12_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV11_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV2_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV8_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS2_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS5_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB5_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:true,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT30_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT33_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT50_BMID_CORE_BMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN13_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV0_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV3_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV8_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS3_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB2_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB4_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:true,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT31_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT40_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT53_BMID_CORE_BMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN14_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV1_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV4_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV9_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS3_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS5_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB1_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:true,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT32_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT43_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT53_BMID_CORE_BMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN15_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV11_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:true,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV2_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV7_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:true,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS2_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS4_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS2_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS4_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKT30_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT42_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT52_BMID_CORE_BMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN16_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV4_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV7_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS3_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB0_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB2_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:true,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB4_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:true,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT40_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT43_BMID_CORE_BMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFN17_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV0_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:true,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV10_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:true,),(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV5_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:true,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:true,),(frame:63,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS4_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:true,),(frame:63,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOP_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:true,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS5_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:true,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:true,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB3_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:true,),(frame:62,bit:0,invert:true,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT31_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT41_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:true,),(frame:63,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT51_BMID_CORE_BMIDMUX",
+        bits: [(frame:60,bit:0,invert:false,),(frame:61,bit:0,invert:false,),(frame:62,bit:0,invert:false,),(frame:63,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFN9_BMID_CORE_BMIDMUX": [
+      (
+        from_wire: "G:JECLKDIV3_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JECLKDIV8_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLLCLKOS4_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS2_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JLRCLKOS4_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB1_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB3_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBB5_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT41_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT51_BMID_CORE_BMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)

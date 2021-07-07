@@ -1,0 +1,311 @@
+(
+  pips: {
+    "G:JVPFS10_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JPCIEUSRCLK1_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT3_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKT00_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX1_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX6_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX3_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX6_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),(frame:33,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),(frame:33,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFS11_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JOSCLF_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT01_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:true,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX2_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX7_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX2_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:true,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX4_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:true,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS2_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:true,),(frame:38,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS_TMID_CORE_TMIDMUX",
+        bits: [(frame:35,bit:0,invert:false,),(frame:36,bit:0,invert:false,),(frame:37,bit:0,invert:false,),(frame:38,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFS12_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JJTCLK_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT1_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:true,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT4_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:true,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX1_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX7_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX2_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX6_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:true,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOP_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:true,),(frame:43,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS_TMID_CORE_TMIDMUX",
+        bits: [(frame:40,bit:0,invert:false,),(frame:41,bit:0,invert:false,),(frame:42,bit:0,invert:false,),(frame:43,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFS13_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JOSCHF_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JOSCLF_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCIEUSRCLK0_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:true,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKT00_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:true,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX0_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX5_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX0_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX4_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:true,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:true,),(frame:48,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS_TMID_CORE_TMIDMUX",
+        bits: [(frame:45,bit:0,invert:false,),(frame:46,bit:0,invert:false,),(frame:47,bit:0,invert:false,),(frame:48,bit:0,invert:true,),],
+      ),
+    ],
+    "G:JVPFS14_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JPCIEUSRCLK0_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:true,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT2_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:true,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT5_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:true,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX2_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX4_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX1_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX7_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:true,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:false,),(frame:53,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOP_TMID_CORE_TMIDMUX",
+        bits: [(frame:50,bit:0,invert:false,),(frame:51,bit:0,invert:false,),(frame:52,bit:0,invert:true,),(frame:53,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFS15_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JJTCLK_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCIEUSRCLK1_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:true,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT0_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:true,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT4_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:true,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX3_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX6_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX3_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX5_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:true,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:false,),(frame:58,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:55,bit:0,invert:false,),(frame:56,bit:0,invert:false,),(frame:57,bit:0,invert:true,),(frame:58,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFS8_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JPCLKCIBT0_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCLKT00_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:true,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX3_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX5_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX1_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX7_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:true,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOP_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:false,),(frame:23,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS_TMID_CORE_TMIDMUX",
+        bits: [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),(frame:22,bit:0,invert:true,),(frame:23,bit:0,invert:false,),],
+      ),
+    ],
+    "G:JVPFS9_TMID_CORE_TMIDMUX": [
+      (
+        from_wire: "G:JOSCHF_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT1_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCLKCIBT4_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:true,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX0_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKRX4_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX0_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JPCSCLKTX5_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:true,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:true,),],
+      ),
+      (
+        from_wire: "G:JULCLKOS2_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:true,),(frame:28,bit:0,invert:false,),],
+      ),
+      (
+        from_wire: "G:JURCLKOS3_TMID_CORE_TMIDMUX",
+        bits: [(frame:25,bit:0,invert:false,),(frame:26,bit:0,invert:false,),(frame:27,bit:0,invert:false,),(frame:28,bit:0,invert:true,),],
+      ),
+    ],
+  },
+  words: {},
+  enums: {},
+  conns: {},
+)
