@@ -385,6 +385,246 @@
     ),
   },
   conns: {
+    "G:JHPFW0_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC0",
+      ),
+    ],
+    "G:JHPFW0_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC0",
+      ),
+    ],
+    "G:JHPFW0_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC0",
+      ),
+    ],
+    "G:JHPFW0_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC0",
+      ),
+    ],
+    "G:JHPFW10_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC10",
+      ),
+    ],
+    "G:JHPFW10_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC10",
+      ),
+    ],
+    "G:JHPFW10_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC10",
+      ),
+    ],
+    "G:JHPFW10_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC10",
+      ),
+    ],
+    "G:JHPFW11_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC11",
+      ),
+    ],
+    "G:JHPFW11_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC11",
+      ),
+    ],
+    "G:JHPFW11_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC11",
+      ),
+    ],
+    "G:JHPFW11_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC11",
+      ),
+    ],
+    "G:JHPFW1_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC1",
+      ),
+    ],
+    "G:JHPFW1_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC1",
+      ),
+    ],
+    "G:JHPFW1_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC1",
+      ),
+    ],
+    "G:JHPFW1_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC1",
+      ),
+    ],
+    "G:JHPFW2_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC2",
+      ),
+    ],
+    "G:JHPFW2_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC2",
+      ),
+    ],
+    "G:JHPFW2_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC2",
+      ),
+    ],
+    "G:JHPFW2_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC2",
+      ),
+    ],
+    "G:JHPFW3_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC3",
+      ),
+    ],
+    "G:JHPFW3_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC3",
+      ),
+    ],
+    "G:JHPFW3_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC3",
+      ),
+    ],
+    "G:JHPFW3_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC3",
+      ),
+    ],
+    "G:JHPFW4_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC4",
+      ),
+    ],
+    "G:JHPFW4_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC4",
+      ),
+    ],
+    "G:JHPFW4_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC4",
+      ),
+    ],
+    "G:JHPFW4_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC4",
+      ),
+    ],
+    "G:JHPFW5_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC5",
+      ),
+    ],
+    "G:JHPFW5_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC5",
+      ),
+    ],
+    "G:JHPFW5_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC5",
+      ),
+    ],
+    "G:JHPFW5_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC5",
+      ),
+    ],
+    "G:JHPFW6_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC6",
+      ),
+    ],
+    "G:JHPFW6_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC6",
+      ),
+    ],
+    "G:JHPFW6_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC6",
+      ),
+    ],
+    "G:JHPFW6_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC6",
+      ),
+    ],
+    "G:JHPFW7_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC7",
+      ),
+    ],
+    "G:JHPFW7_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC7",
+      ),
+    ],
+    "G:JHPFW7_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC7",
+      ),
+    ],
+    "G:JHPFW7_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC7",
+      ),
+    ],
+    "G:JHPFW8_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC8",
+      ),
+    ],
+    "G:JHPFW8_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC8",
+      ),
+    ],
+    "G:JHPFW8_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC8",
+      ),
+    ],
+    "G:JHPFW8_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC8",
+      ),
+    ],
+    "G:JHPFW9_CMUX_CORE_CMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC9",
+      ),
+    ],
+    "G:JHPFW9_CMUX_CORE_CMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC9",
+      ),
+    ],
+    "G:JHPFW9_DCSMUX_CORE_DCSMUX0": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC9",
+      ),
+    ],
+    "G:JHPFW9_DCSMUX_CORE_DCSMUX1": [
+      (
+        from_wire: "W1:JCLKO_DCC_DCC9",
+      ),
+    ],
     "G:JPCLKCIBR0_RMID_CORE_RMIDMUX": [
       (
         from_wire: "N2W1:JCIBMUXOUTD4",
