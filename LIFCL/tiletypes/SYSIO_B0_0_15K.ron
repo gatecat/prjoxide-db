@@ -364,6 +364,212 @@
         "ON": [(frame:78,bit:0,invert:false,),(frame:81,bit:0,invert:false,),],
       },
     ),
+    "SIOLOGICA.CEINMUX": (
+      options: {
+        "1": [(frame:12,bit:1,invert:false,),],
+        "CEIN": [(frame:11,bit:1,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICA.CEOUTMUX": (
+      options: {
+        "1": [(frame:13,bit:1,invert:false,),],
+        "CEOUT": [(frame:10,bit:1,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICA.GSR": (
+      options: {
+        "DISABLED": [(frame:24,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "SIOLOGICA.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:32,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:40,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:41,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:31,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:17,bit:1,invert:false,),],
+        "LSRIN": [(frame:15,bit:1,invert:false,),(frame:17,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:21,bit:1,invert:false,),],
+        "LSROUT": [(frame:16,bit:1,invert:false,),(frame:21,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:54,bit:1,invert:false,),],
+        "IREG_OREG": [],
+        "NONE": [],
+      },
+    ),
+    "SIOLOGICA.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:43,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:4,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:28,bit:1,invert:false,),(frame:29,bit:1,invert:false,),],
+        "SCLKIN": [(frame:29,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:33,bit:1,invert:false,),(frame:34,bit:1,invert:false,),],
+        "SCLKOUT": [(frame:33,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:23,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:3,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.CEINMUX": (
+      options: {
+        "1": [(frame:67,bit:1,invert:false,),],
+        "CEIN": [(frame:66,bit:1,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.CEOUTMUX": (
+      options: {
+        "1": [(frame:68,bit:1,invert:false,),],
+        "CEOUT": [(frame:65,bit:1,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.GSR": (
+      options: {
+        "DISABLED": [(frame:79,bit:1,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "SIOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:89,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:103,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:104,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:88,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:72,bit:1,invert:false,),],
+        "LSRIN": [(frame:70,bit:1,invert:false,),(frame:72,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:76,bit:1,invert:false,),],
+        "LSROUT": [(frame:71,bit:1,invert:false,),(frame:76,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:99,bit:0,invert:false,),],
+        "IREG_OREG": [],
+        "NONE": [],
+      },
+    ),
+    "SIOLOGICB.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:85,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:59,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:85,bit:1,invert:false,),(frame:86,bit:1,invert:false,),],
+        "SCLKIN": [(frame:86,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:90,bit:1,invert:false,),(frame:92,bit:1,invert:false,),],
+        "SCLKOUT": [(frame:90,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:78,bit:1,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:58,bit:1,invert:false,),],
+      },
+    ),
   },
   conns: {
     "JCEIN_SIOLOGIC_CORE_IBASE_PIC_A": [

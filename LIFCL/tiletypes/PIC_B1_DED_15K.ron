@@ -1,0 +1,110 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "SIOLOGICB.CEINMUX": (
+      options: {
+        "1": [(frame:8,bit:3,invert:false,),],
+        "CEIN": [(frame:9,bit:3,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.CEOUTMUX": (
+      options: {
+        "1": [(frame:7,bit:3,invert:false,),],
+        "CEOUT": [(frame:10,bit:3,invert:false,),],
+        "INV": [],
+      },
+    ),
+    "SIOLOGICB.GSR": (
+      options: {
+        "DISABLED": [(frame:8,bit:6,invert:false,),],
+        "ENABLED": [],
+      },
+    ),
+    "SIOLOGICB.IDDRX1_ODDRX1.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:13,bit:9,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.INMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:5,bit:3,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.INREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:7,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.IREG_OREG.OUTPUT": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:14,bit:9,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSRINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:13,bit:6,invert:false,),],
+        "LSRIN": [(frame:13,bit:6,invert:false,),(frame:15,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.LSROUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:10,bit:6,invert:false,),],
+        "LSROUT": [(frame:10,bit:6,invert:false,),(frame:14,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.MODE": (
+      options: {
+        "IDDRX1_ODDRX1": [(frame:2,bit:9,invert:false,),],
+        "IREG_OREG": [],
+        "NONE": [],
+      },
+    ),
+    "SIOLOGICB.OUTMUX": (
+      options: {
+        "BYPASS": [],
+        "DELAY": [(frame:5,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.OUTREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:5,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKINMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:0,bit:6,invert:false,),(frame:1,bit:6,invert:false,),],
+        "SCLKIN": [(frame:0,bit:6,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SCLKOUTMUX": (
+      options: {
+        "0": [],
+        "INV": [(frame:0,bit:9,invert:false,),(frame:1,bit:9,invert:false,),],
+        "SCLKOUT": [(frame:1,bit:9,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.SRMODE": (
+      options: {
+        "ASYNC": [],
+        "LSR_OVER_CE": [(frame:15,bit:10,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.TSREG.REGSET": (
+      options: {
+        "RESET": [],
+        "SET": [(frame:7,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {},
+)
