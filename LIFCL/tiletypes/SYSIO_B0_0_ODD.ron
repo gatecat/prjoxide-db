@@ -390,6 +390,12 @@
         "ENABLED": [(frame:52,bit:0,invert:false,),],
       },
     ),
+    "SIOLOGICA.IDDRX1_ODDRX1.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:18,bit:0,invert:false,),],
+      },
+    ),
     "SIOLOGICA.INMUX": (
       options: {
         "BYPASS": [],
@@ -406,6 +412,12 @@
       options: {
         "DISABLED": [],
         "ENABLED": [(frame:51,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.IREG_OREG.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:18,bit:0,invert:false,),],
       },
     ),
     "SIOLOGICA.LSRINMUX": (
@@ -493,6 +505,12 @@
         "ENABLED": [(frame:8,bit:0,invert:false,),],
       },
     ),
+    "SIOLOGICB.IDDRX1_ODDRX1.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:1,bit:1,invert:false,),],
+      },
+    ),
     "SIOLOGICB.INMUX": (
       options: {
         "BYPASS": [],
@@ -509,6 +527,12 @@
       options: {
         "DISABLED": [],
         "ENABLED": [(frame:7,bit:0,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.IREG_OREG.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:1,bit:1,invert:false,),],
       },
     ),
     "SIOLOGICB.LSRINMUX": (

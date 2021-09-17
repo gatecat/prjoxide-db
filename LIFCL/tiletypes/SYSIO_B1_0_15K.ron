@@ -390,6 +390,12 @@
         "ENABLED": [(frame:13,bit:11,invert:false,),],
       },
     ),
+    "SIOLOGICA.IDDRX1_ODDRX1.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:0,bit:8,invert:false,),],
+      },
+    ),
     "SIOLOGICA.INMUX": (
       options: {
         "BYPASS": [],
@@ -406,6 +412,12 @@
       options: {
         "DISABLED": [],
         "ENABLED": [(frame:14,bit:11,invert:false,),],
+      },
+    ),
+    "SIOLOGICA.IREG_OREG.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:0,bit:8,invert:false,),],
       },
     ),
     "SIOLOGICA.LSRINMUX": (

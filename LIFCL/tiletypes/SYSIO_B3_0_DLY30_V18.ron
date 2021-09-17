@@ -226,6 +226,12 @@
         "ENABLED": [(frame:22,bit:0,invert:false,),],
       },
     ),
+    "IOLOGICA.IDDRX1_ODDRX1.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:18,bit:0,invert:false,),],
+      },
+    ),
     "IOLOGICA.IDDRXN.DDRMODE": (
       options: {
         "IDDR71": [(frame:67,bit:0,invert:false,),(frame:68,bit:0,invert:false,),],
@@ -251,6 +257,12 @@
       options: {
         "DISABLED": [],
         "ENABLED": [(frame:23,bit:0,invert:false,),],
+      },
+    ),
+    "IOLOGICA.IREG_OREG.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:18,bit:0,invert:false,),],
       },
     ),
     "IOLOGICA.LOAD_NMUX": (

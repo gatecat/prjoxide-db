@@ -28,6 +28,12 @@
         "ENABLED": [(frame:13,bit:9,invert:false,),],
       },
     ),
+    "SIOLOGICB.IDDRX1_ODDRX1.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:9,bit:6,invert:false,),],
+      },
+    ),
     "SIOLOGICB.INMUX": (
       options: {
         "BYPASS": [],
@@ -44,6 +50,12 @@
       options: {
         "DISABLED": [],
         "ENABLED": [(frame:14,bit:9,invert:false,),],
+      },
+    ),
+    "SIOLOGICB.IREG_OREG.TRISTATE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:9,bit:6,invert:false,),],
       },
     ),
     "SIOLOGICB.LSRINMUX": (
