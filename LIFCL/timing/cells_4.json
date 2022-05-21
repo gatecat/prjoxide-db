@@ -3104,6 +3104,46 @@
                 }
             ]
         },
+        "DCS:DCS": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK0",
+                    "maxv": 1078,
+                    "minv": 1065,
+                    "to_pin": "DCSOUT"
+                },
+                {
+                    "from_pin": "CLK1",
+                    "maxv": 1096,
+                    "minv": 1084,
+                    "to_pin": "DCSOUT"
+                },
+                {
+                    "from_pin": "SEL",
+                    "maxv": 755,
+                    "minv": 750,
+                    "to_pin": "DCSOUT"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK0",
+                    "max_hold": 39,
+                    "max_setup": 22,
+                    "min_hold": 38,
+                    "min_setup": 21,
+                    "pin": "SEL"
+                },
+                {
+                    "clock": "CLK1",
+                    "max_hold": 39,
+                    "max_setup": 22,
+                    "min_hold": 38,
+                    "min_setup": 21,
+                    "pin": "SEL"
+                }
+            ]
+        },
         "DP16K_MODE": {
             "iopaths": [
                 {
