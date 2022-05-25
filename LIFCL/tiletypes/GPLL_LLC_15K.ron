@@ -134,7 +134,31 @@
     ],
   },
   words: {},
-  enums: {},
+  enums: {
+    "PLL_LLC.CLKMUX_FB": (
+      options: {
+        "CMUX_CLKOP": [],
+        "CMUX_CLKOS": [(frame:20,bit:0,invert:false,),],
+        "CMUX_CLKOS2": [(frame:21,bit:0,invert:false,),],
+        "CMUX_CLKOS3": [(frame:20,bit:0,invert:false,),(frame:21,bit:0,invert:false,),],
+        "CMUX_CLKOS4": [(frame:22,bit:0,invert:false,),],
+        "CMUX_CLKOS5": [(frame:20,bit:0,invert:false,),(frame:22,bit:0,invert:false,),],
+      },
+      desc: "internal feedback selection",
+    ),
+    "PLL_LLC.LMMICLKMUX": (
+      options: {
+        "INV": [(frame:44,bit:0,invert:false,),],
+        "LMMICLK": [],
+      },
+    ),
+    "PLL_LLC.LMMIRESETNMUX": (
+      options: {
+        "INV": [(frame:56,bit:0,invert:false,),],
+        "LMMIRESETN": [],
+      },
+    ),
+  },
   conns: {
     "G:JLLCLKOP_BMID_CORE_BMIDMUX": [
       (
