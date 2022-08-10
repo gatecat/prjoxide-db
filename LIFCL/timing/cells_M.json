@@ -142,12 +142,6 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 483,
-                    "minv": 381,
-                    "to_pin": "CASCOUT"
-                },
-                {
-                    "from_pin": "CLK",
                     "maxv": 543,
                     "minv": 428,
                     "to_pin": "SUM0"
@@ -157,12 +151,6 @@
                     "maxv": 520,
                     "minv": 314,
                     "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1154,
-                    "minv": 784,
-                    "to_pin": "CASCOUT"
                 }
             ],
             "setupholds": [
@@ -548,12 +536,6 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 483,
-                    "minv": 381,
-                    "to_pin": "CASCOUT"
-                },
-                {
-                    "from_pin": "CLK",
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM0"
@@ -563,12 +545,6 @@
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1154,
-                    "minv": 784,
-                    "to_pin": "CASCOUT"
                 },
                 {
                     "from_pin": "PP",
@@ -1568,12 +1544,6 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 483,
-                    "minv": 381,
-                    "to_pin": "CASCOUT"
-                },
-                {
-                    "from_pin": "CLK",
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM0"
@@ -1583,12 +1553,6 @@
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1154,
-                    "minv": 784,
-                    "to_pin": "CASCOUT"
                 },
                 {
                     "from_pin": "PP",
@@ -1840,12 +1804,6 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 483,
-                    "minv": 381,
-                    "to_pin": "CASCOUT"
-                },
-                {
-                    "from_pin": "CLK",
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM0"
@@ -1855,12 +1813,6 @@
                     "maxv": 547,
                     "minv": 386,
                     "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1154,
-                    "minv": 784,
-                    "to_pin": "CASCOUT"
                 },
                 {
                     "from_pin": "PP",
@@ -1978,6 +1930,12 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
+                    "maxv": 483,
+                    "minv": 381,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
                     "maxv": 543,
                     "minv": 428,
                     "to_pin": "SUM0"
@@ -1987,6 +1945,12 @@
                     "maxv": 520,
                     "minv": 314,
                     "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 1154,
+                    "minv": 784,
+                    "to_pin": "CASCOUT"
                 }
             ],
             "setupholds": [
@@ -2226,6 +2190,12 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
+                    "maxv": 483,
+                    "minv": 381,
+                    "to_pin": "CASCOUT"
+                },
+                {
+                    "from_pin": "CLK",
                     "maxv": 543,
                     "minv": 428,
                     "to_pin": "SUM0"
@@ -2235,6 +2205,12 @@
                     "maxv": 520,
                     "minv": 314,
                     "to_pin": "SUM1"
+                },
+                {
+                    "from_pin": "PP",
+                    "maxv": 1154,
+                    "minv": 784,
+                    "to_pin": "CASCOUT"
                 }
             ],
             "setupholds": [
@@ -2605,128 +2581,6 @@
                     "min_hold": 0,
                     "min_setup": 1081,
                     "pin": "SFTCTRL"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 491,
-                    "min_hold": 0,
-                    "min_setup": 488,
-                    "pin": "SIGNEDI"
-                }
-            ]
-        },
-        "ACC54_CORE:ADDSUBSIGNREG2,CREG1,CREG2,LOADREG1,LOADREG2,M9ADDSUBREG2": {
-            "iopaths": [
-                {
-                    "from_pin": "CASIN0",
-                    "maxv": 1046,
-                    "minv": 616,
-                    "to_pin": "SUM0"
-                },
-                {
-                    "from_pin": "CASIN0",
-                    "maxv": 1300,
-                    "minv": 711,
-                    "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "CASIN1",
-                    "maxv": 1046,
-                    "minv": 616,
-                    "to_pin": "SUM0"
-                },
-                {
-                    "from_pin": "CASIN1",
-                    "maxv": 1300,
-                    "minv": 711,
-                    "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1205,
-                    "minv": 673,
-                    "to_pin": "SUM0"
-                },
-                {
-                    "from_pin": "PP",
-                    "maxv": 1495,
-                    "minv": 896,
-                    "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "ROUNDEN",
-                    "maxv": 896,
-                    "minv": 259,
-                    "to_pin": "SUM0"
-                },
-                {
-                    "from_pin": "ROUNDEN",
-                    "maxv": 1141,
-                    "minv": 772,
-                    "to_pin": "SUM1"
-                },
-                {
-                    "from_pin": "SFTCTRL",
-                    "maxv": 1816,
-                    "minv": 1140,
-                    "to_pin": "SUM0"
-                },
-                {
-                    "from_pin": "SFTCTRL",
-                    "maxv": 1568,
-                    "minv": 1087,
-                    "to_pin": "SUM1"
-                }
-            ],
-            "setupholds": [
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 713,
-                    "min_hold": 0,
-                    "min_setup": 665,
-                    "pin": "ADDSUB"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 592,
-                    "min_hold": 0,
-                    "min_setup": 507,
-                    "pin": "CEC"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 920,
-                    "min_hold": 0,
-                    "min_setup": 757,
-                    "pin": "CECTRL"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 880,
-                    "min_hold": 0,
-                    "min_setup": 803,
-                    "pin": "CINPUT"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 493,
-                    "min_hold": 0,
-                    "min_setup": 439,
-                    "pin": "LOAD"
-                },
-                {
-                    "clock": "CLK",
-                    "max_hold": 0,
-                    "max_setup": 713,
-                    "min_hold": 0,
-                    "min_setup": 665,
-                    "pin": "M9ADDSUB"
                 },
                 {
                     "clock": "CLK",
@@ -3372,18 +3226,18 @@
                 },
                 {
                     "clock": "CLKA",
-                    "max_hold": 90,
-                    "max_setup": 43,
-                    "min_hold": 90,
-                    "min_setup": 43,
+                    "max_hold": 78,
+                    "max_setup": 54,
+                    "min_hold": 78,
+                    "min_setup": 54,
                     "pin": "DIA"
                 },
                 {
-                    "clock": "CLKB",
-                    "max_hold": 58,
-                    "max_setup": 103,
-                    "min_hold": 58,
-                    "min_setup": 103,
+                    "clock": "CLKA",
+                    "max_hold": 78,
+                    "max_setup": 8,
+                    "min_hold": 78,
+                    "min_setup": 8,
                     "pin": "DIB"
                 },
                 {
@@ -3392,6 +3246,14 @@
                     "max_setup": 15,
                     "min_hold": 103,
                     "min_setup": 15,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLKB",
+                    "max_hold": 102,
+                    "max_setup": 16,
+                    "min_hold": 102,
+                    "min_setup": 16,
                     "pin": "RSTA"
                 },
                 {
@@ -3426,8 +3288,8 @@
                 },
                 {
                     "from_pin": "MOVE",
-                    "maxv": 6592,
-                    "minv": 6569,
+                    "maxv": 501,
+                    "minv": 499,
                     "to_pin": "COUT"
                 }
             ],
@@ -3450,6 +3312,22 @@
                     "min_hold": 0,
                     "min_setup": 34,
                     "pin": "DI"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 105,
+                    "max_setup": 0,
+                    "min_hold": 99,
+                    "min_setup": 0,
+                    "pin": "RANK0UPDATE"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 111,
+                    "max_setup": 0,
+                    "min_hold": 111,
+                    "min_setup": 0,
+                    "pin": "RANK1UPDATE"
                 }
             ]
         },
@@ -3478,6 +3356,22 @@
                     "min_hold": 0,
                     "min_setup": 0,
                     "pin": "ECLK"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 105,
+                    "max_setup": 0,
+                    "min_hold": 99,
+                    "min_setup": 0,
+                    "pin": "RANK0UPDATE"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 111,
+                    "max_setup": 0,
+                    "min_hold": 111,
+                    "min_setup": 0,
+                    "pin": "RANK1UPDATE"
                 },
                 {
                     "clock": "ECLK",
@@ -3528,6 +3422,22 @@
                     "min_hold": 0,
                     "min_setup": 593,
                     "pin": "LSRIN"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 105,
+                    "max_setup": 0,
+                    "min_hold": 99,
+                    "min_setup": 0,
+                    "pin": "RANK0UPDATE"
+                },
+                {
+                    "clock": "SCLKIN",
+                    "max_hold": 111,
+                    "max_setup": 0,
+                    "min_hold": 111,
+                    "min_setup": 0,
+                    "pin": "RANK1UPDATE"
                 }
             ]
         },
@@ -3535,8 +3445,8 @@
             "iopaths": [
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 485,
-                    "minv": 477,
+                    "maxv": 450,
+                    "minv": 449,
                     "to_pin": "DOUT"
                 }
             ],
@@ -3546,7 +3456,7 @@
                     "max_hold": 0,
                     "max_setup": 593,
                     "min_hold": 0,
-                    "min_setup": 373,
+                    "min_setup": 567,
                     "pin": "TXDATA"
                 }
             ]
@@ -3555,8 +3465,8 @@
             "iopaths": [
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 1004,
-                    "minv": 993,
+                    "maxv": 968,
+                    "minv": 966,
                     "to_pin": "DOUT"
                 }
             ],
@@ -3566,7 +3476,7 @@
                     "max_hold": 0,
                     "max_setup": 593,
                     "min_hold": 0,
-                    "min_setup": 373,
+                    "min_setup": 567,
                     "pin": "TXDATA"
                 }
             ]
@@ -3577,12 +3487,6 @@
                     "from_pin": "ECLK",
                     "maxv": 527,
                     "minv": 471,
-                    "to_pin": "DOUT"
-                },
-                {
-                    "from_pin": "SCLKOUT",
-                    "maxv": 485,
-                    "minv": 477,
                     "to_pin": "DOUT"
                 }
             ],
@@ -3611,12 +3515,6 @@
                     "from_pin": "ECLK",
                     "maxv": 1047,
                     "minv": 988,
-                    "to_pin": "DOUT"
-                },
-                {
-                    "from_pin": "SCLKOUT",
-                    "maxv": 1004,
-                    "minv": 993,
                     "to_pin": "DOUT"
                 }
             ],
@@ -3710,12 +3608,6 @@
                     "to_pin": "DOUT"
                 },
                 {
-                    "from_pin": "LSROUT",
-                    "maxv": 1148,
-                    "minv": 1144,
-                    "to_pin": "TOUT"
-                },
-                {
                     "from_pin": "SCLKOUT",
                     "maxv": 1004,
                     "minv": 993,
@@ -3760,6 +3652,186 @@
                     "min_hold": 0,
                     "min_setup": 373,
                     "pin": "TXDATA0"
+                }
+            ]
+        },
+        "LRAM_CORE": {
+            "iopaths": [
+                {
+                    "from_pin": "CLK",
+                    "maxv": 5671,
+                    "minv": 3543,
+                    "to_pin": "DOA"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 5676,
+                    "minv": 5426,
+                    "to_pin": "DOB"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 5582,
+                    "minv": 3530,
+                    "to_pin": "ERRDECA"
+                },
+                {
+                    "from_pin": "CLK",
+                    "maxv": 5277,
+                    "minv": 5046,
+                    "to_pin": "ERRDECB"
+                },
+                {
+                    "from_pin": "SCANCLK",
+                    "maxv": 890,
+                    "minv": 627,
+                    "to_pin": "DOA"
+                }
+            ],
+            "setupholds": [
+                {
+                    "clock": "CLK",
+                    "max_hold": 161,
+                    "max_setup": 650,
+                    "min_hold": 161,
+                    "min_setup": 650,
+                    "pin": "ADA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 143,
+                    "max_setup": 726,
+                    "min_hold": 143,
+                    "min_setup": 726,
+                    "pin": "ADB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 150,
+                    "max_setup": 625,
+                    "min_hold": 150,
+                    "min_setup": 625,
+                    "pin": "BENA_N"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 139,
+                    "max_setup": 642,
+                    "min_hold": 139,
+                    "min_setup": 642,
+                    "pin": "BENB_N"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 137,
+                    "max_setup": 629,
+                    "min_hold": 137,
+                    "min_setup": 629,
+                    "pin": "CEA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 139,
+                    "max_setup": 635,
+                    "min_hold": 139,
+                    "min_setup": 635,
+                    "pin": "CEB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 177,
+                    "max_setup": 2900,
+                    "min_hold": 150,
+                    "min_setup": 2265,
+                    "pin": "CSA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 142,
+                    "max_setup": 2863,
+                    "min_hold": 142,
+                    "min_setup": 2863,
+                    "pin": "CSB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 160,
+                    "max_setup": 603,
+                    "min_hold": 160,
+                    "min_setup": 603,
+                    "pin": "DIA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 183,
+                    "max_setup": 663,
+                    "min_hold": 183,
+                    "min_setup": 663,
+                    "pin": "DIB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 124,
+                    "max_setup": 649,
+                    "min_hold": 124,
+                    "min_setup": 649,
+                    "pin": "OCEA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 133,
+                    "max_setup": 575,
+                    "min_hold": 133,
+                    "min_setup": 575,
+                    "pin": "OCEB"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 185,
+                    "max_setup": 2905,
+                    "min_hold": 157,
+                    "min_setup": 2271,
+                    "pin": "RSTA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 136,
+                    "max_setup": 2854,
+                    "min_hold": 136,
+                    "min_setup": 2854,
+                    "pin": "RSTB"
+                },
+                {
+                    "clock": "DIA",
+                    "max_hold": 0,
+                    "max_setup": 1580,
+                    "min_hold": 0,
+                    "min_setup": 1580,
+                    "pin": "SCANCLK"
+                },
+                {
+                    "clock": "WEB",
+                    "max_hold": 0,
+                    "max_setup": 1167,
+                    "min_hold": 0,
+                    "min_setup": 1167,
+                    "pin": "SCANCLK"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 107,
+                    "max_setup": 665,
+                    "min_hold": 107,
+                    "min_setup": 665,
+                    "pin": "WEA"
+                },
+                {
+                    "clock": "CLK",
+                    "max_hold": 131,
+                    "max_setup": 689,
+                    "min_hold": 131,
+                    "min_setup": 689,
+                    "pin": "WEB"
                 }
             ]
         },
@@ -4077,128 +4149,134 @@
             "iopaths": [
                 {
                     "from_pin": "A0",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F0"
-                },
-                {
-                    "from_pin": "A0",
-                    "maxv": 289,
-                    "minv": 259,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "A0",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "A1",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "A1",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "B0",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F0"
-                },
-                {
-                    "from_pin": "B0",
-                    "maxv": 289,
-                    "minv": 259,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "B0",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "B1",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "B1",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "C0",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F0"
-                },
-                {
-                    "from_pin": "C0",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "C1",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "C1",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "D0",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F0"
-                },
-                {
-                    "from_pin": "D0",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "D1",
-                    "maxv": 143,
-                    "minv": 121,
-                    "to_pin": "F1"
-                },
-                {
-                    "from_pin": "D1",
-                    "maxv": 214,
-                    "minv": 162,
-                    "to_pin": "FCO"
-                },
-                {
-                    "from_pin": "FCI",
                     "maxv": 136,
-                    "minv": 110,
+                    "minv": 115,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "A0",
+                    "maxv": 274,
+                    "minv": 246,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "A0",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "A1",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "A1",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 274,
+                    "minv": 246,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "B0",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "B1",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "B1",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "C0",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "C0",
+                    "maxv": 274,
+                    "minv": 246,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "C0",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "C1",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "C1",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "D0",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F0"
+                },
+                {
+                    "from_pin": "D0",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "D1",
+                    "maxv": 136,
+                    "minv": 115,
+                    "to_pin": "F1"
+                },
+                {
+                    "from_pin": "D1",
+                    "maxv": 202,
+                    "minv": 153,
+                    "to_pin": "FCO"
+                },
+                {
+                    "from_pin": "FCI",
+                    "maxv": 129,
+                    "minv": 104,
                     "to_pin": "F0"
                 },
                 {
                     "from_pin": "FCI",
-                    "maxv": 184,
-                    "minv": 151,
+                    "maxv": 174,
+                    "minv": 143,
                     "to_pin": "F1"
                 },
                 {
                     "from_pin": "FCI",
-                    "maxv": 36,
-                    "minv": 31,
+                    "maxv": 34,
+                    "minv": 30,
                     "to_pin": "FCO"
                 }
             ],
@@ -4208,32 +4286,32 @@
             "iopaths": [
                 {
                     "from_pin": "A",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "B",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "C",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "D",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "WDI",
-                    "maxv": 670,
-                    "minv": 585,
+                    "maxv": 637,
+                    "minv": 555,
                     "to_pin": "F"
                 }
             ],
@@ -4243,26 +4321,26 @@
             "iopaths": [
                 {
                     "from_pin": "A",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "B",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "C",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 },
                 {
                     "from_pin": "D",
-                    "maxv": 143,
-                    "minv": 121,
+                    "maxv": 136,
+                    "minv": 115,
                     "to_pin": "F"
                 }
             ],
@@ -4272,38 +4350,38 @@
             "iopaths": [
                 {
                     "from_pin": "A",
-                    "maxv": 182,
-                    "minv": 162,
+                    "maxv": 173,
+                    "minv": 153,
                     "to_pin": "OFX"
                 },
                 {
                     "from_pin": "B",
-                    "maxv": 183,
-                    "minv": 161,
+                    "maxv": 174,
+                    "minv": 152,
                     "to_pin": "OFX"
                 },
                 {
                     "from_pin": "C",
-                    "maxv": 180,
-                    "minv": 161,
+                    "maxv": 172,
+                    "minv": 152,
                     "to_pin": "OFX"
                 },
                 {
                     "from_pin": "D",
-                    "maxv": 183,
-                    "minv": 156,
+                    "maxv": 174,
+                    "minv": 148,
                     "to_pin": "OFX"
                 },
                 {
                     "from_pin": "F1",
-                    "maxv": 63,
-                    "minv": 20,
+                    "maxv": 59,
+                    "minv": 18,
                     "to_pin": "OFX"
                 },
                 {
                     "from_pin": "SEL",
-                    "maxv": 105,
-                    "minv": 87,
+                    "maxv": 100,
+                    "minv": 82,
                     "to_pin": "OFX"
                 }
             ],
@@ -4313,14 +4391,14 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 205,
-                    "minv": 183,
+                    "maxv": 195,
+                    "minv": 174,
                     "to_pin": "Q"
                 },
                 {
                     "from_pin": "LSR",
-                    "maxv": 387,
-                    "minv": 356,
+                    "maxv": 367,
+                    "minv": 338,
                     "to_pin": "Q"
                 }
             ],
@@ -4328,32 +4406,32 @@
                 {
                     "clock": "CLK",
                     "max_hold": 0,
-                    "max_setup": 134,
+                    "max_setup": 127,
                     "min_hold": 0,
-                    "min_setup": 134,
+                    "min_setup": 127,
                     "pin": "CE"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 121,
+                    "max_hold": 115,
                     "max_setup": 0,
-                    "min_hold": 115,
+                    "min_hold": 109,
                     "min_setup": 0,
                     "pin": "DI"
                 },
                 {
                     "clock": "CLK",
                     "max_hold": 0,
-                    "max_setup": 271,
+                    "max_setup": 258,
                     "min_hold": 0,
-                    "min_setup": 271,
+                    "min_setup": 258,
                     "pin": "LSR"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 103,
+                    "max_hold": 98,
                     "max_setup": 0,
-                    "min_hold": 99,
+                    "min_hold": 94,
                     "min_setup": 0,
                     "pin": "M"
                 }
@@ -4363,8 +4441,8 @@
             "iopaths": [
                 {
                     "from_pin": "CLK",
-                    "maxv": 205,
-                    "minv": 183,
+                    "maxv": 195,
+                    "minv": 174,
                     "to_pin": "Q"
                 }
             ],
@@ -4372,32 +4450,32 @@
                 {
                     "clock": "CLK",
                     "max_hold": 0,
-                    "max_setup": 134,
+                    "max_setup": 127,
                     "min_hold": 0,
-                    "min_setup": 134,
+                    "min_setup": 127,
                     "pin": "CE"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 121,
+                    "max_hold": 115,
                     "max_setup": 0,
-                    "min_hold": 115,
+                    "min_hold": 109,
                     "min_setup": 0,
                     "pin": "DI"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 30,
-                    "max_setup": 143,
-                    "min_hold": 30,
-                    "min_setup": 141,
+                    "max_hold": 29,
+                    "max_setup": 136,
+                    "min_hold": 29,
+                    "min_setup": 134,
                     "pin": "LSR"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 103,
+                    "max_hold": 98,
                     "max_setup": 0,
-                    "min_hold": 99,
+                    "min_hold": 94,
                     "min_setup": 0,
                     "pin": "M"
                 }
@@ -4651,20 +4729,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 296,
+                    "maxv": 340,
+                    "minv": 294,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3402,
-                    "minv": 2960,
+                    "maxv": 3314,
+                    "minv": 2890,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4557,
-                    "minv": 3123,
+                    "maxv": 4439,
+                    "minv": 3049,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4674,8 +4752,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 296,
+                    "maxv": 340,
+                    "minv": 294,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4685,20 +4763,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 296,
+                    "maxv": 340,
+                    "minv": 294,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1256,
-                    "minv": 1183,
+                    "maxv": 1224,
+                    "minv": 1155,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4552,
-                    "minv": 1152,
+                    "maxv": 4434,
+                    "minv": 1122,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4708,20 +4786,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 296,
+                    "maxv": 340,
+                    "minv": 294,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3402,
-                    "minv": 2960,
+                    "maxv": 3314,
+                    "minv": 2890,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4557,
-                    "minv": 3123,
+                    "maxv": 4439,
+                    "minv": 3049,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4732,7 +4810,7 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4743,19 +4821,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 856,
-                    "minv": 775,
+                    "maxv": 834,
+                    "minv": 757,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2531,
-                    "minv": 1731,
+                    "maxv": 2465,
+                    "minv": 1686,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4766,19 +4844,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2230,
-                    "minv": 2121,
+                    "maxv": 2172,
+                    "minv": 2070,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5056,
-                    "minv": 2229,
+                    "maxv": 4925,
+                    "minv": 2177,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4789,19 +4867,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 745,
-                    "minv": 687,
+                    "maxv": 725,
+                    "minv": 671,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3203,
-                    "minv": 1100,
+                    "maxv": 3120,
+                    "minv": 1071,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4812,19 +4890,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2135,
-                    "minv": 2043,
+                    "maxv": 2080,
+                    "minv": 1994,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3824,
-                    "minv": 2858,
+                    "maxv": 3725,
+                    "minv": 2790,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4835,19 +4913,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 343,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2135,
-                    "minv": 2043,
+                    "maxv": 2080,
+                    "minv": 1994,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3824,
-                    "minv": 2858,
+                    "maxv": 3725,
+                    "minv": 2790,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4857,8 +4935,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 878,
-                    "minv": 768,
+                    "maxv": 883,
+                    "minv": 757,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4868,8 +4946,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 329,
-                    "minv": 325,
+                    "maxv": 326,
+                    "minv": 323,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4879,20 +4957,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 329,
-                    "minv": 325,
+                    "maxv": 326,
+                    "minv": 323,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 807,
-                    "minv": 779,
+                    "maxv": 786,
+                    "minv": 760,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4234,
-                    "minv": 1054,
+                    "maxv": 4124,
+                    "minv": 1027,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4902,20 +4980,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 329,
-                    "minv": 325,
+                    "maxv": 326,
+                    "minv": 323,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3366,
-                    "minv": 2530,
+                    "maxv": 3279,
+                    "minv": 2471,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4249,
-                    "minv": 2669,
+                    "maxv": 4138,
+                    "minv": 2606,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4925,20 +5003,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 329,
-                    "minv": 325,
+                    "maxv": 326,
+                    "minv": 323,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 5688,
-                    "minv": 4457,
+                    "maxv": 5541,
+                    "minv": 4352,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5349,
-                    "minv": 3675,
+                    "maxv": 5210,
+                    "minv": 3588,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4948,8 +5026,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 322,
-                    "minv": 311,
+                    "maxv": 321,
+                    "minv": 310,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4959,8 +5037,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 }
             ],
@@ -4970,20 +5048,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2295,
-                    "minv": 2241,
+                    "maxv": 2284,
+                    "minv": 2225,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7810,
-                    "minv": 1339,
+                    "maxv": 7773,
+                    "minv": 1333,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -4993,20 +5071,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4653,
-                    "minv": 3705,
+                    "maxv": 4631,
+                    "minv": 3677,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 8322,
-                    "minv": 1361,
+                    "maxv": 8283,
+                    "minv": 1355,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5016,20 +5094,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 9906,
-                    "minv": 6212,
+                    "maxv": 9860,
+                    "minv": 6166,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 13229,
-                    "minv": 1375,
+                    "maxv": 13167,
+                    "minv": 1369,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5039,20 +5117,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1599,
-                    "minv": 1532,
+                    "maxv": 1587,
+                    "minv": 1525,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3317,
-                    "minv": 2087,
+                    "maxv": 3293,
+                    "minv": 2072,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5062,20 +5140,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3987,
-                    "minv": 3206,
+                    "maxv": 3969,
+                    "minv": 3182,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5571,
-                    "minv": 3075,
+                    "maxv": 5545,
+                    "minv": 3061,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5085,20 +5163,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 812,
-                    "minv": 791,
+                    "maxv": 817,
+                    "minv": 779,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 8597,
-                    "minv": 5104,
+                    "maxv": 8557,
+                    "minv": 5067,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 10446,
-                    "minv": 3089,
+                    "maxv": 10397,
+                    "minv": 3075,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5108,32 +5186,9 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
+                    "maxv": 315,
+                    "minv": 299,
                     "to_pin": "PADDI"
-                }
-            ],
-            "setupholds": []
-        },
-        "PIO:LVCMOS12H:DRIVE_2:SLEWRATE_FAST": {
-            "iopaths": [
-                {
-                    "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
-                    "to_pin": "PADDI"
-                },
-                {
-                    "from_pin": "PADDO",
-                    "maxv": 1206,
-                    "minv": 1052,
-                    "to_pin": "IOPAD"
-                },
-                {
-                    "from_pin": "PADDT",
-                    "maxv": 3073,
-                    "minv": 2068,
-                    "to_pin": "IOPAD"
                 }
             ],
             "setupholds": []
@@ -5142,43 +5197,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
+                    "maxv": 315,
+                    "minv": 299,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6330,
-                    "minv": 2645,
+                    "maxv": 6165,
+                    "minv": 2582,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 8887,
-                    "minv": 2069,
-                    "to_pin": "IOPAD"
-                }
-            ],
-            "setupholds": []
-        },
-        "PIO:LVCMOS12H:DRIVE_2:SLEWRATE_SLOW": {
-            "iopaths": [
-                {
-                    "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
-                    "to_pin": "PADDI"
-                },
-                {
-                    "from_pin": "PADDO",
-                    "maxv": 11051,
-                    "minv": 4670,
-                    "to_pin": "IOPAD"
-                },
-                {
-                    "from_pin": "PADDT",
-                    "maxv": 15473,
-                    "minv": 2069,
+                    "maxv": 8657,
+                    "minv": 2020,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5188,20 +5220,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
+                    "maxv": 315,
+                    "minv": 299,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 851,
-                    "minv": 787,
+                    "maxv": 829,
+                    "minv": 769,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4195,
-                    "minv": 1672,
+                    "maxv": 4086,
+                    "minv": 1628,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5210,66 +5242,21 @@
         "PIO:LVCMOS12H:DRIVE_4:SLEWRATE_MED": {
             "iopaths": [
                 {
-                    "from_pin": "PADDO",
-                    "maxv": 3564,
-                    "minv": 3088,
-                    "to_pin": "IOPAD"
-                }
-            ],
-            "setupholds": []
-        },
-        "PIO:LVCMOS12H:DRIVE_4:SLEWRATE_SLOW": {
-            "iopaths": [
-                {
-                    "from_pin": "PADDO",
-                    "maxv": 5981,
-                    "minv": 5549,
-                    "to_pin": "IOPAD"
-                }
-            ],
-            "setupholds": []
-        },
-        "PIO:LVCMOS12H:DRIVE_8:SLEWRATE_FAST": {
-            "iopaths": [
-                {
                     "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
+                    "maxv": 315,
+                    "minv": 299,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 681,
-                    "minv": 642,
+                    "maxv": 3471,
+                    "minv": 3015,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2378,
-                    "minv": 1115,
-                    "to_pin": "IOPAD"
-                }
-            ],
-            "setupholds": []
-        },
-        "PIO:LVCMOS12H:DRIVE_8:SLEWRATE_MED": {
-            "iopaths": [
-                {
-                    "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
-                    "to_pin": "PADDI"
-                },
-                {
-                    "from_pin": "PADDO",
-                    "maxv": 2983,
-                    "minv": 2683,
-                    "to_pin": "IOPAD"
-                },
-                {
-                    "from_pin": "PADDT",
-                    "maxv": 3880,
-                    "minv": 2146,
+                    "maxv": 4613,
+                    "minv": 3652,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5279,20 +5266,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 317,
-                    "minv": 302,
+                    "maxv": 315,
+                    "minv": 299,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 5097,
-                    "minv": 4861,
+                    "maxv": 4965,
+                    "minv": 4746,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6739,
-                    "minv": 2146,
+                    "maxv": 6564,
+                    "minv": 2095,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5302,8 +5289,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 }
             ],
@@ -5313,20 +5300,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2480,
-                    "minv": 2137,
+                    "maxv": 2462,
+                    "minv": 2127,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 15298,
-                    "minv": 2799,
+                    "maxv": 15226,
+                    "minv": 2778,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5336,20 +5323,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3883,
-                    "minv": 3701,
+                    "maxv": 3854,
+                    "minv": 3684,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 15312,
-                    "minv": 4381,
+                    "maxv": 15241,
+                    "minv": 4348,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5359,20 +5346,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 7167,
-                    "minv": 6588,
+                    "maxv": 7133,
+                    "minv": 6539,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 15299,
-                    "minv": 7194,
+                    "maxv": 15227,
+                    "minv": 7141,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5382,20 +5369,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1662,
-                    "minv": 1627,
+                    "maxv": 1649,
+                    "minv": 1620,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3315,
-                    "minv": 1916,
+                    "maxv": 3299,
+                    "minv": 1901,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5405,20 +5392,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3320,
-                    "minv": 3182,
+                    "maxv": 3295,
+                    "minv": 3167,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4337,
-                    "minv": 3036,
+                    "maxv": 4316,
+                    "minv": 3022,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5428,20 +5415,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1064,
-                    "minv": 1002,
+                    "maxv": 1051,
+                    "minv": 977,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6073,
-                    "minv": 5416,
+                    "maxv": 6045,
+                    "minv": 5376,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7949,
-                    "minv": 3040,
+                    "maxv": 7911,
+                    "minv": 3026,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5468,14 +5455,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1345,
-                    "minv": 1245,
+                    "maxv": 1311,
+                    "minv": 1215,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3120,
-                    "minv": 1679,
+                    "maxv": 3046,
+                    "minv": 1636,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5485,14 +5472,25 @@
             "iopaths": [
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6750,
-                    "minv": 3628,
+                    "maxv": 6574,
+                    "minv": 3543,
                     "to_pin": "IOPAD"
                 }
             ],
             "setupholds": []
         },
         "PIO:LVCMOS15H:DRIVE_2:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 11440,
+                    "minv": 6383,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS15H:DRIVE_4:SLEWRATE_FAST": {
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
@@ -5502,25 +5500,37 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 11745,
-                    "minv": 6537,
+                    "maxv": 898,
+                    "minv": 804,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 14596,
-                    "minv": 1686,
+                    "maxv": 3929,
+                    "minv": 1502,
                     "to_pin": "IOPAD"
                 }
             ],
             "setupholds": []
         },
-        "PIO:LVCMOS15H:DRIVE_4:SLEWRATE_FAST": {
+        "PIO:LVCMOS15H:DRIVE_4:SLEWRATE_MED": {
             "iopaths": [
                 {
+                    "from_pin": "IOPAD",
+                    "maxv": 504,
+                    "minv": 422,
+                    "to_pin": "PADDI"
+                },
+                {
                     "from_pin": "PADDO",
-                    "maxv": 922,
-                    "minv": 824,
+                    "maxv": 3710,
+                    "minv": 2496,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 4449,
+                    "minv": 3024,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5536,14 +5546,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6394,
-                    "minv": 4513,
+                    "maxv": 6228,
+                    "minv": 4406,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7578,
-                    "minv": 3801,
+                    "maxv": 7382,
+                    "minv": 3711,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5559,14 +5569,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 709,
-                    "minv": 637,
+                    "maxv": 690,
+                    "minv": 622,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2251,
-                    "minv": 1055,
+                    "maxv": 2193,
+                    "minv": 1028,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5582,14 +5592,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3178,
-                    "minv": 2680,
+                    "maxv": 3096,
+                    "minv": 2617,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3740,
-                    "minv": 2183,
+                    "maxv": 3643,
+                    "minv": 2132,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5605,14 +5615,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 5423,
-                    "minv": 4710,
+                    "maxv": 5282,
+                    "minv": 4598,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6443,
-                    "minv": 2183,
+                    "maxv": 6276,
+                    "minv": 2132,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5622,8 +5632,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 }
             ],
@@ -5633,20 +5643,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2670,
-                    "minv": 2435,
+                    "maxv": 2650,
+                    "minv": 2423,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 11443,
-                    "minv": 1069,
+                    "maxv": 11359,
+                    "minv": 1064,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5656,20 +5666,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4062,
-                    "minv": 3750,
+                    "maxv": 4032,
+                    "minv": 3733,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 11447,
-                    "minv": 1070,
+                    "maxv": 11363,
+                    "minv": 1065,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5679,20 +5689,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6890,
-                    "minv": 6805,
+                    "maxv": 6840,
+                    "minv": 6773,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 11446,
-                    "minv": 1062,
+                    "maxv": 11362,
+                    "minv": 1057,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5702,20 +5712,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1736,
-                    "minv": 1683,
+                    "maxv": 1723,
+                    "minv": 1675,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3332,
-                    "minv": 2094,
+                    "maxv": 3316,
+                    "minv": 2078,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5725,20 +5735,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3411,
-                    "minv": 3010,
+                    "maxv": 3386,
+                    "minv": 2996,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4192,
-                    "minv": 3192,
+                    "maxv": 4173,
+                    "minv": 3168,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5748,20 +5758,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 5698,
-                    "minv": 5317,
+                    "maxv": 5656,
+                    "minv": 5292,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6959,
-                    "minv": 3193,
+                    "maxv": 6926,
+                    "minv": 3169,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5771,20 +5781,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1278,
-                    "minv": 1194,
+                    "maxv": 1268,
+                    "minv": 1188,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 1979,
-                    "minv": 1202,
+                    "maxv": 1969,
+                    "minv": 1193,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5794,20 +5804,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2516,
-                    "minv": 2288,
+                    "maxv": 2497,
+                    "minv": 2278,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3100,
-                    "minv": 1204,
+                    "maxv": 3085,
+                    "minv": 1195,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5817,20 +5827,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3984,
-                    "minv": 3648,
+                    "maxv": 3954,
+                    "minv": 3631,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4967,
-                    "minv": 1206,
+                    "maxv": 4944,
+                    "minv": 1197,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5840,20 +5850,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1310,
-                    "minv": 1242,
+                    "maxv": 1301,
+                    "minv": 1236,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2035,
-                    "minv": 1671,
+                    "maxv": 2026,
+                    "minv": 1659,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5863,20 +5873,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2538,
-                    "minv": 2443,
+                    "maxv": 2520,
+                    "minv": 2432,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3221,
-                    "minv": 1856,
+                    "maxv": 3206,
+                    "minv": 1842,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5886,20 +5896,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 1079,
-                    "minv": 1031,
+                    "maxv": 1052,
+                    "minv": 1018,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4049,
-                    "minv": 3909,
+                    "maxv": 4019,
+                    "minv": 3891,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5028,
-                    "minv": 1858,
+                    "maxv": 5004,
+                    "minv": 1844,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5916,6 +5926,75 @@
             ],
             "setupholds": []
         },
+        "PIO:LVCMOS18H:DRIVE_12:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 670,
+                    "minv": 583,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 1842,
+                    "minv": 1017,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_12:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 2940,
+                    "minv": 2508,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3578,
+                    "minv": 1771,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_12:SLEWRATE_SLOW": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 4965,
+                    "minv": 4324,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6110,
+                    "minv": 1771,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
         "PIO:LVCMOS18H:DRIVE_2:SLEWRATE_FAST": {
             "iopaths": [
                 {
@@ -5926,14 +6005,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1492,
-                    "minv": 1241,
+                    "maxv": 1453,
+                    "minv": 1212,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3198,
-                    "minv": 2524,
+                    "maxv": 3122,
+                    "minv": 2463,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5942,9 +6021,21 @@
         "PIO:LVCMOS18H:DRIVE_2:SLEWRATE_MED": {
             "iopaths": [
                 {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
                     "from_pin": "PADDO",
-                    "maxv": 7118,
-                    "minv": 3824,
+                    "maxv": 6933,
+                    "minv": 3734,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 8978,
+                    "minv": 2464,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5960,14 +6051,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 12379,
-                    "minv": 6784,
+                    "maxv": 12058,
+                    "minv": 6623,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 15774,
-                    "minv": 2505,
+                    "maxv": 15364,
+                    "minv": 2446,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -5983,14 +6074,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 998,
-                    "minv": 857,
+                    "maxv": 972,
+                    "minv": 836,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4497,
-                    "minv": 1784,
+                    "maxv": 4380,
+                    "minv": 1738,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6006,14 +6097,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4026,
-                    "minv": 2809,
+                    "maxv": 3922,
+                    "minv": 2742,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5011,
-                    "minv": 3486,
+                    "maxv": 4881,
+                    "minv": 3403,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6029,14 +6120,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6770,
-                    "minv": 4779,
+                    "maxv": 6594,
+                    "minv": 4666,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 8243,
-                    "minv": 4431,
+                    "maxv": 8029,
+                    "minv": 4326,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6046,8 +6137,31 @@
             "iopaths": [
                 {
                     "from_pin": "PADDO",
-                    "maxv": 753,
-                    "minv": 686,
+                    "maxv": 734,
+                    "minv": 670,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_50RS:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3280,
+                    "minv": 3182,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 5488,
+                    "minv": 3448,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6056,9 +6170,67 @@
         "PIO:LVCMOS18H:DRIVE_50RS:SLEWRATE_SLOW": {
             "iopaths": [
                 {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
                     "from_pin": "PADDO",
-                    "maxv": 5726,
-                    "minv": 5571,
+                    "maxv": 5578,
+                    "minv": 5440,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 6463,
+                    "minv": 5244,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_8:SLEWRATE_FAST": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 725,
+                    "minv": 670,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 2432,
+                    "minv": 1133,
+                    "to_pin": "IOPAD"
+                }
+            ],
+            "setupholds": []
+        },
+        "PIO:LVCMOS18H:DRIVE_8:SLEWRATE_MED": {
+            "iopaths": [
+                {
+                    "from_pin": "IOPAD",
+                    "maxv": 419,
+                    "minv": 416,
+                    "to_pin": "PADDI"
+                },
+                {
+                    "from_pin": "PADDO",
+                    "maxv": 3270,
+                    "minv": 3182,
+                    "to_pin": "IOPAD"
+                },
+                {
+                    "from_pin": "PADDT",
+                    "maxv": 3953,
+                    "minv": 2359,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6085,14 +6257,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1376,
-                    "minv": 1361,
+                    "maxv": 1366,
+                    "minv": 1355,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2237,
-                    "minv": 1155,
+                    "maxv": 2226,
+                    "minv": 1147,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6108,14 +6280,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3747,
-                    "minv": 3457,
+                    "maxv": 3719,
+                    "minv": 3440,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3947,
-                    "minv": 1026,
+                    "maxv": 3918,
+                    "minv": 1018,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6131,14 +6303,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 7747,
-                    "minv": 5930,
+                    "maxv": 7711,
+                    "minv": 5886,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7027,
-                    "minv": 1020,
+                    "maxv": 6975,
+                    "minv": 1013,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6154,14 +6326,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3209,
-                    "minv": 3006,
+                    "maxv": 3185,
+                    "minv": 2992,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 18552,
-                    "minv": 3264,
+                    "maxv": 18415,
+                    "minv": 3240,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6177,14 +6349,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 7348,
-                    "minv": 6311,
+                    "maxv": 7294,
+                    "minv": 6282,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 16145,
-                    "minv": 7404,
+                    "maxv": 16026,
+                    "minv": 7349,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6200,14 +6372,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 13467,
-                    "minv": 13012,
+                    "maxv": 13404,
+                    "minv": 12916,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 16184,
-                    "minv": 7141,
+                    "maxv": 16108,
+                    "minv": 7108,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6223,14 +6395,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2021,
-                    "minv": 1855,
+                    "maxv": 2006,
+                    "minv": 1846,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4117,
-                    "minv": 2243,
+                    "maxv": 4087,
+                    "minv": 2227,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6246,14 +6418,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6096,
-                    "minv": 5840,
+                    "maxv": 6051,
+                    "minv": 5813,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5986,
-                    "minv": 3243,
+                    "maxv": 5958,
+                    "minv": 3228,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6269,14 +6441,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 12171,
-                    "minv": 9970,
+                    "maxv": 12115,
+                    "minv": 9896,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 11422,
-                    "minv": 3249,
+                    "maxv": 11368,
+                    "minv": 3234,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6292,14 +6464,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1358,
-                    "minv": 1354,
+                    "maxv": 1348,
+                    "minv": 1347,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2227,
-                    "minv": 1235,
+                    "maxv": 2217,
+                    "minv": 1226,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6315,14 +6487,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3744,
-                    "minv": 3558,
+                    "maxv": 3716,
+                    "minv": 3541,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3926,
-                    "minv": 1126,
+                    "maxv": 3897,
+                    "minv": 1117,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6338,14 +6510,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 8134,
-                    "minv": 5874,
+                    "maxv": 8096,
+                    "minv": 5830,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6940,
-                    "minv": 1119,
+                    "maxv": 6889,
+                    "minv": 1111,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6361,14 +6533,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1512,
-                    "minv": 1448,
+                    "maxv": 1501,
+                    "minv": 1441,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2360,
-                    "minv": 1834,
+                    "maxv": 2349,
+                    "minv": 1821,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6384,14 +6556,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4198,
-                    "minv": 3683,
+                    "maxv": 4167,
+                    "minv": 3666,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4077,
-                    "minv": 1985,
+                    "maxv": 4047,
+                    "minv": 1976,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6407,14 +6579,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 8049,
-                    "minv": 6819,
+                    "maxv": 8011,
+                    "minv": 6768,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6747,
-                    "minv": 1984,
+                    "maxv": 6697,
+                    "minv": 1975,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6434,21 +6606,9 @@
         "PIO:LVCMOS33:DRIVE_12:SLEWRATE_FAST": {
             "iopaths": [
                 {
-                    "from_pin": "IOPAD",
-                    "maxv": 1033,
-                    "minv": 952,
-                    "to_pin": "PADDI"
-                },
-                {
                     "from_pin": "PADDO",
-                    "maxv": 1462,
-                    "minv": 1388,
-                    "to_pin": "IOPAD"
-                },
-                {
-                    "from_pin": "PADDT",
-                    "maxv": 2571,
-                    "minv": 1786,
+                    "maxv": 1451,
+                    "minv": 1381,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6464,14 +6624,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4372,
-                    "minv": 3479,
+                    "maxv": 4340,
+                    "minv": 3463,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4705,
-                    "minv": 1660,
+                    "maxv": 4670,
+                    "minv": 1647,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6487,14 +6647,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 7252,
-                    "minv": 7049,
+                    "maxv": 7218,
+                    "minv": 6997,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7937,
-                    "minv": 1665,
+                    "maxv": 7879,
+                    "minv": 1653,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6510,14 +6670,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3698,
-                    "minv": 2885,
+                    "maxv": 3671,
+                    "minv": 2872,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 27217,
-                    "minv": 4576,
+                    "maxv": 27016,
+                    "minv": 4542,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6533,14 +6693,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 8265,
-                    "minv": 6393,
+                    "maxv": 8204,
+                    "minv": 6363,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 25336,
-                    "minv": 5156,
+                    "maxv": 25150,
+                    "minv": 5132,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6556,14 +6716,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 14953,
-                    "minv": 13767,
+                    "maxv": 14843,
+                    "minv": 13703,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 24599,
-                    "minv": 3743,
+                    "maxv": 24417,
+                    "minv": 3725,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6579,14 +6739,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2230,
-                    "minv": 1966,
+                    "maxv": 2214,
+                    "minv": 1956,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 4758,
-                    "minv": 2807,
+                    "maxv": 4723,
+                    "minv": 2787,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6602,14 +6762,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6928,
-                    "minv": 5235,
+                    "maxv": 6877,
+                    "minv": 5210,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 7287,
-                    "minv": 3756,
+                    "maxv": 7234,
+                    "minv": 3738,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6625,14 +6785,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 11454,
-                    "minv": 10929,
+                    "maxv": 11369,
+                    "minv": 10878,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 12199,
-                    "minv": 3755,
+                    "maxv": 12109,
+                    "minv": 3737,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6648,14 +6808,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1295,
-                    "minv": 1237,
+                    "maxv": 1285,
+                    "minv": 1232,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2305,
-                    "minv": 1667,
+                    "maxv": 2295,
+                    "minv": 1655,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6671,14 +6831,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3366,
-                    "minv": 2628,
+                    "maxv": 3341,
+                    "minv": 2616,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 3708,
-                    "minv": 1574,
+                    "maxv": 3681,
+                    "minv": 1562,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6694,14 +6854,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 6019,
-                    "minv": 5371,
+                    "maxv": 5991,
+                    "minv": 5332,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6108,
-                    "minv": 1573,
+                    "maxv": 6063,
+                    "minv": 1561,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6717,14 +6877,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1602,
-                    "minv": 1449,
+                    "maxv": 1590,
+                    "minv": 1442,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 2670,
-                    "minv": 2105,
+                    "maxv": 2650,
+                    "minv": 2090,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6740,14 +6900,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 4848,
-                    "minv": 3622,
+                    "maxv": 4813,
+                    "minv": 3605,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5117,
-                    "minv": 2225,
+                    "maxv": 5080,
+                    "minv": 2215,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6763,14 +6923,14 @@
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 7940,
-                    "minv": 7445,
+                    "maxv": 7881,
+                    "minv": 7410,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 8495,
-                    "minv": 2224,
+                    "maxv": 8432,
+                    "minv": 2214,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6781,7 +6941,7 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 327,
-                    "minv": 324,
+                    "minv": 323,
                     "to_pin": "PADDI"
                 },
                 {
@@ -6797,8 +6957,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 330,
-                    "minv": 329,
+                    "maxv": 329,
+                    "minv": 327,
                     "to_pin": "PADDI"
                 }
             ],
@@ -6809,19 +6969,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 345,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2956,
-                    "minv": 2446,
+                    "maxv": 2879,
+                    "minv": 2388,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5843,
-                    "minv": 2951,
+                    "maxv": 5691,
+                    "minv": 2882,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6832,7 +6992,7 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 345,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 }
             ],
@@ -6843,19 +7003,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 345,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1219,
-                    "minv": 1134,
+                    "maxv": 1188,
+                    "minv": 1107,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5837,
-                    "minv": 1410,
+                    "maxv": 5685,
+                    "minv": 1374,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6866,19 +7026,19 @@
                 {
                     "from_pin": "IOPAD",
                     "maxv": 345,
-                    "minv": 335,
+                    "minv": 333,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 2956,
-                    "minv": 2446,
+                    "maxv": 2879,
+                    "minv": 2388,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 5843,
-                    "minv": 2951,
+                    "maxv": 5691,
+                    "minv": 2882,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6888,20 +7048,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 330,
+                    "maxv": 340,
+                    "minv": 329,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3004,
-                    "minv": 2591,
+                    "maxv": 2926,
+                    "minv": 2530,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6225,
-                    "minv": 3007,
+                    "maxv": 6063,
+                    "minv": 2936,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6911,8 +7071,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 330,
+                    "maxv": 340,
+                    "minv": 329,
                     "to_pin": "PADDI"
                 }
             ],
@@ -6922,20 +7082,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 330,
+                    "maxv": 340,
+                    "minv": 329,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 1255,
-                    "minv": 1183,
+                    "maxv": 1222,
+                    "minv": 1155,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6221,
-                    "minv": 1371,
+                    "maxv": 6060,
+                    "minv": 1336,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6945,20 +7105,20 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 341,
-                    "minv": 330,
+                    "maxv": 340,
+                    "minv": 329,
                     "to_pin": "PADDI"
                 },
                 {
                     "from_pin": "PADDO",
-                    "maxv": 3004,
-                    "minv": 2591,
+                    "maxv": 2926,
+                    "minv": 2530,
                     "to_pin": "IOPAD"
                 },
                 {
                     "from_pin": "PADDT",
-                    "maxv": 6225,
-                    "minv": 3007,
+                    "maxv": 6063,
+                    "minv": 2936,
                     "to_pin": "IOPAD"
                 }
             ],
@@ -6968,8 +7128,8 @@
             "iopaths": [
                 {
                     "from_pin": "IOPAD",
-                    "maxv": 339,
-                    "minv": 333,
+                    "maxv": 338,
+                    "minv": 332,
                     "to_pin": "PADDI"
                 }
             ],
@@ -7504,65 +7664,65 @@
             "setupholds": [
                 {
                     "clock": "CLK",
-                    "max_hold": 222,
+                    "max_hold": 211,
                     "max_setup": 0,
-                    "min_hold": 199,
+                    "min_hold": 189,
                     "min_setup": 0,
                     "pin": "A0"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 205,
+                    "max_hold": 195,
                     "max_setup": 0,
-                    "min_hold": 182,
+                    "min_hold": 173,
                     "min_setup": 0,
                     "pin": "A1"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 222,
+                    "max_hold": 211,
                     "max_setup": 0,
-                    "min_hold": 199,
+                    "min_hold": 189,
                     "min_setup": 0,
                     "pin": "B0"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 205,
+                    "max_hold": 195,
                     "max_setup": 0,
-                    "min_hold": 182,
+                    "min_hold": 173,
                     "min_setup": 0,
                     "pin": "B1"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 222,
+                    "max_hold": 211,
                     "max_setup": 0,
-                    "min_hold": 199,
+                    "min_hold": 189,
                     "min_setup": 0,
                     "pin": "C0"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 205,
+                    "max_hold": 195,
                     "max_setup": 0,
-                    "min_hold": 182,
+                    "min_hold": 173,
                     "min_setup": 0,
                     "pin": "C1"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 222,
+                    "max_hold": 211,
                     "max_setup": 0,
-                    "min_hold": 199,
+                    "min_hold": 189,
                     "min_setup": 0,
                     "pin": "D0"
                 },
                 {
                     "clock": "CLK",
-                    "max_hold": 205,
+                    "max_hold": 195,
                     "max_setup": 0,
-                    "min_hold": 182,
+                    "min_hold": 173,
                     "min_setup": 0,
                     "pin": "D1"
                 }
@@ -7684,8 +7844,8 @@
             "iopaths": [
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 450,
-                    "minv": 448,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 }
             ],
@@ -7693,9 +7853,9 @@
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 228,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 160,
+                    "min_setup": 0,
                     "pin": "TXDATA"
                 }
             ]
@@ -7704,8 +7864,8 @@
             "iopaths": [
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 1240,
-                    "minv": 1236,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 }
             ],
@@ -7713,9 +7873,9 @@
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 228,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 160,
+                    "min_setup": 0,
                     "pin": "TXDATA"
                 }
             ]
@@ -7724,26 +7884,26 @@
             "iopaths": [
                 {
                     "from_pin": "LSROUT",
-                    "maxv": 601,
-                    "minv": 599,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 },
                 {
                     "from_pin": "LSROUT",
-                    "maxv": 601,
-                    "minv": 599,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "TOUT"
                 },
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 450,
-                    "minv": 448,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 },
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 451,
-                    "minv": 449,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "TOUT"
                 }
             ],
@@ -7751,33 +7911,33 @@
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 95,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 95,
+                    "min_setup": 0,
                     "pin": "CEOUT"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 206,
+                    "max_setup": 150,
                     "min_hold": 0,
-                    "min_setup": 149,
+                    "min_setup": 0,
                     "pin": "LSROUT"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 231,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 230,
+                    "min_setup": 0,
                     "pin": "TSDATA0"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 228,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 227,
+                    "min_setup": 0,
                     "pin": "TXDATA0"
                 }
             ]
@@ -7786,26 +7946,26 @@
             "iopaths": [
                 {
                     "from_pin": "LSROUT",
-                    "maxv": 601,
-                    "minv": 599,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 },
                 {
                     "from_pin": "LSROUT",
-                    "maxv": 601,
-                    "minv": 599,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "TOUT"
                 },
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 1240,
-                    "minv": 1236,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "DOUT"
                 },
                 {
                     "from_pin": "SCLKOUT",
-                    "maxv": 451,
-                    "minv": 449,
+                    "maxv": 0,
+                    "minv": 0,
                     "to_pin": "TOUT"
                 }
             ],
@@ -7813,33 +7973,33 @@
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 95,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 95,
+                    "min_setup": 0,
                     "pin": "CEOUT"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 206,
+                    "max_setup": 150,
                     "min_hold": 0,
-                    "min_setup": 149,
+                    "min_setup": 0,
                     "pin": "LSROUT"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 231,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 230,
+                    "min_setup": 0,
                     "pin": "TSDATA0"
                 },
                 {
                     "clock": "SCLKOUT",
                     "max_hold": 0,
-                    "max_setup": 228,
+                    "max_setup": 0,
                     "min_hold": 0,
-                    "min_setup": 227,
+                    "min_setup": 0,
                     "pin": "TXDATA0"
                 }
             ]
