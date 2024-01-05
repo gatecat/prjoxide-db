@@ -158,6 +158,13 @@
         "LMMIRESETN": [],
       },
     ),
+    "PLL_LLC.MODE": (
+      options: {
+        "NONE": [],
+        "PLL_CORE": [(frame:40,bit:0,invert:false,),],
+      },
+      desc: "PLL_CORE primitive mode",
+    ),
   },
   conns: {
     "G:JLLCLKOP_BMID_CORE_BMIDMUX": [
