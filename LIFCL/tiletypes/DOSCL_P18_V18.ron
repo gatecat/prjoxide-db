@@ -32,6 +32,12 @@
       },
       desc: "use VREF1 input for bank 5",
     ),
+    "DDRDLL.ENA_OSC": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:3,bit:0,invert:false,),],
+      },
+    ),
     "DDRDLL.ENA_ROUNDOFF": (
       options: {
         "DISABLED": [],

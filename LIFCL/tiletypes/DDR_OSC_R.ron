@@ -25,6 +25,12 @@
   },
   words: {},
   enums: {
+    "DDRDLL.ENA_OSC": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:12,bit:0,invert:false,),],
+      },
+    ),
     "DDRDLL.ENA_ROUNDOFF": (
       options: {
         "DISABLED": [],
