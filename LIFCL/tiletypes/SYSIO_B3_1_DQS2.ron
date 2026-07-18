@@ -84,6 +84,12 @@
         "UP1_AND_UP0_SAME": [(frame:38,bit:1,invert:false,),],
       },
     ),
+    "DQSBUF.WRITE_ENABLE": (
+      options: {
+        "DISABLED": [],
+        "ENABLED": [(frame:39,bit:1,invert:false,),],
+      },
+    ),
     "IOLOGICB.CEINMUX": (
       options: {
         "1": [(frame:7,bit:0,invert:false,),],
