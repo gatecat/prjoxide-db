@@ -124,6 +124,26 @@
   words: {},
   enums: {},
   conns: {
+    "G:JCLKOUT_ECLKDDRL_0": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRL_0",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRL_1": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRL_1",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRL_2": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRL_2",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRL_3": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRL_3",
+      ),
+    ],
     "G:JECLKDIV10_BMID_CORE_BMIDMUX": [
       (
         from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB5_2",

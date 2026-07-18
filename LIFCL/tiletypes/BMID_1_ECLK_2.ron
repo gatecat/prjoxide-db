@@ -828,6 +828,26 @@
     ),
   },
   conns: {
+    "G:JCLKOUT_ECLKDDRR_0": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRR_0",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRR_1": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRR_1",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRR_2": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRR_2",
+      ),
+    ],
+    "G:JCLKOUT_ECLKDDRR_3": [
+      (
+        from_wire: "N1:JECLKTREE0_ECLKDDRR_3",
+      ),
+    ],
     "G:JECLKDIV0_BMID_CORE_BMIDMUX": [
       (
         from_wire: "N1:JDIVOUT_ECLKDIV_CORE_ECLKDIVB3_0",
