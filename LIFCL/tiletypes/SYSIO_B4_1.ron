@@ -511,6 +511,12 @@
         "VREF2_LOAD": [(frame:80,bit:0,invert:false,),(frame:82,bit:0,invert:false,),(frame:86,bit:0,invert:false,),],
       },
     ),
+    "PIOB.SEIO18.VREF2_DRIVER": (
+      options: {
+        "OFF": [],
+        "ON": [(frame:86,bit:0,invert:false,),(frame:89,bit:0,invert:true,),(frame:103,bit:0,invert:false,),],
+      },
+    ),
     "PIOB.TMUX": (
       options: {
         "INV": [(frame:102,bit:0,invert:false,),],
